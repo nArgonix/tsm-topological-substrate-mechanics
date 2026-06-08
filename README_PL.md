@@ -1,4 +1,5 @@
 # TSM: Topological Substrate Mechanics (Mechanika Substratu Topologicznego)
+[Wersja angielska / Read in English](README.md)
 
 ### Mechanika Substratu Topologicznego
 
