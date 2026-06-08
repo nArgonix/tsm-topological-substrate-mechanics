@@ -45,4 +45,4 @@ For an in-depth analysis, please refer to the official monograph available in th
 
 ---
 
-*TSM © 2026. Advancing theoretical physics through Open Science.*
+*TSM by Piotr Szopinski © 2026. Advancing theoretical physics through Open Science.*
