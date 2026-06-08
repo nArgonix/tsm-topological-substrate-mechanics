@@ -1,4 +1,5 @@
 # TSM: Topological Substrate Mechanics
+[Read in Polish / Polska wersja](README_PL.md)
 
 ### The Mechanistic Foundation of Reality
 
