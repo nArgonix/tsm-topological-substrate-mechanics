@@ -1,6 +1,6 @@
 # Mechanika Substratu Topologicznego (TSM)
 
-> *Oto propozycja unifikacji Ogólnej Teorii Względności i Modelu Standardowego. Opierając się na danych zgromadzonych przez dekady obserwacji i badań eksperymentalnych, TSM (Topological Substrate Mechanics) scala te dwa filary współczesnej fizyki w jeden spójny system. To krok ku pełniejszemu, jednolitemu opisowi rzeczywistości, wykraczającemu poza dotychczasowe podziały.*
+> *Oto propozycja unifikacji Ogólnej Teorii Względności i Modelu Standardowego. Opierając się na danych zgromadzonych przez dekady obserwacji i badań eksperymentalnych, TSM (Topological Substrate Mechanics) scala te dwa filary współczesnej fizyki w jeden spójny system. Sformułowanie tego matematycznego formalizmu nie byłoby możliwe bez oparcia się na przełomowych pracach wielu wybitnych fizyków teoretycznych oraz matematyków. TSM syntetyzuje ich kluczowe osiągnięcia, przekuwając istniejący, rygorystyczny aparat pojęciowy w jednolity język opisu rzeczywistości, wykraczający poza dotychczasowe podziały.*
 
 # Rozdział 0: Aksjomaty 0-Matrycy, czyli mechaniczny „silnik” rzeczywistości
 
