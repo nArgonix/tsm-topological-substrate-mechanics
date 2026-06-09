@@ -9,7 +9,7 @@ FILES_TO_PROCESS = ['rozdzial 0.md', 'rozdzial 1.md', 'rozdzial 2.md', 'rozdzial
                     'rozdz.7.md','rozdz.8.md','rozdz.9.md','rozdz.10.md','rozdz.11.md','rozdz.12.md','rozdz.13.md']
 
 DEFAULT_OUTPUT_FILE = 'MASTER_TOC.md'
-VISIBLE_LEVELS = 1  # Poziomy stale widoczne
+VISIBLE_LEVELS = 2  # Poziomy stale widoczne
 
 # Znaczniki do wstrzykiwania zawartości
 TOC_START_TAG = "<!--TOCS-->"
