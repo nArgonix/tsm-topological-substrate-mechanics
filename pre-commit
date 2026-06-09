@@ -1,0 +1,13 @@
+#!/bin/sh
+echo ""
+echo "=== [TSM AUTOMATION] Uruchamianie weryfikacji tlumaczen ==="
+echo ""
+
+# Uruchomienie Pythona (na Windows komenda to zazwyczaj 'python')
+python .github/scripts/check_translations.py
+
+# Automatyczne dorzucenie zaktualizowanego pliku do obecnego commita
+git add UPDATE_CHK.md
+
+echo "=== [TSM AUTOMATION] Status zaktualizowany pomyslnie ==="
+echo ""
