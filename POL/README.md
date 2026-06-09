@@ -1,356 +1,363 @@
 <h1 align="center">
-  <b>T</b>opological 0-<b>M</b>atrix<sub>(Substrate)</sub> <b>M</b>echanics
+  <b>T</b>opologiczna Geometrodynamika 0-<b>M</b>atrycy<sub>(Substratu)</sub>
 </h1>
 </br>
 
-<p>This monograph presents a complete, alternative foundation for fundamental physics, achieving a radical simplification of the description of reality by eliminating the abstract concept of empty spacetime in favor of continuum mechanics. <b>T</b>opological 0-Matrix (<b>S</b>ubstrate) <b>M</b>echanics (TSM) proves that the entire observable Universe emerges as a macroscopic, elasto-dynamic manifestation of a sub-Planckian, geometrically jammed network of oscillators—the titular 0-Matrix.</p>
+<p>Monografia ta prezentuje kompletny, alternatywny fundament dla fizyki fundamentalnej, dokonując radykalnego uproszczenia opisu rzeczywistości poprzez eliminację abstrakcyjnego pojęcia pustej czasoprzestrzeni na rzecz mechaniki kontinuum. <b>T</b>opological 0-Matrix (<b>S</b>ubstrate) <b>M</b>echanics (TSM) dowodzi, że cały obserwowalny Wszechświat wyłania się jako makroskopowa, elasto-dynamiczna manifestacja sub-planckowskiej, geometrycznie zakleszczonej sieci oscylatorów – tytułowej 0-Matrycy.</p>
 
 
-**The TSM theory fulfills the grand dream of theoretical physics for complete unification, delivering unprecedented simplifications in two key areas:**
+**Teoria TSM realizuje wielkie marzenie fizyki teoretycznej o pełnej unifikacji, dostarczając bezprecedensowych uproszczeń w dwóch kluczowych obszarach:**
 
-* **Derivation of General Relativity (GR):** Gravity is not the magic of curved spacetime invented by Einstein. It is directly derived from classical, **4-dimensional engineering Navier-Cauchy equations!** Space is a tangible medium, its metric is the state of internal stresses, and attraction is a mere pressure gradient. **TSM uncompromisingly eliminates singularities (no black holes)** and, through a single, fundamental elasto-dynamic mechanism, **erases the mythical dark matter and dark energy from physics**.
+* **Wyprowadzenie Ogólnej Teorii Względności (OTW):** Grawitacja nie jest magią zakrzywionej czasoprzestrzeni, wymyślonej przez Einsteina. Zostaje ona wprost wyprowadzona z klasycznych, **4-wymiarowych równań inżynieryjnych Navier-Cauchy’ego!** Przestrzeń to namacalne medium, jej metryka to stan wewnętrznych naprężeń, a przyciąganie to zwykły gradient ciśnień. **TSM bezkompromisowo likwiduje osobliwości (brak czarnych dziur)** oraz za pomocą jednego, fundamentalnego mechanizmu elasto-dynamicznego **wymazuje z fizyki mityczną ciemną materię i ciemną energię**.
 
-* **Simplification and Demystification of the Standard Model:** No more absurd, dimensionless material points and quantum mysticism. In TSM, elementary particles are reduced to stable, non-linear topological knots (solitons) within the 0-Matrix substrate. Rest mass, spin 1/2, and charge are pure geometry of standing waves trapped in the network. Consequently, the model explains the internal structure of fermions with rigorous, mechanical precision. **It explains and derives the puzzling mass relations of particles, including the famous Koide formula**.
-
----
-
-<h1 align="left">Table of Contents</h1>
-
-- Chapter 0: Axioms of the 0-Matrix, or the Mechanical "Engine" of Reality
-  - 0.1. Rejection of the Non-Physical Void
-  - 0.2. Elasticity from Pure Kinetics
-  - 0.3. The 4D Pressure Vessel: Finiteness as a Source of Stress
-  - 0.4. Relaxation State: Autoregulation of 0-Particles
-  - 0.5. Birth of the Membrane (3D Self-Organization)
-  - 0.6. Axiom of Physical Finiteness: Categorical Exclusion of Singularities and "Black Holes"
-  - 0.7. Creation of the First Distortions: An Alternative to the Big Bang
+* **Uproszczenie i demistyfikacja Modelu Standardowego:** Koniec z absurdalnymi, bezwymiarowymi punktami materialnymi i kwantowym mistycyzmem. W TSM cząstki elementarne zostają zredukowane do stabilnych, nieliniowych węzłów topologicznych (solitonów) wewnątrz podłoża 0-Matrycy. Masa spoczynkowa, spin 1/2 oraz ładunek to czysta geometria uwięzionych w sieci fal stojących. Dzięki temu model z rygorystyczną, mechaniczną precyzją wyjaśnia strukturę wewnętrzną fermionów. **Wyjaśnia i wyprowadza zagadkowe relacje masowe cząstek, w tym słynny wzór Koidego**.
+ 
 
 ---
 
-- Chapter 1: Axiomatics and Rigorous Formalism of TSM: Emergent Time, Chaotic Substrate, and Elasto-Dynamics of the 3-Brane
-  - <details>
-    <summary><b>1.1. Fundamental Evolutionary Parameter $\tau$ as a Measure of Global, Averaged 0-Particle Activity</b></summary>
+<h1 align="left">Spis treści</h1>
 
-      - 1.1.1. State Zero as Stationary Kinetic Chaos
-      - 1.1.2. Global Evolutionary Parameter $\tau$
-      - 1.1.3. Emergence of the Elastic Matrix in the Pre-Jamming Regime
-      - 1.1.4. Measured Time $t$ as a Derivative of Vibration Density
 
-    </details>
-  - <details>
-    <summary><b>1.2. Medium and Space: The Geometric Jamming State and the Isotropic 3-Brane</b></summary>
+<!--TOCS-->
 
-      - 1.2.1. Jamming State
-      - 1.2.2. Isotropic 3-Brane
-
-    </details>
-  - 1.3. Non-linear Kinematics: Emergence of the Metric $g_{ab}$ from Strain
-  - 1.4. Wave Dynamics of the Substrate and Field Equations
-  - <details>
-    <summary><b>1.5. Dual Regime of Elasto-Dynamics: Elastic Waves vs. Non-linear Topological Locking</b></summary>
-
-      - 1.5.1. Regime I: Linear Acoustic Relaxation ($\phi < \phi_{\text{lock}}$)
-      - 1.5.2. Regime II: Non-linear Topological Locking ($\phi \ge \phi_{\text{lock}}$)
-
-    </details>
-  - <details>
-    <summary><b>1.6. Axiom of Matter: Quantized Topological Knots and Rigorous Separation of Mass from Charge</b></summary>
-
-      - 1.6.1. Mathematical Genesis of Matter Quantization
-      - 1.6.2. Fluid Motion and Asymptotic Extinction of Discrete Barriers
-
-    </details>
-  - <details>
-    <summary><b>1.7. Derivation of Relativistic Kinematics from the Hydro-Elasticity of the Substrate</b></summary>
-
-      - 1.7.1. Length Contraction
-      - 1.7.2. Energy, Momentum, and Force in an Evolutionary Approach
-
-    </details>
-  - 1.8. Variable Wave Propagation (Local $c_{\perp}$) and Material Constants
-  - 1.9. Summary of Chapter 1
+- Rozdział 0: Aksjomaty 0-Matrycy, czyli mechaniczny „silnik” rzeczywistości
+  - 0.1. Odrzucenie niefizycznej pustki
+  - 0.2. Sprężystość z czystej kinetyki
+  - 0.3. Naczynie ciśnieniowe 4D: Skończoność jako źródło naprężenia
+  - 0.4. Stan relaksacji: Autoregulacja 0-Cząstek
+  - 0.5. Narodziny Błony (Samoorganizacja 3D)
+  - 0.6. Aksjomat Skończoności Fizycznej: Kategoryczne wykluczenie osobliwości i „czarnych dziur”
+  - 0.7. Kreacja pierwszych zniekształceń: Alternatywa dla Wielkiego Wybuchu
 
 ---
 
-- Chapter 2: Topological Knots and Solitonic Emergence in TSM: Hydrodynamics of Inertia, Antimatter, Geometric Origin of Spin 1/2, and the Substrate Stiffness Formalism
+- Rozdział 1: Aksjomatyka i rygorystyczny formalizm TSM: Czas emergentny, chaotyczny Substrat i elasto-dynamika 3-brany
   - <details>
-    <summary><b>2.1. Microscopic Mechanism of Finite Compressibility and Rigorous Elasto-Dynamic Formalism in $\mathbb{R}^4$</b></summary>
+    <summary><b>1.1. Fundamentalny parametr ewolucyjny $\tau$ jako miara globalnej, uśrednionej aktywności 0-cząstek</b></summary>
 
-      - 2.1.1. Pre-Jamming State and Finite Bulk Stiffness
-      - 2.1.2. Full Hodge-Helmholtz Decomposition of the Displacement Field in $\mathbb{R}^4$
-      - 2.1.3. Equations of Motion, Mode Separation, and the Gauge Condition
-      - 2.1.4. 3D + $x^4$ Projection: Extended Map of Physical Fields
+      - 1.1.1. Stan Zero jako stacjonarny chaos kinetyczny
+      - 1.1.2. Globalny parametr ewolucyjny $\tau$
+      - 1.1.3. Emergencja osnowy sprężystej w reżimie przed-zakleszczeniowym (Pre-jamming)
+      - 1.1.4. Czas mierzony $t$ jako pochodna zagęszczenia wibracji
 
     </details>
-  - 2.2. Breakdown of Superposition, Mode Conversion, and Topological Knots in the Crystalline 3-Brane
-  - 2.3. Hydrodynamic Mechanism of Inertia and the Peierls-Nabarro Barrier
-  - 2.4. The Essence of Charge and Separation from Rest Mass
-  - 2.5. Antimatter as Topological Inversion
-  - 2.6. Geometric Origin of Spin 1/2 and Double Covering
-  - 2.7. Summary of Chapter 2
+  - <details>
+    <summary><b>1.2. Ośrodek i przestrzeń: Stan zakleszczenia geometrycznego i izotropowa 3-brana</b></summary>
+
+      - 1.2.1. Stan zakleszczenia (Jamming)
+      - 1.2.2. Izotropowa 3-brana
+
+    </details>
+  - 1.3. Kinematyka nieliniowa: Emergencja metryki $g_{ab}$ z odkształcenia
+  - 1.4. Dynamika falowa Substratu i równania pola
+  - <details>
+    <summary><b>1.5. Podwójny reżim elasto-dynamiki: Fale sprężyste a nieliniowa blokada topologiczna</b></summary>
+
+      - 1.5.1. Reżim I: Liniowa relaksacja akustyczna ($\phi < \phi_{\text{lock}}$)
+      - 1.5.2. Reżim II: Nieliniowa blokada topologiczna ($\phi \ge \phi_{\text{lock}}$)
+
+    </details>
+  - <details>
+    <summary><b>1.6. Aksjomat materii: Skwantowane węzły topologiczne i rygorystyczne rozdzielenie masy od ładunku</b></summary>
+
+      - 1.6.1. Matematyczna geneza kwantowania materii
+      - 1.6.2. Ruch płynny i asymptotyczne wygaszenie barier dyskretnych
+
+    </details>
+  - <details>
+    <summary><b>1.7. Wyprowadzenie kinematyki relatywistycznej z hydro-elastyczności Substratu</b></summary>
+
+      - 1.7.1. Kontrakcja długości
+      - 1.7.2. Energia, pęd i siła w ujęciu ewolucyjnym
+
+    </details>
+  - 1.8. Zmienna propagacja fal (lokalne $c_{\perp}$) i stałe materiałowe
+  - 1.9. Podsumowanie Rozdziału 1
 
 ---
 
-- Chapter 3: Stress Dynamics of the 0-Matrix: From the Unification of Electrodynamics and Nuclear Forces to Circuit Mechanics
-  - 3.1. From Topological Torsion to Gauge Potential
-  - 3.2. Shear Stress Tensor vs. Electromagnetic Field Tensor
-  - 3.3. Conservation Laws and Wave Dynamics
+- Rozdział 2: Węzły topologiczne i emergencja solitoniczna w TSM: Hydrodynamika bezwładności, antymateria, geometryczne pochodzenie spinu 1/2 oraz formalizm sztywności Substratu
   - <details>
-    <summary><b>3.4. Interaction Mechanics: Non-linear Field Equations, Feedbacks, and Maxwell Forces</b></summary>
+    <summary><b>2.1. Mikroskopowy mechanizm skończonej ściśliwości i rygorystyczny formalizm elasto-dynamiczny w $\mathbb{R}^4$</b></summary>
 
-      - 3.4.1. Non-linear TSM Lagrangian and Full Euler-Lagrange Equations
-      - 3.4.2. Birefringence Effect and Topological Stabilization of the Link
-      - 3.4.3. Linear Approximation and the Classical Maxwell Stress Tensor
-      - 3.4.4. Lorentz Force and Coulomb's Law
-      - 3.4.5. Repulsion of Like Charges as Stress Interference
+      - 2.1.1. Stan przed-zakleszczeniowy (Pre-jamming) i skończona sztywność objętościowa
+      - 2.1.2. Pełny rozkład Hodge’a-Helmholtza pola przemieszczeń w $\mathbb{R}^4$
+      - 2.1.3. Równania ruchu, separacja modów i warunek cechowania
+      - 2.1.4. Rzutowanie 3D + $x^4$: Rozszerzona mapa pól fizycznych
 
     </details>
-  - <details>
-    <summary><b>3.5. Ontology of the Strong Interaction: Non-linear Coupling of Topological Torsions at the Femtometer Scale</b></summary>
-
-      - 3.5.1. Crossing the Linear Boundary and Fusion of Stress Sheaths
-      - 3.5.2. Mechanical Topological Lock: Asymptotic Freedom and Confinement
-      - 3.5.3. Reduction of the Number of Fundamental Interactions
-
-    </details>
-  - 3.6. Voltage and Current as Wave Mechanics in Conductors
-  - 3.7. Electromechanical Inertia: Reactance and Phase Shifts
-  - 3.8. Quantum Applications: Superconductivity and the Hall Effect
-  - 3.9. Summary of Chapter 3
+  - 2.2. Załamanie superpozycji, konwersja modów i węzły topologiczne w krystalicznej 3-brane
+  - 2.3. Hydrodynamiczny mechanizm bezwładności i bariera Peierlsa-Nabarro
+  - 2.4. Istota ładunku i rozdzielenie od masy spoczynkowej
+  - 2.5. Antymateria jako inwersja topologiczna
+  - 2.6. Geometryczne pochodzenie spinu 1/2 i podwójne nakrycie
+  - 2.7. Podsumowanie Rozdziału 2
 
 ---
 
-- Chapter 4: Thermodynamics of the Substrate: Stochastic Noise, Spectral Entropy, and Non-linear Relaxation of the 0-Matrix
+- Rozdział 3: Dynamika naprężeń 0-Matrycy: Od unifikacji elektrodynamiki i sił jądrowych do mechaniki obwodów
+  - 3.1. Od skrętu topologicznego do potencjału cechowania
+  - 3.2. Tensor naprężeń ścinających a tensor pola elektromagnetycznego
+  - 3.3. Prawa zachowania i dynamika falowa
   - <details>
-    <summary><b>4.1. Physical Nature and Temperature Dualism in TSM</b></summary>
+    <summary><b>3.4. Mechanika oddziaływania: Nieliniowe równania pola, sprzężenia zwrotne i siły Maxwella</b></summary>
 
-      - 4.1.1. Substrate Temperature ($T_{\text{sub}}$)
-      - 4.1.2. Emergent Temperature of Matter ($T_{\text{matter}}$)
+      - 3.4.1. Nieliniowy Lagrangian TSM i pełne równania Eulera-Lagrange'a
+      - 3.4.2. Efekt dwójłomności i topologiczna stabilizacja splotu
+      - 3.4.3. Przybliżenie liniowe i klasyczny tensor naprężeń Maxwella
+      - 3.4.4. Siła Lorentza i prawo Coulomba
+      - 3.4.5. Odpychanie jednoimiennych ładunków jako interferencja naprężeń
 
     </details>
   - <details>
-    <summary><b>4.2. Ontology and Time Dualism in TSM: Statistical Emergence of Parameter $\tau$ and Emergence of Time $t$</b></summary>
+    <summary><b>3.5. Ontologia oddziaływania silnego: Nieliniowe sprzężenie skręceń topologicznych w skali femtometrowej</b></summary>
 
-      - 4.2.1. Demystification of Absolute Time: Parameter $\tau$ as a Statistical Average of Chaos
-      - 4.2.2. Mechanism of Local Coordinate Time $t$ Emergence
-      - 4.2.3. Mechanical Closure of the Lorentz Transformation via Matrix Resistance
-
-    </details>
-  - 4.3. Energy Dissipation Mechanism: Decay of Wave Coherence into 0-Matrix Granularity
-  - <details>
-    <summary><b>4.4. Entropy as Informational Vibration Chaos (Statistical Description of the 0-Matrix)</b></summary>
-
-      - 4.4.1. Spectral Entropy of the Substrate ($S_{\text{spec}}$)
-      - 4.4.2. Configurational Entropy of Knots ($S_{\text{conf}}$)
-      - 4.4.3. Resolution of the Information Paradox in the Plasmoid Regime
+      - 3.5.1. Przekroczenie granicy liniowej i fuzja pancerzy naprężeniowych
+      - 3.5.2. Mechaniczny zamek topologiczny: Swoboda asymptotyczna i uwięzienie
+      - 3.5.3. Redukcja ilości fundamentalnych oddziaływań
 
     </details>
-  - 4.5. Arrow of Time: Direction of Irreversible Energy Dissipation
-  - 4.6. Thermodynamic Equilibrium in Open Systems (Energy Exchange with 4D)
-  - <details>
-    <summary><b>4.7. Empirical Verification, Theoretical Gaps, and Potential Falsifications</b></summary>
-
-      - 4.7.1. Prediction and Parameterization of the Critical Temperature $T_c$ for Condensates
-      - 4.7.2. Critical Points and Model Gaps (Risk Analysis)
-
-    </details>
-  - 4.8. Summary of Chapter 4
+  - 3.6. Napięcie i prąd jako mechanika falowa w przewodnikach
+  - 3.7. Inercja elektromechaniczna: Reaktancja i przesunięcia fazowe
+  - 3.8. Aplikacje kwantowe: Nadprzewodnictwo i Efekt Halla
+  - 3.9. Podsumowanie Rozdziału
 
 ---
 
-- Chapter 5: Topological Exclusion Mechanics and Stability of Matter
-  - 5.1. Classification of Matrix Excitations: Structural Knots vs. Wave Modes
-  - 5.2. Mathematical Formalism of Topological Exclusion (Pauli)
-  - 5.3. Contrast with Bosons: Bose-Einstein Condensation (BEC) as Wave Interference
-  - 5.4. Degenerate Matter Pressure and the Cosmological Problem of Type Ia Supernovae
+- Rozdział 4: Termodynamika Substratu. Szum stochastyczny, entropia spektralna i relaksacja nieliniowa 0-Matrycy
   - <details>
-    <summary><b>5.5. Observational Verification of the Topological Model</b></summary>
+    <summary><b>4.1. Fizyczna natura i dualizm temperatury w TSM</b></summary>
 
-      - 5.5.1. Stability of White Dwarfs and Neutron Stars
-      - 5.5.2. Specific Heat of Electrons in Metals
-      - 5.5.3. Parameterization of Bosonic Gas
+      - 4.1.1. Temperatura Substratu ($T_{\text{sub}}$)
+      - 4.1.2. Temperatura Emergentna Materii ($T_{\text{matter}}$)
 
     </details>
-  - 5.6. Summary of Chapter 5
+  - <details>
+    <summary><b>4.2. Ontologia i dualizm czasu w TSM: Statystyczne wyłanianie parametru $\tau$ oraz emergencja czasu $t$</b></summary>
+
+      - 4.2.1. Demistyfikacja czasu absolutnego: Parametr $\tau$ jako statystyczna średnia chaosu
+      - 4.2.2. Mechanizm emergencji lokalnego czasu współrzędnościowego $t$
+      - 4.2.3. Mechaniczne domknięcie transformacji Lorentza przez opór osnowy
+
+    </details>
+  - 4.3. Mechanizm dyssypacji energii: Rozpad koherencji falowej na ziarnistość 0-Matrycy
+  - <details>
+    <summary><b>4.4. Entropia jako informacyjny chaos drgań (statystyczny opis 0-Matrycy)</b></summary>
+
+      - 4.4.1. Entropia Spektralna Substratu ($S_{\text{spec}}$)
+      - 4.4.2. Entropia Konfiguracyjna Węzłów ($S_{\text{conf}}$)
+      - 4.4.3. Rozwiązanie Paradoksu Informacyjnego w reżimie Plazmoidu
+
+    </details>
+  - 4.5. Strzałka czasu: Kierunek nieodwracalnej dyssypacji energii
+  - 4.6. Równowaga termodynamiczna w układach otwartych (wymiana energii z 4D)
+  - <details>
+    <summary><b>4.7. Weryfikacja empiryczna, luki teoretyczne i potencjalne falsyfikacje</b></summary>
+
+      - 4.7.1. Predykcja i parametryzacja temperatury krytycznej $T_c$ dla kondensatów
+      - 4.7.2. Punkty krytyczne i luki modelu (Analiza ryzyka)
+
+    </details>
+  - 4.8. Podsumowanie rozdziału 4
 
 ---
 
-- Chapter 6: Gravity as Orthogonal Tension: 4D Dimension, Plasmoids, and Non-linear Continuum Dynamics
-  - 6.1. Ontology of Gravity and the Linear Limit (Laplace's Equation)
-  - 6.2. Formalized Elasto-Dynamics of the 3-Brane: Non-linear Deflection in $\mathbb{R}^4$
-  - 6.3. Topological Plasmoids Instead of Black Holes
+- Rozdział 5: Topologiczna mechanika wykluczenia i stabilność materii
+  - 5.1. Klasyfikacja wzbudzeń Matrycy: Węzły strukturalne a mody falowe
+  - 5.2. Matematyczny formalizm wykluczenia topologicznego (Pauli)
+  - 5.3. Kontrast z bozonami: Kondensacja Bosego-Einsteina (BEC) jako interferencja falowa
+  - 5.4. Ciśnienie materii zdegenerowanej i kosmologiczny problem Supernowych Ia
   - <details>
-    <summary><b>6.4. Galactic Dynamics: Torsional Dragging and Elimination of Dark Matter</b></summary>
+    <summary><b>5.5. Weryfikacja obserwacyjna modelu topologicznego</b></summary>
 
-      - 6.4.1. Torsional Dragging and Flat Stellar Rotation Curves
-      - 6.4.2. Behavior of Stars Near the Galactic Center (S2 Orbit)
+      - 5.5.1. Stabilność białych karłów i gwiazd neutronowych
+      - 5.5.2. Ciepło właściwe elektronów w metalach
+      - 5.5.3. Parametryzacja gazu bozonowego
 
     </details>
-  - <details>
-    <summary><b>6.5. Alternative to Expansion: Redshift as Distance-Based Wave Dispersion (Consistency with Postulate 0.7)</b></summary>
-
-      - 6.5.1. Mechanism of Viscous Wave Momentum Loss
-      - 6.5.2. Refutation of Dark Energy and Inter-mode Wave Conversion
-
-    </details>
-  - <details>
-    <summary><b>6.6. Physical Nature of the Constant $c$ and Stress Waves (LIGO)</b></summary>
-
-      - 6.6.1. Mechanical Origin of Relativistic Effects
-      - 6.6.2. Superluminality in 4D and Interferometric Recordings
-
-    </details>
-  - 6.7. Summary of Chapter 6
+  - 5.6. Podsumowanie rozdziału 5
 
 ---
 
-- Chapter 7: Subatomic Interactions, Hadron Physics, and Quantum Determinism in Topological Geometrodynamics of the Matrix (TGM)
-  - 7.1. What is the Strong Interaction in the Standard Framework?
-  - 7.2. Cavitation Model of the Proton vs. Deep Inelastic Scattering (DIS)
-  - 7.3. Topological Confinement
-  - 7.4. Asymptotic Freedom
-  - 7.5. Hadron Masses (Proton, Neutron)
-  - 7.6. Absence of Free Gluons
+- Rozdział 6: Grawitacja jako ortogonalny naciąg. Wymiar 4D, Plazmoidy i nieliniowa dynamika kontinuum
+  - 6.1. Ontologia grawitacji i limit liniowy (Równanie Laplace'a)
+  - 6.2. Sformalizowana elastodynamika 3-brany: Nieliniowe ugięcie w $\mathbb{R}^4$
+  - 6.3. Plazmoidy Topologiczne zamiast Czarnych Dziur
   - <details>
-    <summary><b>7.7. Internal Quark Dynamics: Running Masses, Hierarchy, and the Physical Meaning of the CKM Matrix</b></summary>
+    <summary><b>6.4. Dynamika galaktyczna: Torsyjne Wleczenie i eliminacja Ciemnej Materii</b></summary>
 
-      - 7.7.1. Running Masses (Renormalization) as a Measurement in a Stress Gradient
-      - 7.7.2. Mass Hierarchy vs. Confinement Pressure
-      - 7.7.3. The CKM Matrix as a Physical Rotation of Stress Axes
+      - 6.4.1. Torsyjne Wleczenie i płaskie krzywe rotacji gwiazd
+      - 6.4.2. Zachowanie gwiazd w pobliżu centrum galaktyki (Orbita S2)
 
     </details>
-  - 7.8. Reinterpretation of Heavy Particles: Topo-Harmonic Excitations of the Matrix
-  - 7.9. Demystification of Quantum Mechanics: Young's Experiment and the Observer Effect as Hydrodynamic Phenomena
-  - 7.10. Matrix Resonator – How to Excite Controlled Vibrations of the 0-Matrix
-  - 7.11. Accelerator Tests – Falsification Proposals
-  - 7.12. Topological Test – Searching for $3_1$ Knot Rupture Patterns in LHC Data
-  - 7.13. Summary of Chapter 7
-  - 7.14. Empirical Foundation and Data Sources
+  - <details>
+    <summary><b>6.5. Alternatywa dla ekspansji: Redshift jako dystansowa dyspersja falowa (Zgodność z Postulatem 0.7)</b></summary>
+
+      - 6.5.1. Mechanizm wiskotycznej utraty pędu fali
+      - 6.5.2. Obalenie Ciemnej Energii i konwersja między-modowa fal
+
+    </details>
+  - <details>
+    <summary><b>6.6. Fizyczna natura stałej $c$ i fale naprężeniowe (LIGO)</b></summary>
+
+      - 6.6.1. Mechaniczne pochodzenie efektów relatywistycznych
+      - 6.6.2. Superluminalność w 4D i rejestracje interferometryczne
+
+    </details>
+  - 6.7. Podsumowanie rozdziału 6
 
 ---
 
-- Chapter 8: Weak Interactions and Topological Lepton Hierarchy: Stochastic Degradation, Phase Lock, and $SU(2)$ Geometry
-  - 8.1. Free Neutron as a Stochastically Decaying Oscillator
-  - 8.2. Phase Lock: Kinematics of Atomic Nuclei Stability
-  - 8.3. Neutron Lifetime Anomaly as Verification of the Phase Lock
-  - 8.4. W and Z Resonances as Topo-Harmonic Excitations (Breathers)
-  - 8.5. Width of the Z Resonance vs. Topological Isotropy of the $SU(2)$ Algebra
+- Rozdział 7: Oddziaływania subatomowe, fizyka hadronów i determinizm kwantowy w Topologicznej Geometrodynamice Matrycy (TGM)
+  - 7.1. Czym jest oddziaływanie silne w standardowym ujęciu?
+  - 7.2. Model kawitacyjny protonu a Głębokie Rozpraszanie Nieelastyczne (DIS)
+  - 7.3. Uwięzienie topologiczne (Confinement)
+  - 7.4. Asymptotyczna swoboda
+  - 7.5. Masy hadronów (proton, neutron)
+  - 7.6. Brak wolnych gluonów
   - <details>
-    <summary><b>8.6. Topological Hierarchy of Lepton Masses: Muon and Tauon as Higher-Order Link Excitations</b></summary>
+    <summary><b>7.7. Wewnętrzna dynamika kwarków: Masy biegnące, hierarchia i fizyczny sens Macierzy CKM</b></summary>
 
-      - 8.6.1. Anomalous Magnetic Moment $g-2$: Measurement of Topological "Friction"
+      - 7.7.1. Masy biegnące (Renormalizacja) jako pomiar w gradiencie naprężeń
+      - 7.7.2. Hierarchia mas a ciśnienie konfinementu
+      - 7.7.3. Macierz CKM jako fizyczny obrót osi naprężeń
 
     </details>
-  - 8.7. Summary of Chapter 8
-  - 8.8. Empirical Foundation and Data Sources
+  - 7.8. Reinterpretacja ciężkich cząstek: Wzbudzenia Topo-Harmoniczne Matrycy
+  - 7.9. Demistyfikacja mechaniki kwantowej: Eksperyment Younga i Efekt Obserwatora jako zjawiska hydrodynamiczne
+  - 7.10. Rezonator Matrycy – jak wzbudzić kontrolowane drgania 0-Matrycy
+  - 7.11. Testy w akceleratorach – propozycje falsyfikacyjne
+  - 7.12. Test topologiczny – poszukiwanie wzorców pęknięcia węzła $3_1$ w danych LHC
+  - 7.13. Podsumowanie rozdziału 6
+  - 7.14. Fundament empiryczny i źródła danych:
 
 ---
 
-- Chapter 9: The Illusion of Dark Matter and Dark Energy in TGM: Elasto-Dynamics of Rotation, Non-linear Lensing, and the CMB
-  - 9.1. The Dark Matter Problem in Standard Astrophysics
+- Rozdział 8: Oddziaływania słabe i topologiczna hierarchia leptonów: Stochastyczna degradacja, zatrzask fazowy oraz geometria $SU(2)$
+  - 8.1. Wolny neutron jako stochastycznie zanikający oscylator
+  - 8.2. Zatrzask fazowy: Kinematyka stabilności jąder atomowych
+  - 8.3. Anomalia czasu życia neutronu jako weryfikacja zatrzasku
+  - 8.4. Rezonanse W i Z jako Wzbudzenia Topo-Harmoniczne (Breathery)
+  - 8.5. Szerokość rezonansu Z a topologiczna izotropia algebry $SU(2)$
   - <details>
-    <summary><b>9.2. Elasto-Dynamics of Galaxies: Stress Halo and Background Pressure Gradient</b></summary>
+    <summary><b>8.6. Topologiczna hierarchia mas leptonów: Mion i Taon jako wzbudzenia splotowe wyższego rzędu</b></summary>
 
-      - 9.2.1. Dependence on Total Mass and Compactness
+      - 8.6.1. Anomalia magnetyczna $g-2$: Pomiar „tarcia” topologicznego
 
     </details>
-  - <details>
-    <summary><b>9.3. Non-linear Lensing in Clusters: Stress Synergy</b></summary>
-
-      - 9.3.1. Additional Contribution from Cosmic Magnetic Fields
-
-    </details>
-  - 9.4. Apparent Cosmic Expansion as Stress Relaxation (The Illusion of Dark Energy)
-  - 9.5. Cosmic Microwave Background (CMB) as Thermo-Acoustic Matrix Noise
-  - 9.6. Comparison with MOND and the NFW Profile
-  - 9.7. Experimental Tests and Falsifiability of TGM in Astrophysics
-  - 9.8. Summary of Chapter 9
+  - 8.7. Podsumowanie rozdziału 7
+  - 8.8. Fundament empiryczny i źródła danych:
 
 ---
 
-- Chapter 10: Central Plasmoids and Torsional Electrodynamics: The Illusion of Black Holes and Refractive Shadows
-  - 10.1. The GR Singularity Problem and the Algorithmic Error of the EHT Telescope
-  - 10.2. The Central Plasmoid as a Compact State of the Degenerate 0-Matrix
-  - 10.3. Black Hole Shadow as a Spherical Refractive Trap (The Illusion of $V_{ij}$)
-  - 10.4. Torsional Electrodynamics of the Core: Z-pinch and Matrix Vortices
-  - 10.5. Galactic Jets as Pressure Valves and Matrix Cavitation
+- Rozdział 9: Iluzja Ciemnej Materii i Ciemnej Energii w TGM: Elastodynamika rotacji, nieliniowe soczewkowanie i CMB
+  - 9.1. Problem Ciemnej Materii w standardowej astrofizyce
   - <details>
-    <summary><b>10.6. Birth of Quasars at Jet Terminations: The Arp Mechanism and Intrinsic Redshift Conditions</b></summary>
+    <summary><b>9.2. Elastodynamika galaktyk: Halo naprężeniowe i gradient ciśnienia tła</b></summary>
 
-      - 10.6.1. Consistency with Halton Arp's Observations
+      - 9.2.1. Zależność od masy całkowitej i zwartości
 
     </details>
-  - 10.7. Summary of Chapter 10
+  - <details>
+    <summary><b>9.3. Nieliniowe soczewkowanie w gromadach: Synergia naprężeń</b></summary>
+
+      - 9.3.1. Dodatkowy wkład od kosmicznych pól magnetycznych
+
+    </details>
+  - 9.4. Pozorna ekspansja Wszechświata jako relaksacja naprężeń (Iluzja Ciemnej Energii)
+  - 9.5. Kosmiczne Mikrofalowe Promieniowanie Tła (CMB) jako termo-akustyczny szum Matrycy
+  - 9.6. Porównanie z MOND i profilem NFW
+  - 9.7. Testy eksperymentalne i falsyfikowalność TGM w astrofizyce
+  - 9.8. Podsumowanie rozdziału 8
 
 ---
 
-- Chapter 11: Non-Expanding Cosmology – Matrix Relaxation, SN Ia Time Dilation, and Multi-layered Wave Propagation
-  - 11.1. Rejection of Cosmic Expansion
-  - 11.2. 0-Matrix Relaxation – Cosmological Evolution of Mean Stress
+- Rozdział 10: Plazmoidy centralne i elektrodynamika torsyjna. Iluzja czarnych dziur i refrakcyjnych cieni
+  - 10.1. Problem osobliwości OTW i algorytmiczny błąd teleskopu EHT
+  - 10.2. Plazmoid centralny jako kompaktowy stan zdegenerowanej 0-Matrycy
+  - 10.3. Cień czarnej dziury jako sferyczna pułapka refrakcyjna (Iluzja $V_{ij}$)
+  - 10.4. Elektrodynamika torsyjna jądra: Z-pinch i zawirowania Matrycy
+  - 10.5. Dżety galaktyczne jako zawory ciśnieniowe i kawitacja Matrycy
   - <details>
-    <summary><b>11.3. Multi-layered Light Propagation – Three Stress Zones</b></summary>
+    <summary><b>10.6. Narodziny kwazarów na końcach dżetów: Mechanizm Arpa i uwarunkowania Intrinsic Redshift</b></summary>
 
-      - 11.3.1. Type Ia Supernovae – Universality of $\Sigma_{\text{WD}}$, Chandrasekhar Limit, and Light Curves
+      - 10.6.1. Zgodność z obserwacjami Haltona Arpa
 
     </details>
-  - 11.4. Intrinsic vs. Cosmological Redshift – Rehabilitation of Halton Arp
-  - 11.5. Tired Light as a Second-Order Effect (Scattering on 0-Particles)
-  - 11.6. Tests and Predictions
-  - 11.7. Summary of Chapter 11
+  - 10.7. Podsumowanie rozdziału 9
 
 ---
 
-- Chapter 12: Experimental Verification Program – Falsifiability, Resonant Test, and Demystification of Quantum Entanglement
+- Rozdział 11: Kosmologia bez ekspansji – relaksacja Matrycy, dylatacja czasu SN Ia i wielowarstwowa propagacja fal
+  - 11.1. Odrzucenie ekspansji Wszechświata
+  - 11.2. Relaksacja 0-Matrycy – kosmologiczna ewolucja średniego naprężenia
   - <details>
-    <summary><b>12.1. Priority Test: Variation of the Speed of Light in a Magnetic Field – Resonant Variant</b></summary>
+    <summary><b>11.3. Wielowarstwowa propagacja światła – trzy strefy naprężenia</b></summary>
 
-      - 12.1.1. Theoretical Foundations
-      - 12.1.2. Utilization of Resonance – Signal Amplification
-      - 12.1.3. Apparatus and Measurement Procedure
+      - 11.3.1. Supernowe typu Ia – uniwersalność $\Sigma_{\text{WD}}$, granica Chandrasekhara i krzywe blasku
 
     </details>
-  - 12.2. Full Compendium of Crucial Falsification Tests
-  - <details>
-    <summary><b>12.3. Quantum Entanglement vs. Bell's Tests – Limits of Non-locality</b></summary>
-
-      - 12.3.1. Projection of 4D Geometry onto the 3-Brane
-      - 12.3.2. Non-locality in 3D as an Illusion of $SU(2)$ Projection
-      - 12.3.3. Why Bell's Tests Do Not Falsify TGM?
-
-    </details>
-  - 12.4. Summary of Chapter 12
+  - 11.4. Redshift intrinsic vs. kosmologiczny – rehabilitacja Haltona Arpa
+  - 11.5. Zmęczenie światła jako efekt drugiego rzędu (rozpraszanie na 0-cząstkach)
+  - 11.6. Testy i przewidywania
+  - 11.7. Podsumowanie rozdziału 10
 
 ---
 
-- Chapter 13: Ontological Summary, Fundamental Constants, and the Ultimate Unification of Physics
-  - 13.1. Compendium of the Theory's Axioms
-  - 13.2. Fundamental Material Parameters of the Universe
-  - 13.3. Ultimate Unification – TGM Model vs. Classical Physics
-  - 13.4. Open Engineering Challenges
-  - 13.5. Concluding Words
+- Rozdział 12: Program weryfikacji eksperymentalnej – falsyfikowalność, test rezonansowy i demistyfikacja splątania kwantowego
+  - <details>
+    <summary><b>12.1. Test priorytetowy: Zmiana prędkości światła w polu magnetycznym – wariant rezonansowy</b></summary>
+
+      - 12.1.1. Podstawy teoretyczne
+      - 12.1.2. Zastosowanie rezonansu – wzmocnienie sygnału
+      - 12.1.3. Aparatura i procedura pomiarowa
+
+    </details>
+  - 12.2. Pełne zestawienie kluczowych testów falsyfikacyjnych
+  - <details>
+    <summary><b>12.3. Splątanie kwantowe a testy Bella – granice nielokalności</b></summary>
+
+      - 12.3.1. Rzutowanie geometrii 4D na 3-branę
+      - 12.3.2. Nielokalność w 3D jest iluzją rzutowania SU(2)
+      - 12.3.3. Dlaczego testy Bella nie falsyfikują TGM?
+
+    </details>
+  - 12.4. Podsumowanie rozdziału 11
 
 ---
 
-### **Methodological Genesis and Formal Framework of TSM Unification**
+- Rozdział 13: Podsumowanie ontologiczne, stałe fundamentalne i ostateczna unifikacja fizyki
+  - 13.1. Zestawienie aksjomatów teorii
+  - 13.2. Fundamentalne parametry materiałowe Wszechświata
+  - 13.3. Ostateczna unifikacja – Model TGM vs Fizyka Klasyczna
+  - 13.4. Otwarte wyzwania inżynieryjne
+  - 13.5. Słowo końcowe
 
-This treatise presents a proposal for the unification of General Relativity (GR) and the Standard Model (SM). Grounded in data accumulated through decades of observations and experimental research, Topological Substrate Mechanics (TSM) merges these two pillars of modern physics into a single, coherent framework. The formulation of this mathematical formalism would not have been possible without building upon the groundbreaking work of numerous outstanding theoretical physicists and mathematicians. TSM synthesizes their key achievements, reshaping the existing, rigorous conceptual framework into a unified language for describing reality that transcends current divisions.
+---
 
-The scientific fields and achievements from whose apparatus and conceptual heritage TSM draws represent well-established pillars of modern mathematical physics and theoretical mechanics. This theory does not introduce postulates *ex nihilo*, but rather performs a profound synthesis and paradigmatic reinterpretation of mathematical structures developed within the following disciplines:
 
-**1. Continuum mechanics and condensed matter physics**
-Introducing the classical formalism of stress-strain tensors (the foundations of which were laid by Cauchy and Navier in the **1820s and 1830s**) and nonlinear elastodynamics into TSM allows for the formal description of the Topological Substrate as a real, continuous physical medium. This apparatus, further developed in the **mid-20th century** for condensed matter physics (notably by the Landau school), characterizes the medium using macroscopic parameters such as the bulk modulus and geometric packing density. This approach replaces the abstract, material-substrate-free spacetime background of GR with the mechanistic concept of material resistance and substrate elasticity.
+<!--TOCE-->
 
-**2. Soliton physics and nonlinear differential equations**
-The utilization of the mathematical apparatus of soliton solutions forms the bedrock of the theory of matter structure in TSM. While the observation of the solitary wave itself dates back to 1834 (J. S. Russell), the mathematical renaissance of this field occurred in the **1960s and 1970s** with the formulation of the nonlinear Schrödinger equation and the Sine-Gordon equation. Stable, non-local, and non-dispersive waves (solitons) provide a rigorous mathematical description of elementary particles, eliminating the inherently contradictory concept of a point particle.
+### **Geneza metodologiczna i ramy formalne unifikacji TSM**
 
-**3. Knot theory and algebraic topology**
-The application of topological invariants and braid theory provides formal tools for categorizing charges and particles as geometric braids. This discipline, initiated by Henri Poincaré at the end of the 19th century, experienced its crucial expansion for physics in the **1980s** (largely due to the work of Vaughan Jones and Edward Witten). Algebraic topology guarantees the absolute permanence of material structures in TSM, explaining conservation laws through the geometric impossibility of a knot spontaneously untying itself within a continuum.
+Niniejszy traktat przedstawia propozycję unifikacji Ogólnej Teorii Względności (OTW) oraz Modelu Standardowego (SM). Opierając się na danych zgromadzonych przez dekady obserwacji i badań eksperymentalnych, Mechanika Substratu Topologicznego (Topological Substrate Mechanics – TSM) scala te dwa filary współczesnej fizyki w jeden spójny system. Sformułowanie tego matematycznego formalizmu nie byłoby możliwe bez oparcia się na przełomowych pracach wielu wybitnych fizyków teoretycznych oraz matematyków. TSM syntetyzuje ich kluczowe osiągnięcia, przekuwając istniejący, rygorystyczny aparat pojęciowy w jednolity język opisu rzeczywistości, wykraczający poza dotychczasowe podziały.
 
-**4. Mechanics of lattice defects and dislocation models**
-The adaptation of microstructural models of dislocations in crystals relies directly on the **Peierls-Nabarro model (formulated in 1940 and modified in 1947)**. The implementation of these advanced nonlinear equations allows for the description of the kinetics of solitons moving through the Substrate lattice. This enables the mechanistic derivation of resistance to defect motion (so-called lattice friction), which finds direct application in modeling astrophysical processes, such as the nonlinear generation of plasma jets.
+Dziedziny i osiągnięcia naukowe, z których aparatu i dorobku pojęciowego korzysta TSM, stanowią ugruntowane filary współczesnej fizyki matematycznej oraz mechaniki teoretycznej. Teoria ta nie wprowadza postulatów *ex nihilo*, lecz dokonuje głębokiej syntezy oraz paradygmatycznej reinterpretacji struktur wypracowanych w ramach następujących dyscyplin:
 
-**5. Kinetic theory of gases and statistical mechanics of jammed systems**
-TSM combines classic Boltzmann transport equations (**1872**) with the modern theory of densely packed systems and the jamming transition, which was defined in complex systems physics in the late **1990s (specifically in 1998 by Liu and Nagel)**. This allows for the microscopic derivation of the macroscopic elastic properties of the Substrate from the chaos of sub-Planckian collisions of primal elements (0-particles), forming the mathematical core of the TSM Equation of State (TSM-EOS).
+**1. Mechanika ośrodków ciągłych i fizyka fazy skondensowanej**
+Wprowadzenie do TSM klasycznego formalizmu tensorów naprężeń i odkształceń (którego fundamenty wznieśli Cauchy i Navier w **latach 20. i 30. XIX wieku**) oraz nieliniowej elastodynamiki pozwala na formalne opisanie Osnowy Topologicznej jako realnego, ciągłego medium fizycznego. Aparat ten, rozwinięty w **połowie XX wieku** na potrzeby fizyki fazy skondensowanej (szkoła Landaua), pozwala scharakteryzować medium parametrami takimi jak moduł sprężystości objętościowej oraz gęstość upakowania geometrycznego. Podejście to zastępuje abstrakcyjne, pozbawione materialnego substratu tło czasoprzestrzenne OTW mechanistycznym pojęciem oporu materiałowego.
 
-**6. Differential geometry and multidimensional membrane models**
-In terms of multidimensional description, TSM draws on the evolution of Riemannian geometry (since **1854**), Kaluza-Klein theory (the **1920s**), up to the Randall-Sundrum braneworld cosmology models of **1999**. However, the theory translates these structures from the language of abstract geometry into the language of pressure physics. The three-dimensional Membrane (our Universe) is defined as a physical phase boundary of finite thickness, subject to warping into the fourth spatial dimension under the influence of local stress gradients inside a pressurized vessel (the Bulk).
+**2. Fizyka solitonów oraz nieliniowe równania różniczkowe**
+Wykorzystanie matematycznego aparatu rozwiązań solitonowych stanowi fundament teorii struktury materii w TSM. Choć sama obserwacja fali samotnej datuje się na rok 1834 (J. S. Russell), to matematyczny renesans tej dziedziny nastąpił w **latach 60. i 70. XX wieku** wraz z sformułowaniem nieliniowego równania Schrödingera oraz równania Sine-Gordona. Stabilne, nielokalne i nieulegające dyspersji fale (solitony) stanowią tu ścisły matematyczny opis cząstek elementarnych, co pozwala na eliminację sprzecznego wewnętrznie pojęcia cząstki punktowej.
+
+**3. Teoria węzłów i topologia algebraiczna**
+Zastosowanie niezmienników topologicznych oraz teorii warkoczy (braid theory) dostarcza formalnych narzędzi do kategoryzacji ładunków i cząstek jako geometrycznych splotów. Dyscyplina ta, zapoczątkowana przez Henriego Poincarégo pod koniec XIX wieku, przeżyła swój kluczowy dla fizyki rozkwit w **latach 80. XX wieku** (m.in. dzięki pracom Vaughana Jonesa i Edwarda Wittena). Topologia algebraiczna gwarantuje absolutną trwałość struktur materialnych w TSM, wyjaśniając prawa zachowania poprzez geometryczną niemożliwość samorzutnego rozwiązania się węzła w continuum.
+
+**4. Mechanika defektów sieciowych i modele dyslokacji**
+Adaptacja mikrostrukturalnych modeli dyslokacji w kryształach opiera się bezpośrednio na **modelu Peierlsa-Nabarro (sformułowanym w 1940 roku i zmodyfikowanym w roku 1947)**. Implementacja tych zaawansowanych równań nieliniowych pozwala opisać kinetykę solitonów poruszających się w sieci Osnowy. Umożliwia to mechanistyczne wyprowadzenie oporów ruchu defektów (tzw. tarcia sieciowego), co znajduje bezpośrednie zastosowanie w modelowaniu procesów astrofizycznych, takich jak nieliniowa generacja dżetów plazmowych.
+
+**5. Kinetyczna teoria gazów i mechanika statystyczna układów zakleszczonych**
+TSM łączy klasyczne równania transportu Boltzmanna (**rok 1872**) z nowoczesną teorią układów gęsto upakowanych i przejścia zakleszczenia (*jamming transition*), która została zdefiniowana w fizyce układów złożonych pod koniec **lat 90. XX wieku (dokładnie w 1998 roku przez Liu i Nagela)**. Pozwala to na mikroskopowe wyprowadzenie makroskopowych właściwości sprężystych Osnowy z chaosu sub-planckowskich kolizji elementów pierwotnych (0-cząstek), co stanowi matematyczne jądro Równania Stanu TSM (TSM-EOS).
+
+**6. Geometria różniczkowa i wielowymiarowe modele membranowe**
+W zakresie opisu wielowymiarowego, TSM czerpie z ewolucji geometrii riemannowskiej (od **1854 roku**), teorii Kaluzy-Kleina (**lata 20. XX wieku**) aż po modele kosmologii branowej Randalla-Sundruma z **1999 roku**. Teoria dokonuje jednak translacji tych struktur z języka abstrakcyjnej geometrii na język fizyki ciśnień. Trójwymiarowa Błona (nasz Wszechświat) zostaje zdefiniowana jako fizyczna granica faz o skończonej grubości, podlegająca ugięciu w stronę czwartego wymiaru przestrzennego pod wpływem lokalnych gradientów naprężeń wewnątrz naczynia ciśnieniowego (Bulk).
