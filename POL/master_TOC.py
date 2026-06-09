@@ -7,7 +7,7 @@ FILES_TO_PROCESS = ['rozdzial 0.md', 'rozdzial 1.md', 'rozdzial 2.md', 'rozdzial
                     'rozdz.11.md','rozdz.12.md','rozdz.13.md','rozdz.13.md']
 
 OUTPUT_FILE = 'MASTER_TOC.md'
-VISIBLE_LEVELS = 1  # Ile poziomów ma być stale WIDOCZNYCH. 
+VISIBLE_LEVELS = 2  # Ile poziomów ma być stale WIDOCZNYCH. 
                     # Jeśli 1: poziomy 1 (#) są widoczne, a podrozdziały (##, ###) są w <details>.
                     # Jeśli 2: poziomy 1 (#) i 2 (##) są widoczne, a od poziomu 3 (###) zwijamy.
 
