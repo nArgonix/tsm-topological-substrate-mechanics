@@ -4,41 +4,45 @@ Zanim wprowadzony zostanie pełny aparat matematyczny opisujący dynamikę konti
 
 ## 1.1. Fundamentalny parametr ewolucyjny $\tau$ jako miara globalnej, uśrednionej aktywności 0-cząstek
 
-Jeśli 0-Matryca w stanie fundamentalnym jest czystym chaosem, bez żadnych cyklicznych, regularnych struktur, to wprowadzenie absolutnego parametru wydawałoby się przemyceniem czasu newtonowskiego. Jednak z chaotycznego, stacjonarnego zbioru fluktuacji można wyprowadzić pojęcie "kroku ewolucyjnego", które wyłania się z samej dynamiki 0-cząstek. Kluczem jest statystyka ogromnej liczby identycznych 0-cząstek i wynikające z niej prawa uśredniania.
+W Mechanice Substratu Topologicznego (TSM) kategorycznie odrzucamy iluzję absolutnego czasu newtonowskiego, jak i pozbawioną materialnego nośnika relatywistyczną "czasoprzestrzeń". Wprowadzenie w modelu uniwersalnego parametru referencyjnego nie jest narzuceniem z zewnątrz sztucznej miary upływu zjawisk, lecz wyłania się w sposób rygorystyczny i naturalny z samej wibrującej dynamiki najgłębszego substratu Wszechświata.
 
-**0-Matryca jako chaotyczny gaz identycznych oscylatorów**
-W Stanie Zero (perfekcyjna symetria, brak struktur topologicznych) wszystkie sfery oscylacji (zdefiniowane w Rozdziale 0) mają identyczną objętość, a każda 0-cząstka posiada tę samą masę i pęd elementarny. Ruch pojedynczej 0-cząstki jest całkowicie chaotyczny. Jednak ponieważ zbiór ten jest stacjonarny i jednorodny w sensie statystycznym, istnieje dobrze określona średnia częstotliwość uderzeń pojedynczej 0-cząstki w tym stanie:
+**0-Matryca jako zdegenerowana sieć krystaliczna**
+Stan Zero (perfekcyjnie symetryczny układ pozbawiony makroskopowych deformacji i struktur topologicznych) to zdegenerowana, ekstremalnie upakowana sieć krystaliczna. Odrzucamy wcześniejsze analogie do swobodnego gazu. Wskutek permanentnego, geometrycznego zakleszczenia w $\mathbb{R}^4$, wszystkie uwięzione 0-cząstki posiadają identyczną, niezerową objętość własnej sfery oscylacji, tę samą masę i pęd elementarny, nie wykazując przy tym najmniejszej swobody ruchu translacyjnego przez ośrodek. Przez tę sztywną matrycę wędrować mogą wyłącznie falowe deformacje naprężeń (solitony), ale nigdy same fizyczne jądra oscylatorów.
+
+Z racji tego, że zbiór w Stanie Zero jest stacjonarny i statystycznie izotropowy, aktywność zablokowanych w komórkach 0-cząstek sprowadza się do miarowych uderzeń o granice własnych sfer. Prowadzi to do zdefiniowania stałej, bazowej częstotliwości drgań pojedynczej 0-cząstki dla niezaburzonego układu:
 
 $$f_0 \equiv \langle f_{\text{osc}} \rangle_{\text{Stan Zero}}$$
 
-Wielkość ta wynika bezpośrednio z mikroskopowych parametrów i rozmiaru sfery oscylacji. Nie jest narzucona z zewnątrz – jest statystyczną własnością zespołu.
+Różnice we wszystkich obserwowalnych makroskopowo fenomenach (od oddziaływań elektro-grawitacyjnych po zjawiska relatywistyczne) muszą być rygorystycznie wywodzone z różnic w lokalnej częstotliwości uderzeń ($f_{\text{lok}}$). Zmiany te są bezpośrednią i wyłącznie fizyczną konsekwencją deformacji sfer oddziaływań, zmuszającej 0-cząstkę do częstszych lub rzadszych odbić na skutek skrócenia bądź wydłużenia jej drogi swobodnej.
 
 **Globalny parametr ewolucyjny $\tau$**
-Niech $N_{\text{total}}(\tau)$ oznacza całkowitą, zsumowaną po wszystkich 0-cząstkach obserwowalnego wszechświata, liczbę elementarnych uderzeń od pewnego arbitralnie wybranego stanu referencyjnego. Istnieje ekstensywna, monotonicznie rosnąca funkcja stanu:
+Niech $N_{\text{total}}(\tau)$ oznacza zsumowaną po wszystkich oscylatorach Wszechświata całkowitą liczbę elementarnych uderzeń 0-cząstek w granice sfer oddziaływań, naliczaną od arbitralnie wybranego punktu referencyjnego. Taka mechanika kreuje bezwzględną, ekstensywną i monotonicznie rosnącą funkcję ewolucji systemu:
 
 $$\tau = \frac{N_{\text{total}}}{\mathcal{N}_0 \cdot f_0}$$
 
-gdzie $\mathcal{N}_0$ to całkowita liczba 0-cząstek. Tak zdefiniowane $\tau$:
+gdzie $\mathcal{N}_0$ to całkowita liczba uwięzionych 0-cząstek w systemie. Tak zdefiniowane $\tau$:
 
-* **Wyłania się z mikroskopii:** Jest unormowaną miarą łącznej liczby zdarzeń elementarnych.
-* **Nie wymaga synchronizacji:** Opiera się na zliczaniu zdarzeń, a chaos znosi się w granicy termodynamicznej, dając gładką wielkość makroskopową.
-* **Jest nieobserwowalne bezpośrednio:** Żaden lokalny obserwator nie ma dostępu do sumy wszystkich uderzeń.
+* **Wyłania się z kinetyki:** Jest obiektywnym krokiem matematycznym odzwierciedlającym obiektywną sumę zdarzeń czysto mechanicznych.
+* **Znosi problem synchronizacji:** Opiera się bezpośrednio na geometrycznym sumowaniu statystycznych zderzeń izolowanych w klatkach oscylatorów, dając na makropoziomie gładką, uśrednioną ciągłość zmiany.
+* **Jest mierzalne wyłącznie w abstrakcji termodynamicznej:** Żaden realny obserwator, wbudowany w trójwymiarową Błonę i ograniczony wewnętrzną prędkością propagacji fal, nie ma natychmiastowego dostępu do całkowitej puli zdarzeń.
 
-W dowolnym infinitezymalnym przedziale $d\tau$ każda 0-cząstka wykonuje średnio $f_0 \, d\tau$ uderzeń (w stanie niezaburzonym).
+W każdym dowolnie krótkim interwale badawczym $d\tau$, uśredniona 0-cząstka rezydująca w płaskim, niezaburzonym obszarze wykonuje $f_0 \, d\tau$ odbić w komorze sprężystej.
 
-**Uśrednianie jako pomost do kontinuum**
-W skali znacznie poniżej Plancka chaotyczne fluktuacje ulegają samouśrednieniu. Lokalna średnia gęstość uderzeń na jednostkę $\tau$ definiuje pole skalarne:
+**Kinetyka zderzeniowa obwiednią dla kontinuum**
+Rozmiary sfer oddziaływań są głęboko sub-planckowskie, co sprawia, że lokalny chaos fluktuacji wewnątrz sfer błyskawicznie ulega procesowi przestrzennego samouśrednienia. Parametrem sprawczym (fizycznym ciśnieniem) staje się lokalna gęstość uderzeń w czasie ewolucyjnym, stanowiąca pole skalarne:
 
 $$\rho_{\text{imp}}(\mathbf{x}, \tau) = \lim_{V \to \text{meso}} \frac{1}{V} \sum_{i \in V} \frac{dN_i}{d\tau}$$
 
-W Stanie Zero $\rho_{\text{imp}} = \text{const} \cdot f_0$. W obecności deformacji (kompresja, torsja) lokalna średnia częstotliwość odbiega od $f_0$. Ta lokalna, uśredniona częstotliwość wchodzi do równania falowego i równań dynamiki kontinuum jako deterministyczna obwiednia.
+Dopóki region spoczywa w niezaburzonym Stanie Zero, $\rho_{\text{imp}} = \text{const} \cdot f_0$. Jednak wtargnięcie do obszaru struktury falowej lub splotu topologicznego drastycznie zacieśnia klatkę oscylacji. Niezmienny pęd uwięzionej 0-cząstki powoduje natychmiastowy wzrost tempa kolizji ze ścianami zniekształconej sfery. Wartość obserwowalna ($f_{\text{lok}}$) odbiega w górę od poziomu $f_0$. Ten lokalny skok zderzeniowy natychmiast generuje różnicę ciśnień kinematycznych, stając się źródłowym sprzężeniem dla wszystkich zjawisk elasto-dynamicznych, równań falowych oraz gradientów, na których opiera się oddziaływanie ładunków.
 
-**Czas mierzony $t$ a parametr $\tau$**
-Pojedynczy zegar (np. atom) nie mierzy globalnego $\tau$, lecz zlicza cykle własnego oscylatora. Jego częstotliwość chwilowa $f_{\text{lok}}(\mathbf{x}, \tau)$ zależy od lokalnego stanu naprężenia i prędkości ruchu. Mierzony przyrost czasu to:
+**Czas mierzony $t$ jako pochodna zagęszczenia wibracji**
+Przy tak zarysowanym mechanizmie pojęcie czasu ulega odczarowaniu. Czas mierzony w układach laboratoryjnych nie ma powiązania z obiektywnym wektorem $N_{\text{total}}(\tau)$. Każdy lokalny zegar (nawet precyzyjny układ atomowy) to jedynie makroskopowy rezonator zbudowany z zamkniętych wirowo naprężeń fali stojącej (solitonów). Zlicza on jedynie własne wewnętrzne stany równowagi fazowej.
+
+Chwilowa miara czasu płynącego z perspektywy takiego układu ($f_{\text{lok}}$) zależy ściśle od stanu uwięzienia i stopnia deformacji macierzy komórek podłoża. Inkrement obserwowalnego czasu wyraża proporcja:
 
 $$dt = \frac{f_0}{f_{\text{lok}}(\mathbf{x}, \tau)} \, d\tau$$
 
-W obszarze niezaburzonym $dt = d\tau$. Każde odchylenie $f_{\text{lok}}$ od $f_0$ powoduje dylatację czasu. Czas jest więc statystycznym zegarem kosmicznym utkanym z miliardów niezależnych "tyknięć", a porządek wyłania się z chaosu zjawiskowo, podobnie jak temperatura.
+Tam, gdzie komórki spoczywają niezaburzone ($f_{\text{lok}} = f_0$), obserwator notuje przepływ zjawisk rzędu $dt = d\tau$. Gdy materia (bądź zagęszczenie osnowy obok ekstremalnej masy ugiętej w kierunku osi 4D) wymusza lokalnie silną kompresję przestrzenną, skutkując skróceniem dróg swobodnych drgających cząstek i skokiem parametru zderzeniowego do $f_{\text{lok}} > f_0$, rozwój makroskopowych procesów wymusza zużycie mniejszej puli ułamków zdarzeń wewnątrz układu na jeden krok globalny $\tau$. Stanowi to fizyczny i geometryczny mechanizm zjawiska, które w klasycznej fizyce interpretuje się zjawiskowo jako dylatację (zwolnienie) czasu.
 
 ## 1.2. Ośrodek i przestrzeń: Krystaliczna 0-Matryca i izotropowa 3-brana
 
@@ -84,17 +88,16 @@ Rozwiązanie tego pozornego paradoksu wymaga rygorystycznego rozdzielenia dynami
 Dopóki lokalna kompresja sieci nie przekracza krytycznego progu stabilności geometrycznej klatek Wignera-Seitza, 0-Matryca zachowuje się jak idealne, liniowe kontinuum sprężyste. W tym stanie:
 
 * Odkształcenia są zachowawcze. Sfery Odpychania Kinetycznego ulegają deformacji (np. spłaszczeniu), ale 0-cząstki rygorystycznie zachowują macierz swoich dotychczasowych sąsiadów. Nie dochodzi do zmiany lokalnej topologii sieci.
-* Nadmiar efektywnego ciśnienia $P_{\text{eff}}$, wynikający ze wzrostu częstotliwości zderzeń $f_{\text{osc}}$, jest transferowany symetrycznie na zewnątrz na zasadzie kaskady brzegowej. Ośrodek relaksuje energię poprzez propagację podłużnych i poprzecznych fal sprężystych z prędkością $c_{\text{lok}}$. Rozpraszanie zjawisk zaburzających jest natychmiastowe i całkowite.
+* Nadmiar efektywnego ciśnienia $P_{\text{eff}}$, wynikający ze wzrostu częstotliwości zderzeń $f_{\text{lok}}$, jest transferowany symetrycznie na zewnątrz na zasadzie kaskady brzegowej. Ośrodek relaksuje energię poprzez propagację podłużnych i poprzecznych fal sprężystych z prędkością $c_{\text{lok}}$. Rozpraszanie zjawisk zaburzających jest natychmiastowe i całkowite.
 
 **Reżim II: Nieliniowa blokada topologiczna ($\phi \ge \phi_{\text{lock}}$)**
 Sytuacja zmienia się drastycznie, gdy na skutek ekstremalnej koncentracji energii (np. zderzenia wielkoskalowych fal ciśnienia w przestrzeni 4D) układ zostaje skompresowany poza granicę plastyczności $\phi_{\text{lock}}$.
 
-* Klatki kinetyczne zostają zmiażdżone do tego stopnia, że zachowanie dotychczasowej macierzy sąsiedztwa staje się geometrycznie niemożliwe. Hiper-szybkie oscylatory ($v_k \gg c_{\text{lok}}$) zostają zmuszone do wymuszonej zamiany pozycji (topological neighbor-switching).
-* W wyniku tego geometrycznego skręcenia struktury, wektory pędu kolizyjnego nie mogą być już przekazywane na zewnątrz (odśrodkowo). Zaczynają się one krzyżować pod niestandardowymi kątami, zapętlając się w samopodtrzymujący się, cykliczny wir kinematyczny.
-* Następuje kinetyczne samouwięzienie: niesamowita prędkość 0-cząstek, która w Reżimie I gwarantowała natychmiastowe rozpraszanie energii, teraz gwarantuje jej natychmiastowe i permanentne zamknięcie. Cząstki uderzają w siebie wewnątrz splotu tak szybko, że każda próba powrotu do liniowego stanu geometrycznego jest natychmiast blokowana przez napływający z naprzeciwka pęd sąsiedniej cząstki uwięzionej w pętli.
+* Klatki kinetyczne zostają zmiażdżone. W TSM zjawisko modyfikacji topologii nie polega na fizycznej translacji 0-cząstek z jednej komórki do drugiej. Zasada absolutnego uwięzienia 0-cząstek w ich własnych sferach oddziaływań pozostaje nienaruszona.
+* Drastycznej deformacji ulega za to sam geometryczny kształt klatek. Wektory orientacji naprężeń ulegają lokalnemu skręceniu, co wymusza permanentną rotację kierunku pędu kolizyjnego uwięzionych 0-cząstek. Zamiast przekazywać pęd na zewnątrz, wektory odkształceń krzyżują się pod niestandardowymi kątami wewnątrz silnie zgniecionego obszaru.
+* Następuje kinetyczne samouwięzienie w formie splotu: 0-cząstki uderzają w zdeformowane granice swoich komórek tak intensywnie i z tak zmodyfikowanym kątem padania, że wygenerowane w ten sposób pola naprężeń zapętlają się w samopodtrzymujący się wir. Każda próba powrotu sfery do liniowego stanu geometrycznego jest natychmiast blokowana przez napływający pod kątem pęd sąsiedniej 0-cząstki, uwięzionej w tej samej lokalnej rotacji wektorów.
 
-W tym reżimie 0-Matryca traci zdolność do uwalniania naprężeń topologicznych. Powstaje nieliniowy splot (soliton). Zyskuje on stabilność, ponieważ rozplecenie tego węzła wymagałoby ponownego przejścia przez stan ekstremalnej kompresji, co stwarza potężną barierę energetyczną. Paradoks zostaje zażegnany: ośrodek doskonale propaguje fale sprężyste w swojej liniowej granicy, ale trwale więzi energię w granicy topologicznej, dając początek skwantowanej materii.
-
+W tym reżimie 0-Matryca traci zdolność do uwalniania naprężeń przestrzennych. Powstaje nieliniowy splot (soliton). Zyskuje on stabilność, ponieważ rozplecenie tego węzła wymagałoby ponownego przejścia układu przez stan ekstremalnej kompresji, co stwarza potężną barierę energetyczną. Paradoks zostaje zażegnany: ośrodek doskonale propaguje fale sprężyste w swojej liniowej granicy, ale trwale więzi energię poprzez deformację kształtu sfer i rotacyjne skręcenie wektorów pędu w granicy topologicznej, dając początek skwantowanej materii.
 
 ## 1.6. Aksjomat materii: Skwantowane węzły topologiczne i rygorystyczne rozdzielenie masy od ładunku
 
