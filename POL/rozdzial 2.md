@@ -2,103 +2,121 @@
 
 Zdefiniowanie globalnego parametru ewolucyjnego $\tau$ oraz makroskopowych właściwości kontinuum pozwala na przejście do kluczowego zagadnienia Topologicznej Geometrodynamiki Matrycy (TGM): pytania o to, w jaki sposób z czysto kinetycznego tła zderzających się 0-cząstek wyłania się sztywny ośrodek sprężysty, a w nim – skwantowane, stabilne formy materii. Model TGM całkowicie odrzuca dualizm korpuskularno-falowy w jego tradycyjnym, abstrakcyjnym ujęciu. Cząstki elementarne nie są punktami poruszającymi się w próżni; są lokalnymi, nieliniowymi defektami topologicznymi (solitonami) samej struktury osnowy.
 
-## 2.1. Mikroskopowy mechanizm zakleszczenia (Jamming) i rygorystyczny formalizm elasto-dynamiczny w $\mathbb{R}^4$
+## 2.1. Mikroskopowy mechanizm skończonej ściśliwości i rygorystyczny formalizm elasto-dynamiczny w $\mathbb{R}^4$
 
-### Stan zakleszczenia (Jamming Transition) jako źródło makroskopowej sprężystości
+### Stan przed-zakleszczeniowy (Pre-jamming) i skończona sztywność objętościowa
 
-Przejście od chaotycznej, mikro-skalowej kinetyki 0-cząstek (zdefiniowanej w Rozdziale 0) do makroskopowego kontinuum zdolnego do propagacji fal poprzecznych zachodzi na drodze krytycznego zakleszczenia geometrycznego (jamming transition). Gdy globalny ułamek upakowania $\phi$ (packing fraction) przekracza wartość krytyczną $\phi_c$, swobodne oscylacje uwięzionych 0-cząstek wewnątrz ich Sfer Odpychania Kinetycznego zaczynają generować silnie skorelowany, kolektywny opór mechaniczny.
+Przejście od chaotycznej, mikro-skalowej kinetyki 0-cząstek do makroskopowego kontinuum zdolnego do przenoszenia odkształceń zachodzi w reżimie gęstego upakowania geometrycznego. W odróżnieniu od modeli zakładających nieskończoną sztywność, TSM definiuje stan osnowy jako ośrodek o wysokiej, lecz skończonej ściśliwości. Ułamek upakowania 0-cząstek $\phi$ oscyluje wokół wartości krytycznej $\phi_c$, co implikuje, że sfery oddziaływań posiadają mierzalną, elastomechaniczną podatność.
 
-W tej granicy uśredniona statystycznie gęstość zderzeń brzegowych na jednostkę parametru ewolucyjnego $\tau$ przestaje być lokalną fluktuacją, a staje się emergentnym polem naprężeń sprężystych. Ponieważ odległości między geometrycznymi środkami klatek kinetycznych stają się stabilne w skali makro, dynamiczne oddziaływania kontaktowe pozwalają na zdefiniowanie ciągłego pola przemieszczeń $\mathbf{u}(\mathbf{x}, \tau)$.
+W konsekwencji, dynamiczny opis 0-Matrycy musi uwzględniać dwa niezależne parametry materiałowe: moduł sprężystości objętościowej $K$ (odpowiedzialny za reakcję na zmianę gęstości) oraz moduł sprężystości poprzecznej $\mu$ (odpowiedzialny za reakcję na ścinanie). Stałe te determinują istnienie dwóch odrębnych klas wzbudzeń falowych w kontinuum, charakteryzujących się różnymi prędkościami propagacji.
 
-### Wyprowadzenie 4-wymiarowego tensora sztywności $K_{abcd}$
+### Pełny rozkład Hodge’a-Helmholtza pola przemieszczeń w $\mathbb{R}^4$
 
-Dla zachowania pełnej izotropii i homogeniczności przestrzeni tła $\mathbb{R}^4$, mikroskopowe siły kontaktowe wynikające z nieliniowego usztywnienia klatek (wynikające z potencjału kontaktu zdeformowanych sfer pod wpływem kompresji) muszą zostać uśrednione tensorowo. Tensor sztywności $K_{abcd}$, łączący tensor naprężeń $\sigma_{ab}$ z tensorem odkształceń $u_{cd} = \frac{1}{2}(\partial_d u_c + \partial_c u_d)$, w przestrzeni czterowymiarowej musi zachowywać klasyczne symetrie ($K_{abcd} = K_{bacd} = K_{abdc} = K_{cdab}$).
+Aby zachować pełną niezmienniczość wymiarową i rygor matematyczny w przestrzeni czterowymiarowej, pole przemieszczeń strukturalnych osnowy reprezentujemy jako 1-formę różniczkową $\Phi \in \Omega^1(\mathbb{R}^4)$, zdefiniowaną w bazie współrzędnych przestrzennych $(x^1, x^2, x^3, x^4)$:
 
-W ujęciu kontinuum izotropowego w $\mathbb{R}^4$, uogólniony tensor sztywności osnowy przyjmuje postać:
+$$\Phi = \Phi_1 dx^1 + \Phi_2 dx^2 + \Phi_3 dx^3 + \Phi_4 dx^4$$
 
-$$K_{abcd} = \lambda \delta_{ab}\delta_{cd} + \mu (\delta_{ac}\delta_{bd} + \delta_{ad}\delta_{bc})$$
+Zgodnie z twierdzeniem Hodge’a o rozkładzie ortogonalnym na płaskiej rozmaitości $\mathbb{R}^4$, pole to rozbija się jednoznacznie na sumę formy ścisłej, ko-ścisłej oraz składnika harmonicznego (który w rozważaniach lokalnych przyjmujemy jako zerowy):
 
-Gdzie $\lambda$ oraz $\mu$ to czterowymiarowe odpowiedniki stałych Lamégo, reprezentujące odpowiednio sprężystość dylatacji objętościowej oraz sztywność na ścinanie (moduł Kirchhoffa), natomiast $\delta_{ij}$ to delta Kroneckera działająca w sygnaturze euklidesowej przestrzeni tła $(+,+,+,+)$. Wartości te są bezpośrednią funkcją parametru upakowania oraz hiper-szybkich prędkości oscylacji kinetycznej $v_k$, gdzie moduł ścinania $\mu \propto \rho_0 v_k^2 (\phi - \phi_c)^\alpha$ generuje sztywność strukturalną niezbędną do przenoszenia zaburzeń falowych.
+$$\Phi = \Phi_L + \Phi_T = d\alpha + \delta\beta$$
 
-### Ograniczenia klasycznej dekompozycji i czterowymiarowe równanie Naviera-Cauchy’ego
+Gdzie:
 
-Makroskopowa dynamika przemieszczeń w tak zdefiniowanym ośrodku podlega uogólnionemu równaniu ruchu Naviera-Cauchy’ego. W zapisie indeksowym przestrzeni tła przybiera ono postać:
+* $d: \Omega^k \to \Omega^{k+1}$ to pochodna zewnętrzna (uogólniony gradient, generujący rotację i ekspansję).
+* $\delta: \Omega^k \to \Omega^{k-1}$ to operator ko-dyferencjału (uogólniona dywergencja), zdefiniowany poprzez gwiazdkę Hodge’a $*$ jako $\delta = - * d *$.
+* $\alpha \in \Omega^0(\mathbb{R}^4)$ jest 0-formą (potencjał skalarny pola podłużnego).
+* $\beta \in \Omega^2(\mathbb{R}^4)$ jest 2-formą (potencjał tensorowy pól poprzecznych).
 
-$$\rho_0 \frac{\partial^2 u_a}{\partial \tau^2} = (\lambda + \mu) \partial_a (\partial_b u_b) + \mu \partial_b \partial_b u_a$$
+W odróżnieniu od ograniczeń fazy izostatycznej, potencjał $\alpha \neq 0$, co oznacza, że lokalne zagęszczenia i rozrzedzenia substratu stanowią aktywny fizycznie stopień swobody.
 
-W tradycyjnej mechanice trójwymiarowej ($\mathbb{R}^3$) separacja modów podłużnych i poprzecznych odbywa się za pomocą wektorowego rozkładu Helmholtza ($\mathbf{u} = \nabla \varphi + \nabla \times \mathbf{\Psi}$). Zastosowanie tego formalizmu w przestrzeni $\mathbb{R}^4$ jest jednak fundamentalnym błędem matematycznym.
+### Równania ruchu, separacja modów i warunek cechowania
 
-W czterech wymiarach operator rotacji nie jest operatorem typu wektor-wektor. Operacja zewnętrznego różniczkowania pola wektorowego nie generuje linii (wektora osiowego), lecz asymetryczny tensor rzędu drugiego (2-formę) o $\binom{4}{2} = 6$ niezależnych składowych. Fale poprzeczne (ścinające) w $\mathbb{R}^4$ nie posiadają pojedynczego, liniowego wektora polaryzacji, lecz polaryzują się wzdłuż dwuwymiarowych płaszczyzn obrotu.
+Ogólne 4-wymiarowe równanie elasto-dynamiczne Naviera-Cauchy’ego dla ośrodka o gęstości masowej $\rho_0$ i stałych Lamégo $\lambda$ oraz $\mu$ przyjmuje w notacji zewnętrznej postać:
 
-### Formalizm algebry zewnętrznej i rozkład Hodge’a-Helmholtza
+$$\rho_0 \frac{\partial^2 \Phi}{\partial \tau^2} = (\lambda + 2\mu) d\delta \Phi - \mu \delta d \Phi$$
 
-Aby rygorystycznie odseparować mody falowe bez naruszania niezmienniczości wymiarowej, pole przemieszczeń reprezentujemy jako dynamiczną 1-formę różniczkową $\Phi \in \Omega^1(\mathbb{R}^4)$:
+Podstawiając pełny rozkład Hodge’a $\Phi = d\alpha + \delta\beta$ oraz wykorzystując tożsamości nilpotentne operatorów ($d^2 = 0$ oraz $\delta^2 = 0$), równanie ruchu ulega automatycznej separacji na dwa niezależne układy dynamiczne:
 
-$$\Phi = u_1 dx^1 + u_2 dx^2 + u_3 dx^3 + u_4 dx^4$$
+$$\rho_0 d \left( \frac{\partial^2 \alpha}{\partial \tau^2} \right) + \rho_0 \delta \left( \frac{\partial^2 \beta}{\partial \tau^2} \right) = (\lambda + 2\mu) d(\delta d \alpha) - \mu \delta(d \delta \beta)$$
 
-Wykorzystując aparat teorii Hodge'a, definiujemy dwa komplementarne operatory różniczkowe: pochodną zewnętrzną $d: \Omega^k \to \Omega^{k+1}$ oraz kodyferencjał (ko-różniczkę) $\delta: \Omega^k \to \Omega^{k-1}$, powiązany z operatorem gwiazdki Hodge'a ($*$) zależnością $\delta = - * d *$.
+Z racji ortogonalności przestrzeni form ścisłych i ko-ścisłych, powyższa tożsamość rozpada się na dwa niezależne równania falowe:
 
-Zgodnie z uogólnionym twierdzeniem Hodge’a-Helmholtza, każda gładka 1-forma przemieszczenia $\Phi$ może być jednoznacznie rozłożona na część ścisłą (uogólniony gradient) oraz ko-ścisłą (uogólnioną rotację):
+1. **Równanie modu podłużnego (dla 0-formy $\alpha$):**
 
-$$\Phi = d\alpha + \delta\beta$$
-
-Gdzie potencjały falowe są formami różnych rzędów:
-
-1. $\alpha \in \Omega^0(\mathbb{R}^4)$ to **0-forma** (pole skalarna), reprezentująca skalarne pole potencjału dylatacji podłużnej.
-2. $\beta \in \Omega^2(\mathbb{R}^4)$ to **2-forma** (asymetryczny tensor potencjału ścinania), posiadająca 6 niezależnych składowych geometrycznych.
-
-Dzięki tożsamościom topologicznym $d^2 = 0$ oraz $\delta^2 = 0$, rygorystyczna separacja składowych zachodzi poprzez operacje:
-
-* **Mod podłużny (dylatacyjny):** $\Phi_L = d\alpha \implies d\Phi_L = 0$ (pole bezrotacyjne w ujęciu uogólnionym).
-* **Mod poprzeczny (ścinający):** $\Phi_T = \delta\beta \implies \delta\Phi_T = 0$ (pole bezdywergencyjne).
-
-### Niesprzężone równania falowe i emergencja prędkości światła $c$
-
-Przekształcając czterowymiarowe równanie Naviera-Cauchy’ego na język form różniczkowych, uzyskujemy zwartą postać operatorową:
-
-$$\rho_0 \frac{\partial^2 \Phi}{\partial \tau^2} = -(\lambda + 2\mu) d(\delta \Phi) - \mu \delta(d \Phi)$$
-
-Podstawiając rozkład Hodge’a-Helmholtza ($\Phi = d\alpha + \delta\beta$) i aplikując kolejno operatory $\delta$ oraz $d$, ogólne równanie elasto-dynamiki rozpada się na dwa całkowicie niezależne, niesprzężone układy dynamiczne:
-
-**Wielkość dylatacyjna (mod podłużny):**
+$$\frac{\partial^2 \alpha}{\partial \tau^2} = c_L^2 \delta d \alpha \quad \implies \quad \frac{\partial^2 \alpha}{\partial \tau^2} = c_L^2 \nabla^2_{4D} \alpha$$
 
 
-$$\frac{\partial^2 \alpha}{\partial \tau^2} = -c_L^2 (\delta d) \alpha \implies \frac{\partial^2 \alpha}{\partial \tau^2} = c_L^2 \Delta_0 \alpha$$
+
+Gdzie prędkość fali podłużnej wynosi $c_L = \sqrt{\frac{\lambda + 2\mu}{\rho_0}}$.
+2. **Równanie modu poprzecznego (dla 2-formy $\beta$):**
+
+$$\delta \left( \frac{\partial^2 \beta}{\partial \tau^2} + c_T^2 d\delta\beta \right) = 0$$
 
 
-Gdzie $c_L = \sqrt{\frac{\lambda + 2\mu}{\rho_0}}$ to prędkość propagacji podłużnych fal zagęszczeniowych 0-Matrycy, a $\Delta_0$ to skalarny operator Laplace'a-Beltramiego.
 
-**Wielkość ścinająca (mod poprzeczny):**
+Gdzie prędkość fali poprzecznej wynosi $c_T = \sqrt{\frac{\mu}{\rho_0}}$.
+
+Ponieważ 2-forma $\beta$ w $\mathbb{R}^4$ posiada 6 niezależnych składowych, sama operacja $\Phi_T = \delta\beta$ definiuje ją z dokładnością do transformacji cechowania $\beta \to \beta + d\gamma$. Aby znieść tę nadmiarowość i zapobiec propagacji niefizycznych modów pasożytniczych („cieni” falowych), narzuca się rygorystyczny warunek ko-ścisłości:
+
+$$\delta\beta = 0$$
+
+Zastosowanie cechowania $\delta\beta = 0$ redukuje operator Laplace’a-de Rhama $\Delta_2 = d\delta + \delta d$ działający na $\beta$ do czystego członu czynnego. Ostateczne, zredukowane równanie fali poprzecznej przyjmuje postać:
+
+$$\frac{\partial^2 \beta}{\partial \tau^2} = -c_T^2 \delta d \beta$$
+
+### Rzutowanie 3D + $x^4$: Rozszerzona mapa pól fizycznych
+
+Rozdzielenie współrzędnych wewnątrzpowierzchniowych 3-brany ($x^1, x^2, x^3$) od osi ortogonalnej Bulk ($x^4$) pozwala na zmapowanie składowych form różniczkowych na obserwowalne makroskopowo oddziaływania.
+
+**Dekompozycja modu poprzecznego ($\beta \in \Omega^2(\mathbb{R}^4)$):**
+2-formę $\beta$ rozbijamy na składowe wewnętrzne i zewnętrzne względem brany:
 
 
-$$\frac{\partial^2 \beta}{\partial \tau^2} = -\mu \delta(d \delta \beta) \implies \frac{\partial^2 \beta}{\partial \tau^2} = c_T^2 \Delta_2 \beta$$
+$$\beta = \bar{\beta} + \bar{\psi} \wedge dx^4$$
+
+* $\bar{\beta} = \frac{1}{2}\beta_{ij} dx^i \wedge dx^j$ (3 składowe): reprezentuje płaszczyzny polaryzacji zamknięte wewnątrz 3-brany. Generuje poprzeczne fale elektromagnetyczne, poruszające się z prędkością graniczną $c = c_T$.
+* $\bar{\psi} = \beta_{i4} dx^i$ (3 składowe): reprezentuje płaszczyzny polaryzacji sprzężone z kierunkiem ortogonalnym. Generuje naciąg mechaniczny membrany w osi $x^4$, interpretowany jako pole grawitacyjne.
+
+Warunek cechowania $\delta\beta = 0$ w tym rozbiciu przyjmuje formę więzów różniczkowych:
 
 
-Gdzie $\Delta_2 = d\delta + \delta d$ to operator Laplace’a-de Rhama (laplasjan dla 2-form), a prędkość propagacji fali ścinającej wynosi:
+$$\partial_i \beta_{i4} = 0 \quad \implies \quad \text{div}(\bar{\psi}) = 0$$
 
-$$c_T = \sqrt{\frac{\mu}{\rho_0}} \equiv c$$
+$$\partial_j \beta_{ji} + \partial_4 \beta_{4i} = 0$$
 
-To fundamentalny punkt zwrotny teorii TGM: fala poprzeczna w zakleszczonej 0-Matrycy porusza się dokładnie z prędkością, którą makroskopowo identyfikujemy jako prędkość światła $c$. Światło nie jest samodzielną cząstką ani abstrakcyjnym polem zawieszonym w nicości, lecz fizycznym, poprzecznym odkształceniem sprężystym gęsto upakowanej osnowy.
 
-### Polaryzacja płaszczyznowa a struktura 3-brany
+Zapewnia to solenoidalność pola grawitacyjnego w branie oraz lokalne równoważenie naprężeń elektromagnetycznych przez gradienty sił ortogonalnych wzdłuż czwartego wymiaru.
 
-Zastąpienie wektora polaryzacji przez 2-formę $\beta$ ma kluczowe konsekwencje dla mechanizmu emergencji materii i oddziaływań na naszej trójwymiarowej Błonie (zarysowanej w Sekcji 0.5). Ponieważ $\beta$ reprezentuje płaszczyzny obrotu w $\mathbb{R}^4$, jej składowe w naturalny sposób rozdzielają się na dwie klasy geometryczne względem hiperpłaszczyzny naszej 3-brany:
+**Dekompozycja modu podłużnego ($\alpha \in \Omega^0(\mathbb{R}^4)$):**
+Pochodna zewnętrzna 0-formy potencjału podłużnego tworzy pole gradientów:
 
-1. **Składowe wewnętrzne (Intra-brane components):** Składowe $\beta_{ij}$ (gdzie $i, j \in \{1, 2, 3\}$) odpowiadają płaszczyznom polaryzacji całkowicie zawartym wewnątrz przestrzeni naszej Błony. Przejawiają się one makroskopowo jako klasyczne poprzeczne **fale elektromagnetyczne**, których dynamika i struktura naprężeń geometrycznych zostanie wyprowadzona w formie relacji cechowania i pełnych równań Maxwella w Rozdziale 3.
-2. **Składowe zewnętrzne (Extra-brane components):** Składowe $\beta_{i4}$ bezpośrednio wiążą dynamikę wewnętrzną z wychyleniem lub kompresją osnowy wzdłuż czwartego wymiaru ($x_4$). Te poprzeczne oscylacje okresowo deformują lokalną geometrię samej Błony, generując zmienny gradient ciśnienia kolizyjnego 0-精度cząstek. Zjawisko to eliminuje potrzebę postulowania abstrakcyjnych pól grawitacyjnych – grawitacja oraz fluktuacje pola metrycznego $g_{ab}$ wyłaniają się bezpośrednio jako makroskopowy efekt zewnętrznych, ortogonalnych składowych polaryzacji fal ścinających w 0-Matrycy.
 
-## 2.2. Pole odkształcenia i węzły topologiczne w krystalicznej 3-brane
+$$d\alpha = \bar{d}\alpha + \partial_4 \alpha dx^4 = \left(\sum_{i=1}^3 \partial_i \alpha dx^i\right) + \partial_4 \alpha dx^4$$
 
-Skoro ośrodek posiada pełen tensor sztywności, stan mechaniczny przestrzeni fizycznej (naszej trójwymiarowej membrany – 3-brany, zawieszonej w 4-wymiarowym kontinuum) można opisać lokalnym polem wektorowym orientacji $\mathbf{n}(x)$, gdzie $\mathbf{n}^2 = 1$. Zmienna ta reprezentuje kierunkowe odkształcenie i skręcenie komórek Wignera-Seitza uwięzionych 0-cząstek względem idealnego, niezaburzonego tła (Stanu Zero).
+* Składnik $\bar{d}\alpha$ (wewnątrzbrany): generuje podłużne fale ciśnienia mechanicznego bezpośrednio w trójwymiarowej płaszczyźnie osnowy. Objawia się jako uniwersalne, skalarowe pole gęstości tła (powiązane z relaksacją matrycy, dynamiką ciemnej energii lub globalnymi fluktuacjami metrycznymi).
+* Składnik $\partial_4 \alpha$ (ortogonalny): definiuje symetryczne ściskanie i rozszerzanie profilu grubości samego substratu 3-brany w przestrzeni Bulk.
+
+Ponieważ prędkość fali podłużnej $c_L = \sqrt{\frac{\lambda + 2\mu}{\rho_0}}$ jest jawnie większa od prędkości fal poprzecznych $c_T = \sqrt{\frac{\mu}{\rho_0}}$, skalarowe zaburzenia kompresyjne osnowy propagują się w sposób superluminalny ($c_L > c$). Zjawisko to nie narusza wewnętrznej spójności TSM, gdyż prędkość światła $c$ jest zdefiniowana wyłącznie przez próg propagacji modów poprzecznych ($\bar{\beta}$).
+
+## 2.2. Załamanie superpozycji, konwersja modów i węzły topologiczne w krystalicznej 3-brane
+
+W reżimie niskich energii, jak wykazano w sekcji 2.1, mody podłużne (kompresyjne opisywane 0-formą $\alpha$) i poprzeczne (ścinające opisywane 2-formą $\beta$) propagują się w 0-Matrycy jako niezależne, ortogonalne rozwiązania. Zasada superpozycji (decoupling) pozwala na ich bezkolizyjne przenikanie. Sytuacja ta ulega jednak fundamentalnemu załamaniu w warunkach ekstremalnej koncentracji energii.
+
+**Nieliniowa konwersja modów i próg plastyczności**
+Gdy potężna, lokalna fluktuacja pola dylatacyjnego (np. zderzenie potężnych fal podłużnych tła) drastycznie zwiększa zagęszczenie 0-cząstek, lokalny ułamek upakowania dąży do krytycznego progu zamrożenia topologicznego ($\phi \to \phi_c$). W tym punkcie sfery oddziaływań 0-cząstek ulegają ekstremalnemu ograniczeniu przestrzennemu, a opór objętościowy osnowy staje się asymptotycznie nieskończony.
+
+Z powodu tej mechanicznej bariery, energia fali podłużnej nie może być dłużej magazynowana w postaci zgniotu izotropowego. Nieskończony opór objętościowy przy przekroczeniu granicy plastyczności wymusza gwałtowną, nieliniową transformację energii podłużnej na deformacje ścinające. Jest to zjawisko konwersji modów (mode conversion), charakterystyczne dla silnie nieliniowych ośrodków ciągłych. Nadmiarowa energia ciśnienia zostaje kaskadowo zrzucona na mod $\beta$, wywołując ekstremalne, lokalne skręcenie i zwichnięcie komórek sieci.
 
 **Pojęcie węzła topologicznego (Solitonu)**
-Gdy lokalne odkształcenie osnowy przekroczy krytyczną granicę plastyczności (wywołaną np. ekstremalną koncentracją energii), struktura sieci ulega lokalnemu, nieliniowemu przeorganizowaniu. Powstaje tzw. defekt topologiczny. Jest to trwała, samopodtrzymująca się konfiguracja pola orientacji $\mathbf{n}$, która zapętla się przestrzennie w taki sposób, że nie można jej w sposób ciągły rozpleść ani wygładzić do stanu płaskiego tła bez rozerwania ciągłości sieci.
+To wymuszone, gwałtowne skręcenie ścinające trwale modyfikuje lokalną geometrię osnowy. Stan mechaniczny przestrzeni fizycznej w tym obszarze opisuje lokalne pole wektorowe orientacji $\mathbf{n}(\mathbf{x})$, gdzie $|\mathbf{n}| = 1$. Zmienna ta reprezentuje kierunkowe odkształcenie komórek uwięzionych 0-cząstek względem płaskiego tła.
 
-Matematycznie, konfiguracja ta jest mapowaniem z przestrzeni fizycznej do sfery stanów. Każdemu takiemu zniekształceniu przypisana jest całkowita, niezmienna liczba topologiczna – liczba splotu (ładunek topologiczny) $\mathcal{W}$, zdefiniowana jako całka z gęstości ładunku topologicznego po objętości 3-brany:
+Gdy deformacja przekroczy próg stabilności, wektory pędu uwięzionych 0-cząstek zmuszone są do geometrycznej zmiany macierzy sąsiedztwa. Powstaje defekt topologiczny – trwała, samopodtrzymująca się konfiguracja pola orientacji $\mathbf{n}$, która zapętla się przestrzennie w taki sposób, że nie można jej w sposób ciągły rozpleść ani wygładzić do stanu początkowego bez fizycznego rozerwania ciągłości sieci $\mathbb{R}^4$.
+
+Matematycznie, to zniekształcenie jest mapowaniem z przestrzeni fizycznej na sferę stanów. Każdemu takiemu zapętleniu przypisana jest całkowita, niezmienna liczba topologiczna – liczba splotu (ładunek topologiczny) $\mathcal{W}$, zdefiniowana jako całka z gęstości skręcenia po objętości 3-brany:
 
 $$\mathcal{W} = \frac{1}{12\pi^2} \int_{\mathbb{R}^3} \epsilon^{ijk} \epsilon_{abc} n^a \partial_i n^b \partial_j n^c \, d^3x$$
 
-Ponieważ $\mathcal{W}$ musi być liczbą całkowitą ($\mathcal{W} \in \mathbb{Z}$), proces ten ma charakter naturalnie skwantowany. Węzły te stanowią fizyczną realizację fermionów. Ich stabilność nie wynika z istnienia tajemniczych sił wewnętrznych, lecz z barier topologicznych: przejście od stanu z $\mathcal{W} = 1$ (np. elektron) do stanu próżni $\mathcal{W} = 0$ wymagałoby globalnego, energetycznie niemożliwego rozcięcia osnowy 0-Matrycy.
+Ponieważ całka ta musi przyjmować wartości całkowite ($\mathcal{W} \in \mathbb{Z}$), proces ten ma charakter naturalnie skwantowany. Węzły te stanowią fizyczną realizację fermionów. Ich stabilność nie wynika z postulowanych *ad hoc* sił jądrowych, lecz z twardej topologii: płynne przejście ze stanu $\mathcal{W} = 1$ do stanu płaskiej próżni $\mathcal{W} = 0$ jest zablokowane barierą energetyczną wymaganą do makroskopowego rozerwania krystalicznej sieci osnowy.
 
 ## 2.3. Hydrodynamiczny mechanizm bezwładności i bariera Peierlsa-Nabarro
 
@@ -109,7 +127,7 @@ Węzeł topologiczny reprezentuje zmagazynowaną, lokalną deformację sprężys
 
 $$m_0 = \frac{1}{c_0^2} \int_{\mathbb{R}^3} \left( \frac{1}{2} K_{abcd} \epsilon_{ab} \epsilon_{cd} \right) d^3x$$
 
-Gdy na węzeł działa siła zewnętrzna, nie przesuwa ona fizycznych 0-cząstek na duże odległości. Ruch solitonu polega na sekwencyjnym, bezstratnym transferze stanu odkształcenia z jednej komórki sieci do sąsiedniej – podobnie jak fala dylatacyjna lub soliton w kryształach makroskopowych. Ponieważ jednak ruch ten wymaga lokalnego, hydrodynamicznego przeorganizowania pędów uwięzionych 0-cząstek wewnątrz klatki zakleszczenia, proces ten generuje opór kinetyczny. Ten opór ośrodka przeciwko zmianie stanu ruchu fali stojącej jest tym, co makroskopowo nazywamy bezwładnością.
+Gdy na węzeł działa siła zewnętrzna, nie przesuwa ona fizycznych 0-cząstek na duże odległości. Ruch solitonu polega na sekwencyjnym, bezstratnym transferze stanu odkształcenia z jednej komórki sieci do sąsiedniej – podobnie jak fala dylatacyjna lub soliton w kryształach makroskopowych. Uformowany, stabilny splot topologiczny o zdefiniowanej chiralności jest z definicji bezdylatacyjny: nie zmienia sumarycznej objętości lokalnej osnowy wzdłuż wektora swojego ruchu, a jedynie ją skręca. Dzięki temu asymetryczny węzeł ślizga się po matrycy nie emitując stratnego promieniowania w kanale modu podłużnego $\alpha$, dopóki nie zostanie rozerwany w procesie anihilacji. Ponieważ jednak ruch ten wymaga lokalnego, hydrodynamicznego przeorganizowania pędów uwięzionych 0-cząstek wewnątrz klatki zakleszczenia, proces ten generuje opór kinetyczny. Ten opór ośrodka przeciwko zmianie stanu ruchu fali stojącej jest tym, co makroskopowo nazywamy bezwładnością.
 
 **Zniesienie barier dyskretnych (Efekt Peierlsa-Nabarro)**
 W klasycznej fizyce ciał stałych, ruch defektu w sieci dyskretnej wiąże się z pokonywaniem okresowego potencjału podłoża (barykady energetycznej), co prowadzi do dyssypacji energii i hamowania. W TGM efekt ten zostaje zredukowany do zera poprzez asymetrię skal.
