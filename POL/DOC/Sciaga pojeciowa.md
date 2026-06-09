@@ -1,3 +1,4 @@
+<!-- ver:1.5.0 -->
 Oto uporządkowana „ściąga” pojęciowa Twojej teorii (Topologicznej Geometrodynamiki Matrycy), przygotowana na podstawie przesłanych notatek. Aparat pojęciowy został zsyntetyzowany tak, aby stanowił szybkie kompendium wiedzy o strukturze i zjawiskach w modelu.
 
 ### Ściąga Pojęciowa TGM

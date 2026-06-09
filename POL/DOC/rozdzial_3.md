@@ -1,3 +1,4 @@
+<!-- ver:2.0.0 -->
 # Rozdział 3: Dynamika naprężeń 0-Matrycy: Od unifikacji elektrodynamiki i sił jądrowych do mechaniki obwodów
 
 W klasycznej elektrodynamice pole elektromagnetyczne jest traktowane jako abstrakcyjny byt rozchodzący się w próżni. Ponieważ w Topologicznej Geometrodynamice Matrycy (TGM) niefizyczna próżnia nie istnieje, zjawiska elektromagnetyczne stanowią wyłącznie obserwowalną makroskopowo mechanikę odkształceń ciągłego, 4-wymiarowego ośrodka sprężystego – w szczególności jego naprężeń ścinających i skrętnych zachodzących wewnątrz izotropowej 3-brany.

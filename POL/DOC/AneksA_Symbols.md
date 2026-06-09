@@ -1,3 +1,4 @@
+<!-- ver:1.5.0 -->
 # Aneks A: Zintegrowany spis symboli i oznaczeń
 
 Poniższa tabela zestawia wszystkie fundamentalne pojęcia, zmienne i stałe materiałowe wykorzystywane w formalizmie Topologicznej Geometrodynamiki 0-Matrycy (TGM).

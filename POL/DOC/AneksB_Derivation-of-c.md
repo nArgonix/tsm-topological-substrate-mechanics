@@ -1,3 +1,4 @@
+<!-- ver:0.5.0 -->
 # Aneks B: Rygorystyczne wyprowadzenie elasto-dynamicznej zmiany prędkości światła w polu magnetycznym
 
 Poniższe wyprowadzenie stanowi matematyczny fundament dla **Aksjomatu 1.5** oraz priorytetowego testu rezonansowego opisanego w **Rozdziale 11.1**. Pokazuje ono, w jaki sposób wirowość (skręcenie) przestrzeni przekłada się na mierzalne opóźnienie fazowe fali poprzecznej.

@@ -1,3 +1,4 @@
+<!-- ver:1.0.5 -->
 # Rozdział 7: Oddziaływania subatomowe, fizyka hadronów i determinizm kwantowy w Topologicznej Geometrodynamice Matrycy (TGM)
 
 W modelu Topologicznej Geometrodynamiki Matrycy (TGM) zjawiska subatomowe nie są opisane przez abstrakcyjne zbiory probabilistycznych prawdopodobieństw i punktowe, bezwymiarowe cząstki zawieszone w próżni. Dynamika cząstek elementarnych to w istocie mechanika nieliniowych odkształceń, węzłów topologicznych oraz rezonansów falowych propagujących się w 4-wymiarowym, sprężystym kontinuum – 0-Matrycy. Niniejszy rozdział redefiniuje kluczowe zjawiska fizyki wysokich energii, sprowadzając je do rygorystycznych procesów z zakresu mechaniki ośrodków ciągłych.

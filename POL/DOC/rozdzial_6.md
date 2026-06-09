@@ -1,3 +1,4 @@
+<!-- ver:2.0.0 -->
 # Rozdział 6: Grawitacja jako ortogonalny naciąg. Wymiar 4D, Plazmoidy i nieliniowa dynamika kontinuum
 
 W Topologicznej Geometrodynamice Substratu (TSM) odrzucamy abstrakcję geometryczną, która przypisuje grawitacji status czystego zakrzywienia niematerialnej czasoprzestrzeni. Grawitacja zostaje tu zdefiniowana jako rzeczywiste naprężenie ortogonalne (naciąg poprzeczny) sprężystej 3-brany w kierunku czwartego wymiaru przestrzennego ($x^4$). Niniejszy rozdział przedstawia pełen formalizm matematyczny opisujący zachowanie osnowy zarówno w reżimie liniowym, jak i w skrajnie nieliniowych warunkach astrofizycznych, zastępując aparaturę Ogólnej Teorii Względności (OTW) klasyczną elastodynamiką ośrodków ciągłych.

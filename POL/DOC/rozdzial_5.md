@@ -1,3 +1,4 @@
+<!-- ver:2.0.0 -->
 # Rozdział 5: Topologiczna mechanika wykluczenia i stabilność materii
 
 W klasycznej mechanice kwantowej Zakaz Pauliego wprowadzany jest jako aksjomat fenomenologiczny, wynikający z matematycznej asymetrii funkcji falowej dla cząstek o połówkowym spinie. Topologiczna Geometrodynamika Substratu (TSM) eliminuje ten zjawiskowy postulat. Poniższy rozdział dowodzi, że reguły obsadzeń stanów oraz stabilność samej materii są bezpośrednią, rygorystyczną konsekwencją wytrzymałości materiałowej 4-wymiarowej 0-Matrycy oraz mechanicznej kolizji wzorców topologicznych.

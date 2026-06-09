@@ -1,3 +1,4 @@
+<!-- ver:1.3.0 -->
 # Chapter 3: Electromagnetism as 0-Matrix Stress Dynamics: From Link Topology to Circuit Mechanics
 
 In classical electrodynamics, the electromagnetic field is treated as an abstract entity propagating through a vacuum. Since a non-physical vacuum does not exist in Topological Substrate Mechanicss (TSM), electromagnetic phenomena constitute solely the macroscopically observable mechanics of deformations within a continuous, 4-dimensional elastic medium—specifically, its shear and torsional stresses occurring inside an isotropic 3-brane.

@@ -1,3 +1,4 @@
+<!-- ver:1.3.0 -->
 # Topological Substrate Mechanics (TSM)
 
 > *Presented here is a proposal for the unification of General Relativity and the Standard Model. Grounded in data accumulated through decades of observations and experimental research, TSM (Topological Substrate Mechanics) merges these two pillars of modern physics into a single, coherent framework. The formulation of this mathematical formalism would not have been possible without building upon the groundbreaking work of numerous outstanding theoretical physicists and mathematicians. TSM synthesizes their key achievements, reshaping the existing, rigorous conceptual framework into a unified language for describing reality that transcends current divisions.*

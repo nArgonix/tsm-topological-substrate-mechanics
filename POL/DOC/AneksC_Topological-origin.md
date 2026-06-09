@@ -1,3 +1,4 @@
+<!-- ver:0.5.0 -->
 # Aneks C: Topologiczne pochodzenie skwantowanych stałych fizycznych
 
 ## C.1. Ładunek elektryczny jako niezmiennik chiralności

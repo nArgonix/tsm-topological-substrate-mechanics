@@ -1,3 +1,4 @@
+<!-- ver:0.8.5 -->
 # Rozdział 13: Podsumowanie ontologiczne, stałe fundamentalne i ostateczna unifikacja fizyki
 
 Celem Topologicznej Geometrodynamiki 0-Matrycy (TGM) jest zbudowanie rygorystycznego, spójnego inżynieryjnie i geometrycznie modelu Wszechświata, eliminującego probabilistyczne abstrakcje mechaniki kwantowej oraz niefizyczne osobliwości teorii względności. Praca ta unifikuje mechanikę, elektrodynamikę, grawitację i fizykę kwantową na fundamencie jednego, nieliniowego ośrodka sprężystego. Poniżej przedstawiono ostateczną syntezę paradygmatu.

@@ -1,3 +1,4 @@
+<!-- ver:1.3.0 -->
 # Chapter 2: Topological Nodes and Solitonic Emergence in TSM: Hydrodynamics of Inertia, Antimatter, the Geometric Origin of Spin-1/2, and the Matrix Stiffness Formalism
 
 Defining the global evolutionary parameter $\tau$ and the macroscopic properties of the continuum allows for a transition to the core issue of Topological Matrix Geometrodynamics (TSM): the question of how a rigid elastic medium—and within it, quantized, stable forms of matter—emerges from a purely kinetic background of colliding 0-particles. The TSM model completely rejects wave-particle dualism in its traditional, abstract interpretation. Elementary particles are not pointlike entities moving in a vacuum; they are local, non-linear topological defects (solitons) of the matrix structure itself.

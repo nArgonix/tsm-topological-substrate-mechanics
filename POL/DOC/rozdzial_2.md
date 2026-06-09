@@ -1,3 +1,5 @@
+<!-- ver:2.0.0 -->
+
 # Rozdział 2: Węzły topologiczne i emergencja solitoniczna w TSM: Hydrodynamika bezwładności, antymateria, geometryczne pochodzenie spinu 1/2 oraz formalizm sztywności Substratu
 
 Zdefiniowanie globalnego parametru ewolucyjnego $\tau$ oraz makroskopowych właściwości kontinuum pozwala na przejście do kluczowego zagadnienia Topologicznej Geometrodynamiki Substratu (TSM): pytania o to, w jaki sposób z czysto kinetycznego tła zderzających się 0-cząstek wyłania się sztywny ośrodek sprężysty, a w nim – skwantowane, stabilne formy materii. Model TSM całkowicie odrzuca dualizm korpuskularno-falowy w jego tradycyjnym, abstrakcyjnym ujęciu. Cząstki elementarne nie są punktami poruszającymi się w próżni; są lokalnymi, nieliniowymi defektami topologicznymi (solitonami) samej struktury osnowy.

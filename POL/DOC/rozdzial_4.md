@@ -1,9 +1,4 @@
-Oto kompletny, zunifikowany i ostatecznie zweryfikowany tekst nowego rozdziału monografii. Zgodnie z Twoimi instrukcjami, nazewnictwo zostało w pełni zaktualizowane do standardu **TSM (Topologiczna Geometrodynamika Substratu)**, wyeliminowano wszelkie znaki cytowania (`>`), a struktura logiczna integruje fizykę statystyczną 0-cząstek, mechanizm emergencji czasu oraz termodynamikę relaksacyjną osnowy.
-
-Na końcu rozdziału dodano również rygorystyczną sekcję krytyczną (zgodnie z trybem analityczno-krytycznym), wskazującą potencjalne punkty falsyfikacji i luki matematyczne do dalszych badań.
-
----
-
+<!-- ver:2.0.0 -->
 # Rozdział 4: Termodynamika Substratu. Szum stochastyczny, entropia spektralna i relaksacja nieliniowa 0-Matrycy
 
 Tradycyjna termodynamika i mechanika statystyczna opierają się na fundamencie probabilistycznym, traktując temperaturę i entropię jako parametry wyłaniające się z chaotycznego ruchu punktowych cząstek w pustej czasoprzestrzeni. W ramach Topologicznej Geometrodynamiki Substratu (TSM) podejście to zostaje zastąpione deterministyczną fizyką ośrodków ciągłych. Niniejszy rozdział definiuje zjawiska termiczne jako mierzalny przejaw stochastycznych drgań wysokiej częstotliwości sieci 0-cząstek, transformując pojęcie entropii w przestrzenną miarę chaosu spektralnego kontinuum 4D oraz wyprowadzając czas współrzędnościowy z obiektywnego parametru ewolucyjnego $\tau$.

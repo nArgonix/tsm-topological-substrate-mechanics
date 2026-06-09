@@ -1,3 +1,4 @@
+<!-- ver:1.3.0 -->
 # Chapter 1: Axiomatics and Rigorous Formalism of TSM: Emergent Time, Crystalline 0-Matrix, and Elastodynamics of the 3-Brane
 
 Before the full mathematical apparatus describing continuum dynamics and wave phenomena is introduced, it is necessary to rigorously define the fundamental parameter with respect to which this dynamics occurs. The Topological Sheet Geometrodynamics (TSM) model completely rejects the concept of empty spacetime and absolute, Newtonian time. As outlined in Chapter 0, the foundation of reality is the 0-Matrix – a dense, chaotic substrate of trapped 0-particles.

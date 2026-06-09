@@ -1,3 +1,4 @@
+<!-- ver:0.0.6 -->
 <h1 align="center">
   <b>T</b>opologiczna Geometrodynamika 0-<b>M</b>atrycy<sub>(Substratu)</sub>
 </h1>

@@ -1,3 +1,4 @@
+<!-- ver:0.5.0 -->
 # Aneks D: Zaawansowana elektrodynamika torsyjna i mechanika zjawisk anomalnych w TGM
 
 Poniższy aneks stanowi rygorystyczne rozszerzenie formalizmu przedstawionego w Rozdziale 4. Zastosowano tu aparat elasto-mechaniki 4-wymiarowej 0-Matrycy do precyzyjnego opisu przepływu prądu oraz rozwiązania klasycznych paradoksów elektrodynamiki i fizyki kwantowej, które pozostają niewyjaśnione na gruncie standardowego modelu cząstek punktowych.

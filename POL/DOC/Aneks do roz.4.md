@@ -1,3 +1,4 @@
+<!-- ver:0.7.0 -->
 # Aneks Matematyczny do Rozdziału 4: Elasto-dynamika wykluczenia topologicznego i tensorowy formalizm 0-Matrycy
 
 Niniejszy aneks stanowi formalne uzupełnienie Rozdziału 4, przenoszące heurystyczny, probabilistyczny opis mechaniki kwantowej (oparty na funkcjach falowych $\psi$) na ścisły grunt elasto-dynamiki ośrodków ciągłych w czterowymiarowej przestrzeni naczynia ciśnieniowego. Cel ten realizowany jest poprzez zastąpienie gęstości prawdopodobieństwa obiektywnymi niezmiennikami tensora naprężeń 0-Matrycy, co nadaje Topologicznej Geometrodynamice Matrycy (TGM) pełną autonomiczną spójność mechanistyczną.

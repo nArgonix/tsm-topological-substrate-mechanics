@@ -1,3 +1,4 @@
+<!-- ver:0.5.0 -->
 ### Aneks AA: Inżynieria wsteczna parametrów ośrodka (Wyznaczanie sztywności 0-Matrycy)
 
 Celem niniejszego wyliczenia jest określenie fundamentalnej stałej sztywności $\mathcal{K}$ 0-Matrycy poprzez inżynierię wsteczną masy elektronu.

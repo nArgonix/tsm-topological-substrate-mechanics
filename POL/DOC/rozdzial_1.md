@@ -1,3 +1,4 @@
+<!-- ver:2.0.0 -->
 # Rozdział 1: Aksjomatyka i rygorystyczny formalizm TSM: Czas emergentny, chaotyczny Substrat i elasto-dynamika 3-brany
 
 Zanim wprowadzony zostanie pełny aparat matematyczny opisujący dynamikę kontinuum i zjawiska falowe, konieczne jest rygorystyczne zdefiniowanie podstawowego parametru, względem którego ta dynamika zachodzi. Model Topologicznej Geometrodynamiki Substratu (TSM) całkowicie odrzuca koncepcję pustej czasoprzestrzeni oraz absolutnego, newtonowskiego czasu. Fundamentem rzeczywistości jest Substrat – gęsty, stacjonarny i chaotyczny zbiór uwięzionych geometrycznie 0-cząstek.
