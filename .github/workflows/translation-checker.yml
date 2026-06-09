@@ -2,7 +2,7 @@ name: Check Translation Status
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main, public ]
 
 # OTO ROZWIĄZANIE: Wymuszenie bezpiecznej, nowej wersji Node.js 24
 env:
@@ -30,5 +30,5 @@ jobs:
       - name: Commit and Push changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "docs: auto-update translation status in UPDATE.md"
+          commit_message: "docs: auto-update translation status in UPDATE_CHK.md"
           file_pattern: 'UPDATE_CHK.md'
