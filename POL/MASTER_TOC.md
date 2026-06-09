@@ -9,8 +9,6 @@
       - 0.6. Aksjomat Skończoności Fizycznej: Kategoryczne wykluczenie osobliwości i „czarnych dziur”
       - 0.7. Kreacja pierwszych zniekształceń: Alternatywa dla Wielkiego Wybuchu
 
-    </details>
-
 ---
 
 - 1. Rozdział 1: Aksjomatyka i rygorystyczny formalizm TSM: Czas emergentny, chaotyczny Substrat i elasto-dynamika 3-brany
