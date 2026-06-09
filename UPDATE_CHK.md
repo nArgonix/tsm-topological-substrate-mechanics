@@ -19,7 +19,7 @@ Tabela rożnic wersji:
 | rozdz.8.md | **1.0.5** | 🔴 No translation found (ENG) | --- | `chapter_8.md` |
 | rozdz.9.md | **1.0.5** | 🔴 No translation found (ENG) | --- | `chapter_9.md` |
 | rozdział 9 test emp.md | **0.0.5** | 🔴 No translation found (ENG) | --- | `chapter_9_test_emp.md` |
-| Sciaga pojeciowa.md | **1.5.0** | 🔴 No translation found (ENG) | --- | `cheat_sheet.md` |
+| Glossary.md | **0.7.0** | 🟢 Actual | 0.7.0 | `Glossary.md` |
 | Aneks do roz.4.md | **0.7.0** | 🔴 No translation found (ENG) | --- | `appendix_4.md` |
 | Aneks do roz.5.md | **0.7.0** | 🔴 No translation found (ENG) | --- | `appendix_5.md` |
 | AneksA_Symbols.md | **1.5.0** | 🔴 No translation found (ENG) | --- | `appendix_A_symbols.md` |
