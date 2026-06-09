@@ -1,0 +1,35 @@
+name: Update Translation Status
+
+on:
+  push:
+    paths:
+      - 'POL/DOC/**'
+      - 'ENG/DOC/**'
+  workflow_dispatch: # Pozwala na ręczne uruchomienie w razie potrzeby
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Wymagane do pobrania historii commitów
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Generate Status Table
+        run: |
+          python .github/scripts/check_translations.py
+
+      - name: Commit and Push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "docs: auto-update translation status in UPDATED.md"
+          file_pattern: 'UPDATED.md'
