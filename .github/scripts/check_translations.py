@@ -95,7 +95,7 @@ def main():
         
     zawartosc_tabeli = "\n".join(linie_tabeli)
     
-    sciezka_docelowa = 'UPDATE.md'
+    sciezka_docelowa = 'UPDATE_CHK.md'
     if not os.path.exists(sciezka_docelowa):
         print(f"Błąd: Nie znaleziono pliku {sciezka_docelowa}")
         return
@@ -103,8 +103,8 @@ def main():
     with open(sciezka_docelowa, 'r', encoding='utf-8') as f:
         stara_zawartosc = f.read()
         
-    ZNACZNIK_START = ""
-    ZNACZNIK_STOP = ""
+    ZNACZNIK_START = "<!-- UPDATE_CHK_START -->"
+    ZNACZNIK_STOP = "<!-- UPDATE_CHK_STOP -->"
     
     if ZNACZNIK_START in stara_zawartosc and ZNACZNIK_STOP in stara_zawartosc:
         czesc_przed = stara_zawartosc.split(ZNACZNIK_START)[0]
@@ -115,7 +115,7 @@ def main():
             f.write(nowa_zawartosc)
         print(f"Plik {sciezka_docelowa} został zaktualizowany.")
     else:
-        print(f"Błąd: W pliku {sciezka_docelowa} brakuje znaczników komentarza bota.")
+        print(f"Błąd: W pliku {sciezka_docelowa} brakuje znaczników komentarza tabeli UPDATE_CHK.")
 
 if __name__ == '__main__':
     main()
