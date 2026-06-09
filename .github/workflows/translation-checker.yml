@@ -1,35 +1,31 @@
-name: Update Translation Status
+name: Check Translation Status
 
 on:
   push:
-    paths:
-      - 'POL/DOC/**'
-      - 'ENG/DOC/**'
-  workflow_dispatch: # Pozwala na ręczne uruchomienie w razie potrzeby
+    branches: [ main ]
 
-permissions:
-  contents: write
+# OTO ROZWIĄZANIE: Wymuszenie bezpiecznej, nowej wersji Node.js 24
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
 
 jobs:
-  update-readme:
+  update-readme: # To tutaj Runner wyrzucił ostrzeżenie
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0 # Wymagane do pobrania historii commitów
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.x'
+          python-version: '3.11'
 
-      - name: Generate Status Table
-        run: |
-          python .github/scripts/check_translations.py
+      - name: Run translation check script
+        run: python .github/scripts/check_translations.py
 
       - name: Commit and Push changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "docs: auto-update translation status in UPDATE_CHK.md"
-          file_pattern: 'UPDATE_CHK.md'
+          commit_message: "docs: auto-update translation status in UPDATE.md"
+          file_pattern: 'UPDATE.md'
