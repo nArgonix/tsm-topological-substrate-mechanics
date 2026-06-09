@@ -31,5 +31,5 @@ jobs:
       - name: Commit and Push changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "docs: auto-update translation status in UPDATED.md"
-          file_pattern: 'UPDATED.md'
+          commit_message: "docs: auto-update translation status in UPDATE_CHK.md"
+          file_pattern: 'UPDATE_CHK.md'
