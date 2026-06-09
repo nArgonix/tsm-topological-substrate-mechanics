@@ -1,3 +1,20 @@
+<h1 align="center">
+  <b>T</b>opologiczna Geometrodynamika 0-<b>M</b>atrycy<sub>(Substratu)</sub>
+</h1>
+<p>Monografia ta prezentuje kompletny, alternatywny fundament dla fizyki fundamentalnej, dokonując radykalnego uproszczenia opisu rzeczywistości poprzez eliminację abstrakcyjnego pojęcia pustej czasoprzestrzeni na rzecz mechaniki kontinuum. <b>T</b>opological 0-Matrix (<b>S</b>ubstrate) <b>M</b>echanics (TSM) dowodzi, że cały obserwowalny Wszechświat wyłania się jako makroskopowa, elasto-dynamiczna manifestacja sub-planckowskiej, geometrycznie zakleszczonej sieci oscylatorów – tytułowej 0-Matrycy.</p>
+
+
+**Teoria TSM realizuje wielkie marzenie fizyki teoretycznej o pełnej unifikacji, dostarczając bezprecedensowych uproszczeń w dwóch kluczowych obszarach:**
+
+* **Wyprowadzenie Ogólnej Teorii Względności (OTW):** Grawitacja Einsteina nie jest magią zakrzywionej pustki – zostaje ona wprost wyprowadzona z klasycznych, 4-wymiarowych równań inżynieryjnych Navier-Cauchy’ego! Przestrzeń to namacalne medium, jej metryka to stan wewnętrznych naprężeń, a przyciąganie to zwykły gradient ciśnień. TSM bezkompromisowo **likwiduje osobliwości (brak czarnych dziur)** oraz jednym prostym wzorem **wymazuje z fizyki mityczną ciemną materię i ciemną energię**.
+  
+* **Uproszczenie i demistyfikacja Modelu Standardowego:** Koniec z absurdalnymi, bezwymiarowymi punktami materialnymi. Cząstki elementarne zostają zredukowane do stabilnych, nieliniowych węzłów topologicznych (solitonów) wewnątrz podłoża 0-Matrycy. Masa, spin 1/2 i ładunek to czysta geometria uwięzionych w sieci fal stojących. Dzięki temu model z absolutną, mechaniczną precyzją **wyjaśnia i wyprowadza zagadkowe relacje masowe cząstek, w tym słynny wzór Koidego**.
+
+---
+
+<h1 align="left">Spis treści</h1>
+
+
 <!--TOCS-->
 
 - Rozdział 0: Aksjomaty 0-Matrycy, czyli mechaniczny „silnik” rzeczywistości
