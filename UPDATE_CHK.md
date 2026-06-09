@@ -1,5 +1,5 @@
 Tabela rożnic wersji:
 
-<!-- UPDATE_CHK_START -->
+<!-- TAB_START -->
 
-<!-- UPDATE_CHK_STOP -->
+<!-- TAB_STOP -->

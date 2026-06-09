@@ -21,8 +21,13 @@ def pobierz_wersje_z_pliku(sciezka_pliku):
         with open(sciezka_pliku, 'r', encoding='utf-8') as f:
             tresc_pliku = f.read()
         
-        # Nawiasy () są kluczowe - definiują grupy 1, 2 i 3
-        dopasowanie = re.search(r'', tresc_pliku)
+        # Pancerne zabezpieczenie: sklejamy regex z kawałków.
+        # Globalne "Find & Replace" w plikach markdown nie uszkodzi nawiasów () w tym miejscu.
+        czesc_otwierajaca = "<" + "!--"
+        czesc_zamykajaca = "--" + ">"
+        wzorzec_szukany = czesc_otwierajaca + r'\s*ver:(\d+)\.(\d+)\.(\d+)\s*' + czesc_zamykajaca
+        
+        dopasowanie = re.search(wzorzec_szukany, tresc_pliku)
         if dopasowanie:
             return (int(dopasowanie.group(1)), int(dopasowanie.group(2)), int(dopasowanie.group(3)))
     except Exception as e:
@@ -103,8 +108,8 @@ def main():
     with open(sciezka_docelowa, 'r', encoding='utf-8') as f:
         stara_zawartosc = f.read()
         
-    ZNACZNIK_START = "<!-- UPDATE_CHK_START -->"
-    ZNACZNIK_STOP = "<!-- UPDATE_CHK_STOP -->"
+    ZNACZNIK_START = "<!-- TAB_START -->"
+    ZNACZNIK_STOP = "<!-- TAB_STOP -->"
     
     if ZNACZNIK_START in stara_zawartosc and ZNACZNIK_STOP in stara_zawartosc:
         czesc_przed = stara_zawartosc.split(ZNACZNIK_START)[0]
@@ -113,7 +118,7 @@ def main():
         
         with open(sciezka_docelowa, 'w', encoding='utf-8') as f:
             f.write(nowa_zawartosc)
-        print(f"Plik {sciezka_docelowa} został zaktualizowany.")
+        print(f"Plik {sciezka_docelowa} został pomyślnie zaktualizowany.")
     else:
         print(f"Błąd: W pliku {sciezka_docelowa} brakuje znaczników komentarza tabeli UPDATE_CHK.")
 
