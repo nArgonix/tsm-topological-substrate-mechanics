@@ -3,8 +3,7 @@ import os
 
 # --- KONFIGURACJA ---
 FILES_TO_PROCESS = ['rozdzial 0.md', 'rozdzial 1.md', 'rozdzial 2.md', 'rozdzial 3.md', 'rozdzial 4.md', 'rozdzial 5.md', 
-                    'rozdz.7.md','rozdz.7.md','rozdz.8.md','rozdz.9.md','rozdz.10.md',
-                    'rozdz.11.md','rozdz.12.md','rozdz.13.md','rozdz.13.md']
+                    'rozdz.7.md','rozdz.8.md','rozdz.9.md','rozdz.10.md','rozdz.11.md','rozdz.12.md','rozdz.13.md']
 
 OUTPUT_FILE = 'MASTER_TOC.md'
 VISIBLE_LEVELS = 2  # Ile poziomów ma być stale WIDOCZNYCH. 
