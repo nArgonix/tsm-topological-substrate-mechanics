@@ -11,7 +11,7 @@
 
 ---
 
-- 1. Rozdział 1: Aksjomatyka i rygorystyczny formalizm TSM: Czas emergentny, chaotyczny Substrat i elasto-dynamika 3-brany
+- Rozdział 1: Aksjomatyka i rygorystyczny formalizm TSM: Czas emergentny, chaotyczny Substrat i elasto-dynamika 3-brany
   - <details>
     <summary><b>1.1. Fundamentalny parametr ewolucyjny $\tau$ jako miara globalnej, uśrednionej aktywności 0-cząstek</b></summary>
 
@@ -56,7 +56,7 @@
 
 ---
 
-- 2. Rozdział 2: Węzły topologiczne i emergencja solitoniczna w TSM: Hydrodynamika bezwładności, antymateria, geometryczne pochodzenie spinu 1/2 oraz formalizm sztywności Substratu
+- Rozdział 2: Węzły topologiczne i emergencja solitoniczna w TSM: Hydrodynamika bezwładności, antymateria, geometryczne pochodzenie spinu 1/2 oraz formalizm sztywności Substratu
   - <details>
     <summary><b>2.1. Mikroskopowy mechanizm skończonej ściśliwości i rygorystyczny formalizm elasto-dynamiczny w $\mathbb{R}^4$</b></summary>
 
@@ -159,6 +159,35 @@
 
 ---
 
+- Rozdział 6: Grawitacja jako ortogonalny naciąg. Wymiar 4D, Plazmoidy i nieliniowa dynamika kontinuum
+  - 6.1. Ontologia grawitacji i limit liniowy (Równanie Laplace'a)
+  - 6.2. Sformalizowana elastodynamika 3-brany: Nieliniowe ugięcie w $\mathbb{R}^4$
+  - 6.3. Plazmoidy Topologiczne zamiast Czarnych Dziur
+  - <details>
+    <summary><b>6.4. Dynamika galaktyczna: Torsyjne Wleczenie i eliminacja Ciemnej Materii</b></summary>
+
+      - 6.4.1. Torsyjne Wleczenie i płaskie krzywe rotacji gwiazd
+      - 6.4.2. Zachowanie gwiazd w pobliżu centrum galaktyki (Orbita S2)
+
+    </details>
+  - <details>
+    <summary><b>6.5. Alternatywa dla ekspansji: Redshift jako dystansowa dyspersja falowa (Zgodność z Postulatem 0.7)</b></summary>
+
+      - 6.5.1. Mechanizm wiskotycznej utraty pędu fali
+      - 6.5.2. Obalenie Ciemnej Energii i konwersja między-modowa fal
+
+    </details>
+  - <details>
+    <summary><b>6.6. Fizyczna natura stałej $c$ i fale naprężeniowe (LIGO)</b></summary>
+
+      - 6.6.1. Mechaniczne pochodzenie efektów relatywistycznych
+      - 6.6.2. Superluminalność w 4D i rejestracje interferometryczne
+
+    </details>
+  - 6.7. Podsumowanie rozdziału 6
+
+---
+
 - Rozdział 7: Oddziaływania subatomowe, fizyka hadronów i determinizm kwantowy w Topologicznej Geometrodynamice Matrycy (TGM)
   - 7.1. Czym jest oddziaływanie silne w standardowym ujęciu?
   - 7.2. Model kawitacyjny protonu a Głębokie Rozpraszanie Nieelastyczne (DIS)
@@ -184,7 +213,7 @@
 
 ---
 
-- 8. Rozdział 8: Oddziaływania słabe i topologiczna hierarchia leptonów: Stochastyczna degradacja, zatrzask fazowy oraz geometria $SU(2)$
+- Rozdział 8: Oddziaływania słabe i topologiczna hierarchia leptonów: Stochastyczna degradacja, zatrzask fazowy oraz geometria $SU(2)$
   - 8.1. Wolny neutron jako stochastycznie zanikający oscylator
   - 8.2. Zatrzask fazowy: Kinematyka stabilności jąder atomowych
   - 8.3. Anomalia czasu życia neutronu jako weryfikacja zatrzasku
@@ -201,7 +230,7 @@
 
 ---
 
-- 9. Rozdział 9: Iluzja Ciemnej Materii i Ciemnej Energii w TGM: Elastodynamika rotacji, nieliniowe soczewkowanie i CMB
+- Rozdział 9: Iluzja Ciemnej Materii i Ciemnej Energii w TGM: Elastodynamika rotacji, nieliniowe soczewkowanie i CMB
   - 9.1. Problem Ciemnej Materii w standardowej astrofizyce
   - <details>
     <summary><b>9.2. Elastodynamika galaktyk: Halo naprężeniowe i gradient ciśnienia tła</b></summary>
@@ -223,7 +252,7 @@
 
 ---
 
-- 10. Rozdział 10: Plazmoidy centralne i elektrodynamika torsyjna. Iluzja czarnych dziur i refrakcyjnych cieni
+- Rozdział 10: Plazmoidy centralne i elektrodynamika torsyjna. Iluzja czarnych dziur i refrakcyjnych cieni
   - 10.1. Problem osobliwości OTW i algorytmiczny błąd teleskopu EHT
   - 10.2. Plazmoid centralny jako kompaktowy stan zdegenerowanej 0-Matrycy
   - 10.3. Cień czarnej dziury jako sferyczna pułapka refrakcyjna (Iluzja $V_{ij}$)
@@ -239,7 +268,7 @@
 
 ---
 
-- 11. Rozdział 11: Kosmologia bez ekspansji – relaksacja Matrycy, dylatacja czasu SN Ia i wielowarstwowa propagacja fal
+- Rozdział 11: Kosmologia bez ekspansji – relaksacja Matrycy, dylatacja czasu SN Ia i wielowarstwowa propagacja fal
   - 11.1. Odrzucenie ekspansji Wszechświata
   - 11.2. Relaksacja 0-Matrycy – kosmologiczna ewolucja średniego naprężenia
   - <details>
@@ -255,7 +284,7 @@
 
 ---
 
-- 12. Rozdział 12: Program weryfikacji eksperymentalnej – falsyfikowalność, test rezonansowy i demistyfikacja splątania kwantowego
+- Rozdział 12: Program weryfikacji eksperymentalnej – falsyfikowalność, test rezonansowy i demistyfikacja splątania kwantowego
   - <details>
     <summary><b>12.1. Test priorytetowy: Zmiana prędkości światła w polu magnetycznym – wariant rezonansowy</b></summary>
 
@@ -277,7 +306,7 @@
 
 ---
 
-- 13. Rozdział 13: Podsumowanie ontologiczne, stałe fundamentalne i ostateczna unifikacja fizyki
+- Rozdział 13: Podsumowanie ontologiczne, stałe fundamentalne i ostateczna unifikacja fizyki
   - 13.1. Zestawienie aksjomatów teorii
   - 13.2. Fundamentalne parametry materiałowe Wszechświata
   - 13.3. Ostateczna unifikacja – Model TGM vs Fizyka Klasyczna

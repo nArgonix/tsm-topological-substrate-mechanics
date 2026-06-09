@@ -1,4 +1,4 @@
-# 10. Rozdział 10: Plazmoidy centralne i elektrodynamika torsyjna. Iluzja czarnych dziur i refrakcyjnych cieni
+# Rozdział 10: Plazmoidy centralne i elektrodynamika torsyjna. Iluzja czarnych dziur i refrakcyjnych cieni
 
 ## 10.1. Problem osobliwości OTW i algorytmiczny błąd teleskopu EHT
 

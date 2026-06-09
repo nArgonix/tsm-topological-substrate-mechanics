@@ -1,4 +1,4 @@
-# 11. Rozdział 11: Kosmologia bez ekspansji – relaksacja Matrycy, dylatacja czasu SN Ia i wielowarstwowa propagacja fal
+# Rozdział 11: Kosmologia bez ekspansji – relaksacja Matrycy, dylatacja czasu SN Ia i wielowarstwowa propagacja fal
 
 ## 11.1. Odrzucenie ekspansji Wszechświata
 

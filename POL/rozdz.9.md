@@ -1,4 +1,4 @@
-# 9. Rozdział 9: Iluzja Ciemnej Materii i Ciemnej Energii w TGM: Elastodynamika rotacji, nieliniowe soczewkowanie i CMB
+# Rozdział 9: Iluzja Ciemnej Materii i Ciemnej Energii w TGM: Elastodynamika rotacji, nieliniowe soczewkowanie i CMB
 
 ## 9.1. Problem Ciemnej Materii w standardowej astrofizyce
 

@@ -1,4 +1,4 @@
-# 8. Rozdział 8: Oddziaływania słabe i topologiczna hierarchia leptonów: Stochastyczna degradacja, zatrzask fazowy oraz geometria $SU(2)$
+# Rozdział 8: Oddziaływania słabe i topologiczna hierarchia leptonów: Stochastyczna degradacja, zatrzask fazowy oraz geometria $SU(2)$
 
 W Modelu Standardowym (MS) oddziaływania słabe postuluje się jako fundamentalną siłę natury, przenoszoną przez masywne bozony wektorowe $W^\pm$ i $Z^0$, opisywaną abstrakcyjną symetrią cechowania $SU(2)_L \times U(1)_Y$. W Topologicznej Geometrodynamice Matrycy (TGM) zjawiska te **nie mają charakteru oddziaływań fundamentalnych**. Odrzucamy ich punktową ontologię, dowodząc, że procesy nazywane "oddziaływaniami słabymi" są w rzeczywistości stochastycznymi zdarzeniami pękania i rekonfiguracji uwięzionych węzłów pod wpływem termo-akustycznego szumu 4D, a same bozony W i Z to jedynie wzbudzenia topo-harmoniczne ośrodka.
 
