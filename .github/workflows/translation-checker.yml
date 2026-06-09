@@ -7,6 +7,10 @@ on:
       - 'ENG/DOC/**'
   workflow_dispatch: # Pozwala na ręczne uruchomienie w razie potrzeby
 
+# OTO ROZWIĄZANIE: Wymuszenie bezpiecznej, nowej wersji Node.js 24
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
+
 permissions:
   contents: write
 
