@@ -27,6 +27,6 @@ Tabela rożnic wersji:
 | AneksC_Topological-origin.md | **0.5.0** | 🔴 No translation found (ENG) | --- | `appendix_C_topological-origin.md` |
 | AneksD_Electrodynamics.md | **0.5.0** | 🔴 No translation found (ENG) | --- | `appendix_D_electrodynamics.md` |
 | AneksE_Reverse-Eng.md | **0.5.0** | 🔴 No translation found (ENG) | --- | `appendix_E_reverse-eng.md` |
-| wstep.md | **0.0.6** | 🔴 No translation found (ENG) | --- | `introduction.md` |
+| wstep.md | **0.0.6** | 🟢 Actual (ENG newer) | 1.7.0 | `intro.md` |
 
 <!-- TAB_STOP -->
