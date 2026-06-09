@@ -1,50 +1,15 @@
-# TSM: Topological Substrate Mechanics
->*This is a proposal for the unification of General Relativity and the Standard Model. Based on data accumulated over decades of observations and experimental research, TSM (Topological Substrate Mechanics) integrates these two pillars of modern physics into one coherent system. It is a step toward a more comprehensive, unified description of reality, transcending existing divides.*
+<h1 align="center">
+  <b>T</b>opological 0-<b>M</b>atrix<sub>(Substrate)</sub> <b>M</b>echanics
+</h1>
+</br>
 
-[Read in Polish / Wersja Polska](README_PL.md)
+<p>This monograph presents a complete, alternative foundation for fundamental physics, achieving a radical simplification of the description of reality by eliminating the abstract concept of empty spacetime in favor of continuum mechanics. <b>T</b>opological 0-Matrix (<b>S</b>ubstrate) <b>M</b>echanics (TSM) proves that the entire observable Universe emerges as a macroscopic, elasto-dynamic manifestation of a sub-Planckian, geometrically jammed network of oscillators—the titular 0-Matrix.</p>
 
-### The Mechanistic Foundation of Reality
 
-**TSM (Topological Substrate Mechanics)** is a deterministic physical framework that redefines the structure of the Universe. It rejects abstract concepts of empty spacetime and mathematical singularities in favor of **continuum elastodynamics**.
+**The TSM theory fulfills the grand dream of theoretical physics for complete unification, delivering unprecedented simplifications in two key areas:**
 
-In the TSM paradigm, space is not a void but an ultra-dense, elastic substrate (the **Topological Substrate**) composed of sub-Planckian elements with non-zero volume. Matter, gravity, and fundamental interactions emerge not from auxiliary force fields, but from the fundamental mechanics and topology of this medium.
+* **Derivation of General Relativity (GR):** Gravity is not the magic of curved spacetime invented by Einstein. It is directly derived from classical, **4-dimensional engineering Navier-Cauchy equations!** Space is a tangible medium, its metric is the state of internal stresses, and attraction is a mere pressure gradient. **TSM uncompromisingly eliminates singularities (no black holes)** and, through a single, fundamental elasto-dynamic mechanism, **erases the mythical dark matter and dark energy from physics**.
 
----
-
-## Core Axioms of TSM
-
-* **Physical Finiteness:** Rejection of mathematical infinities. Every physical entity has finite density and size; gravitational singularities do not exist—they are replaced by stable, degenerate volume structures known as **plasmoids**.
-* **The Substrate as a Medium:** The Universe is a 3-dimensional Membrane spread within a 4-dimensional pressurized vessel. Space elasticity emerges from the permanent kinetic equilibrium of sub-Planckian collisions.
-* **Topological Nature of Matter:** Elementary particles are not point-like entities but stable knots (solitons) formed when the Substrate’s plasticity threshold is exceeded.
-* **Gravity as a Gradient:** Gravitational phenomena are interpreted as macroscopic stress-strain gradients and geometric warping of the Substrate into the 4th dimension, induced by the presence of topological defects.
-
----
-
-## Theory Architecture
-
-* **Chapter 0:** Fundamentals—Axiomatic rejection of singularities and the principle of Physical Finiteness.
-* **Soliton Mechanics:** Description of particles as stable topological deformations.
-* **TSM-EOS (Equation of State):** Formalism describing degenerate matter states in galactic centers (plasmoids).
-* **Substrate Dynamics:** Mechanistic explanation of dark matter and energy as exogenous anomalies within the 4D bulk.
-
----
-
-## Project Objectives
-
-TSM aims to provide a complete, mechanically verifiable description of reality that:
-
-1. Resolves paradoxes inherent in relativistic and quantum physics.
-2. Offers an intuitive, mechanistic insight into astrophysical phenomena (jets, galactic cores).
-3. Establishes a rigorous mathematical foundation based on condensed matter physics and defect mechanics.
-
----
-
-## Documentation
-
-For an in-depth analysis, please refer to the official monograph available in the `/docs` directory.
-
-> *"In TSM, reality is not a geometry written on a blank page, but a tangible fabric whose structure determines the course of all events."*
-
----
-
-*TSM by Piotr Szopinski © 2026. Advancing theoretical physics through Open Science.*
+* **Simplification and Demystification of the Standard Model:** No more absurd, dimensionless material points and quantum mysticism. In TSM, elementary particles are reduced to stable, non-linear topological knots (solitons) within the 0-Matrix substrate. Rest mass, spin 1/2, and charge are pure geometry of standing waves trapped in the network. Consequently, the model explains the internal structure of fermions with rigorous, mechanical precision. **It explains and derives the puzzling mass relations of particles, including the famous Koide formula**.
+  
+  

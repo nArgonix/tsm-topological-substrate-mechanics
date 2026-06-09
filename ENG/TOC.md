@@ -1,20 +1,5 @@
-<h1 align="center">
-  <b>T</b>opological 0-<b>M</b>atrix<sub>(Substrate)</sub> <b>M</b>echanics
-</h1>
-</br>
-
-<p>This monograph presents a complete, alternative foundation for fundamental physics, achieving a radical simplification of the description of reality by eliminating the abstract concept of empty spacetime in favor of continuum mechanics. <b>T</b>opological 0-Matrix (<b>S</b>ubstrate) <b>M</b>echanics (TSM) proves that the entire observable Universe emerges as a macroscopic, elasto-dynamic manifestation of a sub-Planckian, geometrically jammed network of oscillators—the titular 0-Matrix.</p>
-
-
-**The TSM theory fulfills the grand dream of theoretical physics for complete unification, delivering unprecedented simplifications in two key areas:**
-
-* **Derivation of General Relativity (GR):** Gravity is not the magic of curved spacetime invented by Einstein. It is directly derived from classical, **4-dimensional engineering Navier-Cauchy equations!** Space is a tangible medium, its metric is the state of internal stresses, and attraction is a mere pressure gradient. **TSM uncompromisingly eliminates singularities (no black holes)** and, through a single, fundamental elasto-dynamic mechanism, **erases the mythical dark matter and dark energy from physics**.
-
-* **Simplification and Demystification of the Standard Model:** No more absurd, dimensionless material points and quantum mysticism. In TSM, elementary particles are reduced to stable, non-linear topological knots (solitons) within the 0-Matrix substrate. Rest mass, spin 1/2, and charge are pure geometry of standing waves trapped in the network. Consequently, the model explains the internal structure of fermions with rigorous, mechanical precision. **It explains and derives the puzzling mass relations of particles, including the famous Koide formula**.
-
----
-
 <h1 align="left">Table of Contents</h1>
+
 
 - Chapter 0: Axioms of the 0-Matrix, or the Mechanical "Engine" of Reality
   - 0.1. Rejection of the Non-Physical Void
@@ -330,27 +315,3 @@
   - 13.5. Concluding Words
 
 ---
-
-### **Methodological Genesis and Formal Framework of TSM Unification**
-
-This treatise presents a proposal for the unification of General Relativity (GR) and the Standard Model (SM). Grounded in data accumulated through decades of observations and experimental research, Topological Substrate Mechanics (TSM) merges these two pillars of modern physics into a single, coherent framework. The formulation of this mathematical formalism would not have been possible without building upon the groundbreaking work of numerous outstanding theoretical physicists and mathematicians. TSM synthesizes their key achievements, reshaping the existing, rigorous conceptual framework into a unified language for describing reality that transcends current divisions.
-
-The scientific fields and achievements from whose apparatus and conceptual heritage TSM draws represent well-established pillars of modern mathematical physics and theoretical mechanics. This theory does not introduce postulates *ex nihilo*, but rather performs a profound synthesis and paradigmatic reinterpretation of mathematical structures developed within the following disciplines:
-
-**1. Continuum mechanics and condensed matter physics**
-Introducing the classical formalism of stress-strain tensors (the foundations of which were laid by Cauchy and Navier in the **1820s and 1830s**) and nonlinear elastodynamics into TSM allows for the formal description of the Topological Substrate as a real, continuous physical medium. This apparatus, further developed in the **mid-20th century** for condensed matter physics (notably by the Landau school), characterizes the medium using macroscopic parameters such as the bulk modulus and geometric packing density. This approach replaces the abstract, material-substrate-free spacetime background of GR with the mechanistic concept of material resistance and substrate elasticity.
-
-**2. Soliton physics and nonlinear differential equations**
-The utilization of the mathematical apparatus of soliton solutions forms the bedrock of the theory of matter structure in TSM. While the observation of the solitary wave itself dates back to 1834 (J. S. Russell), the mathematical renaissance of this field occurred in the **1960s and 1970s** with the formulation of the nonlinear Schrödinger equation and the Sine-Gordon equation. Stable, non-local, and non-dispersive waves (solitons) provide a rigorous mathematical description of elementary particles, eliminating the inherently contradictory concept of a point particle.
-
-**3. Knot theory and algebraic topology**
-The application of topological invariants and braid theory provides formal tools for categorizing charges and particles as geometric braids. This discipline, initiated by Henri Poincaré at the end of the 19th century, experienced its crucial expansion for physics in the **1980s** (largely due to the work of Vaughan Jones and Edward Witten). Algebraic topology guarantees the absolute permanence of material structures in TSM, explaining conservation laws through the geometric impossibility of a knot spontaneously untying itself within a continuum.
-
-**4. Mechanics of lattice defects and dislocation models**
-The adaptation of microstructural models of dislocations in crystals relies directly on the **Peierls-Nabarro model (formulated in 1940 and modified in 1947)**. The implementation of these advanced nonlinear equations allows for the description of the kinetics of solitons moving through the Substrate lattice. This enables the mechanistic derivation of resistance to defect motion (so-called lattice friction), which finds direct application in modeling astrophysical processes, such as the nonlinear generation of plasma jets.
-
-**5. Kinetic theory of gases and statistical mechanics of jammed systems**
-TSM combines classic Boltzmann transport equations (**1872**) with the modern theory of densely packed systems and the jamming transition, which was defined in complex systems physics in the late **1990s (specifically in 1998 by Liu and Nagel)**. This allows for the microscopic derivation of the macroscopic elastic properties of the Substrate from the chaos of sub-Planckian collisions of primal elements (0-particles), forming the mathematical core of the TSM Equation of State (TSM-EOS).
-
-**6. Differential geometry and multidimensional membrane models**
-In terms of multidimensional description, TSM draws on the evolution of Riemannian geometry (since **1854**), Kaluza-Klein theory (the **1920s**), up to the Randall-Sundrum braneworld cosmology models of **1999**. However, the theory translates these structures from the language of abstract geometry into the language of pressure physics. The three-dimensional Membrane (our Universe) is defined as a physical phase boundary of finite thickness, subject to warping into the fourth spatial dimension under the influence of local stress gradients inside a pressurized vessel (the Bulk).
