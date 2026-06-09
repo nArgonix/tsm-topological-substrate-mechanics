@@ -3,126 +3,119 @@ import json
 import re
 
 # ==============================================================================
-# TABELA PROGÓW RÓŻNICOWYCH (Dystans numeryczny między PL a ENG)
-# Skrypt oblicza różnicę: Wartość_PL - Wartość_ENG
-# Sprawdzanie następuje od góry do dołu, wybierając pierwszy pasujący próg.
+# TABELA PROGÓW RÓŻNICOWYCH
 # ==============================================================================
-THRESHOLDS = [
+PROGI_SYSTEMOWE = [
     {"max_diff": 0,  "status": "🟢 Aktualna"},
     {"max_diff": 3,  "status": "🔵 Mała zmiana (0.0.x)"},
     {"max_diff": 12, "status": "🟡 Średnia zmiana (0.x.0)"},
     {"max_diff": float('inf'), "status": "🔴 Krytyczna zmiana (x.0.0)"}
 ]
 
-def extract_version(filepath):
-    """Wyciąga wersję z tagu """
-    if not os.path.exists(filepath):
+def pobierz_wersje_z_pliku(sciezka_pliku):
+    """Wyciąga wersję z tagu ver"""
+    if not os.path.exists(sciezka_pliku) or os.path.isdir(sciezka_pliku):
         return None
         
     try:
-        with open(filepath, 'r', encoding='utf-8') as f:
-            content = f.read()
+        with open(sciezka_pliku, 'r', encoding='utf-8') as f:
+            tresc_pliku = f.read()
         
-        match = re.search(r'', content)
-        if match:
-            return (int(match.group(1)), int(match.group(2)), int(match.group(3)))
+        # Nawiasy () są kluczowe - definiują grupy 1, 2 i 3
+        dopasowanie = re.search(r'', tresc_pliku)
+        if dopasowanie:
+            return (int(dopasowanie.group(1)), int(dopasowanie.group(2)), int(dopasowanie.group(3)))
     except Exception as e:
-        print(f"Błąd podczas odczytu pliku {filepath}: {e}")
+        print(f"Błąd podczas odczytu pliku {sciezka_pliku}: {e}")
         
     return False
 
-def version_to_int(v_tuple):
-    """
-    Wprowadzona formuła wagowa:
-    Major * 100 + Minor * 10 + Patch
-    """
-    if not v_tuple or isinstance(v_tuple, bool):
+def konwertuj_wersje_na_int(krotka_wersji):
+    if not krotka_wersji or isinstance(krotka_wersji, bool):
         return None
-    major, minor, patch = v_tuple
+    major, minor, patch = krotka_wersji
     return (major * 100) + (minor * 10) + patch
 
-def version_to_str(v_tuple):
-    if v_tuple is None: return "---"
-    if v_tuple is False: return "Brak tagu ver"
-    return f"{v_tuple[0]}.{v_tuple[1]}.{v_tuple[2]}"
+def konwertuj_wersje_na_str(krotka_wersji):
+    if krotka_wersji is None: return "---"
+    if krotka_wersji is False: return "Brak tagu ver"
+    return f"{krotka_wersji[0]}.{krotka_wersji[1]}.{krotka_wersji[2]}"
 
-def evaluate_status(v_pl, v_eng):
-    """Wyznacza status na podstawie matematycznej różnicy wagowej"""
+def wyznacz_status_tlumaczenia(v_pl, v_eng):
     if v_pl is None: return "❌ Brak oryginału PL"
     if v_pl is False: return "⚠️ Błąd tagu w PL"
     if v_eng is None: return "🔴 Brak tłumaczenia"
     if v_eng is False: return "⚠️ Błąd tagu w ENG"
     
-    num_pl = version_to_int(v_pl)
-    num_eng = version_to_int(v_eng)
+    punkty_pl = konwertuj_wersje_na_int(v_pl)
+    punkty_eng = konwertuj_wersje_na_int(v_eng)
     
-    diff = num_pl - num_eng
-    
-    if diff < 0:
-        return "🟢 Aktualna (ENG nowsza)"
+    roznica = punkty_pl - punkty_eng
+    if roznica < 0: return "🟢 Aktualna (ENG nowsza)"
         
-    # Dopasowanie do zdefiniowanych progów punktowych
-    for rule in THRESHOLDS:
-        if diff <= rule["max_diff"]:
-            return rule["status"]
+    for regula in PROGI_SYSTEMOWE:
+        if roznica <= regula["max_diff"]:
+            return regula["status"]
             
     return "🔴 Krytyczna zmiana"
 
 def main():
-    map_file = '.github/scripts/translation_map.json'
+    sciezka_mapy = '.github/scripts/translation_map.json'
     
-    if not os.path.exists(map_file):
-        print(f"Błąd: Brak pliku mapowania {map_file}")
+    if not os.path.exists(sciezka_mapy):
+        print(f"Błąd: Brak pliku mapowania {sciezka_mapy}")
         return
 
-    with open(map_file, 'r', encoding='utf-8') as f:
-        mapping = json.load(f)
+    with open(sciezka_mapy, 'r', encoding='utf-8') as f:
+        mapowanie_plików = json.load(f)
 
-    pol_dir = 'POL/DOC'
-    eng_dir = 'ENG/DOC'
+    katalog_pl = 'POL/DOC'
+    katalog_eng = 'ENG/DOC'
     
-    # Układ kolumn: Rozdział | Wersja POL | Status / Typ zmiany | Wersja ANG
-    table_lines = [
+    linie_tabeli = [
         "| Rozdział (PL) | Wersja POL | Status / Typ zmiany | Wersja ANG |",
         "| :--- | :---: | :--- | :---: |"
     ]
     
-    for pol_file, eng_file in mapping.items():
-        pol_path = os.path.join(pol_dir, pol_file)
-        eng_path = os.path.join(eng_dir, eng_file)
+    for plik_pl, plik_eng in mapowanie_plików.items():
+        if not plik_pl.strip() or not plik_eng.strip():
+            continue
+            
+        pelna_sciezka_pl = os.path.join(katalog_pl, plik_pl)
+        pelna_sciezka_eng = os.path.join(katalog_eng, plik_eng)
         
-        v_pl = extract_version(pol_path)
-        v_eng = extract_version(eng_path)
+        wer_pl = pobierz_wersje_z_pliku(pelna_sciezka_pl)
+        wer_eng = pobierz_wersje_z_pliku(pelna_sciezka_eng)
         
-        status = evaluate_status(v_pl, v_eng)
-        v_pl_str = version_to_str(v_pl)
-        v_eng_str = version_to_str(v_eng)
+        status_koncowy = wyznacz_status_tlumaczenia(wer_pl, wer_eng)
+        str_pl = konwertuj_wersje_na_str(wer_pl)
+        str_eng = konwertuj_wersje_na_str(wer_eng)
         
-        table_lines.append(f"| {pol_file} | **{v_pl_str}** | {status} | {v_eng_str} |")
+        linie_tabeli.append(f"| {plik_pl} | **{str_pl}** | {status_koncowy} | {str_eng} |")
         
-    table_content = "\n".join(table_lines)
+    zawartosc_tabeli = "\n".join(linie_tabeli)
     
-    update_path = 'UPDATE_CHK.md'
-    if not os.path.exists(update_path):
-        print("Błąd: Nie znaleziono pliku UPDATE_CHK.md")
+    sciezka_docelowa = 'UPDATE.md'
+    if not os.path.exists(sciezka_docelowa):
+        print(f"Błąd: Nie znaleziono pliku {sciezka_docelowa}")
         return
 
-    with open(update_path, 'r', encoding='utf-8') as f:
-        content = f.read()
+    with open(sciezka_docelowa, 'r', encoding='utf-8') as f:
+        stara_zawartosc = f.read()
         
-    start_marker = ""
-    end_marker = ""
+    ZNACZNIK_START = ""
+    ZNACZNIK_STOP = ""
     
-    if start_marker in content and end_marker in content:
-        before = content.split(start_marker)[0]
-        after = content.split(end_marker)[1]
-        new_content = f"{before}{start_marker}\n\n{table_content}\n\n{end_marker}{after}"
+    if ZNACZNIK_START in stara_zawartosc and ZNACZNIK_STOP in stara_zawartosc:
+        czesc_przed = stara_zawartosc.split(ZNACZNIK_START)[0]
+        czesc_po = stara_zawartosc.split(ZNACZNIK_STOP)[1]
+        nowa_zawartosc = f"{czesc_przed}{ZNACZNIK_START}\n\n{zawartosc_tabeli}\n\n{ZNACZNIK_STOP}{czesc_po}"
         
-        with open(update_path, 'w', encoding='utf-8') as f:
-            f.write(new_content)
-        print("UPDATE_CHK.md został zaktualizowany na podstawie wag liczbowych.")
+        with open(sciezka_docelowa, 'w', encoding='utf-8') as f:
+            f.write(nowa_zawartosc)
+        print(f"Plik {sciezka_docelowa} został zaktualizowany.")
     else:
-        print("Błąd: Brak znaczników bota w UPDATE_CHK.md")
+        print(f"Błąd: W pliku {sciezka_docelowa} brakuje znaczników komentarza bota.")
 
 if __name__ == '__main__':
     main()
