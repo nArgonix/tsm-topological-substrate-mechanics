@@ -1,130 +1,195 @@
-# Rozdział 7: Oddziaływania słabe i topologiczna hierarchia leptonów: Stochastyczna degradacja, zatrzask fazowy oraz geometria $SU(2)$
+# Rozdział 7: Oddziaływania subatomowe, fizyka hadronów i determinizm kwantowy w Topologicznej Geometrodynamice Matrycy (TGM)
 
-W Modelu Standardowym (MS) oddziaływania słabe postuluje się jako fundamentalną siłę natury, przenoszoną przez masywne bozony wektorowe $W^\pm$ i $Z^0$, opisywaną abstrakcyjną symetrią cechowania $SU(2)_L \times U(1)_Y$. W Topologicznej Geometrodynamice Matrycy (TGM) zjawiska te **nie mają charakteru oddziaływań fundamentalnych**. Odrzucamy ich punktową ontologię, dowodząc, że procesy nazywane "oddziaływaniami słabymi" są w rzeczywistości stochastycznymi zdarzeniami pękania i rekonfiguracji uwięzionych węzłów pod wpływem termo-akustycznego szumu 4D, a same bozony W i Z to jedynie wzbudzenia topo-harmoniczne ośrodka.
+W modelu Topologicznej Geometrodynamiki Matrycy (TGM) zjawiska subatomowe nie są opisane przez abstrakcyjne zbiory probabilistycznych prawdopodobieństw i punktowe, bezwymiarowe cząstki zawieszone w próżni. Dynamika cząstek elementarnych to w istocie mechanika nieliniowych odkształceń, węzłów topologicznych oraz rezonansów falowych propagujących się w 4-wymiarowym, sprężystym kontinuum – 0-Matrycy. Niniejszy rozdział redefiniuje kluczowe zjawiska fizyki wysokich energii, sprowadzając je do rygorystycznych procesów z zakresu mechaniki ośrodków ciągłych.
 
-## 7.1. Wolny neutron jako stochastycznie zanikający oscylator
+## 7.1. Czym jest oddziaływanie silne w standardowym ujęciu?
 
-Wolny neutron to złożony węzeł topologiczny (zamknięty w pęcherzyku kawitacyjnym, co opisano w rozdz. 6). Z racji wysokiego stopnia skomplikowania splotu, posiada on swoistą **częstotliwość rezonansową relaksacji** $f_n$. Częstotliwość ta pokrywa się z ciągłym widmem wibracji sub-planckowskich 0-cząstek (termicznym szumem tła 0-Matrycy).
+W klasycznym Modelu Standardowym (MS) oddziaływanie silne jest modelowane jako wymiana bezmasowych bozonów cechowania – gluonów – pomiędzy kwarkami niosącymi ładunek koloru. Teoria ta (Chromodynamika Kwantowa, QCD) postuluje dwa fundamentalne, sprzeczne intuicyjnie zjawiska: uwięzienie koloru (*confinement*), uniemożliwiające zaobserwowanie izolowanych kwarków, oraz asymptotyczną swobodę, zgodnie z którą przy skrajnie małych odległościach kwarki przestają ze sobą oddziaływać.
 
-Gdy fluktuacja tła o odpowiedniej amplitudzie trafia w węzeł, dostarcza mu energii do **przebudowy topologicznej** – struktura ulega rozwłóknieniu na węzeł stabilniejszy (proton), węzeł o odwróconej chiralności (elektron) oraz pęd fali ścinającej (antyneutrino). Proces ten ma charakter czysto stochastyczny, a stała rozpadu $\lambda_n$ zależy od całki nakrywania gęstości widmowej szumu Matrycy $\rho(\omega)$ i funkcji rezonansowej neutronu $R_n(\omega)$:
+W teorii TGM zjawiska te nie wymagają wprowadzania abstrakcyjnych ładunków koloru ani hipotetycznych gluonów. Wszystkie cechy oddziaływań silnych są emergentną właściwością sprężystą i geometryczną samej 0-Matrycy, w której czasoprzestrzeń ustępuje miejsca fizycznemu, nieliniowemu kontinuum materiałowemu.
 
-$$\lambda_n = \int_0^\infty \rho(\omega) \, R_n(\omega) \, d\omega$$
+## 7.2. Model kawitacyjny protonu a Głębokie Rozpraszanie Nieelastyczne (DIS)
 
-Zmierzony czas życia wolnego neutronu ($\tau_n \approx 880$ s) jest fizyczną miarą odporności topologicznej jego węzła na standardowe ciśnienie akustyczne szumu 0-Matrycy.
+Eksperymenty Głębokiego Rozpraszania Nieelastycznego (DIS), prowadzone od lat 60. XX wieku (SLAC) aż po współczesne pomiary w akceleratorze HERA (DESY), wykazały, że przestrzeń wewnątrz protonu nie jest pusta. Jest ona wypełniona tzw. "morzem partonicznym" – nieskończenie fluktuującą mieszaniną wirtualnych par kwark-antykwark i gluonów. Rozkład pędu tych struktur (funkcje PDF) ewoluuje matematycznie wraz ze wzrostem energii sondy pomiarowej, co opisują równania DGLAP. W modelu TGM wyniki te zyskują twardą, hydrodynamiczną interpretację, eliminującą konieczność wprowadzania wirtualnych punktów matematycznych.
 
-## 7.2. Zatrzask fazowy: Kinematyka stabilności jąder atomowych
+Hadron (proton, neutron, mezon) reprezentuje lokalny obszar 4-wymiarowej 0-Matrycy, w którym gęstość odkształceń strukturalnych osiąga punkt krytyczny, wywołując przejście fazowe: **naprężenie tła Matrycy spada wewnątrz do zera**. Jest to ścisła analogia **pęcherzyka kawitacyjnego** w cieczy – na zewnątrz panuje potężne ciśnienie (stan podstawowy Matrycy), natomiast wewnątrz występuje stan relaksacji falowej.
 
-Fizyka klasyczna nie potrafi wyjaśnić, dlaczego neutron rozpadający się w 15 minut w próżni, po wejściu do jądra izotopu stabilnego przetrwa miliardy lat.
+* **Ściana pęcherzyka** stanowi stromy, nieliniowy gradient naprężeń – kinetyczną barierę fazową, która izoluje wnętrze hadronu od reszty ośrodka.
+* **Szkielet topologiczny:** Strukturę pęcherzyka stabilizuje fundamentalny defekt topologiczny w postaci **węzła trójlistnego ($3_1$)**. Węzeł ten posiada dokładnie trzy główne skrzyżowania (pętle naprężeń w rzucie na izotropową 3-branę), co makroskopowo odpowiada trzem kwarkom walencyjnym.
+* **Morze partoniczne:** Ponieważ węzeł $3_1$ żyje w dynamicznym, ciągłym ośrodku falowym, wewnątrz pęcherzyka kawitacyjnego panuje potężna **turbulencja akustyczno-sprężysta**. Stanowi ona zbiór wyższych harmonik drgań samego węzła oraz uwięzionych fal stojących 0-Matrycy.
 
-W TGM zjawisko to tłumaczy tzw. **zatrzask fazowy** (phase lock). W jądrze nukleony tworzą niezwykle gęstą zbitkę skręceń topologicznych. Taka struktura posiada własne mody zbiorcze (drgania kolektywne pęcherzyków). W klastrach o wysokiej symetrii przestrzennej (izotopy stabilne) dochodzi do destruktywnej interferencji tła: wewnątrz jądra powstaje geometryczny **węzeł fali stojącej** dla częstotliwości zagrażających przetrwaniu splotu neutronu ($f_n$).
+Dwuwarstwowa struktura protonu w pełni tłumaczy wyniki DIS:
 
-Oznacza to wyzerowanie szumu degradującego ($\rho_{\text{wewn}}(f_n) \approx 0$), przez co czas życia dąży do nieskończoności. Odchylenia od pełnej symetrii geometrycznej klastra (w izotopach promieniotwórczych) wprowadzają "przecieki" szumu tła, co inicjuje stochastyczny rozpad beta ze zróżnicowanym czasem półtrwania.
+1. Kiedy w proton uderza elektron o niskiej energii (mały przekaz pędu $Q^2$, długa fala badająca), subtelna fala próbnika omija drobne zburzenia i rozprasza się wyłącznie na trzech głównych żyłach szkieletu węzła $3_1$ (kwarkach walencyjnych).
+2. Kiedy przekaz pędu rośnie ($Q^2 \to \infty$, skrajnie krótka fala), sonda wnika głęboko w mikrostrukturę pęcherzyka, rozpraszając się na gęstej pianie turbulentnych fluktuacji wewnątrz bariery fazowej.
 
-## 7.3. Anomalia czasu życia neutronu jako weryfikacja zatrzasku
+Ewolucja DGLAP w QCD nie opisuje zatem narodzin wirtualnych cząstek, lecz zmianę skali rozdzielczości widma drgań nieliniowego ośrodka sprężystego.
 
-Fizyka boryka się z 1-procentową rozbieżnością wyników rozpadu neutronu (anomalia "butelka vs wiązka", $\tau_{\text{beam}} \approx 888{,}0\text{ s}$ wobec $\tau_{\text{bottle}} \approx 879{,}5\text{ s}$). MS tego nie wyjaśnia.
-TGM wyjaśnia to zjawisko z niezwykłą naturalnością: twarde ścianki pułapki "butelkowej" modyfikują lokalne pola echa akustycznego Matrycy, zmieniając profil $\rho_{\text{wewn}}$ poprzez tłumienie lub wzbudzanie fal o częstotliwości rezonansowej $f_n$. Eksperymentalna wymiana powłok "butelki" (miedź, grafit) lub włączenie silnego naprężenia $\mathbf{B}$ umożliwi obserwację zmian w czasie półtrwania, jednoznacznie falsyfikując uniwersalność $\tau_n$ postulowaną przez MS.
+## 7.3. Uwięzienie topologiczne (Confinement)
 
-## 7.4. Rezonanse W i Z jako Wzbudzenia Topo-Harmoniczne (Breathery)
+W ontologii TGM uwięzienie kwarków nie wynika z wymiany gluonów, lecz z mechaniki nieliniowego rozciągania ośrodka sprężystego. Kwarki są otwartymi fragmentami splotów (warkoczami), które z jednej strony tworzą rdzeń węzła, a z drugiej zakotwiczają się w ścianie pęcherzyka kawitacyjnego, zamykając obwód sił wewnątrz hadronu.
 
-W Modelu Standardowym oddziaływania neutralne $SU(2)_L \times U(1)_Y$ opisuje lagranżjan:
+Próba siłowego wyciągnięcia kwarka z pęcherzyka powoduje lokalne odkształcenie plastyczne ściany i wyciągnięcie jej w postać **szyjki** – wydłużonego strumienia o ekstremalnym naprężeniu ścinającym (odpowiednik rury strumienia w QCD). Energia potrzebna do permanentnego rozciągania tej struktury rośnie liniowo wraz z dystansem $r$:
 
+$$E_{\text{confinement}}(r) = \sigma \cdot r$$
+
+gdzie $\sigma$ reprezentuje **napięcie struny topologicznej**, będące bezpośrednią funkcją modułu sztywności 0-Matrycy. W momencie, gdy zmagazynowana energia sprężysta szyjki przekroczy próg plastyczności (równy dwukrotności masy bazowej kwarka), dochodzi do topologicznego pęknięcia kontinuum. Szyjka ulega relaksacji falowej, natychmiast tworząc dwa nowe, zamknięte pęcherzyki kawitacyjne (parę kwark-antykwark). Proces ten, znany w akceleratorach jako hadronizacja i powstawanie dżetów, jest klasycznym przejawem pękania zmęczeniowego i relaksacji naprężeń w mechanice ośrodków ciągłych.
+
+## 7.4. Asymptotyczna swoboda
+
+Zjawisko słabnięcia oddziaływań między kwarkami na małych dystansach wynika bezpośrednio z geometrii pęcherzyka kawitacyjnego. W miarę jak kwarki (składowe warkocza) zbliżają się do geometrycznego środka hadronu, oddalają się od nieliniowej ściany naprężeń. Ponieważ wnętrze pęcherzyka kawitacyjnego charakteryzuje się stanem relaksacji, efektywne naprężenie sprężyste między warkoczami dąży lokalnie do zera.
+
+W ujęciu formalnym, obserwowany w fizyce cząstek spadek efektywnej stałej sprzężenia silnego $\alpha_s(Q^2)$ wraz ze wzrostem energii sondy nie jest wynikiem matematycznej renormalizacji chmury gluonowej, lecz bezpośrednią konsekwencją wejścia próbnika w obszar zrelaksowanego ciśnienia wewnątrzhadronowego.
+
+## 7.5. Masy hadronów (proton, neutron)
+
+W Modelu Standardowym zaledwie ok. 1% masy protonu pochodzi z mas spoczynkowych kwarków walencyjnych, a reszta stanowi tzw. masę anomalną QCD, generowaną przez energię gluonów. TGM w pełni potwierdza te proporcje energetyczne, nadając im jednak ścisły sens mechaniczny.
+
+Masa hadronu nie jest sumą mas punktowych klocków, lecz **całkowitą energią odkształcenia sprężystego i kinetycznego uwięzioną w geometrii pęcherzyka**. W ujęciu tensorowym TGM:
+
+$$m_{\text{hadron}} = \frac{1}{c_{\text{lok}}^2} \left( \oint_{\text{ściana}} \sigma_{ab} dS^{ab} + \sum_{\text{warkocze}} E_{\text{kin}} \right)$$
+
+Głównym nośnikiem masy spoczynkowej nukleonu (ok. 99%) jest energia powierzchniowa związana z utrzymaniem nieliniowego gradientu naprężeń na ścianie pęcherzyka ($\sigma_{ab}$) przeciwko ciśnieniu zewnętrznemu 0-Matrycy. Obliczenia QCD na sieciach, wykazujące dominację energii pola nad masą kwarków, są w rzeczywistości dowodem na słuszność tego elasto-dynamicznego bilansu energii.
+
+## 7.6. Brak wolnych gluonów
+
+Gluony nie istnieją w naturze jako autonomiczne cząstki elementarne. Są one wyłącznie **modami plazmowymi (falami podłużnymi i poprzecznymi)** wzbudzonymi wewnątrz zrelaksowanego ośrodka pęcherzyka kawitacyjnego. Propagacja tych modów falowych poza barierę fazową hadronu jest matematycznie niemożliwa.
+
+Na zewnątrz pęcherzyka 0-Matryca znajduje się w stanie ekstremalnego naprężenia spoczynkowego. Wprowadzenie fali gluonowej w taki ośrodek wywołuje natychmiastowe, wykładnicze tłumienie amplitudy (efekt analogiczny do mechanizmu Proca dla masywnych pól wektorowych). Gluon na zewnątrz hadronu "wygasa" na dystansie subatomowym, co klasyczna fizyka interpretuje jako uwięzienie gluonów.
+
+## 7.7. Wewnętrzna dynamika kwarków: Masy biegnące, hierarchia i fizyczny sens Macierzy CKM
+
+Wprowadzenie kwarków do modelu TGM wymaga precyzyjnego opisania ich stanu naprężenia jako splotów otwartych, podlegających nieliniowym prawom mechaniki kontinuum wewnątrz zamkniętej domeny.
+
+### 7.7.1. Masy biegnące (Renormalizacja) jako pomiar w gradiencie naprężeń
+
+Masa kwarka jest funkcją gęstości zmagazynowanej energii sprężystej $\mathcal{E}_{\text{spręż}}$ w obszarze sondowania o promieniu $r \propto 1/\sqrt{Q^2}$:
+
+$$m(Q^2) = \frac{1}{c_0^2} \int_{V(Q^2)} \mathcal{E}_{\text{spręż}}(\mathbf{x}) \, d^3x$$
+
+Ponieważ pęcherzyk kawitacyjny posiada stromy gradient naprężeń (od maksimum na ścianie do minimum w rdzeniu), wartość całki drastycznie maleje, gdy promień obszaru $V(Q^2)$ kurczy się przy wysokich przekazach pędu ($Q^2 \to \infty$). Efekt "biegnących mas" w QCD to czysty pomiar geometryczny wewnątrz nieliniowego profilu ciśnienia pęcherzyka.
+
+### 7.7.2. Hierarchia mas a ciśnienie konfinementu
+
+Ekstremalna różnica mas między najlżejszym kwarkiem Up ($\sim 2{,}2\text{ MeV}$) a najcięższym kwarkiem Top ($\sim 173000\text{ MeV}$) wynika ze statyki naprężeń. Całkowity tensor naprężenia splotu $\sigma_{ab}$ wewnątrz pęcherzyka rozkłada się na dewiator (ścinanie $s_{ab}$) oraz człon hydrostatyczny (zgniatanie objętościowe $p$):
+
+$$\sigma_{ab} = s_{ab} + p \delta_{ab}$$
+
+Podczas gdy wolne leptony podlegają wyłącznie czystemu ścinaniu pod kątem $45^\circ$ (stąd uniwersalność Formuły Koidego wyprowadzona w Aneksie D.4.1), kwarki wewnątrz hadronu doświadczają gigantycznego ciśnienia hydrostatycznego $p$ wywieranego przez ścianę pęcherzyka. Kwarki lekkiej generacji ($u, d$) to niskie, postsynchroniczne mody wibracyjne warkoczy, zależne od członu $s_{ab}$. Kwark Top to skrajny, objętościowy rezonans harmoniczny sprzężony bezpośrednio ze ścianą pęcherzyka. Jego gigantyczna masa to całkowita praca mechaniczna, jaką ten mod wibracyjny musi wykonać przeciwko pełnemu 4-wymiarowemu ciśnieniu hydrostatycznemu Matrycy dążącej do kolapsu pęcherzyka.
+
+### 7.7.3. Macierz CKM jako fizyczny obrót osi naprężeń
+
+W Modelu Standardowym macierz Cabibbo-Kobayashiego-Maskawy (CKM) opisuje mieszanie stanów zapachowych kwarków podczas oddziaływań słabych:
+
+$$\begin{pmatrix} d' \\ s' \\ b' \end{pmatrix} = \begin{pmatrix} V_{ud} & V_{us} & V_{ub} \\ V_{cd} & V_{cs} & V_{cb} \\ V_{td} & V_{ts} & V_{tb} \end{pmatrix} \begin{pmatrix} d \\ s \\ b \end{pmatrix}$$
+
+TGM odziera ten formalizm z abstrakcji, definiując go jako klasyczną **transformację bazy tensora odkształceń w przestrzeni 3D**. Kwarki górne (ładunek $+2/3$) i dolne (ładunek $-1/3$) posiadają odmienną chiralność topologicznego skrętu warkocza. W konsekwencji, osie główne ich lokalnych tensorów naprężeń nie są równoległe – są względem siebie przestrzennie przekrzywione.
+
+Kiedy oddziaływanie słabe wygasza splot pośredniczący, naprężenie ulega transformacji z bazy kwarków górnych ($X_U, Y_U, Z_U$) do bazy kwarków dolnych ($X_D, Y_D, Z_D$). Przeliczenie składowych tensora między dwoma przekrzywionymi układami kartezjańskimi wymaga zastosowania macierzy obrotu $R$ parametryzowanej przez kąty Eulera:
+
+$$V_{\text{CKM}} = R_{23}(\theta_{23}) \cdot R_{13}(\theta_{13}, \delta) \cdot R_{12}(\theta_{12})$$
+
+Słynny **kąt Cabibbo ($\theta_C \approx 13^\circ$)** zyskuje w TGM absolutnie namacalny sens fizyczny: jest to **rzeczywisty kąt geometrycznego przekrzywienia** między główną osią odkształcenia kwarka Up a osią główną kwarka Down w tej samej domenie pęcherzyka. Prawdopodobieństwo rozpadu podlegające prawu rzutowania wektorów ($\propto \cos^2 \theta_C$) dowodzi, że mieszanie zapachów to elementarna statyka inżynieryjna w uwięzionym splocie.
+
+## 7.8. Reinterpretacja ciężkich cząstek: Wzbudzenia Topo-Harmoniczne Matrycy
+
+W fizyce wysokich energii (LHC, Tevatron) podczas zderzeń protonów obserwuje się powtarzalną produkcję setek krótkożyjących stanów, takich jak miony, taony, bozony $W^{\pm}, Z^0$ czy bozon Higgsa. Model Standardowy interpretuje je jako fundamentalne cegiełki lub elementarne nośniki cechowania, opisując je m.in. lagranżjanem oddziaływań prądów neutralnych:
 
 $$\mathcal{L}_{NC} = \frac{g}{2 \cos\theta_W} \bar{\psi} \gamma^\mu (v_f - a_f \gamma_5) \psi Z_\mu$$
 
+Teoria TGM nie kwestionuje matematycznej precyzji tych lagranżjanów, lecz ich ontologię. Bozony $W$ i $Z$ to nie są punktowe obiekty. Pole $Z_\mu$ to w rzeczywistości **wektor naprężenia ścinającego** w 4-wymiarowym ośrodku ciągłym. Stała sprzężenia $g$ oraz kąt Weinberga $\theta_W$ to makroskopowe parametry materiałowe (moduły sztywności i ściśliwości) 0-Matrycy, a macierze Diraca $\gamma^\mu$ stanowią geometryczną bazę układu.
 
-Traktuje on pole $Z_\mu$ jako fundamentalną cząstkę pośredniczącą (bozon Z). TGM akceptuje matematyczną precyzję tego równania, jednak odrzuca jego punktową ontologię.
+Podczas zderzeń o energii rzędu TeV pierwotne, stabilne węzły ulegają skrajnemu ściśnięciu, wywołując w sprężystym tle potężne, skwantowane fale stojące – **wzbudzenia topo-harmoniczne**.
 
-W zderzeniach ultrarelatywistycznych w LHC nie generujemy w próżni "nowych cząstek". Olbrzymia energia zderzających się węzłów zmusza osnowę 0-Matrycy do uformowania wysoce ustrukturyzowanego, przejściowego **super-węzła** – stłoczonego zapętlenia wibracyjnego. Pole $Z_\mu$ to wektor naprężenia ścinającego tła. Stała sprzężenia $g$ oraz kąt $\theta_W$ to w rzeczywistości emergentne, makroskopowe **parametry materiałowe** (moduły sztywności i ściśliwości nieliniowej ośrodka), zaś macierze Diraca $\gamma^\mu$ to po prostu geometria ugięcia tej 4-wymiarowej rozmaitości.
+* Podobnie jak uderzony dzwon generuje precyzyjny akord złożony z modów własnych zależnych od jego geometrii, tak 0-Matryca przy energii $\sim 91\text{ GeV}$ generuje powtarzalną, skwantowaną falę stojącą – rezonans $Z^0$.
+* Czas życia tych "cząstek" ($10^{-25}\text{ s}$) to czas relaksacji i tłumienia hydrodynamicznego tego nieliniowego odkształcenia w ośrodku.
+* **Bozon Higgsa** (spin 0) reprezentuje z kolei czyste, bezwęzłowe, sferyczne drganie objętościowe (kompresyjne) samej plazmy 0-cząstek.
 
-Masa bozonu Z ($M_Z \approx 91\text{ GeV}$) to zmagazynowana skrajna gęstość energii odkształcenia (jak ściśnięta do granic sprężyna), a jego czas życia ($10^{-25}\text{ s}$) to mechaniczny czas dyssypacji tej nienaturalnej pętli. Bozony te nie są więc nowymi "cegiełkami materii", lecz akustycznymi rezonatorami ośrodka. Skutkiem tego **TGM kategorycznie odrzuca istnienie jakichkolwiek cięższych odpowiedników symetrycznych (brak supersymetrii i bozonów Z')**.
+Traktowanie tych przejściowych rezonansów jako "fundamentalnych cegiełek" jest błędem metodologicznym. Przypomina to sytuację, w której fizyk rozbija jajko o ścianę z ogromną prędkością i badając powstałą chmurę kropli, ogłasza odkrycie "mionów żółtkowych" i "bozonów skorupowych". Wszystkie te stany są artefaktami zderzeniowymi – przejściowymi oscylacjami wzbudzonymi w punkcie przejścia fazowego Matrycy. Stabilnymi, trwałymi węzłami o niezmiennikach topologicznych zdolnych do wiecznego istnienia są wyłącznie elektron, pozyton, proton i neutron.
 
-## 7.5. Szerokość rezonansu Z a topologiczna izotropia algebry $SU(2)$
+## 7.9. Demistyfikacja mechaniki kwantowej: Eksperyment Younga i Efekt Obserwatora jako zjawiska hydrodynamiczne
 
-Mierzalna szerokość rozpadu "niewidzialnego" bozonu Z w detektorach odpowiada precyzyjnie 3 generacjom neutrin ($N_\nu = 3$). MS wyjaśnia to za pomocą symetrii wewnętrznej $SU(2)$, której generatory spełniają relację:
+Najbardziej uderzającym dowodem na mechaniczny charakter TGM jest demistyfikacja eksperymentu z dwiema szczelinami, uchodzącego w ujęciu kwantowym za przejaw probabilistycznego dualizmu falowo-korpuskularnego.
 
+W modelu TGM elektron w ruchu porusza się jako stabilny węzeł topologiczny (ciało stałe), generując przed sobą sprężystą falę dziobową (falę pilotującą) w 0-Matrycy. Odkształcenie tła $\phi(\mathbf{x}, t)$ opisuje klasyczne równanie falowe z członem źródłowym węzła:
 
-$$[T_a, T_b] = i \epsilon_{abc} T_c \qquad (a,b,c = 1,2,3)$$
+$$\nabla^2 \phi - \frac{1}{c_0^2} \frac{\partial^2 \phi}{\partial t^2} = \mathcal{S}(\mathbf{x}_e, t)$$
 
+W **Wersji 1 (bez detektora)** fizyczny elektron przelatuje tylko przez jedną szczelinę. Jednakże jego rozległa fala dziobowa przechodzi przez *obie* szczeliny, generując za przesłoną klasyczną superpozycję fal wtórnych:
 
-Fizycy wyliczają 3 generacje bez geometrycznego zrozumienia ich natury. TGM demaskuje ten "magiczny" wymiar wewnętrzny jako **czystą topologię rozpadu w 3-branie**.
+$$I(\mathbf{x}) = |\phi_1 + \phi_2|^2 = |\phi_1|^2 + |\phi_2|^2 + 2|\phi_1||\phi_2|\cos(\Delta \theta)$$
 
-Grupa $SU(2)$ stanowi podwójne nakrycie przestrzennej grupy $SO(3)$. Jej trzy macierze ($T_1, T_2, T_3$) odpowiadają fizycznie rzutom na trzy ortogonalne płaszczyzny w izotropowej 3-branie 0-Matrycy. Rozpad tak gęstego węzła nie jest procesem stochastycznym, lecz rygorystycznym rozplątywaniem sieci naprężeń, co w teorii węzłów definiują *relacje kłębiaste* (Skein relations). Operacja wymiany, tworząca m.in. wielomiany Jonesa, przebiega przez redukcję skrzyżowania w węźle wzdłuż dokładnie trzech bazowych stanów ($L_+, L_-, L_0$):
+Struktura $I(\mathbf{x})$ tworzy w sprężystej Matrycy fizyczne "korytarze" wysokiego i niskiego ciśnienia. Elektron, opuszczając szczelinę, wpada w te doliny potencjału i jest przez swoją falę pilotującą deterministycznie spychany w miejsca maksimów, tworząc na ekranie prążki interferencyjne.
 
+W **Wersji 2 (z detektorem)** włączenie czujnika przy szczelinach wymaga wprowadzenia energii zewnętrznej (emisja fotonów, pole magnetyczne). W TGM pomiar to brutalna, mechaniczna ingerencja, generująca w rejonie szczelin stochastyczną turbulencję i szum ośrodka $\eta(\mathbf{x}, t)$. Ponieważ energia szumu detektora drastycznie przewyższa subtelną energię fali dziobowej elektronu:
 
-$$(t^{1/2} - t^{-1/2}) V(L_0) = t V(L_+) - t^{-1} V(L_-)$$
+$$\langle |\eta(\mathbf{x}, t)|^2 \rangle \gg 2|\phi_1||\phi_2|$$
 
-To trójdzielne drzewo dyssypacji jest uwarunkowaniem geometrycznym izotropowej 3-brany: naprężenie ścinające węzła może uciec z rdzenia ("wypromieniować niewidzialnie") wyłącznie na **trzy niezdegenerowane, prostopadłe stopnie swobody przestrzennej**. Algebra $SU(2)$ opisuje zatem wektory fal relaksacyjnych rozpadającego się solitonu $Z$. Zgodność z 3 generacjami neutrin jest więc niekwestionowanym triumfem mechaniki 3D, a nie postulatem symetrii cechowania.
+człon interferencyjny zostaje całkowicie zatarty przez dekoherencję mechaniczną. Fala dziobowa ulega rozbiciu i destrukcji na krawędzi szczelin. Pozbawiony fali pilotującej elektron kontynuuje lot balistyczny siłą własnej bezwładności, wygaszając prążki interferencyjne. "Załamanie funkcji falowej" okazuje się zatem klasycznym zjawiskiem hydrodynamicznym niszczenia fali nośnej przez szum urządzenia pomiarowego.
 
----
+## 7.10. Rezonator Matrycy – jak wzbudzić kontrolowane drgania 0-Matrycy
 
-## 7.6. Topologiczna hierarchia mas leptonów: Mion i Taon jako wzbudzenia splotowe wyższego rzędu
+Ponieważ 0-Matryca posiada cechy nieliniowego ośrodka sprężystego, charakteryzuje się ona ściśle określonymi częstotliwościami rezonansowymi. Możliwe jest wymuszenie sztucznych, makroskopowych drgań tego ośrodka bez konieczności budowania akceleratorów cząstek.
 
-Jedną z największych zagadek Modelu Standardowego jest istnienie trzech generacji leptonów (elektron, mion, taon), które posiadają identyczne ładunki i spiny, lecz diametralnie różne masy (mion jest $\sim 207$ razy cięższy od elektronu, a taon $\sim 3477$ razy). MS nie potrafi fizycznie wyjaśnić tej hierarchii, uciekając się do swobodnego dobierania parametrów sprzężenia z polem Higgsa. W TGM hierarchia ta jest **naturalną konsekwencją topologicznego nakładania skrzyżowań w 0-Matrycy**.
+Protokół inżynieryjny zakłada konstrukcję nadprzewodzącej wnęki rezonansowej (toroidalnej lub sferycznej), wewnątrz której generowane jest zmienne, ultraintensywne pole magnetyczne o wysokiej częstotliwości modulacji:
 
-**Elektron** reprezentuje stan podstawowy – najprostszy stabilny węzeł fermionowy o niezerowej chiralności (np. trójlistnik $3_1$). Jego spoczynkowa gęstość zmagazynowanej energii (masa) wynika z minimalnego naprężenia ścinającego niezbędnego do zamknięcia tego splotu w 4D.
+$$B(t) = B_0 + \delta B \sin(2\pi f_{\text{mod}} t)$$
 
-**Mion ($\mu$) i Taon ($\tau$)** to fizycznie ten sam podstawowy rdzeń węzła, lecz "przepompowany" kinetycznie podczas zderzeń wysokoenergetycznych, co wymusza powstanie na nim **dodatkowych, wymuszonych skrzyżowań (pętli)**. Zgodnie z nieliniową teorią sprężystości Matrycy, każde dodatkowe zagięcie lub skrzyżowanie topologiczne wymusza drastyczny, wykładniczy wzrost lokalnego naciągu osnowy.
+Częstotliwość $f_{\text{mod}}$ jest płynnie przestrajana w zakresie pasma mikrofalowego i terahercowego (1 MHz – 100 GHz). W momencie, gdy $f_{\text{mod}}$ pokryje się z częstotliwością własną lokalnej geometrii 0-Matrycy, nastąpi rezonans topo-harmoniczny. Efektywna stała sprzężenia sprężystego ośrodka $\kappa$ wzrośnie proporcjonalnie do dobroci wnęki $Q$. Sygnaturami makroskopowymi tego zjawiska będą:
 
-Masa (energia uwięziona) ciężkich leptonów jest więc ściśle powiązana z ich stopniem skomplikowania topologicznego, opisywanym przez niezmienniki węzłów (np. stopień wielomianu Jonesa $V(t)$ lub minimalną liczbę skrzyżowań $c(K)$). W pierwszym przybliżeniu elastodynamiki splotów, masa leptona $m_i$ wyraża się jako suma bazy i energii naprężeń wymuszonych:
+* Gwałtowny, skokowy wzrost opóźnienia fazowego wiązki laserowej w ramieniu sprzężonego interferometru.
+* Emisja koherentnego promieniowania wtórnego o częstotliwościach rezonansowych.
+* Lokalna modulacja bezwładności (masy efektywnej) cząstek testowych umieszczonych we wnęce.
 
-$$m_i c_{\text{lok}}^2 = E_{\text{baza}} + \kappa \cdot f(c(K_i))$$
+Eksperyment ten stanowi laboratoryjny test priorytetowy dla weryfikacji paradygmatu TGM (szczegóły w podrozdziale 11.1).
 
-gdzie $\kappa$ to moduł sztywności skrętnej Matrycy przy ekstremalnych zagięciach, a $f(c(K_i))$ to nieliniowa funkcja liczby skrzyżowań dla danej generacji.
+## 7.11. Testy w akceleratorach – propozycje falsyfikacyjne
 
-Ponieważ mion i taon są uwięzionymi stanami o potężnym nadmiarze naprężenia sprężystego, są one **wysoce niestabilne w zimnej (zrelaksowanej) 0-Matrycy**. Szum termiczny (akustyczny) 0-cząstek, o którym mowa w podrozdziale 7.1, błyskawicznie "strząsa" z nich te dodatkowe, niechronione geometrycznie pętle.
-Oddziaływanie słabe, przejawiające się jako rozpad mionu na elektron i neutrina ($\mu^- \to e^- + \bar{\nu}_e + \nu_\mu$), to w rzeczywistości **mechaniczne rozplątanie dodatkowych skrzyżowań mionu z powrotem do stanu podstawowego elektronu**, czemu towarzyszy wyrzucenie nadmiaru energii w postaci propagujących się fal relaksacyjnych (neutrin).
+Poza nieliniową odpowiedzią makroskopową we wnękach elektromagnetycznych, model TGM narzuca rygorystyczne warunki falsyfikacyjne dla fizyki wysokich energii (CERN, fixed-target):
 
-W ten sposób TGM redukuje "magię różnych generacji cząstek" do twardej mechaniki: mion to po prostu mocniej zapętlony elektron, który pod wpływem szumu Matrycy rozplątuje się do swojego stanu o najniższej energii.
+1. **Absolutny brak ciężkich cząstek stabilnych:** TGM dowodzi, że topologia uniemożliwia stabilizację węzłów o krotności splotu wyższej niż dla protonu. Teoria kategorycznie wyklucza istnienie cząstek supersymetrycznych (SUSY) oraz dodatkowych bozonów cechowania ($W', Z'$). Dotychczasowa absencja sygnałów SUSY w LHC stanowi bezpośrednie wsparcie tej prognozy.
+2. **Magnetyczna stochastyka rozpadu:** Czas życia wzbudzeń topo-harmonicznych (rezonansów) jest w TGM zależny od gęstości lokalnego szumu tła Matrycy. Silne, zewnętrzne pola magnetyczne polaryzują strukturę odkształceń 3-brany, co powinno skutkować mierzalną zmianą średniego czasu życia rezonansów (w MS czas ten jest niezmienną stałą kwantową).
 
-### 7.6.1. Anomalia magnetyczna $g-2$: Pomiar „tarcia” topologicznego
+## 7.12. Test topologiczny – poszukiwanie wzorców pęknięcia węzła $3_1$ w danych LHC
 
-W Modelu Standardowym anomalia magnetyczna mionu $\Delta a_\mu = (g-2)/2$ jest interpretowana jako wynik oddziaływań z tzw. "wirtualnymi cząstkami" (polaryzacja próżni). TGM radykalnie upraszcza tę ontologię. W naszej teorii, anomalia $g-2$ nie jest wynikiem interakcji z "duchami" (wirtualnymi cząstkami), lecz jest bezpośrednim, mierzalnym **oporem geometrycznym (drag)**, jaki 0-Matryca stawia dodatkowym skrzyżowaniom węzła mionowego podczas jego rotacji w polu magnetycznym.
+W zderzeniach wysokoenergetycznych w LHC proces destrukcji protonu nie jest probabilistycznym, losowym podziałem partonów. Ponieważ proton jest solitonem stabilizowanym przez szkielet węzła trójlistnego $3_1$, jego mechaniczne rozerwanie (pęknięcie) musi podlegać regułom zrywania skrzyżowań opisywanym przez relacje kłębiaste (*Skein relations*).
 
-**Wyprowadzenie mechaniczne:**
-Mion, jako węzeł o wyższej złożoności topologicznej niż elektron ($c(K_\mu) > c(K_e)$), posiada dodatkowe "pętle" wymuszone. W zewnętrznym polu $B$, moment magnetyczny mionu jest wypadkową cyrkulacji energii samego węzła oraz indukowanego przez niego lokalnego odkształcenia sieci.
+Uwolnienie energii sprężystej z pękniętego szkieletu $3_1$ następuje wzdłuż jego trzech pierwotnych osi geometrycznych. Generuje to w detektorze sygnaturę trzech twardych strumieni cząstek o wysokim pędzie poprzecznym (zdarzenia 3-jetowe), podczas gdy wibracje uwolnionego morza partonicznego rozpraszają się jako chaotyczny, niskopoziomowy szum tła (tzw. *Underlying Event*).
 
-Podczas rotacji węzła, dodatkowe pętle mionu "przecinają" linie sił pola 0-Matrycy. Ponieważ 0-Matryca posiada skończony moduł sztywności $\mathcal{K}$ (wyznaczony w Aneksie B), generuje to moment hamujący (dyssypację). Anomalna część momentu magnetycznego $\Delta a_\mu$ jest w TGM funkcją sprzężenia tego mechanicznego oporu z częstotliwością Larmorowską ($\nu_L$):
+W celu identyfikacji topologicznej struktury protonu, protokół badawczy nakazuje odseparowanie cząstek o pędzie $p_T > 30\text{ GeV}$ od szumu ($p_T < 2\text{ GeV}$) i poddanie ich analizie przy użyciu **tensora sferyczności**:
 
-$$\Delta a_{\text{TGM}} = \eta \cdot \left( \frac{\mathcal{K}_{\text{eff}}}{\rho_0 c^2} \right) \cdot \chi_{\text{top}}$$
+$$S^{\alpha\beta} = \frac{\sum_i p_i^\alpha p_i^\beta}{\sum_i |p_i|^2}$$
 
-Gdzie:
+Po diagonalizacji tensora uzyskuje się wartości własne $\lambda_1 \ge \lambda_2 \ge \lambda_3$, które definiują makroskopową sferyczność $S = \frac{3}{2}(\lambda_2+\lambda_3)$ oraz planarność $A = \frac{3}{2}\lambda_3$. Dla idealnie symetrycznego, planarnego rozpadu węzła $3_1$ o symetrii $120^\circ$ wartości wynoszą teoretycznie $S = 0{,}75, A = 0$.
 
-* $\eta$ – stała sprzężenia topologicznego węzła z ośrodkiem,
-* $\mathcal{K}_{\text{eff}} / (\rho_0 c^2)$ – znormalizowana sztywność sieci (bezwymiarowy współczynnik interakcji),
-* $\chi_{\text{top}} = \frac{c(K_\mu) - c(K_e)}{c(K_e)}$ – wskaźnik nadmiarowej złożoności topologicznej mionu względem elektronu.
+Wprowadzając wskaźnik asymetrii dla trzech głównych strumieni pędu poprzecznego:
 
-**Wniosek:**
-Zależność ta przewiduje, że anomalia $g-2$ powinna rosnąć proporcjonalnie do sztywności lokalnej otoczenia 0-Matrycy. W przeciwieństwie do Modelu Standardowego, który wymaga dodawania "nowej fizyki" (np. supersymetrii), aby wyjaśnić drobne odchylenia pomiarowe, TGM przewiduje, że $\Delta a_\mu$ jest stałą geometryczną wynikającą z:
+$$\mathcal{A} = \frac{|p_{T,1}-p_{T,2}| + |p_{T,2}-p_{T,3}| + |p_{T,3}-p_{T,1}|}{p_{T,1}+p_{T,2}+p_{T,3}}$$
 
-1. **Sztywności Matrycy ($\mathcal{K}$):** Jeśli $\mathcal{K}$ ulega zmianie (np. w ekstremalnie silnych polach), anomalia mionu również powinna ulec zmianie.
-2. **Topologii węzła:** Złożoność węzła mionowego jest wartością stałą.
+model TGM przewiduje, że rozkład zdarzeń na wykresie Dalitza w przestrzeni $(S,A)$ nie będzie gładki (jak postuluje QCD oparta na losowej emisji gluonów z diagramów Feynmana). Analiza danych *open data* z detektorów CMS/ATLAS powinna ujawnić statystycznie istotne ($>3\sigma$) anomalne zagęszczenia – struktury geometryczne ("wyspy" lub "pasma") o określonych wartościach sferyczności, których asymetria $\mathcal{A}$ wykaże ścisłą korelację z parametrem zderzenia $b$ oraz energią w środku masy $E_{cm}$. Brak takich strukturalnych odchyleń przy odpowiedniej czułości statystycznej stanowi oficjalne kryterium falsyfikacji węzłowej natury nukleonów w TGM.
 
-Wartość anomalii mionu, którą mierzymy w Fermilab, jest więc w istocie **najbardziej precyzyjnym pomiarem sztywności 0-Matrycy**, jakiego ludzkość kiedykolwiek dokonała. Wyjaśnienie to usuwa potrzebę istnienia "nowych cząstek", redukując "anomalię" do czystej mechaniki continuum.
+## 7.13. Podsumowanie rozdziału 6
 
-## 7.7. Podsumowanie rozdziału 7
+* Oddziaływanie silne zostaje zredukowane do mechaniki pęcherzyków kawitacyjnych (hadronów) w sprężystej 0-Matrycy.
+* Uwięzienie kwarków wynika z liniowego wzrostu energii naprężenia ścinającego podczas rozciągania bariery fazowej (szyjki) pęcherzyka.
+* Asymptotyczna swoboda jest naturalną konsekwencją wejścia kwarków w wewnętrzny, zrelaksowany obszar ciśnienia kawitacyjnego.
+* Wszystkie ciężkie, krótkożyjące cząstki (bozony $W, Z$, Higgs, miony, kwarki ciężkie) nie są fundamentalnymi cegiełkami materii, lecz **Wzbudzeniami Topo-Harmonicznymi** – skwantowanymi modami własnymi i rezonansami nieliniowego ośrodka.
+* Macierz CKM oraz dualizm falowo-korpuskularny (eksperyment Younga) tracą swój abstrakcyjny charakter, stając się odpowiednio: klasyczną geometryczną macierzą obrotu osi naprężeń oraz hydrodynamiką fali pilotującej niszczonej przez szum pomiarowy detektora.
+* Model TGM oferuje bezpośrednie, niskobudżetowe ścieżki falsyfikacji za pomocą elektromagnetycznych wnęk rezonansowych oraz analizy tensora sferyczności dla zdarzeń 3-jetowych w publicznych bazach danych CERN.
 
-* **Oddziaływania słabe to mechanika dyssypacji:** Przemiany izotopowe i rozpady leptonów to emergentne, stochastyczne zjawiska rozrywania i rozplątywania węzłów topologicznych w wyniku zderzeń z fononami tła (szumem 0-Matrycy).
-* **Zatrzask fazowy:** Stanowi rezonansowy mechanizm chroniący topologię węzłów w izotopach stabilnych, oferując weryfikowalne rozwiązanie anomalii czasu życia neutronu w pułapkach pomiarowych.
-* **Bozony W i Z to rezonatory topo-harmoniczne:** Są to przejściowe, dyssypujące stany uwięzionych odkształceń, co unieważnia dogmat o istnieniu punktowych nośników "siły słabej" i wyklucza supersymetrię (SUSY).
-* **Algebra $SU(2)$ to rzutowanie 3D:** Obecność dokładnie 3 generacji neutrin (szerokość rozpadu Z) to nie symetria cechowania, lecz bezpośredni wymóg relacji kłębiastych (Skein relations) – naprężenie musi uciec wzdłuż trzech prostopadłych osi przestrzennych izotropowej 3-brany.
-* **Hierarchia mas leptonów to złożoność splotu:** Mion i taon nie są fundamentalnie nowymi cząstkami; są węzłami elektronowymi o wyższej liczbie wymuszonych skrzyżowań. Ich potężna masa to zmagazynowane naprężenie tych zagięć, a ich rozpad to mechaniczna relaksacja do topologicznego stanu podstawowego.
+## 7.14. Fundament empiryczny i źródła danych:
 
-## 7.8. Fundament empiryczny i źródła danych:
-
-* **Anomalia czasu życia neutronu (Dowód na wpływ tła na stabilność węzła):** Fizyka doświadczalna od lat mierzy się z tzw. zagadką czasu życia wolnego neutronu. Neutrony uwięzione w magnetycznej pułapce próżniowej ("wiązka") rozpadają się o około 9 sekund wolniej niż neutrony uwięzione w materialnym pojemniku ("butli"). Model Standardowy nie potrafi tego wyjaśnić. W TGM rozpad słaby nie jest "magiczną losowością", lecz mechanicznym rozerwaniem węzła przez termo-akustyczny szum Matrycy. Obecność fizycznych ścian pułapki (butli) zmienia lokalną akustykę/naprężenie tła Matrycy, co wprost wymusza zmianę progu stabilności i tempa dyssypacji węzła.
-* *Źródło:* Wietfeldt, F. E., & Greene, G. L. (2011). *The neutron lifetime*. Reviews of Modern Physics, 83(4), 1173. (Szczegółowy przegląd twardych danych eksperymentalnych ukazujących fizyczną rozbieżność czasu rozpadu w zależności od środowiska pomiarowego).
-
-
-* **Oscylacje neutrin jako propagacja fali w naprężonym ośrodku:** Model Standardowy zakładał, że neutrina są bezmasowe. Surowe dane z detektorów podziemnych udowodniły jednak, że neutrina w locie zmieniają swój "zapach" (stan). W TGM neutrino to nie punktowa cząstka, lecz asymetryczny impuls falowy fazy Matrycy (ślad po pękniętym węźle). Dowód na ich oscylację to czysto inżynieryjny dowód na to, że impuls ten posiada masę grawitacyjną (naciąg) i nieustannie oddziałuje ze sprężystą strukturą 0-Matrycy podczas propagacji, dyspergując na różne mody harmoniczne.
-* *Źródło:* Fukuda, Y. et al. (Super-Kamiokande Collaboration) (1998). *Evidence for Oscillation of Atmospheric Neutrinos*. Physical Review Letters, 81(8), 1562. (Klasyczne, surowe dane obserwacyjne obalające pierwotny Model Standardowy).
+* **Idealna płynność materii jądrowej (Dowód na hydrodynamikę zamiast gazu cząstek):** W zderzeniach ciężkich jonów (np. złota lub ołowiu) fizycy oczekiwali odkrycia "gazu" swobodnych kwarków i wirtualnych gluonów. Zamiast tego surowe dane z detektorów bezspornie wykazały, że powstająca plazma zachowuje się jak **idealny płyn o niemal zerowej lepkości kinetycznej**. Jest to bezpośredni, empiryczny dowód wspierający paradygmat TGM, według którego oddziaływania silne zachodzą w skondensowanym, nadciekłym ośrodku (zdegenerowanej 0-Matrycy), a uwięzienie to zjawisko hydrodynamiczne (kawitacyjne), a nie wymiana swobodnych cząstek.
+* *Źródło:* Adams, J. et al. (STAR Collaboration) (2005). *Experimental and theoretical challenges in the search for the quark-gluon plasma: The STAR Collaboration's critical assessment of the evidence from RHIC collisions*. Nuclear Physics A, 757(1-2), 102-183.
 
 
-* **Złamanie symetrii parzystości (Chiralność przestrzeni):** Własnością oddziaływań słabych jest to, że faworyzują one "lewoskrętność" (złamanie symetrii P). W rozpadzie beta elektrony wyrzucane są asymetrycznie względem osi spinu jądra. TGM interpretuje to geometrycznie: sama izotropowa 3-brana na poziomie sub-planckowskim nie jest idealnie lustrzana, lecz posiada wrodzony skręt topologiczny (chiralność). Rozpadający się węzeł ulega rozwłóknieniu wzdłuż naturalnego "kierunku splotu" Matrycy, tak jak pękająca sprężyna podąża za swoim zwojem.
-* *Źródło:* Wu, C. S. et al. (1957). *Experimental Test of Parity Conservation in Beta Decay*. Physical Review, 105(4), 1413. (Fundamentalny, niepodważalny dowód na wbudowaną asymetrię rozpadów jądrowych, potwierdzający chiralną naturę ośrodka).
+* **Geometria pękania węzła w danych akceleratorowych (Tensory Sferyczności):** TGM postuluje, że proton nie jest "workiem stochastycznych kwarków", lecz ściśle zdefiniowanym splotem topologicznym (węzłem trójlistnym $3_1$). Przy zderzeniach wysokoenergetycznych ten deterministyczny węzeł pęka, dając specyficzne, kierunkowe rzuty materii (dżety). Pomiary tzw. zmiennych kształtu zdarzenia (Event Shapes, m.in. tensora sferyczności) w LHC dostarczają precyzyjnych map 3D tych rozbłysków. TGM odrzuca ich probabilistyczną interpretację na rzecz czysto mechanicznej dekompozycji przestrzennej węzła.
+* *Źródło:* Aad, G. et al. (ATLAS Collaboration) (2012). *Measurement of hadronic event shapes at high $p_T$ in $pp$ collisions at $\sqrt{s}=7$ TeV*. The European Physical Journal C, 72(12), 2211. (Surowe dane geometryczne dystrybucji pędu po zderzeniu, pozwalające na falsyfikację topologii węzła $3_1$).
 
 
-* **Termiczna temperatura szumu 0-Matrycy (CMB):** TGM odrzuca koncepcję Promieniowania Tła (CMB) jako echa Wielkiego Wybuchu. Jest to po prostu empirycznie mierzona, aktualna temperatura termodynamiczna (2,7 K) zderzeń 0-cząstek tworzących Matrycę. To właśnie ta wszechobecna, makroskopowa temperatura tła jest źródłem szumu niszczącego stabilność niestabilnych izotopów.
-* *Źródło:* Fixsen, D. J. (2009). *The Temperature of the Cosmic Microwave Background*. The Astrophysical Journal, 707(2), 916. (Najbardziej precyzyjne, surowe wyznaczenie absolutnej temperatury fizycznej przestrzeni, niezależne od jej późniejszych interpretacji kosmologicznych).
+* **Ekstremalna granica stabilności niezmienników (Czas życia protonu):** TGM definiuje proton jako najprostszą stabilną konfigurację węzłową chronioną barierą plastyczności Matrycy. Surowe dane z potężnych detektorów podziemnych (np. Super-Kamiokande) nie rejestrują rozpadu protonu, ustanawiając twardą, dolną granicę jego czasu życia. Dla TGM ta gigantyczna liczba jest miarą ekstremalnej sztywności modułu odpornościowego splotu na dyssypację w szumie termo-akustycznym 0-Matrycy.
+* *Źródło:* Abe, K. et al. (Super-Kamiokande Collaboration) (2017). *Search for proton decay via $p \to e^+ \pi^0$ and $p \to \mu^+ \pi^0$ in 0.31 megaton·years exposure of the Super-Kamiokande water Cherenkov detector*. Physical Review D, 95(1), 012004. (Wyznacza twardy fizyczny limit $\tau > 1{,}6 \times 10^{34}$ lat).
 
----
+
+* **Brak Ciężkiej Nowej Fizyki (Odrzucenie supersymetrii):** TGM przewiduje, że poza fundamentalnymi węzłami (nukleonami i leptonami), nie istnieją żadne inne stabilne "ciężkie cząstki", a jedynie krótkotrwałe echa (rezonanse topo-harmoniczne pękającej Matrycy). Pomimo dekad poszukiwań i bilionów zderzeń w LHC, dane eksperymentalne bezwzględnie to potwierdzają: nie znaleziono ani jednej trwałej cząstki supersymetrycznej (SUSY), lepto-kwarka czy wimp-a. To tzw. "wielkie puste pole" akceleratorów jest triumfalnym, empirycznym potwierdzeniem inżynieryjnych ograniczeń węzłowych TGM.
+* *Źródło:* ATLAS Collaboration (2021). *Search for squarks and gluinos in final states with jets and missing transverse momentum using 139 fb$^{-1}$ of $pp$ collision data*. The European Physical Journal C, 81(7). (Jeden z wielu raportów potwierdzających tzw. *null-result* dla starych modeli MS, idealnie pasujący do założeń TGM).

@@ -1,0 +1,24 @@
+# Spis treści dla: rozdzial 1.md
+
+- **# 1. Rozdział 1: Aksjomatyka i rygorystyczny formalizm TSM: Czas emergentny, chaotyczny Substrat i elasto-dynamika 3-brany**
+  - **## 1.1. Fundamentalny parametr ewolucyjny $\tau$ jako miara globalnej, uśrednionej aktywności 0-cząstek**
+    - **### 1.1.1. Stan Zero jako stacjonarny chaos kinetyczny**
+    - **### 1.1.2. Globalny parametr ewolucyjny $\tau$**
+    - **### 1.1.3. Emergencja osnowy sprężystej w reżimie przed-zakleszczeniowym (Pre-jamming)**
+    - **### 1.1.4. Czas mierzony $t$ jako pochodna zagęszczenia wibracji**
+  - **## 1.2. Ośrodek i przestrzeń: Stan zakleszczenia geometrycznego i izotropowa 3-brana**
+    - **### 1.2.1. Stan zakleszczenia (Jamming)**
+    - **### 1.2.2. Izotropowa 3-brana**
+  - **## 1.3. Kinematyka nieliniowa: Emergencja metryki $g_{ab}$ z odkształcenia**
+  - **## 1.4. Dynamika falowa Substratu i równania pola**
+  - **## 1.5. Podwójny reżim elasto-dynamiki: Fale sprężyste a nieliniowa blokada topologiczna**
+    - **### 1.5.1. Reżim I: Liniowa relaksacja akustyczna ($\phi < \phi_{\text{lock}}$)**
+    - **### 1.5.2. Reżim II: Nieliniowa blokada topologiczna ($\phi \ge \phi_{\text{lock}}$)**
+  - **## 1.6. Aksjomat materii: Skwantowane węzły topologiczne i rygorystyczne rozdzielenie masy od ładunku**
+    - **### 1.6.1. Matematyczna geneza kwantowania materii**
+    - **### 1.6.2. Ruch płynny i asymptotyczne wygaszenie barier dyskretnych**
+  - **## 1.7. Wyprowadzenie kinematyki relatywistycznej z hydro-elastyczności Substratu**
+    - **### 1.7.1. Kontrakcja długości**
+    - **### 1.7.2. Energia, pęd i siła w ujęciu ewolucyjnym**
+  - **## 1.8. Zmienna propagacja fal (lokalne $c_{\perp}$) i stałe materiałowe**
+  - **## 1.9. Podsumowanie Rozdziału 1**

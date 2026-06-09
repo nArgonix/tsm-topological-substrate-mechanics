@@ -1,115 +1,78 @@
-# Rozdział 10: Kosmologia bez ekspansji – relaksacja Matrycy, dylatacja czasu SN Ia i wielowarstwowa propagacja fal
+# 10. Rozdział 10: Plazmoidy centralne i elektrodynamika torsyjna. Iluzja czarnych dziur i refrakcyjnych cieni
 
-## 10.1. Odrzucenie ekspansji Wszechświata
+## 10.1. Problem osobliwości OTW i algorytmiczny błąd teleskopu EHT
 
-W teorii Topologicznej Geometrodynamiki Matrycy (TGM) nie istnieje elastyczna, abstrakcyjna czasoprzestrzeń, a czas ma charakter wyłącznie emergentny (Aksjomat 1.6). W związku z tym nie ma ontologicznych podstaw, by Wszechświat rozszerzał się w sensie metrycznym. Jak wykazano w rozdziale 8, koncepcja Ciemnej Energii jest błędem interpretacyjnym. Obserwowane przesunięcie ku czerwieni (redshift) odległych galaktyk i supernowych nie jest efektem Dopplera wynikającym z ucieczki galaktyk, lecz **obserwowalną miarą lokalnego i kosmologicznego naprężenia 0-Matrycy** oraz zjawisk propagacyjnych w ewoluującym przestrzennie ośrodku 4D.
+W Ogólnej Teorii Względności (OTW) centrum galaktyki to czarna dziura – obszar zdefiniowany przez matematyczną osobliwość (nieskończona gęstość) i uwięziony za horyzontem zdarzeń. Fizyka ośrodków ciągłych z definicji odrzuca istnienie nieskończoności; są one jedynie artefaktem błędnego modelu, który pominął materiałowe parametry wytrzymałościowe przestrzeni.
 
-## 10.2. Relaksacja 0-Matrycy – kosmologiczna ewolucja średniego naprężenia
+Współczesna astrofizyka za koronny dowód istnienia czarnych dziur uznaje obrazy uzyskane przez sieć Event Horizon Telescope (EHT), ukazujące świetlisty pierścień i ciemny środek (dla obiektów M87* oraz Sagittarius A*). Teoria Topologicznej Geometrodynamiki Matrycy (TGM) zauważa jednak fundamentalną słabość tej interpretacji: EHT nie tworzy bezpośredniej fotografii. Ze względu na rzadkie próbkowanie interferometryczne, obraz jest w dużej mierze rekonstruowany przez algorytmy (np. CHIRP, CLEAN) zasilane tzw. założeniami początkowymi (*priors*), opartymi ściśle na symulacjach z OTW. Oprogramowanie to "znalazło" promień Schwarzschilda, ponieważ zostało zaprogramowane, by dopasować zaszumione dane do sztywnych ram tej teorii.
 
-0-Matryca dąży termodynamicznie do **Stanu Zero** (absolutnego minimum energii sprężystej, zerowego tensora naprężenia). W skali kosmologicznej oznacza to, że średnie naprężenie tła międzygalaktycznego $\Sigma_{\text{IGM}}(t)$ maleje monotonicznie z czasem kosmicznym $t$ (liczonym emergentnie jako uśredniona liczba cykli wibracyjnych Matrycy).
+TGM proponuje rozwiązanie rygorystyczne elasto-dynamicznie, wykluczające horyzonty zdarzeń i tłumaczące dane EHT zjawiskami czysto optyczno-naprężeniowymi.
 
-Im wcześniejsza epoka, tym wyższe było globalne naprężenie $\Sigma_{\text{IGM}}$. Opadanie tego naciągu nazywamy **relaksacją Matrycy**. Szum termo-akustyczny (CMB) z wczesnych, najgęstszych faz tej relaksacji stanowi tło wibracyjne obserwowalne dzisiaj (patrz podrozdz. 8.5).
+## 10.2. Plazmoid centralny jako kompaktowy stan zdegenerowanej 0-Matrycy
 
-W przybliżeniu liniowym, dla małych zmian w stosunku do dzisiejszej wartości $\Sigma_0$:
+W centrum układu galaktycznego naprężenie ortogonalne $\sigma_{44}$ (odczuwane jako grawitacja) narasta do skrajnych wartości. W przeciwieństwie do OTW, ciśnienie to napotyka materiałową barierę wytrzymałości 0-Matrycy – **maksymalne naprężenie plastyczne** $\sigma_{\text{max}}$.
 
-$$\Sigma_{\text{IGM}}(t) \approx \Sigma_0 \, (1 - H_0 \, t)$$
+Gdy naprężenie to zostaje przekroczone, bariera plastyczności chroniąca topologię węzłów (fermionów) załamuje się. Dochodzi do masowego rozerwania niezmienników Hopfa (dyssypacji węzłów). Materia ulega rozwłóknieniu, przechodząc w stan **plazmoidu centralnego**:
 
-gdzie obserwowalna stała Hubble'a ($H_0$) nie jest kinematyczną stałą tempa rozszerzania się pustki, lecz makroskopowym **współczynnikiem tempa relaksacji mechanicznej 0-Matrycy**.
+* Jest to niezwykle gęsty, kompaktowy "bąbel" zdegenerowanej plazmy 0-cząstek.
+* W przeciwieństwie do czarnej dziury OTW (gdzie promień rośnie liniowo, $R \propto M$), plazmoid podlega fizycznym prawom stałej gęstości maksymalnej dla stanu plastycznego $\rho_{\text{max}} = \sigma_{\text{max}}/c_{\text{lok}}^2$.
+* Związek objętościowy narzuca twarde skalowanie: **$R \propto M^{1/3}$**.
 
-## 10.3. Wielowarstwowa propagacja światła – trzy strefy naprężenia
+Oznacza to, że fizyczny rozmiar plazmoidu dla supermasywnych obiektów (jak Sgr A* o masie ok. 4 milionów Słońc) wynosi fizycznie zaledwie kilka-kilkanaście tysięcy kilometrów (skala planetarna), a nie dziesiątki milionów kilometrów, jak przewiduje promień Schwarzschilda.
 
-Światło (poprzeczna fala ścinająca) docierające do nas z odległego źródła przechodzi przez trzy obszary o różnym profilu naciągu:
+## 10.3. Cień czarnej dziury jako sferyczna pułapka refrakcyjna (Iluzja $V_{ij}$)
 
-1. **Strefa źródła:** Galaktyka macierzysta lub plazmoid centralny. Lokalne naprężenie $\Sigma_{\text{src}}$ jest bezpośrednią funkcją **lokalnego naciągu 4-wymiarowego** opisanego w podrozdziale 5.1 potencjałem $\Phi(r) = -\alpha(\mathbf{x})m/r$. Powoduje ono:
-* **Intrinsic redshift:** $z_{\text{src}} \approx -\eta \Sigma_{\text{src}}$ (gdzie $\eta > 0$ to stała sprzężenia fali; znak ujemny wynika z faktu, że przyciągające naprężenie ścinające zwiększa długość fali).
-* **Dylatację czasu w źródle:** Zgodnie z Aksjomatem 1.6, tempo procesów własnych spada w napiętej sieci: $f = f_0(1+\zeta \Sigma_{\text{src}})$.
+Skoro fizyczny plazmoid jest relatywnie mały, dlaczego cień zarejestrowany na rekonstrukcjach EHT jest gigantyczny? Wynika to wprost ze zjawiska nieliniowego dodawania naprężeń ($V_{ij}$), wyprowadzonego w Rozdziale 8 na przykładzie ciemnej materii w gromadach.
 
+Jądro galaktyki otoczone jest ekstremalnie ciasnym upakowaniem milionów węzłów gwiezdnych. To makroskopowe skupisko wywołuje potężną, nieliniową interferencję naciągów ortogonalnych 4D. Zgodnie z **Aksjomatem 1.5**, drastyczny wzrost naprężenia tła drastycznie zwiększa przenikalność efektywną $\epsilon_{\text{eff}}$. Powoduje to, że w gigantycznym promieniu wokół małego plazmoidu (sięgającym milionów kilometrów) lokalna prędkość propagacji fotonów ($c_{\text{lok}}$) ulega ekstremalnemu spowolnieniu.
 
-2. **Strefa międzygalaktyczna:** Średnie naprężenie tła $\Sigma_{\text{IGM}}(t)$, które ulega relaksacji podczas podróży fali. Foton przemieszcza się przez ośrodek, którego napięcie nieustannie spada. Całkowity wkład do redshiftu można wyrazić całką po drodze optycznej $l$:
+Obraz "cienia" z EHT nie jest fizyczną powierzchnią (horyzontem zdarzeń) supermasywnego obiektu. Jest to **sferyczna soczewka refrakcyjna (iluzja optyczna Matrycy)**. Światło (fala ścinająca) wpadające w rejon głębokiego "leja sprężystego" wokół plazmoidu zostaje uwięzione w optycznych pętlach na skutek skrajnego gradientu współczynnika załamania. Ośrodek Matrycy wygina fronty falowe na dystansie milionów kilometrów od samego jądra, perfekcyjnie symulując zjawisko, które OTW błędnie interpretuje jako geometrię bezpowrotnej pustki.
 
-$$1+z_{\text{IGM}} = \exp\left( \frac{\eta}{c_0} \int_0^{d} \frac{\partial \Sigma_{\text{IGM}}}{\partial t} \, dl \right) \approx 1 + \frac{\eta}{c_0} H_0 d \quad \text{(dla małych } z)$$
+## 10.4. Elektrodynamika torsyjna jądra: Z-pinch i zawirowania Matrycy
 
-Równanie to rygorystycznie odtwarza prawo Hubble'a jako kinematykę fali w stygnącym ośrodku.
+Mechanika plazmoidu stanowi jednoczesne rozwiązanie i uściślenie koncepcji tzw. Elektrycznego Wszechświata (Electric Universe – EU). Zwolennicy EU słusznie wskazują, że galaktykami rządzą gigantyczne prądy kosmiczne (tzw. prądy Birkelanda) zjawisko zaciskania plazmy (Z-pinch), ale błędnie ignorują istnienie grawitacji.
 
-3. **Strefa obserwatora:** Układ Słoneczny i heliosfera. Naprężenie $\Sigma_{\text{obs}}$ wygenerowane przez masy lokalne wprowadza niewielkie, stałe przesunięcie $z_{\text{obs}}$ oraz lokalną anizotropię dipolową.
+W ontologii TGM, klasyczny prąd to przemieszczająca się fala torsyjna (skręcenie) izotropowej 3-brany. Jądro galaktyki zachowuje się jak potężny wir. Prądy Birkelanda nie są tu ruchem swobodnych elektronów w pustej próżni, lecz makroskopowym uwikłaniem strukturalnym 0-Matrycy wlewającym się do centrum spiralnej galaktyki.
 
-**Wypadkowy redshift** określa iloczyn składowych propagacji:
+Gdy to ogromne skręcenie (energia rotacyjna) dociera do jądra, generuje zjawisko makroskopowego zaciskania magneto-elastycznego (Z-pinch). Kompresuje to plazmoid, utrzymując jego zdegenerowany stan. Jednocześnie, zgodnie z mechaniką sprzężeń w 4D, skrajne skręcenie brany wymusza ekstremalny naciąg ortogonalny w osi $x^4$ ($\sigma_{44}$). W TGM grawitacja nie jest oddzielną siłą zwalczającą elektromagnetyzm, lecz mechanicznym skutkiem potężnej, galaktycznej fali torsyjnej uwięzionej w centrum Matrycy.
 
-$$1+z = (1+z_{\text{src}})(1+z_{\text{IGM}})(1+z_{\text{obs}})$$
+## 10.5. Dżety galaktyczne jako zawory ciśnieniowe i kawitacja Matrycy
 
-Dla odległych obiektów bezwzględnie dominuje człon $z_{\text{IGM}}$. Niewielkie fluktuacje członów $z_{\text{src}}$ oraz $z_{\text{obs}}$ stanowią odpowiedź TGM na tzw. "Napięcie Hubble'a".
+Aktywne galaktyki zrzucają nadmiar zmagazynowanej energii i momentu pędu w postaci wąskich strug – dżetów relatywistycznych. TGM eliminuje w ich opisie matematyczną nieskończoność czarnej dziury pochłaniającej materię.
 
-### 10.4. Supernowe typu Ia – uniwersalność $\Sigma_{\text{WD}}$, granica Chandrasekhara i krzywe blasku
+Ogromny, wirujący w 3-branie plazmoid narzuca przestrzeni ekstremalne obciążenie ścinające. Kiedy do plazmoidu "wpada" zbyt dużo naprężeń (materii), na biegunach obiektu – gdzie moment pędu rotacji i siła odśrodkowa są minimalne – naprężenie ścinające Matrycy zostaje rozerwane. Bieguny stają się naturalnymi "zaworami ciśnieniowymi".
 
-Kluczowym testem weryfikującym modele kosmologiczne są supernowe typu Ia (SN Ia). Obserwacje obiektów o wysokim przesunięciu ku czerwieni ($z$) wykazują rozciągnięcie ich krzywych blasku o czynnik $(1+z)$ (czas narastania i zaniku jest proporcjonalnie dłuższy). W standardowej kosmologii (ΛCDM) interpretuje się to jako dowód na metryczną ekspansję czasoprzestrzeni, która "rozciągnęła" odległość między fotonami w locie.
+**Skąd biorą się cząstki w dżecie?**
+Wyrzucana pod skrajnym ciśnieniem zdegenerowana plazma 0-cząstek opuszcza tło ekstremalnie zwolnionego $c_{\text{lok}}$ i trafia na obszary o znacznie niższym naprężeniu tła. Zgodnie z procesem opisanym w Rozdziale 6.2 i 6.3, drastyczna dekompresja uruchamia zjawisko **kawitacji Matrycy**. Osnowa przestrzeni w strumieniu ulega rozciągnięciu, formując nowe pęcherzyki kawitacyjne stabilizowane niezmiennikiem splotu. Następuje masowa hadronizacja – dżet nieustannie "produkuje" z fali tysiące nowych cząstek elementarnych (protonów i elektronów), będąc ciągłym, mechanicznym procesem odtwarzania węzłów w stygnącym strudze uchodzącym z plazmoidu.
 
-W teorii Topologicznej Geometrodynamiki Matrycy przestrzeń się nie rozszerza. Obserwowane rozciągnięcie w czasie jest bezpośrednią, fizyczną konsekwencją **Aksjomatu 1.6 (Czas emergentny)** – mechanicznego spowolnienia procesów jądrowych, wynikającego z większego naprężenia Matrycy w dawnych epokach kosmicznych. "Film" z wybuchu został nagrany u źródła w obiektywnie zwolnionym tempie.
+## 10.6. Narodziny kwazarów na końcach dżetów: Mechanizm Arpa i uwarunkowania Intrinsic Redshift
 
-**10.4.1. Formalny dowód niezależności od środowiska galaktycznego**
+Strumień wyrzucanej materii w dżecie nie propaguje się w nieskończoność. Zgodnie z dynamiką przepływów płynów nieliniowych, w miarę dyssypacji energii kinetycznej wzdłuż osi fali torsyjnej, na końcu strugi następuje gwałtowna akumulacja nowo uformowanych węzłów (hadronów).
 
-Aby rygorystycznie uzasadnić, dlaczego dylatacja czasu SN Ia jest skorelowana wyłącznie z kosmologicznym wiekiem relaksacyjnym (parametrem $z$), a nie z masą galaktyki macierzystej, dokonujemy rozkładu lokalnego naprężenia w skali atomowej. Wypadkowe naprężenie $\Sigma_{\text{total}}$ w miejscu zapłonu składa się z trzech członów:
+Gdy masa tej materii przekracza próg krytyczny, naciąg ortogonalny w 4D ($\sigma_{44}$) w tym obszarze lokalnie rośnie, wymuszając zapadnięcie się nagromadzonego gazu i pyłu w nowy, zwarty układ. Tworzy się **wtórny (potomny) plazmoid centralny**, który w początkowej, skrajnie aktywnej fazie pożera otaczającą materię ze strumienia. Astrofizyka obserwacyjna nazywa te obiekty **kwazarami**.
 
-$$\Sigma_{\text{total}} = \Sigma_{\text{WD}} + \Sigma_{\text{gal}} + \Sigma_{\text{IGM}}(t_{\text{em}})$$
+### 10.6.1. Zgodność z obserwacjami Haltona Arpa
 
-gdzie $\Sigma_{\text{IGM}}(t_{\text{em}})$ to naprężenie tła międzygalaktycznego (relaksujące w czasie), $\Sigma_{\text{gal}}$ to naprężenie od galaktyki, a $\Sigma_{\text{WD}}$ to ekstremalne naprężenie własne zapadającego się białego karła.
+Koncepcja wyrzucania nowych galaktyk z dżetów plazmoidów stanowi fizyczne rozwiązanie jednej z najbardziej zignorowanych zagadek astrofizyki – obserwacji dokonanych przez Haltona Arpa. Udokumentował on istnienie licznych galaktyk aktywnych połączonych fizycznymi "mostami materii" (dżetami) z kwazarami.
 
-Supernowa typu Ia eksploduje precyzyjnie po osiągnięciu granicy Chandrasekhara (ok. $1,4 M_\odot$). Własne naprężenie grawitacyjne białego karła $\Sigma_{\text{WD}}$ wynika z granicy ciśnienia degeneracji elektronów (odpychania topologicznego węzłów, rozdz. 3.3). Wewnątrz układu gęstość wynosi rzędu $10^9 \text{ kg/m}^3$, co przekłada się na potężną gęstość energii zmagazynowanej w Matrycy:
+Paradoks OTW polegał na tym, że galaktyka macierzysta posiadała bardzo niskie przesunięcie ku czerwieni ($z$), podczas gdy rzekomo wyrzucony z niej kwazar posiadał $z$ drastycznie wyższe. W standardowej kosmologii, traktującej $z$ wyłącznie jako miarę odległości (ekspansji pustki), te obiekty musiałyby znajdować się miliardy lat świetlnych od siebie, a łączące je mosty plazmy uznawano za przypadkowe nałożenie tła.
 
-$$\rho_{\text{WD}} c_0^2 \sim 10^{27} \text{ J/m}^3$$
+W paradygmacie TGM jest to zjawisko rygorystycznie deterministyczne i w pełni wymuszone przez fizykę naprężeń:
 
-Dla porównania, naprężenie tła od galaktyki macierzystej $\Sigma_{\text{gal}}$ wynika ze średniej gęstości rzędu $10^{-21} \text{ kg/m}^3$, co daje:
+1. **Most materii** to po prostu ślad przesyłowy prądu (fali torsyjnej) wyrzucającego nową plazmę z galaktyki macierzystej.
+2. **Skrajne przesunięcie kwazara ($z_{\text{src}}$)**: Kwazar, jako młody, gwałtownie uformowany plazmoid na końcu dżetu, generuje wokół siebie ekstremalny lokalny naciąg 0-Matrycy ($\Sigma_{\text{src}}$). Zgodnie z mechaniką propagacji (uszczegółowioną w Rozdziale 10.3 i dylatacji z Aksjomatu 1.6), fala poprzeczna wyemitowana z tak naprężonego środowiska ulega gigantycznemu rozciągnięciu (intrinsic redshift) na samym starcie.
+3. **Zrelaksowana matka:** Stara galaktyka macierzysta, z której wyrzucono dżet, posiada jądro w stabilnej fazie relaksacji sprężystej, co daje minimalne przesunięcie własne.
 
-$$\rho_{\text{gal}} c_0^2 \sim 10^{-4} \text{ J/m}^3$$
+Zjawisko "wyrzutu" i narodzin nowych galaktyk z dżetów nie wymaga zatem łamania praw kinematyki, lecz jest dowodem na **nieliniowość naprężeń Matrycy** wokół formujących się młodych plazmoidów.
 
-Porównanie ukazuje przepaść **31 rzędów wielkości** ($\Sigma_{\text{WD}} \gg \Sigma_{\text{gal}}$). Dominacja naprężenia własnego gwiazdy jest tak miażdżąca, że jakikolwiek wpływ morfologii galaktyki zostaje całkowicie zredukowany. Parametr $\Sigma_{\text{WD}}$ jest identyczny dla każdej SN Ia w historii Wszechświata, stanowiąc niezaburzony, uniwersalny punkt odniesienia.
+## 10.7. Podsumowanie rozdziału 9
 
-**10.4.2. Silnik jądrowy i rozciągnięcie "taśmy filmowej"**
-
-To, co obserwujemy jako krzywą blasku (narastanie przez ok. 20 dni i powolny spadek), nie jest bezpośrednim błyskiem eksplozji. Blask ten napędzany jest łańcuchowym rozpadem radioaktywnym zsyntetyzowanych izotopów: głównie niklu-56 (w kobalt-56) i kobaltu-56 (w żelazo-56).
-
-W epoce, w której wybuchła odległa supernowa, ujemne naprężenie kosmologiczne $\Sigma_{\text{IGM}}$ było znacznie silniejsze niż dziś. Zgodnie z Aksjomatem 1.6 ($f = f_0[1 + \zeta \Sigma]$), tempo oscylacji Matrycy określające przebieg oddziaływań słabych było niższe. Oznacza to, że proces rozpadu jądrowego przebiegał obiektywnie wolniej w stosunku do naszego dzisiejszego wzorca. Zamiast rozpaść się o połowę w ciągu "ziemskich" 6 dni, nikiel-56 potrzebował na to obiektywnie więcej czasu.
-
-Wyobraźmy to sobie jako naświetlanie taśmy filmowej. Każda "klatka" to emisja porcji fotonów niosących informację o jasności. Ponieważ sam rozpad pierwiastków w naprężonej Matrycy u źródła był spowolniony kosmicznym naprężeniem, supernowa wyemitowała te fotony w znacznie większych odstępach czasu absolutu. Strumień światła opuścił układ już fizycznie "rozciągnięty".
-
-**10.4.3. Wyprowadzenie dylatacji**
-
-Dzięki redukcji członu galaktycznego, częstotliwość cykli jądrowych u źródła wynosiła:
-
-$$f_{\text{em}} = f_0 \left[ 1 + \zeta (\Sigma_{\text{WD}} + \Sigma_{\text{IGM}}(t_{\text{em}})) \right]$$
-
-Dla obserwatora na Ziemi, w zrelaksowanej epoce kosmicznej:
-
-$$f_{\text{obs}} = f_0 \left[ 1 + \zeta (\Sigma_{\text{Ziemia}} + \Sigma_{\text{IGM}}(t_{\text{obs}})) \right]$$
-
-Z mechaniki propagacji w 0-Matrycy wynika, że proporcja tych częstotliwości to wprost przesunięcie ku czerwieni ($1+z$). Ponieważ czas trwania dowolnego procesu $\Delta T \propto 1/f$, otrzymujemy:
-
-$$\Delta T_{\text{obs}} = \Delta T_{\text{em}} (1 + z)$$
-
-Fotony przebyły przestrzeń, nie zmieniając narzuconych u źródła odstępów czasowych między kolejnymi falami blasku. Odbierając je dzisiejszym, szybciej "tykającym" zegarem w zrelaksowanej próżni, obserwujemy rozciągnięcie trwania krzywej blasku. Dylatacja SN Ia nie wymaga magicznej ekspansji przestrzeni – jest to twardy dowód wprost z mechaniki na istnienie emergentnego czasu i powolniejszego działania termodynamiki we wczesnym, silniej naprężonym stadium 0-Matrycy.
-
-## 10.5. Redshift intrinsic vs. kosmologiczny – rehabilitacja Haltona Arpa
-
-Podział na redshift $z_{\text{IGM}}$ oraz $z_{\text{src}}$ całkowicie rehabilituje obserwacje astronomiczne Haltona Arpa. Arp udokumentował istnienie kwazarów o wysokim $z$ połączonych fizycznymi mostami materii z galaktykami o niskim $z$.
-
-W modelu TGM kwazary to w rzeczywistości młode, skrajnie aktywne **plazmoidy centralne** (opisane w podrozdz. 9.2). Generują one gigantyczny lokalny naciąg ortogonalny w 4D i stromy gradient przenikalności $\epsilon_{\text{eff}}$.
-Ponieważ kwazar i galaktyka-matka znajdują się w tej samej odległości, ich przesunięcie $z_{\text{IGM}}$ jest identyczne. Gigantyczna różnica w obserwowanym redshifcie wynika **wyłącznie ze zjawiska intrinsic redshift** ($z_{\text{src}} \gg 0$) zachodzącego w potężnym polu naprężeń plazmoidu kwazara, podczas gdy dojrzała i ustabilizowana galaktyka posiada $z_{\text{src}} \approx 0$.
-
-## 10.6. Zmęczenie światła jako efekt drugiego rzędu (rozpraszanie na 0-cząstkach)
-
-Oprócz głównych mechanizmów istnieje dodatkowy efekt wtórny: zmęczenie światła (*tired light*). W teorii TGM fotony propagujące się przez osnowę ulegają rzadkim zderzeniom z sub-planckowskimi fluktuacjami (0-cząstkami), co skutkuje nieznaczną utratą energii na rzecz szumu 0-Matrycy.
-
-Efekt ten dla $z=1$ stanowi ułamek procenta całkowitego przesunięcia, nie psując profilu dylatacji czasu SN Ia. Pozwala jednak wyjaśnić **napięcie Hubble'a** (drobne różnice w wyznaczaniu $H_0$ z różnych długości fal), a także obserwowalne nadmiarowe rozmycie obrazów odległych obiektów (poza standardowym pyłem międzygalaktycznym).
-
-## 10.7. Testy i przewidywania
-
-1. **Anizotropia stałej Hubble'a:** Obecność lokalnego członu naprężeniowego $z_{\text{obs}}$ oraz naturalnych fluktuacji $\Sigma_{\text{IGM}}$ w różnych kierunkach przestrzeni musi skutkować systematycznymi różnicami $H_0$ rzędu 0,1-1%. Wyklucza to homogeniczność ekspansji postulowaną w MS.
-2. **Rozrzut intrinsic redshift w gromadach:** Galaktyki w tej samej gromadzie będą posiadały drobny rozrzut wartości $z$, zależny od ich masy i statusu plazmoidu centralnego (do weryfikacji przez spektrometrię teleskopów Euclid/Roman).
-3. **Mosty galaktyka–kwazar:** Teoria przewiduje liczne statystycznie istnienie fizycznych powiązań między obiektami o diametralnie różnym przesunięciu $z$.
-4. **Zależność zmęczenia światła od długości fali:** Precyzyjne porównanie pasm w JWST powinno ujawnić różnicowy spadek energii fotonów z racji kinetyki rozpraszania na dyskretnych 0-cząstkach.
-
-## 10.8. Podsumowanie rozdziału 10
-
-* **Ekspansja metryczna to iluzja:** Kosmologiczny redshift jest wynikiem pomiaru światła w przestrzeni podlegającej **mechanicznej relaksacji 0-Matrycy** w czasie.
-* **Czas emergentny (Aksjomat 1.6):** Prawidłowo i wyczerpująco modeluje rozciągnięcie krzywych blasku SN Ia o czynnik $(1+z)$, czerpiąc z rygorystycznego niezmiennika ciśnienia materii zdegenerowanej (z podrozdziału 3.3). Różnica 31 rzędów wielkości gęstości energii między gwiazdą a galaktyką dowodzi uniwersalności wybuchów.
-* Redshift jest sumą iloczynową: składowej kosmologicznej ($z_{\text{IGM}}$), napięcia źródła ($z_{\text{src}}$) oraz naciągu lokalnego układu odniesienia ($z_{\text{obs}}$).
-* Wyodrębnienie naciągu uwięzionego w plazmoidach centralnych perfekcyjnie tłumaczy obiekty Arpa (kwazary obok galaktyk macierzystych), redefiniując je z "zagadek natury" na oczywisty efekt hydrodynamiki naprężeń 0-Matrycy.
+* **Brak osobliwości:** W centrum galaktyk nie ma czarnych dziur. Zastępują je kompaktowe plazmoidy centralne, stanowiące obszary przekroczenia bariery plastyczności węzłów i zdegenerowanej Matrycy ($R \propto M^{1/3}$).
+* **Iluzja EHT:** Obraz "cienia" z EHT nie jest horyzontem zdarzeń. To ogromna sferyczna soczewka refrakcyjna, wywołana przez spadek prędkości $c_{\text{lok}}$ w gęstym halo naprężeń ($V_{ij}$) wokół plazmoidu. Algorytmy OTW wymuszają na tych optycznych anomaliach obraz czarnej dziury.
+* **Fuzja z Elektrycznym Wszechświatem:** Prądy Birkelanda i Z-pinch to w TGM makroskopowe fale torsyjne 3-brany. Ich skręcenie wymusza potężny naciąg grawitacyjny w osi 4D.
+* **Mechanika dżetów:** Dżety to biegunowe zawory wyrzucające zdegenerowaną plazmę, która wskutek obniżenia ciśnienia w 0-Matrycy ulega ciągłej kawitacji (hadronizacji).
+* **Geneza kwazarów (Efekt Arpa):** Na końcach dżetów wyrzucona materia akumuluje się, formując potomne plazmoidy (kwazary). Ekstremalny naciąg lokalny młodych kwazarów generuje w Matrycy potężny *intrinsic redshift*, co perfekcyjnie wyjaśnia odrzucone dotąd obserwacje galaktyk połączonych z kwazarami.
+* **Brak osobliwości:** W centrum galaktyk nie ma czarnych dziur. Zastępują je **kompaktowe plazmoidy centralne**, stanowiące obszary przekroczenia bariery plastyczności węzłów i zdegenerowanej Matrycy ($R \propto M^{1/3}$).
+* **Iluzja EHT:** Obraz "cienia" czarnej dziury zarejestrowany przez teleskopy to nie fizyczna granica horyzontu. Jest to ogromna (na miliony kilometrów) **sferyczna soczewka refrakcyjna**, wywołana przez ekstremalne spowolnienie prędkości światła w gęstym halo naprężeń ($V_{ij}$) wokół plazmoidu. Algorytmy interferometryczne OTW jedynie wymuszają na tych zjawiskach optycznych z góry założony wizerunek czarnej dziury.
+* **Fuzja z Elektrycznym Wszechświatem:** Prądy Birkelanda i Z-pinch to w TGM makroskopowe fale torsyjne 3-brany. Ich skręcenie wymusza powstanie głębokiego "leja" ortogonalnego, unifikując mechanikę plazmy galaktycznej z gigantyczną siłą grawitacji wokół jądra.
+* **Mechanika dżetów:** Relatywistyczne dżety to naturalne, biegunowe zawory wyrzucające nadmiar naprężeń z plazmoidu. Nowa materia w dżetach to zjawisko ciągłej **kawitacji Matrycy** odtwarzające niezmienniki węzłowe w chłodniejącym środowisku dekompresji przestrzeni.

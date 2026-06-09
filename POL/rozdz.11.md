@@ -1,82 +1,115 @@
-# Rozdział 11: Program weryfikacji eksperymentalnej – falsyfikowalność, test rezonansowy i demistyfikacja splątania kwantowego
+# 11. Rozdział 11: Kosmologia bez ekspansji – relaksacja Matrycy, dylatacja czasu SN Ia i wielowarstwowa propagacja fal
 
-Celem rygorystycznej teorii naukowej jest nie tylko post-faktum wyjaśnianie znanych zjawisk, ale przede wszystkim generowanie nowych, testowalnych przewidywań. Topologiczna Geometrodynamika Matrycy (TGM) dostarcza precyzyjnego zestawu pomiarów, które odróżniają ją ontologicznie i matematycznie od Modelu Standardowego (MS) oraz Ogólnej Teorii Względności (OTW). Poniżej przedstawiono hierarchię testów, z których każdy dysponuje potencjałem do ostatecznej falsyfikacji teorii.
+## 11.1. Odrzucenie ekspansji Wszechświata
 
-## 11.1. Test priorytetowy: Zmiana prędkości światła w polu magnetycznym – wariant rezonansowy
+W teorii Topologicznej Geometrodynamiki Matrycy (TGM) nie istnieje elastyczna, abstrakcyjna czasoprzestrzeń, a czas ma charakter wyłącznie emergentny (Aksjomat 1.6). W związku z tym nie ma ontologicznych podstaw, by Wszechświat rozszerzał się w sensie metrycznym. Jak wykazano w rozdziale 8, koncepcja Ciemnej Energii jest błędem interpretacyjnym. Obserwowane przesunięcie ku czerwieni (redshift) odległych galaktyk i supernowych nie jest efektem Dopplera wynikającym z ucieczki galaktyk, lecz **obserwowalną miarą lokalnego i kosmologicznego naprężenia 0-Matrycy** oraz zjawisk propagacyjnych w ewoluującym przestrzennie ośrodku 4D.
 
-Jest to **najbardziej bezpośredni i fundamentalny test** weryfikujący istnienie sprężystej 0-Matrycy. Wykorzystuje on zjawisko rezonansu do mechanicznego potęgowania sprzężenia, co umożliwia detekcję zjawiska w warunkach laboratoryjnych.
+## 11.2. Relaksacja 0-Matrycy – kosmologiczna ewolucja średniego naprężenia
 
-### 11.1.1. Podstawy teoretyczne
+0-Matryca dąży termodynamicznie do **Stanu Zero** (absolutnego minimum energii sprężystej, zerowego tensora naprężenia). W skali kosmologicznej oznacza to, że średnie naprężenie tła międzygalaktycznego $\Sigma_{\text{IGM}}(t)$ maleje monotonicznie z czasem kosmicznym $t$ (liczonym emergentnie jako uśredniona liczba cykli wibracyjnych Matrycy).
 
-Zgodnie z **Aksjomatem 1.5** oraz formalizmem elasto-dynamicznym wyprowadzonym w **podrozdziale 4.5**, w obecności makroskopowego naprężenia w postaci pola magnetycznego $B$, przenikalność poprzeczna 0-Matrycy ulega nieliniowej modyfikacji:
+Im wcześniejsza epoka, tym wyższe było globalne naprężenie $\Sigma_{\text{IGM}}$. Opadanie tego naciągu nazywamy **relaksacją Matrycy**. Szum termo-akustyczny (CMB) z wczesnych, najgęstszych faz tej relaksacji stanowi tło wibracyjne obserwowalne dzisiaj (patrz podrozdz. 8.5).
 
-$$\epsilon_{\text{eff}} = \epsilon_0 \left(1 + \kappa B^2\right)$$
+W przybliżeniu liniowym, dla małych zmian w stosunku do dzisiejszej wartości $\Sigma_0$:
 
-gdzie $\kappa$ jest stałą elastyczności skrętnej (o wymiarze **T⁻²**). Lokalna prędkość światła w takim obszarze spada:
+$$\Sigma_{\text{IGM}}(t) \approx \Sigma_0 \, (1 - H_0 \, t)$$
 
-$$c_{\text{mag}} = \frac{1}{\sqrt{\epsilon_{\text{eff}} \mu_0}} = \frac{c_0}{\sqrt{1 + \kappa B^2}} \approx c_0 \left(1 - \frac12 \kappa B^2\right)$$
+gdzie obserwowalna stała Hubble'a ($H_0$) nie jest kinematyczną stałą tempa rozszerzania się pustki, lecz makroskopowym **współczynnikiem tempa relaksacji mechanicznej 0-Matrycy**.
 
-Dla fali świetlnej przechodzącej przez obszar o długości $L$ z polem $B$, mechaniczne opóźnienie fazowe (względem ramienia referencyjnego w zrelaksowanej próżni) wynosi:
+## 11.3. Wielowarstwowa propagacja światła – trzy strefy naprężenia
 
-$$\Delta \Phi = \frac{2\pi c_0}{\lambda} \left( \frac{L}{c_{\text{mag}}} - \frac{L}{c_0} \right) \approx \frac{\pi L}{\lambda} \kappa B^2$$
+Światło (poprzeczna fala ścinająca) docierające do nas z odległego źródła przechodzi przez trzy obszary o różnym profilu naciągu:
 
-### 11.1.2. Zastosowanie rezonansu – wzmocnienie sygnału
+1. **Strefa źródła:** Galaktyka macierzysta lub plazmoid centralny. Lokalne naprężenie $\Sigma_{\text{src}}$ jest bezpośrednią funkcją **lokalnego naciągu 4-wymiarowego** opisanego w podrozdziale 5.1 potencjałem $\Phi(r) = -\alpha(\mathbf{x})m/r$. Powoduje ono:
+* **Intrinsic redshift:** $z_{\text{src}} \approx -\eta \Sigma_{\text{src}}$ (gdzie $\eta > 0$ to stała sprzężenia fali; znak ujemny wynika z faktu, że przyciągające naprężenie ścinające zwiększa długość fali).
+* **Dylatację czasu w źródle:** Zgodnie z Aksjomatem 1.6, tempo procesów własnych spada w napiętej sieci: $f = f_0(1+\zeta \Sigma_{\text{src}})$.
 
-Sprężysta 0-Matryca charakteryzuje się występowaniem **topo-harmonicznych częstotliwości własnych**. Jeśli zmienne pole magnetyczne $B(t)$ będzie modulowane z częstotliwością $f_{\text{mod}}$ bliską jednego z takich modów uwięzionych we wnęce, sprężysta odpowiedź ośrodka wzrośnie proporcjonalnie do dobroci rezonansu $Q$:
 
-$$\kappa_{\text{eff}} = \kappa \cdot Q$$
+2. **Strefa międzygalaktyczna:** Średnie naprężenie tła $\Sigma_{\text{IGM}}(t)$, które ulega relaksacji podczas podróży fali. Foton przemieszcza się przez ośrodek, którego napięcie nieustannie spada. Całkowity wkład do redshiftu można wyrazić całką po drodze optycznej $l$:
 
-Dzięki temu, nawet dla skrajnie sztywnej Matrycy (np. $\kappa \sim 10^{-12}$ **T⁻²**), wykorzystanie wnęki nadprzewodzącej o dobroci $Q \sim 10^6$ czyni efekt mierzalnym optycznie.
+$$1+z_{\text{IGM}} = \exp\left( \frac{\eta}{c_0} \int_0^{d} \frac{\partial \Sigma_{\text{IGM}}}{\partial t} \, dl \right) \approx 1 + \frac{\eta}{c_0} H_0 d \quad \text{(dla małych } z)$$
 
-### 11.1.3. Aparatura i procedura pomiarowa
+Równanie to rygorystycznie odtwarza prawo Hubble'a jako kinematykę fali w stygnącym ośrodku.
 
-Do przeprowadzenia testu wymagany jest sprzęt najwyższej precyzji:
+3. **Strefa obserwatora:** Układ Słoneczny i heliosfera. Naprężenie $\Sigma_{\text{obs}}$ wygenerowane przez masy lokalne wprowadza niewielkie, stałe przesunięcie $z_{\text{obs}}$ oraz lokalną anizotropię dipolową.
 
-* **Interferometr Macha-Zehndera** o długości ramienia testowego **2–10 m**, stabilizowany laserowo.
-* **Nadprzewodzący elektromagnes rezonansowy** wytwarzający stałe tło $B_0 =$ **10 T** oraz nałożone, zmienne pole $\delta B(t)$ o amplitudzie ok. **0,1 T**, przestrajalne w szerokim zakresie **1 MHz – 100 GHz**.
-* **Fotodetektor** ze wzmacniaczem lock-in, zsynchronizowany z modułem $f_{\text{mod}}$.
+**Wypadkowy redshift** określa iloczyn składowych propagacji:
 
-**Oczekiwany rezultat i warunek falsyfikacji:**
-Skanowanie pasma częstotliwości powinno ujawnić wąski pik – gwałtowny, skokowy wzrost przesunięcia $\Delta \Phi$ po wejściu w rezonans strukturalny 0-Matrycy.
-**Falsyfikacja:** Jeżeli po rygorystycznym przeskanowaniu zakresu do **100 GHz** z czułością $\Delta \Phi > 10^{-9}$ rad nie wystąpi żaden pik rezonansowy, teoria TGM traci swój fundament falowy i zostaje ostatecznie podważona.
+$$1+z = (1+z_{\text{src}})(1+z_{\text{IGM}})(1+z_{\text{obs}})$$
 
-## 11.2. Pełne zestawienie kluczowych testów falsyfikacyjnych
+Dla odległych obiektów bezwzględnie dominuje człon $z_{\text{IGM}}$. Niewielkie fluktuacje członów $z_{\text{src}}$ oraz $z_{\text{obs}}$ stanowią odpowiedź TGM na tzw. "Napięcie Hubble'a".
 
-Poniższa tabela rygorystycznie zestawia pozostałe przewidywania TGM, odróżniające ją od fizyki głównego nurtu. Każdy eksperyment ma potencjał obalenia teorii.
+### 11.3.1. Supernowe typu Ia – uniwersalność $\Sigma_{\text{WD}}$, granica Chandrasekhara i krzywe blasku
 
-| Priorytet | Obszar (Rozdział) | Metodologia Testu | Przewidywanie TGM | Przewidywanie MS / OTW | Warunek Falsyfikacji TGM |
-| --- | --- | --- | --- | --- | --- |
-| **2** | Fizyka cząstek | Masa elektronu w polu $B$ (cyklotron) | Wzrost masy: $m_e(B) = m_e(0)(1 + \kappa B^2)$; zmiana **> 10⁻⁸** przy **10 T** | Masa niezależna od pola $B$ (drobne poprawki QED **< 10⁻¹⁰**) | Brak mierzalnego wzrostu: $\Delta m_e/m_e < 10^{-9}$ przy **10 T** |
-| **3** | Fizyka jądrowa (Rozdz. 7.2) | Czas życia wolnego neutronu w pułapkach różnego typu | Różnice **> 0,1%** między materiałami (Cu, grafit) jako efekt zróżnicowanego echa akustycznego | Stały czas życia (różnice **< 0,01%**) | Brak systematycznych różnic **> 0,02%** przy ścisłej kontroli warunków |
-| **4** | Fizyka wysokich energii (Rozdz. 6.12) | Topologiczna analiza zdarzeń 3-jetowych z detektorów LHC | Lokalne zagęszczenie w przestrzeni tensora sferyczności $(S,A)$ odpowiadające pęknięciu węzła $3_1$ | Gładkie, przypadkowe rozkłady przestrzenne wynikające z szumu tła QCD | Brak korelacji morfologicznej (**< 2σ**) po analizie danych *open data* z LHC |
-| **5** | Astrofizyka (Rozdz. 8.2) | Krzywe rotacji galaktyk a ich zwartość | Skalowanie przyspieszenia $a_{\text{mat}} \sim M_{\text{gal}}/R_{\text{gal}}$; galaktyki karłowate wykażą najbardziej płaskie krzywe | Krzywe profilowane stałym, uniwersalnym halo ciemnej materii (NFW) | Brak korelacji kinematyki ze stosunkiem masy do promienia dysku |
-| **6** | Kosmologia (Rozdz. 8.3) | Nieliniowe soczewkowanie w gromadach | Wzmocnienie soczewkowania ściśle uzależnione od zwartości (nakładanie się energii $V_{ij}$ w 4D) | Ugięcie światła jest proporcjonalne do gładko rozłożonej, sferycznej ciemnej materii | Soczewkowanie absolutnie niezależne od lokalnego zgrupowania mas widzialnych |
-| **7** | Kosmologia (Rozdz. 10.5) | Mosty plazmy między galaktyką a kwazarem (Pary Arpa) | Liczne fizyczne powiązania obiektów o różnym przesunięciu $z$ (intrinsic redshift) | Zjawisko czysto rzadkie i optycznie przypadkowe | Brak istotnych statystycznie par po głębokich przeglądach optycznych (np. Euclid) |
-| **8** | Grawitacja (Rozdz. 9.4) | Obrazowanie jąder galaktyk EHT (Plazmoidy) | Promień cienia ewoluuje proporcjonalnie do objętości: $R \propto M^{1/3}$ | Promień Schwarzschilda skaluje się liniowo z masą: $R \propto M$ | Ścisłe skalowanie liniowe promieni z niskim rozrzutem |
-| **9** | Fizyka wysokich energii (Rozdz. 6.7) | Poszukiwanie ciężkiej stabilnej materii (LHC/FCC) | Całkowity brak ciężkich, stabilnych fermionów (np. SUSY) > **1 GeV** (poza nukleonami) | Możliwe znalezienie cząstek supersymetrycznych (WIMP) | Potwierdzone odkrycie długożyciowej cząstki egzotycznej o masie > **1 GeV** |
+Kluczowym testem weryfikującym modele kosmologiczne są supernowe typu Ia (SN Ia). Obserwacje obiektów o wysokim przesunięciu ku czerwieni ($z$) wykazują rozciągnięcie ich krzywych blasku o czynnik $(1+z)$ (czas narastania i zaniku jest proporcjonalnie dłuższy). W standardowej kosmologii (ΛCDM) interpretuje się to jako dowód na metryczną ekspansję czasoprzestrzeni, która "rozciągnęła" odległość między fotonami w locie.
 
-*(Uwaga: Testy z tabeli są bezpośrednio falsyfikowalne – negatywny wynik trwale obala założenia mechaniczne TGM).*
+W teorii Topologicznej Geometrodynamiki Matrycy przestrzeń się nie rozszerza. Obserwowane rozciągnięcie w czasie jest bezpośrednią, fizyczną konsekwencją **Aksjomatu 1.6 (Czas emergentny)** – mechanicznego spowolnienia procesów jądrowych, wynikającego z większego naprężenia Matrycy w dawnych epokach kosmicznych. "Film" z wybuchu został nagrany u źródła w obiektywnie zwolnionym tempie.
 
-## 11.3. Splątanie kwantowe a testy Bella – granice nielokalności
+**10.4.1. Formalny dowód niezależności od środowiska galaktycznego**
 
-Splątanie kwantowe to zjawisko, w którym cząstki wykazują rzekomo natychmiastowe korelacje łamiące klasyczne granice lokalności (naruszenie nierówności Bella). W MS traktuje się to jako twardy dowód na probabilistyczną, nielokalną "magię" Wszechświata. Teoria 0-Matrycy w pełni reprodukuje te wyniki pomiarowe, uziemiając je w topologii 4D.
+Aby rygorystycznie uzasadnić, dlaczego dylatacja czasu SN Ia jest skorelowana wyłącznie z kosmologicznym wiekiem relaksacyjnym (parametrem $z$), a nie z masą galaktyki macierzystej, dokonujemy rozkładu lokalnego naprężenia w skali atomowej. Wypadkowe naprężenie $\Sigma_{\text{total}}$ w miejscu zapłonu składa się z trzech członów:
 
-### 11.3.1. Rzutowanie geometrii 4D na 3-branę
+$$\Sigma_{\text{total}} = \Sigma_{\text{WD}} + \Sigma_{\text{gal}} + \Sigma_{\text{IGM}}(t_{\text{em}})$$
 
-W TGM splątane "cząstki" w ogóle nie są oddzielnymi bytami. Zgodnie z **podrozdziałem 2.7**, stanowią one pojedynczy, uwięziony defekt topologiczny – pętlę naprężeń w 4-wymiarowej rozmaitości $\mathcal{M}^4$, która **przecina naszą izotropową 3-branę w dwóch (lub więcej) punktach**. To, co nasze detektory w 3D rejestrują jako parę cząstek, to w istocie zaledwie "trójwymiarowe cienie" (miejsca zakotwiczenia) tej samej 4-wymiarowej struny naprężenia.
+gdzie $\Sigma_{\text{IGM}}(t_{\text{em}})$ to naprężenie tła międzygalaktycznego (relaksujące w czasie), $\Sigma_{\text{gal}}$ to naprężenie od galaktyki, a $\Sigma_{\text{WD}}$ to ekstremalne naprężenie własne zapadającego się białego karła.
 
-### 11.3.2. Nielokalność w 3D jest iluzją rzutowania SU(2)
+Supernowa typu Ia eksploduje precyzyjnie po osiągnięciu granicy Chandrasekhara (ok. $1,4 M_\odot$). Własne naprężenie grawitacyjne białego karła $\Sigma_{\text{WD}}$ wynika z granicy ciśnienia degeneracji elektronów (odpychania topologicznego węzłów, rozdz. 3.3). Wewnątrz układu gęstość wynosi rzędu $10^9 \text{ kg/m}^3$, co przekłada się na potężną gęstość energii zmagazynowanej w Matrycy:
 
-Zmiana parametru (pomiar spinu) na jednym końcu osnowy powoduje rekonfigurację całego ciągłego defektu w przestrzeni 4D. Ponieważ struktura struny rządzona jest przez podwójne nakrycie grupy rotacyjnej $SU(2)$ wobec $SO(3)$ (rozwłóknienie Hopfa, Rozdz. 2.7), wymuszenie rotacji węzła wymusza jednoczesne przeciwstawne skręcenie na jego drugim końcu w membranie 3D w celu zachowania globalnego niezmiennika topologicznego.
+$$\rho_{\text{WD}} c_0^2 \sim 10^{27} \text{ J/m}^3$$
 
-Korelacja ta następuje **natychmiast**, ponieważ w 4-wymiarowej głębi struktura ta nigdy się nie rozdzieliła. Nie ma tu naruszenia przyczynowości ani nadświetlnego przesyłania informacji wzdłuż 3-brany, lecz jednoczesna, deterministyczna rotacja sprzężonej maszyny geometrycznej rzutowanej z 4D.
+Dla porównania, naprężenie tła od galaktyki macierzystej $\Sigma_{\text{gal}}$ wynika ze średniej gęstości rzędu $10^{-21} \text{ kg/m}^3$, co daje:
 
-### 11.3.3. Dlaczego testy Bella nie falsyfikują TGM?
+$$\rho_{\text{gal}} c_0^2 \sim 10^{-4} \text{ J/m}^3$$
 
-Nierówności Bella udowadniają jedynie, że **żadna teoria oparta na ukrytych zmiennych lokalnych *w 3 wymiarach*** nie odtworzy wyników kwantowych. Jednakże TGM nie jest teorią lokalną w 3D. TGM jest teorią ściśle, inżynieryjnie **lokalną w 4D**.
+Porównanie ukazuje przepaść **31 rzędów wielkości** ($\Sigma_{\text{WD}} \gg \Sigma_{\text{gal}}$). Dominacja naprężenia własnego gwiazdy jest tak miażdżąca, że jakikolwiek wpływ morfologii galaktyki zostaje całkowicie zredukowany. Parametr $\Sigma_{\text{WD}}$ jest identyczny dla każdej SN Ia w historii Wszechświata, stanowiąc niezaburzony, uniwersalny punkt odniesienia.
 
-Rozkład prawdopodobieństw w TGM jest tożsamy z mechaniką kwantową, zatem testy Bella nie są w stanie obalić TGM (nie stanowią testu dyskryminacyjnego). Prawdziwa różnica (i ostateczna falsyfikacja abstrakcji QM) leży w pomiarach bezwładności oraz sprzężenia falowego (test z podrozdz. 11.1), które potwierdzą, że owa 4D geometria jest realnym, sprężystym kontinuum mającym weryfikowalny wpływ na zmianę lokalnego poziomu masy, dylatacji i światła.
+**10.4.2. Silnik jądrowy i rozciągnięcie "taśmy filmowej"**
 
-## 11.4. Podsumowanie rozdziału 11
+To, co obserwujemy jako krzywą blasku (narastanie przez ok. 20 dni i powolny spadek), nie jest bezpośrednim błyskiem eksplozji. Blask ten napędzany jest łańcuchowym rozpadem radioaktywnym zsyntetyzowanych izotopów: głównie niklu-56 (w kobalt-56) i kobaltu-56 (w żelazo-56).
 
-Teoria Topologicznej Geometrodynamiki 0-Matrycy wyrzuca stochastyczne i metryczne abstrakcje, wprowadzając zestaw bezwzględnie weryfikowalnych punktów kontrolnych. Falsyfikowalność TGM opiera się na inżynieryjnych konsekwencjach wibracji we wnękach nadprzewodzących, zjawisk rezonansowych dla propagacji optycznej oraz uwarunkowaniach topologicznego rzutu z 4D na nasz trójwymiarowy obserwowalny świat. Priorytetem fizyki doświadczalnej w dekadzie weryfikacji TGM powinno stać się sprzężenie ultra-precyzyjnych interferometrów ze zmiennym polem magnetycznym.
+W epoce, w której wybuchła odległa supernowa, ujemne naprężenie kosmologiczne $\Sigma_{\text{IGM}}$ było znacznie silniejsze niż dziś. Zgodnie z Aksjomatem 1.6 ($f = f_0[1 + \zeta \Sigma]$), tempo oscylacji Matrycy określające przebieg oddziaływań słabych było niższe. Oznacza to, że proces rozpadu jądrowego przebiegał obiektywnie wolniej w stosunku do naszego dzisiejszego wzorca. Zamiast rozpaść się o połowę w ciągu "ziemskich" 6 dni, nikiel-56 potrzebował na to obiektywnie więcej czasu.
+
+Wyobraźmy to sobie jako naświetlanie taśmy filmowej. Każda "klatka" to emisja porcji fotonów niosących informację o jasności. Ponieważ sam rozpad pierwiastków w naprężonej Matrycy u źródła był spowolniony kosmicznym naprężeniem, supernowa wyemitowała te fotony w znacznie większych odstępach czasu absolutu. Strumień światła opuścił układ już fizycznie "rozciągnięty".
+
+**10.4.3. Wyprowadzenie dylatacji**
+
+Dzięki redukcji członu galaktycznego, częstotliwość cykli jądrowych u źródła wynosiła:
+
+$$f_{\text{em}} = f_0 \left[ 1 + \zeta (\Sigma_{\text{WD}} + \Sigma_{\text{IGM}}(t_{\text{em}})) \right]$$
+
+Dla obserwatora na Ziemi, w zrelaksowanej epoce kosmicznej:
+
+$$f_{\text{obs}} = f_0 \left[ 1 + \zeta (\Sigma_{\text{Ziemia}} + \Sigma_{\text{IGM}}(t_{\text{obs}})) \right]$$
+
+Z mechaniki propagacji w 0-Matrycy wynika, że proporcja tych częstotliwości to wprost przesunięcie ku czerwieni ($1+z$). Ponieważ czas trwania dowolnego procesu $\Delta T \propto 1/f$, otrzymujemy:
+
+$$\Delta T_{\text{obs}} = \Delta T_{\text{em}} (1 + z)$$
+
+Fotony przebyły przestrzeń, nie zmieniając narzuconych u źródła odstępów czasowych między kolejnymi falami blasku. Odbierając je dzisiejszym, szybciej "tykającym" zegarem w zrelaksowanej próżni, obserwujemy rozciągnięcie trwania krzywej blasku. Dylatacja SN Ia nie wymaga magicznej ekspansji przestrzeni – jest to twardy dowód wprost z mechaniki na istnienie emergentnego czasu i powolniejszego działania termodynamiki we wczesnym, silniej naprężonym stadium 0-Matrycy.
+
+## 11.4. Redshift intrinsic vs. kosmologiczny – rehabilitacja Haltona Arpa
+
+Podział na redshift $z_{\text{IGM}}$ oraz $z_{\text{src}}$ całkowicie rehabilituje obserwacje astronomiczne Haltona Arpa. Arp udokumentował istnienie kwazarów o wysokim $z$ połączonych fizycznymi mostami materii z galaktykami o niskim $z$.
+
+W modelu TGM kwazary to w rzeczywistości młode, skrajnie aktywne **plazmoidy centralne** (opisane w podrozdz. 9.2). Generują one gigantyczny lokalny naciąg ortogonalny w 4D i stromy gradient przenikalności $\epsilon_{\text{eff}}$.
+Ponieważ kwazar i galaktyka-matka znajdują się w tej samej odległości, ich przesunięcie $z_{\text{IGM}}$ jest identyczne. Gigantyczna różnica w obserwowanym redshifcie wynika **wyłącznie ze zjawiska intrinsic redshift** ($z_{\text{src}} \gg 0$) zachodzącego w potężnym polu naprężeń plazmoidu kwazara, podczas gdy dojrzała i ustabilizowana galaktyka posiada $z_{\text{src}} \approx 0$.
+
+## 11.5. Zmęczenie światła jako efekt drugiego rzędu (rozpraszanie na 0-cząstkach)
+
+Oprócz głównych mechanizmów istnieje dodatkowy efekt wtórny: zmęczenie światła (*tired light*). W teorii TGM fotony propagujące się przez osnowę ulegają rzadkim zderzeniom z sub-planckowskimi fluktuacjami (0-cząstkami), co skutkuje nieznaczną utratą energii na rzecz szumu 0-Matrycy.
+
+Efekt ten dla $z=1$ stanowi ułamek procenta całkowitego przesunięcia, nie psując profilu dylatacji czasu SN Ia. Pozwala jednak wyjaśnić **napięcie Hubble'a** (drobne różnice w wyznaczaniu $H_0$ z różnych długości fal), a także obserwowalne nadmiarowe rozmycie obrazów odległych obiektów (poza standardowym pyłem międzygalaktycznym).
+
+## 11.6. Testy i przewidywania
+
+1. **Anizotropia stałej Hubble'a:** Obecność lokalnego członu naprężeniowego $z_{\text{obs}}$ oraz naturalnych fluktuacji $\Sigma_{\text{IGM}}$ w różnych kierunkach przestrzeni musi skutkować systematycznymi różnicami $H_0$ rzędu 0,1-1%. Wyklucza to homogeniczność ekspansji postulowaną w MS.
+2. **Rozrzut intrinsic redshift w gromadach:** Galaktyki w tej samej gromadzie będą posiadały drobny rozrzut wartości $z$, zależny od ich masy i statusu plazmoidu centralnego (do weryfikacji przez spektrometrię teleskopów Euclid/Roman).
+3. **Mosty galaktyka–kwazar:** Teoria przewiduje liczne statystycznie istnienie fizycznych powiązań między obiektami o diametralnie różnym przesunięciu $z$.
+4. **Zależność zmęczenia światła od długości fali:** Precyzyjne porównanie pasm w JWST powinno ujawnić różnicowy spadek energii fotonów z racji kinetyki rozpraszania na dyskretnych 0-cząstkach.
+
+## 11.7. Podsumowanie rozdziału 10
+
+* **Ekspansja metryczna to iluzja:** Kosmologiczny redshift jest wynikiem pomiaru światła w przestrzeni podlegającej **mechanicznej relaksacji 0-Matrycy** w czasie.
+* **Czas emergentny (Aksjomat 1.6):** Prawidłowo i wyczerpująco modeluje rozciągnięcie krzywych blasku SN Ia o czynnik $(1+z)$, czerpiąc z rygorystycznego niezmiennika ciśnienia materii zdegenerowanej (z podrozdziału 3.3). Różnica 31 rzędów wielkości gęstości energii między gwiazdą a galaktyką dowodzi uniwersalności wybuchów.
+* Redshift jest sumą iloczynową: składowej kosmologicznej ($z_{\text{IGM}}$), napięcia źródła ($z_{\text{src}}$) oraz naciągu lokalnego układu odniesienia ($z_{\text{obs}}$).
+* Wyodrębnienie naciągu uwięzionego w plazmoidach centralnych perfekcyjnie tłumaczy obiekty Arpa (kwazary obok galaktyk macierzystych), redefiniując je z "zagadek natury" na oczywisty efekt hydrodynamiki naprężeń 0-Matrycy.
