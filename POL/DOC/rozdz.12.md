@@ -1,4 +1,6 @@
-# Rozdział 12: Program weryfikacji eksperymentalnej – falsyfikowalność, test rezonansowy i demistyfikacja splątania kwantowego AAA
+<!-- ver:0.5.2 -->
+
+# Rozdział 12: Program weryfikacji eksperymentalnej – falsyfikowalność, test rezonansowy i demistyfikacja splątania kwantowego
 
 Celem rygorystycznej teorii naukowej jest nie tylko post-faktum wyjaśnianie znanych zjawisk, ale przede wszystkim generowanie nowych, testowalnych przewidywań. Topologiczna Geometrodynamika Matrycy (TGM) dostarcza precyzyjnego zestawu pomiarów, które odróżniają ją ontologicznie i matematycznie od Modelu Standardowego (MS) oraz Ogólnej Teorii Względności (OTW). Poniżej przedstawiono hierarchię testów, z których każdy dysponuje potencjałem do ostatecznej falsyfikacji teorii.
 
