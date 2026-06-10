@@ -4,13 +4,13 @@ Tabela rożnic wersji:
 
 | Rozdział (PL) | Wersja POL | Status / Typ zmiany | Version ENG | File name (ENG) |
 | :--- | :---: | :--- | :---: | :--- |
-| rozdzial_0.md | **2.0.0** | 🔴 Critical change | 1.3.0 | `chapter_0.md` |
-| rozdzial_1.md | **2.0.0** | 🔴 Critical change | 1.3.0 | `chapter_1.md` |
-| rozdzial_2.md | **2.0.0** | 🔴 Critical change | 1.3.0 | `chapter_2.md` |
-| rozdzial_3.md | **2.0.0** | 🔴 Critical change | 1.3.0 | `chapter_3.md` |
-| rozdzial_4.md | **2.0.0** | 🔴 No translation found (ENG) | --- | `chapter_4.md` |
-| rozdzial_5.md | **2.0.0** | 🔴 No translation found (ENG) | --- | `chapter_5.md` |
-| rozdzial_6.md | **2.0.0** | 🔴 No translation found (ENG) | --- | `chapter_6.md` |
+| rozdzial_0.md | **2.0.0** | 🟢 Actual | 2.0.0 | `chapter_0.md` |
+| rozdzial_1.md | **2.0.0** | 🟢 Actual | 2.0.0 | `chapter_1.md` |
+| rozdzial_2.md | **2.0.0** | 🟢 Actual | 2.0.0 | `chapter_2.md` |
+| rozdzial_3.md | **2.0.0** | 🟢 Actual | 2.0.0 | `chapter_3.md` |
+| rozdzial_4.md | **2.0.0** | 🟢 Actual | 2.0.0 | `chapter_4.md` |
+| rozdzial_5.md | **2.0.0** | 🟢 Actual | 2.0.0 | `chapter_5.md` |
+| rozdzial_6.md | **2.0.0** | 🟢 Actual | 2.0.0 | `chapter_6.md` |
 | rozdz.10.md | **0.8.5** | 🔴 No translation found (ENG) | --- | `chapter_10.md` |
 | rozdz.11.md | **0.8.5** | 🔴 No translation found (ENG) | --- | `chapter_11.md` |
 | rozdz.12.md | **0.5.2** | 🔴 No translation found (ENG) | --- | `chapter_12.md` |
