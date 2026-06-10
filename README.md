@@ -11,13 +11,13 @@
 * **Derivation of General Relativity (GR):** Gravity is not the magic of curved spacetime invented by Einstein. It is directly derived from classical, **4-dimensional engineering Navier-Cauchy equations!** Space is a tangible medium, its metric is the state of internal stresses, and attraction is a mere pressure gradient. **TSM uncompromisingly eliminates singularities (no black holes)** and, through a single, fundamental elasto-dynamic mechanism, **erases the mythical dark matter and dark energy from physics**.
 
 * **Simplification and Demystification of the Standard Model:** No more absurd, dimensionless material points and quantum mysticism. In TSM, elementary particles are reduced to stable, non-linear topological knots (solitons) within the 0-Matrix substrate. Rest mass, spin 1/2, and charge are pure geometry of standing waves trapped in the network. Consequently, the model explains the internal structure of fermions with rigorous, mechanical precision. **It explains and derives the puzzling mass relations of particles, including the famous Koide formula**.
-
-
+* 
 
 > [!NOTE]
-> Due to the high complexity of the subject matter, this work is originally authored in Polish and subsequently translated into English. Please be aware that minor translation errors or stylistic nuances may occasionally occur during this process. If you encounter any inaccuracies, ambiguities, or formatting issues, you are warmly invited to report them (via GitHub Issues or Pull Requests) so they can be promptly corrected.
+> Due to the high complexity of the subject matter, this work is originally authored in Polish and subsequently translated into English. Please be aware that minor translation errors or stylistic nuances may occasionally occur during this process. If you encounter any inaccuracies in mathematical formulas, missing symbols, or ambiguities in the translation of key concepts and definitions, you are warmly invited to report them (via GitHub Issues or Pull Requests) so they can be promptly corrected.
 > 
 > To monitor the current translation status and verify which chapter versions are fully up to date, please consult the [UPDATE_CHK.md](UPDATE_CHK.md) file.
+
 ---
 
 <h1 align="left">Table of Contents</h1>
