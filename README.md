@@ -16,9 +16,13 @@
 
 > [!NOTE]
 > Due to the high complexity of the subject matter, this work is originally authored in Polish and subsequently translated into English. Please be aware that minor translation errors or stylistic nuances may occasionally occur during this process. If you encounter any inaccuracies in mathematical formulas, missing symbols, or ambiguities in the translation of key concepts and definitions, you are warmly invited to report them (via GitHub Issues or Pull Requests) so they can be promptly corrected.
+>
+> **Translation Status Policy:**
+> * **Version < 1.0.0:** These chapters are incomplete and currently under active development. They will not be prioritized for translation in the near future.
+> * **Version ≥ 1.0.0:** These chapters are being reviewed and edited. They will be translated upon request or when time permits.
+> * **Version ≥ 2.0.0:** These chapters are considered stable and will be translated on an ongoing basis.
 > 
 > To monitor the current translation status and verify which chapter versions are fully up to date, please consult the [UPDATE_CHK.md](UPDATE_CHK.md) file.
-
 ---
 
 <h1 align="left">Table of Contents</h1>

@@ -11,13 +11,13 @@ Tabela rożnic wersji:
 | rozdzial_4.md | **2.0.0** | 🟢 Actual | 2.0.0 | `chapter_4.md` |
 | rozdzial_5.md | **2.0.0** | 🟢 Actual | 2.0.0 | `chapter_5.md` |
 | rozdzial_6.md | **2.0.0** | 🟢 Actual | 2.0.0 | `chapter_6.md` |
-| rozdz.10.md | **0.8.5** | 🔴 No translation found (ENG) | --- | `chapter_10.md` |
-| rozdz.11.md | **0.8.5** | 🔴 No translation found (ENG) | --- | `chapter_11.md` |
+| rozdz.10.md | **0.7.5** | 🔴 No translation found (ENG) | --- | `chapter_10.md` |
+| rozdz.11.md | **0.7.5** | 🔴 No translation found (ENG) | --- | `chapter_11.md` |
 | rozdz.12.md | **0.5.2** | 🔴 No translation found (ENG) | --- | `chapter_12.md` |
 | rozdz.13.md | **0.8.5** | 🔴 No translation found (ENG) | --- | `chapter_13.md` |
-| rozdz.7.md | **1.0.5** | 🔴 No translation found (ENG) | --- | `chapter_7.md` |
-| rozdz.8.md | **1.0.5** | 🔴 No translation found (ENG) | --- | `chapter_8.md` |
-| rozdz.9.md | **1.0.5** | 🔴 No translation found (ENG) | --- | `chapter_9.md` |
+| rozdz.7.md | **0.7.5** | 🔴 No translation found (ENG) | --- | `chapter_7.md` |
+| rozdz.8.md | **0.7.5** | 🔴 No translation found (ENG) | --- | `chapter_8.md` |
+| rozdz.9.md | **0.7.5** | 🔴 No translation found (ENG) | --- | `chapter_9.md` |
 | rozdział 9 test emp.md | **0.0.5** | 🔴 No translation found (ENG) | --- | `chapter_9_test_emp.md` |
 | Glossary.md | **0.7.0** | 🟢 Actual | 0.7.0 | `Glossary.md` |
 | Aneks do roz.4.md | **0.7.0** | 🔴 No translation found (ENG) | --- | `appendix_4.md` |
