@@ -72,7 +72,7 @@ Teoria TGM w zakresie astrofizyki i kosmologii jest w pełni falsyfikowalna. Aby
 1. **Bezpośrednie odkrycie cząstek ciemnej materii** w detektorach głębinowych (np. LZ, XENONnT). Jasny sygnał od WIMP-ów uwiarygodniłby MS i zredukował wagę modelowania elastodynamicznego (choć oba efekty mogłyby współistnieć).
 2. **Brak korelacji morfologicznej:** TGM przewiduje, że soczewkowanie grawitacyjne w gromadach musi być ściśle skorelowane ze *zwartością (zgrupowaniem)* widzialnych galaktyk (ze względu na dystansowe nakładanie się naprężeń $V_{ij}$). Jeżeli najnowsze mapowania (np. z teleskopów JWST czy Euclid) wykażą, że profil soczewkowania jest idealnie niezależny od zagęszczenia rdzenia, TGM zostanie podważona.
 
-## 9.8. Podsumowanie rozdziału 8
+## 9.8. Podsumowanie rozdziału 9
 
 * Ciemna materia jako egzotyczna cząstka jest zbędnym postulatem. Płaskie krzywe rotacji galaktyk stanowią mechaniczny efekt halo naprężeniowego i ukierunkowanego gradientu ciśnienia tła 0-Matrycy.
 * "Brakująca masa" gromad galaktyk to w rzeczywistości **nieliniowa energia interferencji naprężeń 4D ($V_{ij}$)**. Z racji równoważności $E=mc^2$, naprężenie przestrzeni wygina światło dokładnie tak samo, jak obecność masywnej materii.
