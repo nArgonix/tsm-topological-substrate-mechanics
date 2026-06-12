@@ -1,4 +1,4 @@
-<!-- ver:2.1.0 -->
+<!-- ver:2.4.0 -->
 # Rozdział 1: Formalizm Mechaniki Substratu Topologicznego – czas emergentny, dynamika i kinematyka relatywistyczna
 
 Zgodnie z aksjomatami sformułowanymi w Rozdziale 0, fundamentalna przestrzeń to 4‑wymiarowa, skończona bańka wypełniona zakleszczonymi 0‑cząstkami. Zanim przejdziemy do opisu oddziaływań i struktur materialnych, konieczne jest rygorystyczne zdefiniowanie czasu oraz dynamiki samej osnowy. Model TSM całkowicie odrzuca koncepcję absolutnego czasu newtonowskiego oraz relatywistycznej czasoprzestrzeni jako bytu pierwotnego. Czas, podobnie jak przestrzeń, jest zjawiskiem w pełni emergentnym.
@@ -7,48 +7,62 @@ Zgodnie z aksjomatami sformułowanymi w Rozdziale 0, fundamentalna przestrzeń t
 
 ## 1.1. Czas w ujęciu TSM – od lokalnej gęstości osnowy do mierzonego upływu zjawisk
 
-### 1.1.1. Granica poznania – dlaczego szum nie definiuje czasu
+Wszystkie wprowadzone modyfikacje i rozbudowania koncepcyjne mieszczą się w obrębie podrozdziału 1.1. Poniżej przedstawiam kompletną, zaktualizowaną wersję tej części formalizmu, która wprowadza rygorystyczne rozróżnienie skal (mikro vs. makro), mechanizm hydrodynamicznego uśredniania oraz poprawne fizycznie ujęcie kinematyki relatywistycznej.
 
-0‑Matryca w Stanie Zero nie jest statyczna. Mikroskopijne drgania 0‑cząstek wokół ich położeń równowagi tworzą permanentny, niekoherentny szum termiczny – temperaturę Substratu $T_{\text{sub}}$. Ten chaotyczny szum tła nie dostarcza jednak żadnej regularnej okresowości, niezbędnej do odmierzania upływu zjawisk. Żadna teoria fizyczna nie może zdefiniować czasu, opierając się wyłącznie na niespójnych fluktuacjach – byłoby to błędne koło, w którym „upływu czasu” używa się do określenia, czym jest „upływ”. TSM uznaje tę granicę i nie próbuje konstruować globalnego parametru czasowego z chaotycznych zderzeń 0‑cząstek.
+### 1.1.1. Granica poznania i eliminacja fluktuacji sub-planckowskich
 
-### 1.1.2. Konieczność okresowości – zegar elementarny
+0-Matryca w swoim stanie podstawowym charakteryzuje się permanentnymi, mikroskopijnymi drganiami cząstek osnowy wokół ich położeń równowagi, co generuje niekoherentny szum tła (temperaturę Substratu $T_{\text{sub}}$). Zgodnie z zasadą rygoru empirycznego, model TSM kategorycznie odrzuca próbę definiowania czasu poprzez te pierwotne oscylacje.
 
-Aby w ogóle mówić o czasie, potrzebny jest proces **okresowy** – coś musi cyklicznie wracać do tego samego stanu. W TSM najbardziej fundamentalnym procesem okresowym jest **pełny cykl oscylacji pojedynczej 0‑cząstki wewnątrz jej sfery oddziaływania**. 0‑cząstka, uwięziona w swojej komórce Wignera‑Seitza, nieustannie uderza w jej granice, odbija się i powraca – to ruch ściśle okresowy, wynikający z geometrycznego uwięzienia i zachowania pędu. Czas trwania jednego takiego cyklu w niezakłóconej, płaskiej osnowie nazywamy **elementarnym okresem referencyjnym** $T_0$.
+Wszelkie efekty falowe oraz lokalne zmiany częstotliwości zachodzące bezpośrednio na pojedynczych elementach sieci mają charakter sub-planckowski (poniżej długości $10^{-35}$ m). Próba ich operacyjnego definiowania z naszego, makroskopowego punktu widzenia jest pozbawiona sensu mierzalnego.
 
-Wartość $T_0$ jest stałą materiałową 0‑Matrycy, związaną z częstotliwością referencyjną $f_0 = 1/T_0$, zdefiniowaną przez średnią statystyczną w Stanie Zero (Rozdział 0.3).
+W konsekwencji model TSM rezygnuje z postulowania mikroskopijnych zależności częstotliwościowych pojedynczych 0-cząstek (dawny Aksjomat 3), przenosząc cały ciężar formalizmu na makroskopowe uśrednianie hydrodynamiczne.
 
-### 1.1.3. Lokalny czas własny – definicja fundamentalna
+### 1.1.2. Matematyczny formalizm uśredniania – Efektywna Gęstość Substratu
 
-Cykl oscylacji 0‑cząstki nie jest jednak sztywno ustalony – zależy od lokalnych warunków fizycznych. W obszarach skompresowanych (np. w pobliżu węzła topologicznego) sfera oddziaływania ulega odkształceniu, droga swobodna skraca się, a częstotliwość uderzeń rośnie. Jednak – co kluczowe – **nie ta częstotliwość definiuje upływ czasu**, lecz gęstość upakowania osnowy, która bezpośrednio wpływa na tempo procesów cyklicznych.
+Aby powiązać dyskretną, sub-planckowską strukturę osnowy z mierzalnymi zjawiskami makroskopowymi, wprowadza się operator splotu (filtrowania) z funkcją okna o skali odcięcia równej skali Plancka ($\Lambda_{\text{Planck}}$). Operator ten wygładza lokalne, nieciągłe anomalie gęstości wokół pojedynczych defektów strukturalnych, dając w wyniku ciągłe pole efektywne.
 
-Wprowadzamy **lokalny ułamek upakowania** $\phi(\mathbf{x})$, będący stosunkiem objętości zajmowanej przez nieściśliwe jądra 0‑cząstek do całkowitej objętości komórki. W Stanie Zero, w płaskiej, niezakłóconej osnowie, $\phi = \phi_0$ (wartość referencyjna).
+Uśrednioną makroskopową gęstość upakowania $\langle\phi\rangle_{\text{macro}}$ w punkcie przestrzeni $\mathbf{x}$ definiuje równanie:
 
-Niech w infinitezymalnym obszarze wokół punktu $\mathbf{x}$ elementarny zegar – proces okresowy (np. rotacja wewnętrzna węzła, oscylacja fali stojącej) – wykona $dN$ pełnych cykli. Lokalny przyrost **czasu własnego** definiujemy jako:
-
-$$\boxed{dt(\mathbf{x}) = dN \cdot T_0 \cdot \frac{\phi(\mathbf{x})}{\phi_0}} \tag{1.1.1}$$
+$$\langle\phi(\mathbf{x})\rangle_{\text{macro}} = \int_{\mathbb{R}^3} \phi(\mathbf{x}') W(\mathbf{x} - \mathbf{x}', \Lambda_{\text{Planck}}) d^3\mathbf{x}'$$
 
 gdzie:
-- $dt$ – przyrost lokalnego czasu mierzonego w punkcie $\mathbf{x}$,
-- $dN$ – liczba pełnych cykli procesu okresowego (bezwymiarowa),
-- $T_0$ – elementarny okres referencyjny w płaskiej osnowie $[\text{s}]$,
-- $\phi(\mathbf{x})$ – lokalny ułamek upakowania 0‑cząstek (bezwymiarowy, $\phi \in [\phi_0, \phi_{\text{max}}]$),
-- $\phi_0$ – referencyjny ułamek upakowania w płaskiej, niezakłóconej osnowie.
 
-**Fizyczna interpretacja:** W gęstszej osnowie ($\phi > \phi_0$) drogi propagacji naprężeń są bardziej poskręcane, efektywna „lepkość” strukturalna rośnie, a każdy proces cykliczny napotyka większy opór. Czas trwania jednego cyklu wydłuża się proporcjonalnie do $\phi/\phi_0$, więc lokalny zegar tyka wolniej. Czas mierzony przez obserwatora w danym punkcie to po prostu całka:
+* $\phi(\mathbf{x}')$ – surowa, mikroskopijna gęstość lokalna osnowy,
+* $W$ – normalizowana funkcja przejścia (okno filtracyjne), eliminująca szum sub-planckowski,
+* $\Lambda_{\text{Planck}}$ – skala odcięcia przestrzennego.
 
-$$t(\mathbf{x}) = T_0 \int \frac{\phi(\mathbf{x})}{\phi_0} \, dN \tag{1.1.2}$$
+### 1.1.3. Kanoniczna definicja czasu makroskopowego
 
-### 1.1.4. Czas współrzędnościowy brany
+Czas nie jest pierwotnym wymiarem ani samodzielną areną ewolucji układów. Czas mierzony w skali makroskopowej przez dowolne przyrządy pomiarowe (które same stanowią struktury złożone z miliardów węzłów topologicznych) jest parametrem operacyjnym ewolucji strukturalnej, ściśle zależnym od efektywnej gęstości osnowy.
 
-W asymptotycznie płaskim obszarze 3‑brany, daleko od wszelkich węzłów topologicznych, $\phi = \phi_0$ jest stałe. Tam wszystkie lokalne zegary tykają w tym samym tempie, definiując **czas współrzędnościowy $t_{\text{flat}}$** – wspólną miarę upływu zjawisk dla całej niezakłóconej brany:
+Przyrost lokalnego czasu własnego $dt$ wyraża się zaktualizowanym równaniem:
 
-$$dt_{\text{flat}} = dN \cdot T_0 \tag{1.1.3}$$
+$$dt = dN \cdot T_0 \cdot \frac{\langle\phi\rangle_{\text{macro}}}{\phi_0}$$
 
-W obszarach zakrzywionych (w pobliżu mas), gdzie $\phi \neq \phi_0$, lokalny czas własny $dt$ różni się od $t_{\text{flat}}$. Stosunek ten definiuje **czynnik dylatacji czasu**:
+gdzie:
 
-$$\frac{dt}{dt_{\text{flat}}} = \frac{\phi(\mathbf{x})}{\phi_0} \tag{1.1.4}$$
+* $dt$ – przyrost lokalnego czasu własnego [s],
+* $dN$ – liczba cykli makroskopowego procesu okresowego (np. oscylacji atomowych w zegarze),
+* $T_0$ – okres referencyjny w niezaburzonej, stacjonarnej osnowie,
+* $\phi_0$ – podstawowa gęstość upakowania 0-Matrycy w Stanie Zero,
+* $\langle\phi\rangle_{\text{macro}}$ – uśredniona hydrodynamicznie gęstość osnowy w obszarze zajmowanym przez układ pomiarowy.
 
-Ponieważ w obszarach skompresowanych grawitacyjnie $\phi > \phi_0$, mamy $dt/dt_{\text{flat}} > 1$ – oznacza to, że gdy w płaskiej osnowie upływa 1 sekunda, lokalny zegar wskazuje więcej niż 1 sekundę swojego czasu, czyli **lokalny czas płynie wolniej**. Jest to zgodne z klasyczną dylatacją grawitacyjną.
+Wyższa uśredniona gęstość $\langle\phi\rangle_{\text{macro}}$ generuje większy opór ośrodka dla makroskopowych procesów relaksacyjnych i propagacji sygnałów. Przekłada się to na wydłużenie czasu trwania lokalnej sekundy ($dt$ rośnie dla stałej liczby cykli $dN$), co obserwujemy jako spowolnienie tempa upływu procesów fizycznych.
+
+### 1.1.4. Kinematyczna dylatacja czasu jako izotropowe spiętrzenie osnowy
+
+Ruch makroskopowego obiektu fizycznego w 0-Matrycy nie polega na mechanicznym przesuwaniu litej bryły, która spycha przed sobą ośrodek, lecz na bezstratnej propagacji kolektywnego wzoru węzłów-solitonów przez zakleszczony Substrat.
+
+Materia o strukturze makroskopowej zachowuje się jak porowata siatka o dużych oczkach poruszająca się w wodzie. "Fizyczność" obiektu ani jego granice strukturalne nie chronią jego wnętrza przed osnową – Substrat swobodnie przenika przez strukturę makroskopową, a woda (osnowa) stale przepływa przez obiekt. Podczas ruchu układu z prędkością $v$, na każdym pojedynczym węźle siatki (atomie) dochodzi do mikroskopijnych, lokalnych spiętrzeń. Ponieważ efekty te są sub-planckowskie, ich definiowanie z naszego punktu widzenia nie ma sensu fizycznego i nie wprowadza lokalnej anizotropii kierunkowej dla pojedynczych atomów.
+
+Jednak w skali makroskopowej, wewnątrz całej objętości zajmowanej przez poruszające się ciało, następuje konstruktywna akumulacja tych mikro-odkształceń. Obecność poruszającej się struktury materii ogranicza swobodną relaksację osnowy, zamykając podwyższoną gęstość wewnątrz obwiedni obiektu. Generuje to całkowicie jednorodne i izotropowe (wielokierunkowe) spiętrzenie uśrednionej osnowy w całym ciele:
+
+$$\langle\phi(v)\rangle_{\text{macro}} = \phi_0 \cdot \gamma = \frac{\phi_0}{\sqrt{1 - \frac{v^2}{c_{\perp}^2}}}$$
+
+Dzięki temu, że spiętrzenie $\langle\phi(v)\rangle_{\text{macro}}$ przyjmuje formę jednorodnego pola skalarnego wewnątrz obwiedni poruszającego się układu:
+
+1. Wszystkie zegary wewnątrz tego obiektu – bez względu na to, czy są zorientowane równolegle, czy prostopadle do wektora prędkości $\mathbf{v}$ – doświadczają identycznego spowolnienia czasu. Eliminacja gradientu kierunkowego w skali makro zapewnia pełną zgodność TSM z fizyką doświadczalną (eksperymenty Kennedy'ego-Thorndike'a oraz Michelsona-Morleya).
+2. Czynnik Lorentza $\gamma$ zostaje rygorystycznie wyprowadzony jako bezpośrednia, hydrodynamiczna konsekwencja nieliniowej sprężystości i oporu falowego (sztywności ścinania $\mu$) 0-Matrycy, gdy prędkość propagacji makroskopowej obwiedni zbliża się do granicznej prędkości fal poprzecznych $c_{\perp}$.
 
 ### 1.1.5. Dylatacja grawitacyjna – związek z potencjałem $\Phi$
 

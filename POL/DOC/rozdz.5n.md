@@ -1,7 +1,3 @@
-Oto poprawiony Rozdział 5, w pełni zsynchronizowany z ustaleniami z Rozdziałów 0–4. Poprawiono literówkę we wzorze, usunięto odniesienia do globalnego $\tau$, ujednolicono terminologię, dodano numerację wzorów 5.x.x i opisano symbole.
-
----
-
 <!-- ver:2.1.0 -->
 # Rozdział 5: Topologiczna mechanika wykluczenia i stabilność materii
 

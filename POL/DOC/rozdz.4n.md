@@ -1,7 +1,3 @@
-Oto całkowicie przebudowany Rozdział 4, zgodny z Twoimi wytycznymi. Usunąłem wszelkie próby definiowania czasu, skupiłem się na temperaturze i entropii w trzech skalach, wprowadziłem koncepcję kaskady Taylora jako mechanizmu rozpraszania energii i zapewniłem spójność z Rozdziałami 0–3.
-
----
-
 <!-- ver:2.1.0 -->
 # Rozdział 4: Termodynamika Substratu – temperatura, entropia i kaskadowa relaksacja 0-Matrycy
 

@@ -1,8 +1,4 @@
-Oto całkowicie przebudowany Rozdział 6, w pełni zsynchronizowany z ustaleniami z Rozdziałów 0–5. Usunąłem hipotezę „tired light”, zastąpiłem ją mechanizmem redshiftu wynikającym z historycznej gęstości osnowy, poprawiłem kwestię informacji w plazmoidach, ujednoliciłem terminologię, dodałem numerację wzorów 6.x.x i opisy symboli.
-
----
-
-<!-- ver:2.1.0 -->
+<!-- ver:2.4.0 -->
 # Rozdział 6: Grawitacja jako ortogonalny naciąg – wymiar 4D, Plazmoidy i nieliniowa dynamika kontinuum
 
 W Mechanice Substratu Topologicznego (TSM) odrzucamy abstrakcję geometryczną, która przypisuje grawitacji status czystego zakrzywienia niematerialnej czasoprzestrzeni. Grawitacja zostaje tu zdefiniowana jako rzeczywiste naprężenie ortogonalne (naciąg poprzeczny) sprężystej 3-brany w kierunku czwartego wymiaru przestrzennego ($x^4$). Niniejszy rozdział przedstawia pełen formalizm matematyczny opisujący zachowanie osnowy zarówno w reżimie liniowym, jak i w skrajnie nieliniowych warunkach astrofizycznych, zastępując aparaturę Ogólnej Teorii Względności (OTW) klasyczną elastodynamiką ośrodków ciągłych.
@@ -161,27 +157,63 @@ gdzie $\mathcal{A}_{\text{nielin}}$ jest nieliniowym współczynnikiem sprzęże
 
 ---
 
-## 6.5. Redshift kosmologiczny jako odcisk historycznej gęstości osnowy
+## 6.5. Redshift kosmologiczny a propagacja fal – rozwiązanie paradoksu zmiennego ośrodka
 
-Zgodnie z fundamentalnym Aksjomatem 2 (Rozdział 0.7), Wszechświat nie rozszerza się. Przesunięcie ku czerwieni (redshift) światła z odległych galaktyk nie wynika ani z globalnej ekspansji przestrzeni, ani z dystansowego tłumienia fal („tired light”), lecz z faktu, że **światło zostało wyemitowane w gęstszej osnowie** ($\phi_{\text{em}} > \phi_0$), gdy lokalne zegary chodziły wolniej (Rozdział 1.1.5).
+### 6.5.1. Globalna relaksacja Substratu a inwariantność przestrzenna
 
-Związek między obserwowaną a emitowaną częstotliwością fotonu dany jest przez stosunek gęstości upakowania w momencie emisji do gęstości dzisiejszej, płaskiej osnowy:
+W skali kosmologicznej 3-brana podlega monotonicznemu, powolnemu procesowi relaksacji naprężeń szczątkowych po Wielkim Wydarzeniu. Konsekwencją tego procesu jest globalny, stopniowy spadek podstawowej gęstości upakowania 0-Matrycy w czasie absolutnym $\tau$:
 
-$$\nu_{\text{obs}} = \nu_0 \cdot \frac{\phi_0}{\phi_{\text{em}}} \tag{6.5.1}$$
+$$\phi(\tau) \to \phi_0$$
 
-gdzie:
-- $\nu_{\text{obs}}$ – częstotliwość zaobserwowana $[\text{Hz}]$,
-- $\nu_0$ – częstotliwość laboratoryjna (emitowana lokalnie w płaskiej osnowie) $[\text{Hz}]$,
-- $\phi_{\text{em}}$ – lokalny ułamek upakowania w obszarze emisji w momencie wysłania fotonu,
-- $\phi_0$ – referencyjny ułamek upakowania w dzisiejszej, zrelaksowanej osnowie.
+Ponieważ relaksacja ta zachodzi w sposób wielokierunkowy i jednorodny w całej objętości obserwowalnego Wszechświata, w każdym punkcie ewolucji zachowana jest ścisła jednorodność przestrzenna kontinuum tła ($\nabla \phi_{\text{global}} = 0$).
 
-Parametr przesunięcia ku czerwieni $z$ wynosi zatem:
+Zgodnie z twierdzeniem Noether, niezmienniczość układu względem translacji przestrzennych nakłada rygorystyczne żądanie zachowania pędu falowego. Oznacza to, że podczas całej podróży fotonu przez relaksujący Substrat, jego bezwzględny wektor falowy $\mathbf{k}$ oraz bezwzględna (mierzona w metryce laboratoryjnej Staniu Zero) długość fali $\lambda_{\text{abs}}$ pozostają nienaruszone:
 
-$$z \equiv \frac{\lambda_{\text{obs}} - \lambda_0}{\lambda_0} = \frac{\nu_0}{\nu_{\text{obs}}} - 1 = \frac{\phi_{\text{em}}}{\phi_0} - 1 \tag{6.5.2}$$
+$$\frac{d\mathbf{k}}{d\tau} = 0 \implies \lambda_{\text{abs}}(\tau) = \lambda_{\text{em}} = \text{const}$$
 
-Stała Hubble'a $H_0$ traci status miary tempa ekspansji, a staje się miarą **historycznego tempa relaksacji średniej gęstości osnowy** w funkcji odległości (czyli czasu wstecz). Im dalej spoglądamy, tym gęstszą osnowę obserwujemy, co przekłada się na proporcjonalność $z \propto H_0 r$ dla małych odległości.
+Model TSM kategorycznie odrzuca zatem koncepcję kinematycznego „rozciągania” długości fali światła w locie. Foton nie traci energii w próżni ani nie podlega rozszerzaniu metrycznemu, ponieważ przestrzeń Substratu jest skończona i statyczna pod względem geometrycznym. Cały obserwowany efekt przesunięcia ku czerwieni jest rezultatem warunków brzegowych emisji oraz ewolucji lokalnych standardów pomiarowych.
 
-Mechanizm ten jest w pełni zgodny z Rozdziałem 5.4.1, gdzie ewolucja stałej grawitacji $G_{\text{eff}}$ (powiązana z relaksacją napięcia brany) wyjaśnia odchylenia jasności supernowych Ia bez odwoływania się do Ciemnej Energii. Redshift i przyśpieszona ekspansja to dwa aspekty tego samego procesu: postępującej relaksacji naprężeń pierwotnej 0-Matrycy.
+### 6.5.2. Mechanizm emisji w zagęszczonej osnowie (Pamięć Gęstości)
+
+Rozważmy proces emisji fotonu przez układ atomowy w odległej przeszłości (w momencie $\tau_{\text{em}}$), kiedy globalna gęstość osnowy wynosiła $\phi_{\text{em}} > \phi_0$.
+
+Zgodnie z kanoniczną definicją czasu własnego (Podrozdział 1.1.3), lokalna sekunda $dt$ w gęstszym ośrodku trwa dłużej w ujęciu bezwzględnym z powodu wyższego oporu strukturalnego osnowy stawiającego opór makroskopowym procesom relaksacyjnym:
+
+$$dt_{\text{em}} = dt_0 \cdot \frac{\phi_{\text{em}}}{\phi_0}$$
+
+Dla lokalnego obserwatora w momencie $\tau_{\text{em}}$, częstotliwość konkretnego przejścia kwantowego wynosi $\nu_0$ (jest stałą cechą strukturalną danego układu wiązań solitonowych), co odpowiada lokalnemu okresowi fali $\Delta t_{\text{em}} = 1/\nu_0$. Przeliczając ten okres na dzisiejszy standard czasu (gdzie gęstość zrelaksowała do $\phi_0$, a zatem $dt_0 = dt_{\text{abs}}$), bezwzględny okres drgań emitowanej fali wynosi:
+
+$$\Delta t_{\text{abs}} = \Delta t_{\text{em}} \cdot \frac{\phi_{\text{em}}}{\phi_0} = \frac{1}{\nu_0} \cdot \frac{\phi_{\text{em}}}{\phi_0}$$
+
+Ponieważ bezwzględny okres fali jest dłuższy, jej bezwzględna częstotliwość drgań $\nu_{\text{em, abs}}$ w skali referencyjnej Stanu Zero jest proporcjonalnie niższa:
+
+$$\nu_{\text{em, abs}} = \frac{1}{\Delta t_{\text{abs}}} = \nu_0 \cdot \frac{\phi_0}{\phi_{\text{em}}}$$
+
+Materiałowa prędkość fal poprzecznych $c_{\perp} = \sqrt{\mu/\rho}$ jest fundamentalną niezmienniczą stałą elastyczną całego Substratu i nie ulega zmianie podczas globalnej relaksacji. W związku z tym, bezwzględna długość fali uformowana w punkcie emisji wynosi:
+
+$$\lambda_{\text{em}} = \frac{c_{\perp}}{\nu_{\text{em, abs}}} = \frac{c_{\perp}}{\nu_0} \cdot \frac{\phi_{\text{em}}}{\phi_0} = \lambda_0 \cdot \frac{\phi_{\text{em}}}{\phi_0}$$
+
+gdzie $\lambda_0 = c_{\perp}/\nu_0$ definiuje standardową długość fali tego samego przejścia atomowego, jaką mierzymy w laboratorium dzisiaj. Równanie to dowodzi, że foton opuszcza źródło w przeszłości z już wbudowaną, dłuższą bezwzględną długością fali ($\lambda_{\text{em}} > \lambda_0$), będącą bezpośrednim odzwierciedleniem dylatacji czasu uwarunkowanej pierwotną gęstością $\phi_{\text{em}}$.
+
+### 6.5.3. Ostateczny bilans optyczny i definicja stałej Hubble’a
+
+Ponieważ – zgodnie z Sekcją 6.5.1 – długość fali nie ulega modyfikacji podczas propagacji przez jednorodny przestrzennie Substrat, foton dociera do dzisiejszego detektora z niezmienioną wartością bezwzględną:
+
+$$\lambda_{\text{obs}} = \lambda_{\text{em}} = \lambda_0 \cdot \frac{\phi_{\text{em}}}{\phi_0}$$
+
+Dzisiejszy obserwator rejestruje ten foton i porównuje jego długość fali ze swoim lokalnym, współczesnym wzorcem laboratoryjnym $\lambda_0$. Definiując bezwymiarowy parametr przesunięcia ku czerwieni $z$:
+
+$$1 + z = \frac{\lambda_{\text{obs}}}{\lambda_0} = \frac{\lambda_0 \cdot \frac{\phi_{\text{em}}}{\phi_0}}{\lambda_0} = \frac{\phi_{\text{em}}}{\phi_0}$$
+
+Po przekształceniu otrzymujemy ostateczną, ścisłą definicję redshiftu kosmologicznego w mechanice TSM:
+
+$$z = \frac{\phi_{\text{em}}}{\phi_0} - 1$$
+
+W ujęciu tym prawo Hubble’a przestaje być dowodem na ucieczkę galaktyk. Stała Hubble’a $H_0$ zostaje rygorystycznie przedefiniowana jako bezpośrednia miara logarytmicznego tempa historycznej relaksacji struktury Substratu w bieżącej epoce kosmologicznej:
+
+$$H_0 = -\frac{1}{\phi_0} \left. \frac{d\phi}{d\tau} \right|_{\tau=\tau_0}$$
+
+Dzięki takiemu sformułowaniu matematycznemu Podrozdział 6.5 wskazuje jednoznacznie: redshift jest efektem optycznym wynikającym ze stałego spadku gęstości tła Wszechświata, co w pełni wyjaśnia obserwacje astrofizyczne bez konieczności wprowadzania sprzecznych z mechaniką klasyczną pojęć, takich jak ekspansja samej przestrzeni czy ciemna energia.
 
 ---
 

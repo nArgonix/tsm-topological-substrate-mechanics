@@ -1,7 +1,3 @@
-Oto całkowicie przebudowany Rozdział 7, w pełni zsynchronizowany z nowymi fundamentami TSM z Rozdziałów 0–6. Stary tekst potraktowałem jako materiał pomocniczy, zachowując z niego kluczowe idee (model kawitacyjny, węzeł trójlistny, wzbudzenia topo-harmoniczne, testy eksperymentalne), ale dostosowując je do obowiązujących aksjomatów: czasu lokalnego $t$, pierwotnego zakleszczenia 4D, topologicznego mechanizmu oddziaływania silnego (splątanie 4D) oraz słabego jako rozwęźlania.
-
----
-
 <!-- ver:2.1.0 -->
 # Rozdział 7: Oddziaływania subatomowe – hadrony jako pęcherzyki kawitacyjne, oddziaływanie słabe jako rozwęźlanie i determinizm kwantowy w TSM
 

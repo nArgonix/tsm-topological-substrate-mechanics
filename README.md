@@ -23,6 +23,9 @@
 > * **Version ≥ 2.0.0:** These chapters are considered stable and will be translated on an ongoing basis.
 > 
 > To monitor the current translation status and verify which chapter versions are fully up to date, please consult the [UPDATE_CHK.md](UPDATE_CHK.md) file.
+
+> [!NOTE]
+> The TOC might be outdated, but the topics it contains will still be included in newer versions of this work.
 ---
 
 <h1 align="left">Table of Contents</h1>
