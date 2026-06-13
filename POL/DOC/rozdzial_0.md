@@ -1,4 +1,4 @@
-<!-- ver:3.5.0 -->
+<!-- ver:3.7.0 -->
 <h1>Topologiczna Mechanika Substratu</h1>
 
 > *Oto propozycja nowego, mechanicznego opisu rzeczywistości, który pozwala w prosty sposób wyjaśnić najważniejsze wnioski płynące z Ogólnej Teorii Względności oraz Modelu Standardowego. Opierając się na dekadach danych eksperymentalnych, TSM (Topological Substrate Mechanics) nie próbuje na siłę łączyć tych dwóch teorii na ich obecnym poziomie. Zamiast tego schodzi piętro niżej – do głębokiej mechaniki świata mikro – i stamtąd naturalnie wyprowadza znane nam zjawiska, takie jak spowalnianie czasu czy prędkość światła $c$.
@@ -25,13 +25,14 @@ Cząstki te nie posiadają ładunków ani złożonej struktury wewnętrznej. Jak
 Ponieważ transformacje relatywistyczne i bariera prędkości $c$ są w TSM wyłącznie emergentną cechą falową struktury 3-brany, pierwotna mechanika 4D na poziomie sub-planckowskim ma charakter absolutny (nie-relatywistyczny). Pozwala to na realizację pędu i energii kinetycznej przy v≫c bez generowania nieskończoności relatywistycznych, które w tej skali jeszcze nie istnieją.
 
 W tym modelu każdy stan energetyczny osnowy sprowadza się do czystej mechaniki sub-planckowskiej – energii kinetycznej wynikającej z nieustannych oscylacji i kolizji sferycznych reprezentacji tych cząstek. Podkreślamy z całą stanowczością: te pierwotne mikro-oscylacje i pęd 0-cząstek nie mierzą ani nie definiują upływu czasu. Stanowią one wyłącznie mechaniczne źródło energii tła, odpowiedzialne za generowanie globalnego ciśnienia oraz lokalnych gradientów naprężeń w 0-Matrycy. Wszystko, co obserwujemy jako makroskopowe zjawiska fizyczne, wyłoni się dopiero jako echo geometrii tych naprężeń.
+
 ---
 
 ## 0.2. Sprężystość z czystej kinetyki
 
 Tradycyjna fizyka postrzega sprężystość materiałów przez pryzmat „niewidzialnych sprężyn” – sił, które łączą cząstki i stawiają opór przy próbie zmiany ich wzajemnego położenia. W naszym modelu odrzucamy ten opis, ponieważ wymaga on zakładania istnienia sił wewnątrz struktury przed wyjaśnieniem samej natury siły. Nie wprowadzamy żadnych dodatkowych pól siłowych ani przyciągających oddziaływań. Zamiast tego, całą sprężystość wywodzimy wyłącznie z przestrzennej dynamiki kolizyjnej 0-cząstek.
 
-Wyobraźmy sobie 0-cząstkę uwięzioną w zamkniętej objętości (sferze oddziaływań / komórce sieci). W stanie równowagi cząstka wykonuje oscylacje z prędkością $v \gg c$, uderzając w geometryczne granice swojej komórki. Co stanie się, gdy zewnętrzna deformacja zacznie kompresować tę przestrzeń? Droga swobodna cząstki ulega drastycznemu skróceniu. Przy zachowaniu stałej, gigantycznej energii kinetycznej mikro-oscylacji, sekwencyjna liczba uderzeń w granice komory na jednostkę drogi rośnie lawinowo.
+Wyobraźmy sobie 0-cząstkę uwięzioną w zamkniętej objętości (sferze oddziaływań / komórce sieci). W stanie równowagi cząstka wykonuje oscylacje z prędkością **$v \gg c$**, uderzając w geometryczne granice swojej komórki. Co stanie się, gdy zewnętrzna deformacja zacznie kompresować tę przestrzeń? Droga swobodna cząstki ulega drastycznemu skróceniu. Przy zachowaniu stałej, gigantycznej energii kinetycznej mikro-oscylacji, sekwencyjna liczba uderzeń w granice komory na jednostkę drogi rośnie lawinowo. Jednak kompresja nie może postępować w nieskończoność. Zanim układ osiągnie niefizyczny stan nieskończonej częstotliwości zderzeń przy idealnym styku granic, lokalny tensor naprężeń przekracza próg $\sigma_{\text{crit}}$​. Uruchamia to Klauzulę Krytycznego Przemieszczenia – osnowa przechodzi w stan płynięcia plastycznego, co relaksuje nadmierne zagęszczenie kolizji poprzez rekonfigurację sieci.
 
 Dla struktury osnowy ten gwałtowny wzrost zagęszczenia kolizji oznacza potężny skok lokalnego naporu. Tworzy to wysoce sprężystą strukturę, która stawia opór kompresji – nie dzięki „ukrytym siłom”, lecz dzięki czystej geometrii i transferowi pędu. To prawo stanowi fundament naszej teorii: sprężystość i gradienty naprężeń są emergentną właściwością zagęszczenia zderzeń w ograniczonej przestrzeni. Im bardziej redukujemy przestrzeń między 0-cząstkami, tym potężniejszy gradient naprężeń generuje osnowa. Mechanizm ten posiada jednak twardą, geometryczną granicę: kompresja nie może postępować w nieskończoność, gdyż napotyka na nieprzekraczalny próg maksymalnego upakowania sfer ($\phi\_{\text{max}}$), przy którym 0-cząstki stykają się swoimi fizycznymi, niepodzielnymi granicami.
 
@@ -47,13 +48,19 @@ Oznacza to, że 0-cząstki są trwale uwięzione w swoich komórkach Wignera-Sei
 
 Ponieważ 0-cząstki są geometrycznie ograniczone i nie mają możliwości ucieczki, są strukturalnie zmuszone do permanentnego wywierania naporu na sąsiadów. Ten stały, kinematyczny stan zakleszczenia sprawia, że osnowa nigdy nie jest rozluźniona – pozostaje w stanie wiecznego, bazowego naprężenia. W tym ujęciu Wszechświat nie jest wtórnie wypełniony energią; on jest tą energią kinetyczną, zablokowaną i uwięzioną w skończonej, zamkniętej geometrii substratu, gotową do manifestacji w postaci sił i mas, gdy tylko w układzie pojawi się materia.
 
+**Klauzula Krytycznego Przemieszczenia** **(Wyjątek Plastyczności Granicznej):**
+W reżimie niskich i średnich energii (klasyczna fizyka relatywistyczna i kwantowa) brak swobody translacyjnej 0-cząstek ma charakter absolutny, co gwarantuje stabilność strukturalną osnowy oraz uwięzionych w niej węzłów topologicznych. Dopuszcza się jednak krańcowy wyjątek fizyczny: w stanach skrajnego, sub-planckowskiego naprężenia ścinającego, gdzie lokalna gęstość energii lub gradient ciśnienia przekracza krytyczny próg aktywacji plastycznej σcrit​ (reżim Wielkiego Wydarzenia lub jądra makroskopowych plazmoidów), osnowa lokalnie przełamuje barierę zakleszczenia (_jamming transition_). Dochodzi wówczas do wymuszonego, plastycznego płynięcia Substratu, w którym 0-cząstki uzyskują chwilową, lokalną swobodę translacyjną, umożliwiającą im zmianę komórek macierzystych i rekonfigurację topologiczną sieci. Po rozproszeniu energii układ natychmiast powraca do stanu głębokiego zamrożenia konfiguracjonalnego, więżąc nowo powstałe defekty.
+
 ---
 
-## 0.4. Stan relaksacji: Autoregulacja 0-Cząstek
+## 0.4. Stan Relaksacji: Autoregulacja 0-Matrycy
 
 Każdy punkt 0-Matrycy dąży do stanu relaksacji – konfiguracji, w której napór uderzeń kontaktowych z każdej strony idealnie równoważy się z naporem sąsiednich 0-cząstek. W skali mikro oznacza to, że lokalne zgniecenie osnowy natychmiast wywołuje gwałtowny wzrost intensywności zderzeń, co system manifestuje jako lokalny nadmiar naprężenia.
 
-Zjawisko to jest ściśle analogiczne do relaksacji naprężeń w zakleszczonym ośrodku granularnym lub przeciążonym ciele stałym: poniewż cząstki nie posiadają swobody translacyjnej i nie mogą fizycznie odpłynąć, nadmiar energii kinetycznej jest nieuchronnie przekazywany dalej, z komórki do komórki, poprzez kaskadę zderzeń kontaktowych. System nie pozostawia nadmiaru energii w jednym miejscu – natychmiast rozprasza go w postaci falowej po sąsiednich obszarach, dążąc do ujednolicenia ciśnienia konfiguracjonalnego w całej osnowie. Ten mechanizm sprawia, że żadne lokalne odkształcenie nie może pozostać trwałe w reżimie niskich energii. Jeśli jakikolwiek czynnik zewnętrzny naruszy ten układ, fala sprężysta rozejdzie się po systemie, aż ośrodek powróci do stanu równowagi. To dążenie do nieustannego wyrównywania naprężeń nazywamy „relaksacją” 0-Matrycy.
+Zjawisko to jest ściśle analogiczne do relaksacji naprężeń w zakleszczonym ośrodku granularnym lub przeciążonym ciele stałym: ponieważ cząstki nie posiadają swobody translacyjnej i nie mogą fizycznie odpłynąć, nadmiar energii kinetycznej jest nieuchronnie przekazywany dalej, z komórki do komórki, poprzez kaskadę zderzeń kontaktowych. System nie pozostawia nadmiaru energii w jednym miejscu – natychmiast rozprasza go w postaci falowej po sąsiednich obszarach, dążąc do ujednolicenia ciśnienia konfiguracjonalnego w całej osnowie. Ten mechanizm sprawia, że żadne lokalne odkształcenie nie może pozostać trwałe w reżimie niskich energii. Jeśli jakikolwiek czynnik zewnętrzny naruszy ten układ, fala sprężysta rozejdzie się po systemie, aż ośrodek powróci do stanu równowagi.
+
+To dążenie do nieustannego wyrównywania naprężeń nazywamy „relaksacją” 0-Matrycy. Proces ten, oprócz natychmiastowej odpowiedzi w skali mikro, posiada również komponentę globalną – powolne, ewolucyjne wygaszanie skrajnych naprężeń tła w czasie kosmicznym, co implikuje minimalną, ciągłą utratę energii przez fale elektromagnetyczne na ekstremalnych dystansach (efekt redshift; szczegółowy opis mechanizmu i struktur galaktycznych znajduje się w osobnym rozdziale kosmologicznym).
+
 ---
 
 ## 0.5. Narodziny Błony (Wielkie Wydarzenie i defekt topologiczny)
