@@ -1,0 +1,31 @@
+project:
+  type: book
+  
+fontsize: 12pt
+lang: pl
+
+book:
+  title: "Mechaniki Substratu Topologicznego (TSM) - Teoria, Podstawy"
+  author: "Piotr R. Szopiński"
+  date: "2026"
+  
+
+  chapters:
+    - index.qmd          # Plik z wprowadzeniem do książki (nie będzie numerowany)
+    - rozdzial_0.qmd     # Tutaj zwykle daje się wstęp / wprowadzenie
+    - rozdzial_1.qmd     # Pierwszy plik z rozdziałem (dostanie nr 1)
+
+  appendices:
+    - Aksjomaty_TSM.qmd  # Plik z aksjomatami (nie będzie numerowany)
+
+ 
+
+format:
+  pdf:
+    pdf-engine: xelatex
+    mainfont: "Times New Roman"
+    include-in-header:
+      file: header.tex
+
+    number-sections: true
+    number-equations: true

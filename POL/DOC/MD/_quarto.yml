@@ -1,0 +1,10 @@
+# _quarto_md.yml
+# Plik konfiguracyjny tylko do generowania Markdown (GFM)
+project:
+  type: default
+
+format:
+  markdown:
+    variant: gfm
+    number-sections: true
+    number-equations: true

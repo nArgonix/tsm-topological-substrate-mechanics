@@ -1,8 +1,6 @@
-<!-- ver:0.0.6 -->
-<h1 align="center">
-  <b>T</b>opologiczna Geometrodynamika 0-<b>M</b>atrycy<sub>(Substratu)</sub>
-</h1>
-</br>
+<!-- ver:0.1.0 -->
+# Wstęp: {.unnumbered}
+
 
 <p>Monografia ta prezentuje kompletny, alternatywny fundament dla fizyki fundamentalnej, dokonując radykalnego uproszczenia opisu rzeczywistości poprzez eliminację abstrakcyjnego pojęcia pustej czasoprzestrzeni na rzecz mechaniki kontinuum. <b>T</b>opological 0-Matrix (<b>S</b>ubstrate) <b>M</b>echanics (TSM) dowodzi, że cały obserwowalny Wszechświat wyłania się jako makroskopowa, elasto-dynamiczna manifestacja sub-planckowskiej, geometrycznie zakleszczonej sieci oscylatorów – tytułowej 0-Matrycy.</p>
 

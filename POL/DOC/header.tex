@@ -1,0 +1,61 @@
+\usepackage{amsmath}
+\numberwithin{equation}{subsection}
+\setcounter{chapter}{-1}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\lfoot{\small 2026 (c) Piotr R. Szopiński, Wrocław, Polska}
+\rfoot{\thepage}
+\renewcommand{\headrulewidth}{0pt}
+\KOMAoption{chapterprefix}{true}
+
+% DYNAMICZNY ZNACZNIK: automatycznie zamienia "Rozdział" na "Dodatek"
+\renewcommand*{\chapterformat}{\chapapp~\thechapter:}
+
+% Automatyczne wykrywanie sekcji załączników (Appendix)
+\newcommand*{\isappendix}{0}
+\makeatletter
+\g@addto@macro\appendix{\gdef\isappendix{1}}
+\makeatother
+
+% Główny mechanizm sterujący wyglądem nagłówków rozdziałów i dodatków
+\renewcommand*{\chapterlineswithprefixformat}[3]{%
+  \ifnum\isappendix=1
+    % =========================================================================
+    % DODATEK (APPENDIX) - PREFIKS PO LEWEJ, TYTUŁ NA ŚRODKU
+    % =========================================================================
+    {\raggedright
+      {\large\bfseries #2}\par       % "Dodatek A:" na górze po lewej
+    }%
+    \nopagebreak\vspace*{0.6\baselineskip}     % Odstęp pomiędzy liniami
+    {\centering
+      {\Huge\bfseries #3}\par        % Sam tytuł dodatku na środku
+    }%
+  \else
+    % =========================================================================
+    % ZWYKŁE ROZDZIAŁY - PREFIKS PO LEWEJ, TYTUŁ NA ŚRODKU
+    % =========================================================================
+    {\raggedright
+      {\large\bfseries #2}\par       % "Rozdział X:" na górze po lewej
+    }%
+    \nopagebreak\vspace*{0.6\baselineskip}     % Odstęp między prefiksem a tytułem
+    {\centering
+      {\Huge\bfseries #3}\par        % Sam tytuł rozdziału na środku
+    }%
+  \fi
+}
+
+% Format dla Spisu Treści i Wstępu - NA ŚRODKU
+\renewcommand*{\chapterlinesformat}[3]{%
+  {\centering
+    {\Huge\bfseries #3}\par          % Tytuł nienumerowany na środku
+  }%
+}
+
+\makeatletter
+\let\size@chapter\huge
+\makeatother
+
+% Ustawienia globalnych marginesów (odstęp 2.5cm pod tytułem)
+\renewcommand*{\chapterheadstartvskip}{\vspace*{0.5\baselineskip}}
+\renewcommand*{\chapterheadendvskip}{\vspace*{2.5cm}}
