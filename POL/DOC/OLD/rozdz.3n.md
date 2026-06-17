@@ -1,4 +1,4 @@
-<!-- ver:2.1.0 -->
+<!-- ver:2.7.0 -->
 # Rozdział 3: Dynamika naprężeń 0-Matrycy – od elektrodynamiki i topologicznych sił jądrowych do mechaniki obwodów
 
 W klasycznej elektrodynamice pole elektromagnetyczne jest traktowane jako abstrakcyjny byt rozchodzący się w próżni. Ponieważ w Mechanice Substratu Topologicznego (TSM) niefizyczna próżnia nie istnieje, zjawiska elektromagnetyczne stanowią wyłącznie obserwowalną makroskopowo mechanikę odkształceń ciągłego, 4‑wymiarowego ośrodka sprężystego – w szczególności jego naprężeń ścinających i skrętnych zachodzących wewnątrz izotropowej 3‑brany. Zgodnie z Rozdziałami 0 i 1, cała dynamika rozgrywa się w lokalnym czasie $t$, emergentnym z gęstości upakowania 0‑Matrycy.
@@ -9,16 +9,18 @@ W klasycznej elektrodynamice pole elektromagnetyczne jest traktowane jako abstra
 
 Zgodnie z Rozdziałem 1.1, TSM odrzuca absolutny czas newtonowski i relatywistyczną czasoprzestrzeń. Podstawą opisu ewolucji pól jest **lokalny czas własny** $t$, płynący z gęstości upakowania 0‑cząstek:
 
-$$dt = dN \cdot T_0 \cdot \frac{\phi(\mathbf{x})}{\phi_0} \tag{3.0.1}$$
+
+$$dt = dN \cdot T_0 \cdot \frac{\phi_0}{\langle\phi\rangle_{\text{macro}}} \tag{3.0.1}$$
 
 gdzie:
 - $dt$ – przyrost czasu lokalnego w punkcie $\mathbf{x}$ $[\text{s}]$,
 - $dN$ – liczba cykli procesu okresowego (bezwymiarowa),
 - $T_0$ – elementarny okres referencyjny $[\text{s}]$,
-- $\phi(\mathbf{x})$ – lokalny ułamek upakowania (bezwymiarowy),
-- $\phi_0$ – referencyjny ułamek upakowania w płaskiej osnowie.
+- $\phi_0$ – podstawowa gęstość upakowania 0-Matrycy w Stanie Zero,
+- $\langle\phi\rangle_{\text{macro}}$ – uśredniona hydrodynamicznie gęstość osnowy w obszarze zajmowanym przez układ pomiarowy.
 
-W płaskiej, niezakłóconej 3‑branie ($\phi = \phi_0$) czas własny pokrywa się z **czasem współrzędnościowym** $t_{\text{flat}}$, który jest naturalną zmienną w równaniach pola. W pobliżu węzłów topologicznych ($\phi > \phi_0$) lokalny czas zwalnia, co modyfikuje obserwowaną dynamikę fal elektromagnetycznych (efekt Shapiro, dylatacja grawitacyjna). Wszystkie równania tego rozdziału sformułowane są w czasie współrzędnościowym $t = t_{\text{flat}}$, o ile nie zaznaczono inaczej.
+
+W płaskiej, niezakłóconej 3‑branie ($\phi = \phi_0$) czas własny pokrywa się z **czasem współrzędnościowym** $t_{\text{flat}}$, który jest naturalną zmienną w równaniach pola. W pobliżu węzłów topologicznych ($\langle\phi\rangle_{\text{macro}} > \phi_0$) lokalny czas zwalnia, co modyfikuje obserwowaną dynamikę fal elektromagnetycznych (efekt Shapiro, dylatacja grawitacyjna). Wszystkie równania tego rozdziału sformułowane są w czasie współrzędnościowym $t = t_{\text{flat}}$, o ile nie zaznaczono inaczej.
 
 ---
 
@@ -33,7 +35,7 @@ Formalnie wprowadzamy 4‑potencjał $A_{\mu} = (\varphi_{\mathrm{t}}/c_{\perp},
 - $\mathbf{A}$ – wektor przemieszczenia ścinającego $[\text{T} \cdot \text{m}]$, którego składowe są proporcjonalne do składowych $\mathbf{n}$ pomnożonych przez amplitudę skręcenia,
 - $c_{\perp}$ – prędkość poprzecznych fal ścinających $[\text{m} \cdot \text{s}^{-1}]$.
 
-W pobliżu rdzenia węzła faza torsji $\phi$ zmienia się o wielokrotność $2\pi$ przy pełnym obrocie. Związek z potencjałem cechowania ma postać:
+W pobliżu rdzenia węzła faza torsji $\theta$ zmienia się o wielokrotność $2\pi$ przy pełnym obrocie. Poza samym rdzeniem, wektorowy potencjał ścinania jest wprost proporcjonalny do gradientu tej fazy: $\mathbf{A} \approx \frac{\Phi_0}{2\pi} \nabla\theta$. Całkowy związek z potencjałem cechowania (topologiczne kwantowanie strumienia) ma postać:
 
 $$\oint_{\partial S} \mathbf{A} \cdot d\mathbf{l} = \Phi_0 \cdot n \tag{3.1.1}$$
 
@@ -44,9 +46,9 @@ gdzie:
 
 ### 3.1.2. Ładunek elektryczny jako strumień skrętu
 
-**Ładunek elektryczny** $q$ definiujemy jako całkowity strumień wektora gradientu fazy torsji $\nabla\phi$ wzdłuż zamkniętego konturu otaczającego rdzeń węzła:
+**Ładunek elektryczny** $q$ definiujemy jako całkowity **obieg (cyrkulację)** wektora gradientu fazy torsji $\nabla\theta$ wzdłuż zamkniętego konturu otaczającego rdzeń węzła, przeskalowany przez ładunek elementarny:
 
-$$q \equiv e \cdot \frac{1}{2\pi} \oint_{\mathrm{pętla}} \nabla\phi \cdot d\mathbf{l} \tag{3.1.2}$$
+$$q \equiv e \cdot \frac{1}{2\pi} \oint_{\mathrm{pętla}} \nabla\theta \cdot d\mathbf{l} \tag{3.1.2}$$
 
 gdzie $e$ jest ładunkiem elementarnym $[\text{C}]$. Ponieważ ciągłość fazy wokół zamkniętej pętli wymusza całkowitą wielokrotność obrotów, natychmiast otrzymujemy **skwantowanie ładunku elektrycznego**: $q = ne$, $n \in \mathbb{Z}$.
 
@@ -69,9 +71,10 @@ gdzie:
 
 ### 3.2.1. Równania Maxwella z dynamiki Naviera‑Cauchy’ego
 
-Równania Maxwella są bezpośrednią konsekwencją dynamiki sprężystej 0‑Matrycy (Rozdział 2.1.3). Bezźródłowe równania są tożsamością:
+Równania Maxwella są bezpośrednią konsekwencją dynamiki sprężystej 0‑Matrycy (Rozdział 2.1.3). Z definicji tensora $F_{\mu\nu}$ wynika, że bezźródłowe równania (prawo Gaussa dla magnetyzmu oraz prawo indukcji Faradaya) są tożsamościami wynikającymi z ciągłości ośrodka i zerowania się rotacji gradientu:
 
 $$\nabla \cdot \mathbf{B} = 0 \tag{3.2.3}$$
+$$\nabla \times \mathbf{E} - \partial_t \mathbf{B} = 0 \tag{3.2.3b}$$
 
 wyrażającą geometryczną niesprzeczność pola przemieszczeń – linie sił $\mathbf{B}$ nie mają początku ani końca w nierozerwalnym kontinuum.
 
@@ -100,7 +103,7 @@ ma charakter ściśle topologiczny. Liczba splotu węzła $\mathcal{W}$ (Rozdzia
 
 ### 3.3.2. Foton i propagacja
 
-Jak ustalono w Rozdziale 2, foton jest skwantowaną poprzeczną falą ścinającą (mod $c_{\perp}$). W obszarach bez swobodnych ładunków równania Maxwella redukują się do równania falowego d’Alemberta. Zgodnie ze zjawiskiem akustoelastyczności (Rozdział 1.8), silne pole magnetyczne nieliniowo modyfikuje zastępczą przenikalność osnowy:
+Jak ustalono w Rozdziale 2, foton jest skwantowaną poprzeczną falą ścinającą, której prędkość propagacji jest ściśle zdefiniowana przez lokalny moduł ścinania 0-Matrycy ($c_{\perp}$). W obszarach bez swobodnych ładunków równania Maxwella redukują się do równania falowego d’Alemberta. Zgodnie ze zjawiskiem akustoelastyczności (Rozdział 1.8), silne lokalne naprężenie wirowe (pole magnetyczne) nieliniowo modyfikuje zastępczą przenikalność sprężystą osnowy:
 
 $$\epsilon_{\mathrm{eff}} = \epsilon_0 \left(1 + \kappa B^2\right) \tag{3.3.2}$$
 
@@ -118,19 +121,28 @@ Pomiary prędkości światła w polach rzędu 10 T nie wykazały odchyleń więk
 
 ## 3.4. Mechanika oddziaływania: Nieliniowe równania pola, sprzężenia zwrotne i siły Maxwella
 
-Oddziaływania elektromagnetyczne w TSM nie są „działaniem na odległość”, lecz bezpośrednim przejawem sprężystej odpowiedzi 0‑Matrycy na lokalne odkształcenia torsyjne.
+Po opisie swobodnej propagacji fal (fotonów), należy rozważyć pełną dynamikę oddziaływań między trwałymi węzłami. W TSM nie są one „działaniem na odległość”, lecz bezpośrednim przejawem sprężystej odpowiedzi 0‑Matrycy na lokalne odkształcenia torsyjne i ich wzajemne nakładanie się.
 
 ### 3.4.1. Nieliniowy Lagrangian i równania Eulera‑Lagrange’a
 
-Potencjał cechowania $A_\mu = (\varphi_{\mathrm{t}}/c_{\perp}, \mathbf{A})$ reprezentuje przemieszczenia ścinające. Zgodnie z nieliniową akustoelastycznością osnowy, pełna gęstość lagrangianu wynosi:
+Potencjał cechowania $A_\mu = (\varphi_{\mathrm{t}}/c_{\perp}, \mathbf{A})$ reprezentuje wektorowe pole przemieszczeń ścinających osnowy (gdzie $\varphi_{\mathrm{t}}$ to potencjał ciśnienia torsyjnego, a $\mathbf{A}$ to wektor przemieszczenia). Zgodnie z nieliniową akustoelastycznością 0-Matrycy, w której moduły sprężystości zależą od kwadratu odkształcenia, pełna gęstość lagrangianu (gęstość energii odkształcenia) wynosi:
 
 $$\mathcal{L}_{\mathrm{TSM}} = \frac{1}{2}\epsilon_0(1 + \kappa \mathbf{B}^2) \mathbf{E}^2 - \frac{1}{2\mu_0}\mathbf{B}^2 \tag{3.4.1}$$
+
+Gdzie wykorzystane symbole oznaczają:
+- $\mathcal{L}_{\mathrm{TSM}}$ – gęstość Lagrangianu Substratu $[\text{J} \cdot \text{m}^{-3}]$,
+- $\epsilon_0, \mu_0$ – przenikalność elektryczna i magnetyczna płaskiej osnowy,
+- $\kappa$ – stała nieliniowego sprzężenia magneto‑elastycznego $[\text{T}^{-2}]$,
+- $\mathbf{E}, \mathbf{B}$ – wektory natężenia pola elektrycznego i indukcji magnetycznej.
 
 Uogólnione wektory reakcji osnowy (odpowiedniki indukcji) definiujemy jako:
 
 $$\mathbf{D} = \frac{\partial \mathcal{L}}{\partial \mathbf{E}} = \epsilon_0(1 + \kappa \mathbf{B}^2)\mathbf{E} \tag{3.4.2}$$
-
 $$\mathbf{H} = -\frac{\partial \mathcal{L}}{\partial \mathbf{B}} = \frac{\mathbf{B}}{\mu_0} - \epsilon_0 \kappa \mathbf{E}^2 \mathbf{B} \tag{3.4.3}$$
+
+W powyższych relacjach:
+- $\mathbf{D}$ – wektor indukcji elektrycznej (elektryczna odpowiedź ośrodka),
+- $\mathbf{H}$ – natężenie pola magnetycznego (magnetyczna odpowiedź ośrodka).
 
 Podstawiając do równań wariacyjnych ($\nabla \cdot \mathbf{D} = \rho_e$, $\nabla \times \mathbf{H} - \partial_t \mathbf{D} = \mathbf{J}$), uzyskujemy nieliniowe równania elektrodynamiki 0‑Matrycy.
 
@@ -146,7 +158,7 @@ $$\frac{1}{\mu_0}\nabla \times \mathbf{B} - \epsilon_0 \kappa \left[ \mathbf{E}^
 
 Pełne równania nieliniowe demaskują ukrytą mechanikę 0‑Matrycy:
 
-1. **Pancerz strukturalny:** W pobliżu rdzenia węzła gradient ciśnienia torsyjnego $\nabla(\mathbf{E}^2)$ rośnie asymptotycznie. Człon $\nabla(\mathbf{E}^2) \times \mathbf{B}$ w (3.4.5) działa jak potężny wtórny prąd wirowy osnowy, stanowiąc elastyczny pancerz, który stabilizuje splot i zapobiega jego rozplątaniu – jest to **uzupełniający** mechanizm stabilności, obok topologicznej ochrony wynikającej z $\mathcal{W} \neq 0$ (Rozdział 2.2.2).
+1. **Pancerz strukturalny:** W pobliżu rdzenia węzła gradient ciśnienia torsyjnego $\nabla(\mathbf{E}^2)$ rośnie asymptotycznie. Człon $\nabla(\mathbf{E}^2) \times \mathbf{B}$ w (3.4.5) działa jak potężny wtórny prąd wirowy osnowy, stanowiąc elastyczny pancerz, który stabilizuje splot i zapobiega jego rozplątaniu – jest to **uzupełniający** mechanizm stabilności, obok topologicznej ochrony wynikającej z liczby splotu $\mathcal{W} \neq 0$ (Rozdział 2.2.2).
 2. **Dwójłomność:** Człon $\nabla(\mathbf{B}^2) \cdot \mathbf{E}$ w (3.4.4) dowodzi, że silny gradient skręcenia poprzecznego indukuje efektywny ładunek, modulując lokalną prędkość światła i dopuszczając samo‑ogniskowanie fal.
 
 ### 3.4.3. Przybliżenie liniowe i tensor naprężeń Maxwella
@@ -155,33 +167,76 @@ Dla słabych pól ($\kappa \mathbf{B}^2 \ll 1$, $\epsilon_0 \kappa \mathbf{E}^2 
 
 $$\mathcal{L}_{\mathrm{EM}} \approx \frac{1}{2}\epsilon_{\mathrm{eff}} \mathbf{E}^2 - \frac{1}{2\mu_0}\mathbf{B}^2 \tag{3.4.6}$$
 
-Z niego wyprowadzamy kanoniczny tensor energii‑pędu, który po symetryzacji daje tensor naprężeń Maxwella:
+Z niego wyprowadzamy kanoniczny tensor energii‑pędu, który po symetryzacji daje **tensor naprężeń Maxwella** $\boldsymbol{\sigma}^{\mathrm{M}}$. W TSM tensor ten reprezentuje fizyczny rozkład gęstości sił sprężystych i parcia kinetycznego wewnątrz 0‑Matrycy:
+
 
 $$\boldsymbol{\sigma}^{\mathrm{M}} = \epsilon_{\mathrm{eff}}\,\mathbf{E}\otimes\mathbf{E} + \frac{1}{\mu_0}\,\mathbf{B}\otimes\mathbf{B} - u\,\mathbf{I} \tag{3.4.7}$$
 
-gdzie $u = \frac{1}{2}\epsilon_{\mathrm{eff}}\mathbf{E}^2 + \frac{1}{2\mu_0}\mathbf{B}^2$ jest gęstością energii sprężystej osnowy.
+Gdzie:
+- $\boldsymbol{\sigma}^{\mathrm{M}}$ – tensor naprężeń Maxwella $[\text{N} \cdot \text{m}^{-2}]$,
+- $\otimes$ – iloczyn zewnętrzny (tensorowy),
+- $\mathbf{I}$ – tensor jednostkowy,
+- $\mathbf{I}$ – macierz jednostkowa (tensor Kroneckera),
+- $u = \frac{1}{2}\epsilon_{\mathrm{eff}}\mathbf{E}^2 + \frac{1}{2\mu_0}\mathbf{B}^2$ – całkowita gęstość energii sprężystej $[\text{J} \cdot \text{m}^{-3}]$,
+- $\epsilon_{\mathrm{eff}}$ – efektywna przenikalność zdefiniowana w (3.3.2).
 
-### 3.4.4. Siła Lorentza i prawo Coulomba
+### 3.4.4. Siła Lorentza i prawo Coulomba jako efekty mechaniczne
 
-Całkując dywergencję tensora naprężeń po objętości wokół ładunku próbnego $q$ poruszającego się z prędkością $\mathbf{v}$, otrzymujemy:
+W klasycznej elektrodynamice siły te są opisane fenomenologicznymi wzorami:
+- **Siła Lorentza:** $\mathbf{F} = q(\mathbf{E} + \mathbf{v} \times \mathbf{B})$ – opisuje siłę działającą na ładunek $q$ w polu elektrycznym $\mathbf{E}$ i magnetycznym $\mathbf{B}$,
+- **Prawo Coulomba:** $F = \frac{1}{4\pi\epsilon_0} \frac{q_1 q_2}{r^2}$ – opisuje oddziaływanie elektrostatyczne między dwoma punktowymi ładunkami.
+
+W TSM oddziaływania te nie są własnością pierwotną "ładunku", lecz wynikiem oddziaływania węzła (solitonu) z polem naprężeń tła. Siłę całkowitą $\mathbf{F}$ $[\text{N}]$ działającą na objętość $V$ wyznaczamy całkując dywergencję tensora naprężeń:
+W TSM oddziaływania te nie są własnością pierwotną "ładunku", lecz wynikiem oddziaływania węzła z polem naprężeń tła. Siłę całkowitą $\mathbf{F}$ działającą na objętość $V$ wyznaczamy całkując dywergencję tensora naprężeń:
 
 $$\mathbf{F} = \int_V \nabla \cdot \boldsymbol{\sigma}^{\mathrm{M}} \, d^3x \tag{3.4.8}$$
 
-co prowadzi do klasycznej **siły Lorentza**:
+Proces wyprowadzenia gęstości siły $\mathbf{f} = \nabla \cdot \boldsymbol{\sigma}^{\mathrm{M}}$ opiera się na tożsamościach różniczkowych. Dla członu elektrycznego ($\mathbf{E}$):
+
+1. **Rozwinięcie dywergencji iloczynu tensorowego:** $\nabla \cdot (\mathbf{E} \otimes \mathbf{E}) = (\nabla \cdot \mathbf{E})\mathbf{E} + (\mathbf{E} \cdot \nabla)\mathbf{E}$.
+2. **Zastosowanie tożsamości wektorowej:** Korzystamy z relacji $(\mathbf{E} \cdot \nabla)\mathbf{E} = \frac{1}{2} \nabla E^2 - \mathbf{E} \times (\nabla \times \mathbf{E})$.
+3. **Podstawienie równań pola:**
+   - Za $\nabla \cdot \mathbf{E}$ podstawiamy $\rho_e / \epsilon_{\text{eff}}$ (Prawo Gaussa).
+   - Za $\nabla \times \mathbf{E}$ podstawiamy $-\partial_t \mathbf{B}$ (Prawo Faradaya).
+   
+
+Analogiczne operacje dla członu magnetycznego ($\mathbf{B}$), przy wykorzystaniu $\nabla \cdot \mathbf{B} = 0$ oraz $\nabla \times \mathbf{B} = \mu_0 \mathbf{J} + \mu_0 \epsilon_{\text{eff}} \partial_t \mathbf{E}$ (Prawo Ampère'a‑Maxwella), prowadzą do redukcji gradientu energii całkowitej $\nabla u$. W rezultacie gęstość siły (siła na jednostkę objętości 0‑Matrycy) przyjmuje postać:
+
+$$\mathbf{f} = \nabla \cdot \boldsymbol{\sigma}^{\mathrm{M}} = \rho_e \mathbf{E} + \mathbf{J} \times \mathbf{B} - \frac{\partial \mathbf{g}}{\partial t} \tag{3.4.8b}$$
+
+Gdzie:
+- $\mathbf{f}$ – wektor gęstości siły $[\text{N} \cdot \text{m}^{-3}]$,
+- $\rho_e$ – gęstość ładunku elektrycznego $[\text{C} \cdot \text{m}^{-3}]$ (miara skręcenia osnowy),
+- $\mathbf{J}$ – gęstość prądu elektrycznego $[\text{A} \cdot \text{m}^{-2}]$ (strumień przemieszczeń skrętu),
+- $\mathbf{g} = \epsilon_{\mathrm{eff}}(\mathbf{E} \times \mathbf{B})$ – gęstość pędu pola $[\text{kg} \cdot \text{m}^{-2} \cdot \text{s}^{-1}]$, powiązana z wektorem Poyntinga.
+
+Dla trwałego węzła poruszającego się z prędkością $\mathbf{v}$, gdzie $\mathbf{J} = \rho_e \mathbf{v}$, całkujemy gęstość siły po objętości węzła $V$:
+
+$$\mathbf{F} = \int_V \rho_e \mathbf{E} \, d^3x + \int_V (\rho_e \mathbf{v}) \times \mathbf{B} \, d^3x - \frac{d}{dt} \int_V \mathbf{g} \, d^3x \tag{3.4.8c}$$
+
+Przy założeniu stacjonarności pędu pola w układzie własnym węzła ($\partial_t \mathbf{g} \approx 0$) oraz stałości pól $\mathbf{E}, \mathbf{B}$ w skali rozmiaru solitonowego rdzenia, otrzymujemy klasyczną **siłę Lorentza**:
 
 $$\mathbf{F} = q( \mathbf{E} + \mathbf{v}\times\mathbf{B} ) \tag{3.4.9}$$
 
-W przypadku statycznym odtwarza to **prawo Coulomba**:
+Gdzie:
+- $\mathbf{F}$ – wypadkowa siła mechaniczna działająca na węzeł $[\text{N}]$,
+- $q = \int_V \rho_e d^3x$ – całkowity ładunek topologiczny węzła $[\text{C}]$,
+- $\mathbf{v}$ – prędkość współrzędnościowa węzła względem 0‑Matrycy $[\text{m} \cdot \text{s}^{-1}]$.
+
+W przypadku elektrostatycznym ($\mathbf{v}=0, \mathbf{B}=0$), oddziaływanie między dwoma węzłami odległymi o $r$ odtwarza **prawo Coulomba**:
 
 $$\mathbf{F}_{12} = \frac{1}{4\pi\epsilon_{\mathrm{eff}}}\frac{q_1 q_2}{r^2}\hat{\mathbf{r}}_{12} \tag{3.4.10}$$
 
+gdzie $\hat{\mathbf{r}}_{12}$ to bezwymiarowy wektor jednostkowy wzdłuż linii łączącej środki węzłów.
+
+
 ### 3.4.5. Odpychanie jednoimiennych ładunków jako interferencja naprężeń
 
-Dwa węzły o zgodnej chiralności (jednoimienne) wytwarzają pola torsji, których składowe nakładają się konstruktywnie:
+Dwa węzły o zgodnej chiralności (jednoimienne) wytwarzają wokół swoich rdzeni pola torsji (przemieszczeń), których składowe nakładają się konstruktywnie w przestrzeni między nimi. Całkowita gęstość energii sprężystej $u$ w tym obszarze wynosi:
 
 $$u = \tfrac{1}{2}\epsilon_{\mathrm{eff}}|\mathbf{E}_1+\mathbf{E}_2|^2 = u_1 + u_2 + \epsilon_{\mathrm{eff}}\,\mathbf{E}_1 \cdot \mathbf{E}_2 \tag{3.4.11}$$
 
-Człon $\epsilon_{\mathrm{eff}}\,\mathbf{E}_1 \cdot \mathbf{E}_2$ powoduje lokalny wzrost ciśnienia torsyjnego. 0‑Matryca wypycha oba sploty na zewnątrz strefy podwyższonej gęstości energii. W przypadku ładunków przeciwnych interferencja jest destruktywna – powstaje obszar obniżonego ciśnienia, co powoduje mechaniczne wciśnięcie węzłów ku sobie przez wyższe ciśnienie zewnętrzne osnowy tła.
+Człon interferencyjny $\epsilon_{\mathrm{eff}}\,\mathbf{E}_1 \cdot \mathbf{E}_2$ powoduje lokalny wzrost gęstości energii, a co za tym idzie – lokalny wzrost ciśnienia torsyjnego. Zgodnie z zasadą minimalizacji energii potencjalnej, 0‑Matryca generuje siłę $F \propto -\nabla u$, która wypycha oba sploty na zewnątrz strefy podwyższonej gęstości energii (odpychanie). W przypadku ładunków przeciwnych (przeciwna chiralność), interferencja jest destruktywna – powstaje obszar obniżonego ciśnienia między węzłami, co powoduje ich mechaniczne wciśnięcie ku sobie przez wyższe ciśnienie zewnętrzne niezaburzonej osnowy tła (przyciąganie).
 
 ---
 
@@ -191,9 +246,9 @@ W Standardowym Modelu fizyki cząstek oddziaływanie silne postulowane jest jako
 
 ### 3.5.1. Splątanie 4D jako źródło sił jądrowych
 
-Gdy dwa węzły topologiczne (nukleony) znajdą się dostatecznie blisko siebie na 3‑branie (odległość rzędu femtometrów), ich **części zanurzone w czwartym wymiarze mogą ulec bezpośredniemu splątaniu topologicznemu**. Dochodzi do fizycznego zazębienia się struktur 4D – linie naprężeń jednego węzła przeplatają się z liniami drugiego w wyższym wymiarze.
+Gdy dwa węzły topologiczne (nukleony) znajdą się dostatecznie blisko siebie na 3‑brane (odległość rzędu femtometrów), ich **części zanurzone w czwartym wymiarze mogą ulec bezpośredniemu splątaniu topologicznemu**. Zgodnie z modelem warkoczowym barionów (Rozdział 2.2.3), dochodzi do fizycznego zazębienia się struktur 4D – pasma warkoczy (linie naprężeń) jednego węzła przeplatają się z pasmami drugiego w wyższym wymiarze.
 
-To splątanie generuje dodatkowe, potężne naprężenie w osnowie, które w rzucie na 3‑branę obserwujemy jako **krótkozasięgowe, silne przyciąganie**. Mechanizm ten jest w pełni zgodny z Aksjomatem 4 – nie wprowadza żadnej nowej siły, a jedynie wykorzystuje fakt, że węzły są tworami 4D, a sprężystość 0‑Matrycy działa we wszystkich czterech wymiarach.
+To splątanie (zazębienie warkoczy) generuje dodatkowe, potężne naprężenie w osnowie, które w rzucie na 3‑branę obserwujemy jako **krótkozasięgowe, silne przyciąganie**. Mechanizm ten jest w pełni zgodny z Aksjomatem IV – nie wprowadza żadnej nowej siły, a jedynie wykorzystuje fakt, że węzły są tworami 4D, a sprężystość 0‑Matrycy działa we wszystkich czterech wymiarach.
 
 ### 3.5.2. Wyjaśnienie kluczowych własności oddziaływania silnego
 

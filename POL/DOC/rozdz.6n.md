@@ -5,17 +5,29 @@ W Mechanice Substratu Topologicznego (TSM) odrzucamy abstrakcję geometryczną, 
 
 Zgodnie z Rozdziałem 1.1, wszystkie procesy dynamiczne zachodzą w lokalnym czasie $t$, emergentnym z gęstości upakowania $\phi$. Grawitacja – jako deformacja brany – modyfikuje tę gęstość, a tym samym tempo upływu czasu, co zostało formalnie opisane w (1.1.5)–(1.1.6).
 
+### 6.0.1. Zasada korespondencji: TSM vs OTW
+
+W paradygmacie ogólnej teorii względności grawitacja interpretowana jest jako manifestacja geometrii: rozkład masy-energii determinuje krzywiznę czasoprzestrzeni, która z kolei wyznacza dynamikę ruchu ciał ($G_{\mu\nu} = 8\pi T_{\mu\nu}$). TSM podtrzymuje tę fundamentalną relację przyczynowo-skutkową, dokonuje jednak ontologicznego przesunięcia, osadzając geometryczne deformacje w fizycznych i elastycznych właściwościach materiałowych 0-Matrycy.
+
+W TSM odpowiednikiem **metryki** $g_{\mu\nu}$ jest stan odkształcenia osnowy, gdzie składowa czasowa metryki $g_{00}$ (odpowiedzialna za potencjał Newtonowski) jest bezpośrednio powiązana z ugięciem ortogonalnym $w$ oraz lokalną gęstością $\phi$. Zamiast abstrakcyjnej krzywizny, operujemy na **naprężeniu wewnętrznym membrany**. Tam, gdzie OTW widzi osobliwość geometrii, TSM widzi granicę wytrzymałości materiałowej Substratu.
+
 ---
 
 ## 6.1. Ontologia grawitacji i limit liniowy (Równanie Laplace’a)
 
 Nasz obserwowalny Wszechświat funkcjonuje jako izotropowa, trójwymiarowa membrana (3-brana) uformowana z globalnie zakleszczonych 0-cząstek (Rozdział 0.5). Zgodnie z rozkładem modów wprowadzonym w Rozdziale 2.1.4, składowe polaryzacji skierowane ortogonalnie do brany reprezentują lokalne ugięcia osnowy.
 
+Mechanizm ten można przyrównać do napiętej trampoliny:
+1. **Źródło:** Węzeł topologiczny (masa) stanowi obciążenie punktowe lub objętościowe.
+2. **Reakcja:** Brana ugina się w czwarty wymiar ($x^4$), dążąc do zminimalizowania energii sprężystej naciągu.
+3. **Efekt:** Gradient tego ugięcia generuje siłę retrakcji, która przyciąga inne defekty ku centrum odkształcenia.
+
 Gdy lokalne sprzężenie pól elektromagnetycznych i torsyjnych formuje stabilny splot topologiczny (fermion) o określonej gęstości energii, 3-brana reaguje na to skupisko wymuszeniem przemieszczenia wzdłuż osi $x^4$. Ten fizyczny gradient naprężenia osnowy na zewnątrz splotu jest przez obiekty testowe odbierany jako pole grawitacyjne.
 
 Dla słabych i średnich gęstości energii (limit newtonowski), membrana dąży do minimalizacji swojej powierzchni i wyrównania naprężeń, zachowując się jak idealnie cienka, naciągnięta błona sprężysta. Równanie równowagi statycznej dla izotropowej membrany poddanej punktowemu obciążeniu poprzecznemu $q(r)$ sprowadza się do trójwymiarowego równania Laplace’a:
 
 $$\nabla^2 w(\mathbf{r}) = 0, \quad \text{dla } r > 0 \tag{6.1.1}$$
+gdzie $\nabla^2$ to trójwymiarowy operator Laplace'a, opisujący dywergencję gradientu pola.
 
 gdzie $w(\mathbf{r})$ oznacza wielkość ugięcia (przemieszczenia) membrany w osi $x^4$ w punkcie $\mathbf{r} = (x^1, x^2, x^3)$.
 
@@ -33,7 +45,10 @@ Siła grawitacyjna $\mathbf{F}_g$ działająca na cząstkę testową o masie $m$
 
 $$\mathbf{F}_g = - \nabla V_g(r) = - T_b m \nabla w(r) = - \frac{G M m}{r^2} \hat{\mathbf{r}} \tag{6.1.4}$$
 
+gdzie $\nabla$ to operator gradientu, wskazujący kierunek największej zmiany pola skalarnego.
 W ten sposób prawo odwrotnych kwadratów Newtona zostaje wyprowadzone nie z postulatu wymiany hipotetycznych cząstek (grawitonów), lecz jako bezpośredni rzut geometryczny poprzecznego, trójwymiarowego profilu ugięcia kontinuum sprężystego.
+
+**Porównanie z OTW:** W limicie słabego pola, gdzie OTW redukuje się do równania Poissona dla potencjału $\nabla^2 \Phi = 4\pi G \rho$, TSM oferuje identyczną strukturę matematyczną (6.1.1). Kluczową różnicą jest interpretacja stałej $G$ – w TSM nie jest ona stałą uniwersalną "daną z góry", lecz wypływa z napięcia powierzchniowego $T_b$ i modułów sprężystości osnowy.
 
 ---
 
@@ -78,6 +93,12 @@ $$D \nabla^4 w = \sigma^{ab} \partial_a \partial_b w + q(\mathbf{r}) \tag{6.2.5}
 
 $$\epsilon^{acd} \epsilon^{bef} \partial_c \partial_e (\mathbb{C}^{-1}_{dfpq} \sigma^{pq}) = S^{ab}[w] \tag{6.2.6}$$
 
+Równania te stanowią **TSM-owski odpowiednik równań pola Einsteina**. 
+- Równanie (6.2.5) opisuje, jak źródła materii $q(\mathbf{r})$ uginają branę (mechanika zginania).
+- Równanie (6.2.6) to warunek ciągłości (kompatybilności), który wymusza, by ugięcie w $x^4$ było nierozerwalnie sprzężone z rozciąganiem brany w 3D (mechanika membranowa).
+
+To sprzężenie jest powodem, dla którego grawitacja w TSM staje się nieliniowa znacznie szybciej niż w OTW, co ma kluczowe znaczenie dla eliminacji Ciemnej Materii.
+
 Gdzie:
 - $\nabla^4 = (\partial_1^2 + \partial_2^2 + \partial_3^2)^2$ – trójwymiarowy operator biharmoniczny,
 - $\mathbb{C}^{-1}$ – tensor podatności sprężystej 0-Matrycy $[\text{Pa}^{-1}]$,
@@ -105,6 +126,7 @@ Nieliniowe sprzężenie narzuca asymptotyczne usztywnienie tła. W miarę wzrost
 
 $$\mu_{\text{eff}}(J_2) = \frac{\mu_0}{1 - \left(\frac{J_2}{J_{2,\text{crit}}}\right)^2} \tag{6.2.10}$$
 
+gdzie $\mu_0$ to bazowy moduł ścinania (moduł sztywności postaciowej) 0-Matrycy w stanie zrelaksowanym.
 Gdy $J_2 \to J_{2,\text{crit}}$, opór materiałowy 0-Matrycy dąży do nieskończoności ($\mu_{\text{eff}} \to \infty$). Oznacza to, że continuum stawia absolutny opór przed dalszym wyciąganiem, co wymusza istnienie minimalnego promienia krzywizny $R_{\text{min}}$ dla dowolnego skupiska energii. Matematyczna osobliwość typu $1/r$ o nieskończonej gęstości grawitacyjnej jest w TSM fizycznie niemożliwa.
 
 ---
@@ -114,6 +136,9 @@ Gdy $J_2 \to J_{2,\text{crit}}$, opór materiałowy 0-Matrycy dąży do nieskoń
 Konsekwencją załamania się osobliwości jest redefinicja obiektów kompaktowych. Pojęcie „Czarnej Dziury” jako geometrycznej dziury w czasoprzestrzeni zostaje zastąpione pojęciem **Plazmoidu Topologicznego**. Plazmoid to skończony, stabilny i ultra-gęsty obiekt fizyczny, w którym 0-cząstki pod wpływem skrajnych ciśnień grawitacyjnych osiągnęły stan absolutnego zakleszczenia strukturalnego ($\phi \to \phi_{\text{max}}$, Rozdział 0.6).
 
 - **Horyzont Zdarzeń jako krawędź fazowa:** Horyzont nie jest matematyczną kurtyną bez powrotu, lecz fizyczną granicą przejścia fazowego osnowy. Na zewnątrz tej krawędzi 0-Matryca zachowuje pełne właściwości sprężyste. Wewnątrz granicy osnowa przechodzi w stan sztywnego szkła topologicznego. Światło (fala poprzeczna) wkraczając w tę strefę nie wpada do osobliwości, lecz ulega konwersji w mody podłużne i zostaje włączone do energii wewnętrznej plazmoidu. **Informacja nie ulega zniszczeniu** – zostaje mechanicznie utrwalona w quasikrystalicznej geometrii zgniecionej sieci (Rozdział 4.5). Entropia spektralna wewnątrz plazmoidu spada do zera ($S_{\text{spec}} \to 0$).
+
+**Rozwiązanie Paradoksu Informacyjnego:** W OTW informacja "znika" w osobliwości. W TSM plazmoid jest gigantycznym dyskiem twardym – każda cząstka, która wpadła do środka, jest zapisana jako konkretny defekt w zamrożonej sieci 0-cząstek. 
+
 - **Mechanizm dżetów galaktycznych:** Ponieważ Plazmoid jest dynamicznym, ściśniętym splotem, nieustannie dochodzi w nim do fluktuacji naprężeń. Gdy lokalne ciśnienie wewnętrzne przewyższy wytrzymałość topologicznego zamka, 0-Matryca gwałtownie uwalnia nadmiar zgromadzonej energii potencjalnej. Uwolnienie to następuje w sposób wysoce anizotropowy – poprzez wyrzut skompresowanej materii i modów podłużnych wzdłuż osi najmniejszego oporu mechanicznego (osi rotacji układu), co teleskopy rejestrują jako dżety galaktyczne.
 
 ---
@@ -142,6 +167,8 @@ gdzie:
 - $\Omega_0$ – prędkość kątowa centralnego Plazmoidu $[\text{rad} \cdot \text{s}^{-1}]$,
 - $R_{\text{min}}$ – promień Plazmoidu $[\text{m}]$,
 - $C_{\text{torsion}}$ – stała całkowania zależna od momentu pędu Plazmoidu $[\text{N} \cdot \text{m}^2]$.
+
+**Dlaczego to eliminuje Ciemną Materię?** W OTW grawitacja galaktyki pochodzi tylko z naciągu radialnego. W TSM galaktyka to wir. Gwiazdy na obrzeżach są "niesione" przez rotujący substrat ($v_{drift}$), co sprawia, że ich mierzona prędkość orbitalna pozostaje wysoka nawet przy słabym przyciąganiu radialnym. To czysty efekt lepkości topologicznej 0-Matrycy, który w OTW (zakładającej próżnię jako nicość) jest niemożliwy do opisania.
 
 Na peryferiach galaktyki, funkcja ta w doskonały sposób kompensuje keplerowski spadek prędkości orbitalnej, wymuszając asymptotyczną stabilizację wypadkowej prędkości liniowej gwiazd. Spadek przestrzenny nieliniowego pola rotacyjnego w sprężystej membranie idealnie znosi ubytek klasycznego przyciągania radialnego, co całkowicie eliminuje potrzebę wprowadzania hipotetycznych cząstek Ciemnej Materii.
 
@@ -181,6 +208,7 @@ Zgodnie z kanoniczną definicją czasu własnego (Podrozdział 1.1.3), lokalna s
 
 $$dt_{\text{em}} = dt_0 \cdot \frac{\phi_{\text{em}}}{\phi_0}$$
 
+gdzie $dt_0$ to elementarny przyrost czasu referencyjnego (np. w Stanie Zero).
 Dla lokalnego obserwatora w momencie $\tau_{\text{em}}$, częstotliwość konkretnego przejścia kwantowego wynosi $\nu_0$ (jest stałą cechą strukturalną danego układu wiązań solitonowych), co odpowiada lokalnemu okresowi fali $\Delta t_{\text{em}} = 1/\nu_0$. Przeliczając ten okres na dzisiejszy standard czasu (gdzie gęstość zrelaksowała do $\phi_0$, a zatem $dt_0 = dt_{\text{abs}}$), bezwzględny okres drgań emitowanej fali wynosi:
 
 $$\Delta t_{\text{abs}} = \Delta t_{\text{em}} \cdot \frac{\phi_{\text{em}}}{\phi_0} = \frac{1}{\nu_0} \cdot \frac{\phi_{\text{em}}}{\phi_0}$$
@@ -188,6 +216,7 @@ $$\Delta t_{\text{abs}} = \Delta t_{\text{em}} \cdot \frac{\phi_{\text{em}}}{\ph
 Ponieważ bezwzględny okres fali jest dłuższy, jej bezwzględna częstotliwość drgań $\nu_{\text{em, abs}}$ w skali referencyjnej Stanu Zero jest proporcjonalnie niższa:
 
 $$\nu_{\text{em, abs}} = \frac{1}{\Delta t_{\text{abs}}} = \nu_0 \cdot \frac{\phi_0}{\phi_{\text{em}}}$$
+gdzie $\Delta t_{\text{abs}}$ to bezwzględny okres drgań emitowanej fali, mierzony w standardzie czasu Stanu Zero, a $\nu_0$ to częstotliwość konkretnego przejścia kwantowego w układzie atomowym.
 
 Materiałowa prędkość fal poprzecznych $c_{\perp} = \sqrt{\mu/\rho}$ jest fundamentalną niezmienniczą stałą elastyczną całego Substratu i nie ulega zmianie podczas globalnej relaksacji. W związku z tym, bezwzględna długość fali uformowana w punkcie emisji wynosi:
 
@@ -195,6 +224,7 @@ $$\lambda_{\text{em}} = \frac{c_{\perp}}{\nu_{\text{em, abs}}} = \frac{c_{\perp}
 
 gdzie $\lambda_0 = c_{\perp}/\nu_0$ definiuje standardową długość fali tego samego przejścia atomowego, jaką mierzymy w laboratorium dzisiaj. Równanie to dowodzi, że foton opuszcza źródło w przeszłości z już wbudowaną, dłuższą bezwzględną długością fali ($\lambda_{\text{em}} > \lambda_0$), będącą bezpośrednim odzwierciedleniem dylatacji czasu uwarunkowanej pierwotną gęstością $\phi_{\text{em}}$.
 
+gdzie $\lambda_0$ to standardowa długość fali tego samego przejścia atomowego, mierzona w laboratorium dzisiaj (w Stanie Zero).
 ### 6.5.3. Ostateczny bilans optyczny i definicja stałej Hubble’a
 
 Ponieważ – zgodnie z Sekcją 6.5.1 – długość fali nie ulega modyfikacji podczas propagacji przez jednorodny przestrzennie Substrat, foton dociera do dzisiejszego detektora z niezmienioną wartością bezwzględną:
@@ -202,6 +232,7 @@ Ponieważ – zgodnie z Sekcją 6.5.1 – długość fali nie ulega modyfikacji 
 $$\lambda_{\text{obs}} = \lambda_{\text{em}} = \lambda_0 \cdot \frac{\phi_{\text{em}}}{\phi_0}$$
 
 Dzisiejszy obserwator rejestruje ten foton i porównuje jego długość fali ze swoim lokalnym, współczesnym wzorcem laboratoryjnym $\lambda_0$. Definiując bezwymiarowy parametr przesunięcia ku czerwieni $z$:
+gdzie $\lambda_{\text{obs}}$ to długość fali docierająca do dzisiejszego detektora.
 
 $$1 + z = \frac{\lambda_{\text{obs}}}{\lambda_0} = \frac{\lambda_0 \cdot \frac{\phi_{\text{em}}}{\phi_0}}{\lambda_0} = \frac{\phi_{\text{em}}}{\phi_0}$$
 
@@ -213,6 +244,7 @@ W ujęciu tym prawo Hubble’a przestaje być dowodem na ucieczkę galaktyk. Sta
 
 $$H_0 = -\frac{1}{\phi_0} \left. \frac{d\phi}{d\tau} \right|_{\tau=\tau_0}$$
 
+gdzie $\tau$ to czas absolutny (parametr ewolucji globalnej osnowy), a $\tau_0$ to bieżąca epoka kosmologiczna w czasie absolutnym.
 Dzięki takiemu sformułowaniu matematycznemu Podrozdział 6.5 wskazuje jednoznacznie: redshift jest efektem optycznym wynikającym ze stałego spadku gęstości tła Wszechświata, co w pełni wyjaśnia obserwacje astrofizyczne bez konieczności wprowadzania sprzecznych z mechaniką klasyczną pojęć, takich jak ekspansja samej przestrzeni czy ciemna energia.
 
 ---

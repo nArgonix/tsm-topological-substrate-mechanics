@@ -1,6 +1,3 @@
-Poniżej przedstawiam kompletne, poprawione i w pełni rozwinięte podrozdziały Rozdziału 7, w których zaimplementowane zostały wszystkie zalecenia korygujące. Usunięto błędy wymiarowe, dokończono ucięte wyprowadzenia, rozszerzono opis matematyczno-geometryczny macierzy CKM oraz ujednolicono ontologię relacji gęstości osnowy i upływu czasu.
-
----
 
 ### ## 7.0. Czas lokalny i formalizm elasto-dynamiczny Substratu
 

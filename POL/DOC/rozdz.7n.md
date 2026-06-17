@@ -255,9 +255,6 @@ $$\langle |\eta(\mathbf{x}, t)|^2 \rangle \gg 2|\phi_1||\phi_2| \tag{7.10.3}$$
 człon interferencyjny zostaje zatarty przez dekoherencję mechaniczną. Fala pilotująca ulega destrukcji, a elektron kontynuuje lot balistyczny – prążki znikają. „Załamanie funkcji falowej” to klasyczne zniszczenie fali nośnej przez szum pomiarowy.
 
 ---
-Doskonale. Wobec tego rozbudowuję Rozdział 7 o dwie kolejne sekcje, które wynikają wprost z topologicznej natury neutrin i leptonów w TSM.
-
----
 
 ### 7.10. Oscylacje neutrin jako rotacja polaryzacji w przestrzeni 4D
 
@@ -379,9 +376,6 @@ TSM przewiduje, że rozkład zdarzeń na wykresie Dalitza w przestrzeni $(S, A)$
 - **Idealna płynność plazmy kwarkowo-gluonowej** (RHIC, LHC) – dowód na hydrodynamiczną naturę oddziaływań, a nie gaz swobodnych cząstek.
 - **Brak ciężkich cząstek stabilnych (SUSY)** – TSM przewiduje, że poza protonem i elektronem nie ma stabilnych węzłów o wyższych $\mathcal{W}$. Dane z LHC to potwierdzają.
 - **Czas życia protonu** – granica $\tau > 1.6 \times 10^{34}$ lat (Super-Kamiokande) jest miarą ekstremalnej sztywności splotu $3_1$ w osnowie.
-
----
-Oto nowa sekcja 7.13, która domyka opis oddziaływań słabych i struktury wewnętrznej węzłów – wyjaśnia łamanie CP w sektorze kwarków jako bezpośredni skutek skręcenia osi naprężeń w przestrzeni 4D.
 
 ---
 

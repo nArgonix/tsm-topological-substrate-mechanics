@@ -1,3 +1,26 @@
+- [Rozdział 2: Węzły topologiczne i emergencja solitoniczna w TSM – czas lokalny, hydrodynamika bezwładności, antymateria, geometryczne pochodzenie spinu 1/2 oraz formalizm sztywności Substratu](#rozdział-2-węzły-topologiczne-i-emergencja-solitoniczna-w-tsm--czas-lokalny-hydrodynamika-bezwładności-antymateria-geometryczne-pochodzenie-spinu-12-oraz-formalizm-sztywności-substratu)
+  - [2.0. Czas lokalny w formalizmie dynamiki Substratu – przypomnienie i osadzenie](#20-czas-lokalny-w-formalizmie-dynamiki-substratu--przypomnienie-i-osadzenie)
+  - [2.1. Mikroskopowy mechanizm skończonej ściśliwości i rygorystyczny formalizm elasto‑dynamiczny w $\\mathbb{R}^4$](#21-mikroskopowy-mechanizm-skończonej-ściśliwości-i-rygorystyczny-formalizm-elastodynamiczny-w-mathbbr4)
+    - [2.1.1. Stan globalnego zakleszczenia i skończona sztywność objętościowa](#211-stan-globalnego-zakleszczenia-i-skończona-sztywność-objętościowa)
+    - [2.1.2. Pełny rozkład Hodge’a‑Helmholtza pola przemieszczeń w $\\mathbb{R}^4$](#212-pełny-rozkład-hodgeahelmholtza-pola-przemieszczeń-w-mathbbr4)
+    - [2.1.3. Równania ruchu i separacja modów](#213-równania-ruchu-i-separacja-modów)
+    - [2.1.4. Kalibracja pola potencjału ścinania (Warunek cechowania)](#214-kalibracja-pola-potencjału-ścinania-warunek-cechowania)
+    - [2.1.5. Równanie ewolucji fal poprzecznych w reżimie kalibracyjnym](#215-równanie-ewolucji-fal-poprzecznych-w-reżimie-kalibracyjnym)
+    - [2.1.6. Rzutowanie 3D + $x^4$: Rozszerzona mapa pól fizycznych](#216-rzutowanie-3d--x4-rozszerzona-mapa-pól-fizycznych)
+  - [2.2. Załamanie superpozycji, konwersja modów i węzły topologiczne w krystalicznej 3‑branie](#22-załamanie-superpozycji-konwersja-modów-i-węzły-topologiczne-w-krystalicznej-3branie)
+    - [2.2.1. Nieliniowa konwersja modów i próg plastyczności](#221-nieliniowa-konwersja-modów-i-próg-plastyczności)
+    - [2.2.2. Pojęcie węzła topologicznego (solitonu)](#222-pojęcie-węzła-topologicznego-solitonu)
+  - [2.3. Hydrodynamiczny mechanizm bezwładności i bariera Peierlsa‑Nabarro](#23-hydrodynamiczny-mechanizm-bezwładności-i-bariera-peierlsanabarro)
+    - [2.3.1. Masa jako zintegrowana energia odkształcenia](#231-masa-jako-zintegrowana-energia-odkształcenia)
+    - [2.3.2. Ruch bezstratny – transfer stanu odkształcenia](#232-ruch-bezstratny--transfer-stanu-odkształcenia)
+    - [2.3.3. Zniesienie barier dyskretnych (efekt Peierlsa‑Nabarro)](#233-zniesienie-barier-dyskretnych-efekt-peierlsanabarro)
+  - [2.4. Istota ładunku i rozdzielenie od masy spoczynkowej](#24-istota-ładunku-i-rozdzielenie-od-masy-spoczynkowej)
+  - [2.5. Antymateria jako inwersja topologiczna](#25-antymateria-jako-inwersja-topologiczna)
+    - [2.5.1. Chiralność węzła](#251-chiralność-węzła)
+    - [2.5.2. Mechanizm anihilacji](#252-mechanizm-anihilacji)
+  - [2.6. Geometryczne pochodzenie spinu 1/2 i podwójne nakrycie](#26-geometryczne-pochodzenie-spinu-12-i-podwójne-nakrycie)
+    - [2.6.1. Rozwłóknienie Hopfa i struktura rotacji](#261-rozwłóknienie-hopfa-i-struktura-rotacji)
+  - [2.7. Podsumowanie Rozdziału 2](#27-podsumowanie-rozdziału-2)
 <!-- ver:2.1.0 -->
 # Rozdział 2: Węzły topologiczne i emergencja solitoniczna w TSM – czas lokalny, hydrodynamika bezwładności, antymateria, geometryczne pochodzenie spinu 1/2 oraz formalizm sztywności Substratu
 
@@ -9,9 +32,9 @@ Zdefiniowanie lokalnego czasu $t$ (Rozdział 1.1) oraz makroskopowych właściwo
 
 Zgodnie z Rozdziałem 1.1, TSM odrzuca zarówno absolutny czas newtonowski, jak i relatywistyczną czasoprzestrzeń jako byt pierwotny. Fundamentem dynamiki jest **lokalny czas własny** $t$, wyłaniający się z gęstości upakowania 0‑Matrycy.
 
-Przypomnijmy definicję kanoniczną – przyrost czasu własnego w punkcie $\mathbf{x}$:
+Z @sec-roz1-czas przypomnijmy definicję kanoniczną – przyrost czasu własnego w punkcie $\mathbf{x}$: 
 
-$$dt(\mathbf{x}) = dN \cdot T_0 \cdot \frac{\phi(\mathbf{x})}{\phi_0} \tag{2.0.1}$$
+$$dt = dN \cdot T_0 \cdot \frac{\phi_0}{\langle\phi\rangle_{\text{macro}}}$$ (@eq-r1-czasEmergentny)
 
 gdzie:
 - $dt$ – przyrost lokalnego czasu mierzonego w punkcie $\mathbf{x}$,
@@ -56,7 +79,7 @@ gdzie:
 
 W odróżnieniu od ograniczeń fazy izostatycznej, potencjał $\alpha \neq 0$, co oznacza, że lokalne zagęszczenia i rozrzedzenia substratu stanowią aktywny fizycznie stopień swobody.
 
-### 2.1.3. Równania ruchu, separacja modów i warunek cechowania
+### 2.1.3. Równania ruchu i separacja modów
 
 Ogólne 4‑wymiarowe równanie elasto‑dynamiczne Naviera‑Cauchy’ego dla ośrodka o gęstości masowej $\rho_0$ i stałych Lamégo $\lambda$ oraz $\mu$ przyjmuje w notacji zewnętrznej postać:
 
@@ -89,15 +112,41 @@ gdzie prędkość fali poprzecznej (ścinania) wynosi:
 
 $$c_{\perp} = \sqrt{\frac{\mu}{\rho_0}} \tag{2.1.8}$$
 
-Ponieważ 2‑forma $\beta$ w $\mathbb{R}^4$ posiada 6 niezależnych składowych, sama operacja $\Phi_T = \delta\beta$ definiuje ją z dokładnością do transformacji cechowania $\beta \to \beta + d\gamma$. Aby znieść tę nadmiarowość i zapobiec propagacji niefizycznych modów pasożytniczych, narzuca się rygorystyczny warunek ko‑ścisłości:
+### 2.1.4. Kalibracja pola potencjału ścinania (Warunek cechowania)
 
-$$\delta\beta = 0 \tag{2.1.9}$$
+Wprowadzenie fizycznego pola przemieszczeń poprzecznych jako formy ko‑ścisłej $\Phi_T = \delta\beta$ (gdzie $\beta$ jest 2‑formą potencjału) niesie za sobą strukturalną redundancję opisu geometrycznego. Z właściwości operatora ko‑dyferencjału wynika, że dla dowolnej gładkiej 3‑formy $\chi$ transformacja cechowania postaci:
 
-Zastosowanie cechowania $\delta\beta = 0$ redukuje operator Laplace’a‑de Rhama $\Delta_2 = d\delta + \delta d$ działający na $\beta$ do czystego członu czynnego. Ostateczne, zredukowane równanie fali poprzecznej przyjmuje postać:
+$$\beta \to \beta + \delta\chi$$
 
-$$\frac{\partial^2 \beta}{\partial t^2} = -c_{\perp}^2 \delta d \beta \tag{2.1.10}$$
+nie modyfikuje mierzalnego pola fizycznego, ponieważ $\delta^2 \chi \equiv 0$. Aby usunąć te niefizyczne stopnie swobody i zapewnić jednoznaczność rozwiązań równań dynamicznych, konieczne jest narzucenie rygorystycznego więzu kalibracyjnego.
 
-### 2.1.4. Rzutowanie 3D + $x^4$: Rozszerzona mapa pól fizycznych
+W odróżnieniu od klasycznej elektrodynamiki (gdzie dla wektorowego potencjału $A$ stosuje się cechowanie Lorenza $\delta A = 0$), w mechanice odkształceń Substratu narzucenie warunku $\delta\beta = 0$ prowadziłoby do natychmiastowego, niefizycznego wyzerowania samego pola przemieszczeń ($\Phi_T = 0$). Właściwym formalnie warunkiem cechowania, ortogonalnym do obrazu operatora $\delta$, jest warunek zewnętrznej zamkniętości 2‑formy potencjału:
+
+$$d\beta = 0 \tag{2.1.9}$$
+
+Warunek (2.1.9) skutecznie zamraża gradienty zewnętrzne potencjału ścinania, eliminując niefizyczne rotacje wyższych rzędów, jednocześnie w żaden sposób nie ograniczając swobody formowania poprzecznych falowych deformacji sieci przez operator ko‑dyferencjału.
+
+### 2.1.5. Równanie ewolucji fal poprzecznych w reżimie kalibracyjnym
+
+Sformułowanie więzu cechowania $d\beta = 0$ pozwala na bezpośrednią redukcję ogólnego operatora Laplace'a–de Rhama ($\Delta = d\delta + \delta d$), który rządzi dyspersją i dynamiką naprężeń sprężystych w wielowymiarowych ośrodkach ciągłych. Działając operatorem $\Delta$ na 2‑formę potencjału $\beta$, przy uwzględnieniu warunku (2.1.9), człon zawierający dyferencjał zewnętrzny znika ($\delta d\beta = 0$). W konsekwencji operator Laplace'a–de Rhama redukuje się do postaci ściśle sprzężonej z ko‑dyferencjałem: $\Delta\beta = d\delta\beta$.
+
+Dynamiczne równanie falowe, opisujące bezstratną propagację lokalnych deformacji ścinających (utożsamianych w skali makroskopowej z wolnymi falami elektromagnetycznymi oraz perturbacjami grawitacyjnymi wewnątrz 3‑brany), przyjmuje w lokalnym układzie odniesienia czasowego $t$ następującą formę kanoniczną:
+
+$$\frac{\partial^2 \beta}{\partial t^2} = -c_{\perp}^2 d\delta \beta \tag{2.1.10}$$
+
+gdzie stała $c_{\perp} = \sqrt{\mu/\rho_0}$ reprezentuje prędkość poprzeczną Substratu (prędkość światła $c$), zdeterminowaną przez mikroskopowy moduł sztywności na ścinanie $\mu$ oraz podstawową gęstość upakowania tła $\rho_0$.
+
+Spójność i poprawność fizyczną równania (2.1.10) potwierdza operacja obustronnego nałożenia operatora $\delta$. Generuje ona bezpośrednie przejście od poziomu abstrakcyjnego potencjału do poziomu obserwowalnego pola przemieszczeń:
+
+$$\frac{\partial^2 (\delta\beta)}{\partial t^2} = -c_{\perp}^2 \delta(d\delta \beta)$$
+
+Z definicji pola $\Phi_T = \delta\beta$ oraz tożsamości dla form ko‑zamkniętych ($\delta\Phi_T = \delta^2\beta = 0$), operator po prawej stronie redukuje się do pełnego d'Alembertianu pola fizycznego: $\delta d\Phi_T = (d\delta + \delta d)\Phi_T = \Delta\Phi_T$. Otrzymujemy ostatecznie klasyczne, rygorystyczne równanie falowe:
+
+$$\frac{\partial^2 \Phi_T}{\partial t^2} = -c_{\perp}^2 \Delta \Phi_T$$
+
+Dowodzi to, że wprowadzone cechowanie (2.1.9) oraz zmodyfikowane równanie ewolucji (2.1.10) w sposób matematycznie zamknięty i wolny od sprzeczności opisują stabilną propagację światła jako fali deformacji poprzecznych 0‑Matrycy.
+
+### 2.1.6. Rzutowanie 3D + $x^4$: Rozszerzona mapa pól fizycznych
 
 Rozdzielenie współrzędnych wewnątrzpowierzchniowych 3‑brany ($x^1, x^2, x^3$) od osi ortogonalnej Bulk ($x^4$) pozwala na zmapowanie składowych form różniczkowych na obserwowalne makroskopowo oddziaływania.
 
@@ -110,13 +159,13 @@ $$\beta = \bar{\beta} + \bar{\psi} \wedge dx^4 \tag{2.1.11}$$
 - $\bar{\beta} = \frac{1}{2}\beta_{ij} dx^i \wedge dx^j$ (3 składowe): reprezentuje płaszczyzny polaryzacji zamknięte wewnątrz 3‑brany. Generuje poprzeczne fale elektromagnetyczne, poruszające się z prędkością graniczną $c = c_{\perp}$. Składowe formy $\bar{\beta}$ mapują się bezpośrednio na potencjał cechowania $A_\mu$, a jej pochodna zewnętrzna wyznacza antysymetryczny tensor pola elektromagnetycznego $F = d\bar{\beta}$ (pomost do Rozdziału 3).
 - $\bar{\psi} = \beta_{i4} dx^i$ (3 składowe): reprezentuje płaszczyzny polaryzacji sprzężone z kierunkiem ortogonalnym. Generuje naciąg mechaniczny membrany w osi $x^4$, interpretowany jako pole grawitacyjne.
 
-Warunek cechowania $\delta\beta = 0$ w tym rozbiciu przyjmuje formę więzów różniczkowych:
+Warunek cechowania $d\beta = 0$ w tym rozbiciu przyjmuje formę układu strukturalnych więzów geometrycznych dla poszczególnych rzutów:
 
-$$\partial_i \beta_{i4} = 0 \quad \implies \quad \text{div}(\bar{\psi}) = 0 \tag{2.1.12}$$
+$$d_{3D}\bar{\beta} = 0 \tag{2.1.12}$$
 
-$$\partial_j \beta_{ji} + \partial_4 \beta_{4i} = 0 \tag{2.1.13}$$
+$$d_{3D}\bar{\psi} = \partial_4 \bar{\beta} \tag{2.1.13}$$
 
-Zapewnia to solenoidalność pola grawitacyjnego w branie oraz lokalne równoważenie naprężeń elektromagnetycznych przez gradienty sił ortogonalnych wzdłuż czwartego wymiaru.
+Równanie (2.1.12) orzeka o lokalnej zamkniętości 3‑wymiarowej składowej potencjału, co odpowiada bezźródłowości pól powiązanych z wewnętrznymi rotacjami brany. Z kolei równanie (2.1.13) określa bezpośrednie sprzężenie przestrzennej rotacji pola naciągu grawitacyjnego $\bar{\psi}$ ze zmianami profilu pola elektromagnetycznego $\bar{\beta}$ wzdłuż wymiaru Bulk ($x^4$). Zapewnia to dynamiczną spójność i lokalne równoważenie naprężeń elektromagnetycznych przez gradienty sił ortogonalnych.
 
 **Dekompozycja modu podłużnego ($\alpha \in \Omega^0(\mathbb{R}^4)$):**
 
@@ -147,12 +196,16 @@ To wymuszone, gwałtowne skręcenie ścinające trwale modyfikuje lokalną geome
 
 Gdy deformacja przekroczy próg stabilności, sfery oddziaływań geometrycznych 0‑cząstek zmuszone są do rekonfiguracji przestrzennej macierzy sąsiedztwa. Powstaje defekt topologiczny – trwała, samopodtrzymująca się konfiguracja pola orientacji $\mathbf{n}$, która zapętla się przestrzennie w taki sposób, że nie można jej w sposób ciągły rozpleść ani wygładzić do stanu początkowego bez fizycznego rozerwania ciągłości sieci $\mathbb{R}^4$.
 
-Matematycznie to zniekształcenie jest mapowaniem z przestrzeni fizycznej na sferę stanów. Każdemu takiemu zapętleniu przypisana jest całkowita, niezmienna liczba topologiczna – liczba splotu (ładunek topologiczny) $\mathcal{W}$, zdefiniowana jako całka z gęstości skręcenia po objętości 3‑brany:
+Matematycznie to zniekształcenie jest reprezentowane przez niezmiennik Hopfa $Q_H$ (dla $n \in S^2$), który mierzy stopień zapętlenia linii naprężeń ścinających. Definiujemy formę strumienia topologicznego $F = \frac{1}{8\pi} \epsilon_{abc} n^a dn^b \wedge dn^c$ oraz powiązany z nią potencjał $A$ ($dA=F$). Całkowity, skwantowany ładunek topologiczny wynosi:
 
-$$\mathcal{W} = \frac{1}{12\pi^2} \int_{\mathbb{R}^3} \epsilon^{ijk} \epsilon_{abc} n^a \partial_i n^b \partial_j n^c \, d^3x \tag{2.2.1}$$
+
+$$Q_H = \int_{\mathbb{R}^3} A \wedge F = \frac{1}{4\pi^2} \int_{\mathbb{R}^3} \epsilon^{ijk} A_i \partial_j A_k \, d^3x \tag{2.2.1}$$
+
 
 gdzie:
-- $\mathcal{W}$ – liczba splotu (ładunek topologiczny) $\in \mathbb{Z}$,
+gdzie $Q_H \in \mathbb{Z}$. Węzły te stanowią fizyczną realizację fermionów. Ich stabilność nie wynika z postulowanych zewnętrznych sił jądrowych, lecz z twardej topologii: płynne przejście ze stanu $Q_H = 1$ do stanu płaskiej próżni $Q_H = 0$ jest zablokowane barierą energetyczną wymaganą do makroskopowego rozerwania krystalicznej sieci osnowy.
+
+
 - $\epsilon^{ijk}$ – symbol Levi‑Civity w przestrzeni 3D,
 - $\epsilon_{abc}$ – symbol Levi‑Civity w przestrzeni wewnętrznej pola $\mathbf{n}$,
 - $n^a$ – składowe wektora orientacji (bezwymiarowe, $a,b,c \in \{1,2,3\}$),

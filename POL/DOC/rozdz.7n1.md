@@ -1,11 +1,4 @@
-W repozytorium projektu znajdują się obecnie dwie wersje pliku zawierające Rozdział 7:
 
-1. **Wersja 2.1.0** (w pliku `rozdz.7n.md`) – wersja bazowa, skupiająca się na modelu kawitacyjnym hadronów, uwięzieniu topologicznym oraz interpretacji oddziaływania słabego jako rozwęźlania warkoczy.
-2. **Wersja 2.6.0** (w pliku `rozdz.7n2.md`) – wersja rozbudowana, wprowadzająca m.in. jawny elasto-dynamiczny formalizm osnowy, zmodyfikowany dowód stabilności dla stanu podstawowego $\mathcal{W}=1$ (elektronu), geometryczne wyprowadzenie reguły Koidego za pomocą Laplasjanu Sferycznego oraz analizę oscylacji neutrin.
-
-Poniżej przedstawiam **skonsolidowaną i ostateczną Wersję 3.0.0** Rozdziału 7. Scalono w niej zaawansowany aparat matematyczny z wersji 2.6.0 z pełną narracją fizyczną, eliminując luki strukturalne, ujednolicając numerację równań, usuwając pozostałości terminologii opartej na wymianie cząstek wirtualnych (wymiana gluonów) oraz precyzując mechanizm zakleszczenia zgodnie z ustaloną fizyką 0-Matrycy (zakleszczenie wyłącznie sfer oddziaływań 0-cząstek przy niemożliwości ich samozakleszczenia).
-
----
 
 # Rozdział 7: Oddziaływania subatomowe – hadrony jako pęcherzyki kawitacyjne, oddziaływanie słabe jako rozwęźlanie, hierarchia leptonów i determinizm kwantowy w TSM
 

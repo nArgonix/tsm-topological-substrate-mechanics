@@ -1,6 +1,4 @@
-
-
-<!-- ver:2.7.0 -->
+<!-- ver:2.9.7 -->
 
 # 1. Formalizm Mechaniki Substratu Topologicznego – czas emergentny, dynamika i kinematyka relatywistyczna
 
@@ -20,11 +18,44 @@ W konsekwencji model TSM rezygnuje z postulowania mikroskopijnych zależności c
 
 Aby powiązać dyskretną, sub-planckowską strukturę osnowy z mierzalnymi zjawiskami makroskopowymi, wprowadza się operator splotu (filtrowania) z funkcją okna o skali odcięcia równej skali Plancka ($\Lambda_{\text{Planck}}$). Operator ten wygładza lokalne, nieciągłe anomalie gęstości wokół pojedynczych defektów strukturalnych, dając w wyniku ciągłe pole efektywne.
 
-Uśrednioną makroskopową gęstość upakowania $\langle\phi\rangle_{\text{macro}}$ w punkcie przestrzeni $\mathbf{x}$ definiuje równanie:
+Fundamentalna gęstość upakowania jest funkcją 4-wymiarową: $\phi(\mathbf{X}) = \phi(x^1, x^2, x^3, x^4)$. Pełna forma operatora uśredniania to:
 
-<span id="eq-r1a">$$\langle\phi(\mathbf{x})\rangle_{\text{macro}} = \int_{\mathbb{R}^3} \phi(\mathbf{x}') W(\mathbf{x} - \mathbf{x}', \Lambda_{\text{Planck}}) d^3\mathbf{x}' \qquad(1)$$</span>
+$$\langle\phi(\mathbf{X})\rangle_{\text{macro}} = \int_{\mathbb{R}^4} \phi(\mathbf{X}') \, W(\mathbf{X} - \mathbf{X}', \Lambda_{\text{Planck}}) \, d^4\mathbf{X}' \tag{1.1.2.1}$$
 
-gdzie: \* $\phi(\mathbf{x}')$ – surowa, mikroskopijna gęstość lokalna osnowy, \* $W$ – normalizowana funkcja przejścia (okno filtracyjne), eliminująca szum sub-planckowski, \* $\Lambda_{\text{Planck}}$ – skala odcięcia przestrzennego.
+Obserwowalna gęstość na 3-branie ugiętej do $x^4 = w(\mathbf{x})$ to rzut tej całki:
+
+$$\langle\phi(\mathbf{x})\rangle_{\text{macro}} = \left.\langle\phi(\mathbf{X})\rangle_{\text{macro}}\right|_{x^4 = w(\mathbf{x})} \tag{1.1.2.2}$$
+
+Ponieważ grubość 3-brany w kierunku $x^4$ jest rzędu $l_P$ (Sekcja 6.2, Równanie 6.2.7), całkowanie po $x^{4'}$ jest asymptotycznie zlokalizowane w otoczeniu Planckowym brany, co pozwala zdefiniować efektywną gęstość powierzchniową:
+
+$$\phi_{\text{eff}}(\mathbf{x}') \equiv \int_{-\infty}^{+\infty} \phi(\mathbf{x}', x^{4'}) \, W_4\!\left(w(\mathbf{x}') - x^{4'}, \Lambda_{\text{Planck}}\right) dx^{4'} \tag{1.1.2.3}$$
+
+gdzie $W_4$ jest jednoczynnikową składową okna w osi ortogonalnej. Obserwowalna 3D gęstość makroskopowa przyjmuje wtedy postać:Fundamentalna gęstość upakowania jest polem 4-wymiarowym, zdefiniowanym na pełnej przestrzeni 0-Matrycy: $\phi(\mathbf{X}) = \phi(x^1, x^2, x^3, x^4)$. Pełny operator uśredniania makroskopowego obejmuje wszystkie cztery wymiary przestrzenne:
+
+$$\langle\phi(\mathbf{X})\rangle_{\text{macro}} = \int_{\mathbb{R}^4} \phi(\mathbf{X}') \, W(\mathbf{X} - \mathbf{X}', \Lambda_{\text{Planck}}) \, d^4\mathbf{X}' \tag{1.1.2.4}$$
+
+gdzie:
+- $\mathbf{X} = (x^1, x^2, x^3, x^4)$ – 4-wektor pozycji w 0-Matrycy,
+- $\phi(\mathbf{X}')$ – surowa, mikroskopijna gęstość lokalna osnowy w pełnej przestrzeni 4D,
+- $W$ – normalizowana 4-wymiarowa funkcja przejścia (okno filtracyjne), eliminująca szum sub-planckowski,
+- $\Lambda_{\text{Planck}}$ – skala odcięcia przestrzennego.
+  
+**Redukcja do obserwowanej gęstości 3D na 3-branie.**
+Ponieważ wszystkie makroskopowe przyrządy pomiarowe (zegary atomowe, detektory) są strukturami węzłów topologicznych uwięzionymi wewnątrz 3-brany (Sekcja 1.5 Rozdziału 0), bezpośrednio dostępna jest wyłącznie wartość $\langle\phi(\mathbf{X})\rangle_{\text{macro}}$ zrestryktowana do hiperpowierzchni 3-brany. W stanie niezakłóconym brana zajmuje hiperpowierzchnię $x^4 = 0$; w obecności odkształceń grawitacyjnych jest ugięta do $x^4 = w(\mathbf{x})$ (Rozdział 6). Obserwowalna makroskopowa gęstość upakowania w punkcie $\mathbf{x} = (x^1, x^2, x^3)$ jest zatem rzutem:
+
+$$\langle\phi(\mathbf{x})\rangle_{\text{macro}} \equiv \left.\langle\phi(\mathbf{X})\rangle_{\text{macro}}\right|_{x^4 = w(\mathbf{x})} \tag{1.1.2.5}$$
+
+Funkcja okna $W$ jest separowalna względem składowych brany i wymiaru ortogonalnego: $W(\mathbf{X}-\mathbf{X}', \Lambda_P) = W_3(\mathbf{x}-\mathbf{x}', \Lambda_P) \cdot W_4(x^4 - x^{4'}, \Lambda_P)$. Definiujemy efektywną gęstość powierzchniową 3D jako całkę $W_4$-ważoną wzdłuż osi ortogonalnej:
+
+$$\phi_{\text{eff}}(\mathbf{x}') \equiv \int_{-\infty}^{+\infty} \phi(\mathbf{x}', x^{4'}) \, W_4\!\left(w(\mathbf{x}') - x^{4'}, \, \Lambda_{\text{Planck}}\right) dx^{4'} \tag{1.1.2.6}$$
+
+Ponieważ charakterystyczna grubość 3-brany w kierunku $x^4$ jest rzędu skali Plancka $h \sim l_P$ (por. Sekcja 6.2, Równanie 6.2.01), a $W_4$ eliminuje wkłady spoza tego zakresu, całkowanie w (3) jest asymptotycznie zlokalizowane w otoczeniu Planckowym brany. Wyniki obserwowalne nie zależą od szczegółów struktury 0-Matrycy poza tą strefą. Ostateczna, operacyjna forma efektywnej gęstości makroskopowej na 3-branie przyjmuje postać:
+
+$$\langle\phi(\mathbf{x})\rangle_{\text{macro}} = \int_{\mathbb{R}^3} \phi_{\text{eff}}(\mathbf{x}') \, W_3(\mathbf{x} - \mathbf{x}', \Lambda_{\text{Planck}}) \, d^3\mathbf{x}' \tag{1.1.2.7}$$
+
+W płaskiej, niezakłóconej 3-branie ($w \equiv 0$, $\phi$ niezależne od $x^4$ w skali Planckowej) zachodzi $\phi_{\text{eff}}(\mathbf{x}') \equiv \phi(\mathbf{x}', 0)$, a równanie (4) redukuje się do standardowego 3D splotu gęstości osnowy z funkcją wygładzającą.
+
+**Uwaga o spójności grawitacyjno-temporalnej:** Zależność $\phi_{\text{eff}}$ od ugięcia brany $w(\mathbf{x})$ (przez argument $W_4$) stanowi mechanistyczne uzasadnienie grawitacyjnej dylatacji czasu (Sekcja 1.1.5): węzeł topologiczny indukujący ugięcie $w > 0$ lokalnie przesuwa punkt próbkowania funkcji $W_4$ w obszar osnowy o wyższym ciśnieniu topologicznym, podnosząc $\phi_{\text{eff}}$ i zwalniając lokalny czas własny $dt$ zgodnie z równaniem kanonicznym (Sekcja 1.1.3). Zależność (1.1.5) jest więc limitem liniowym tego mechanizmu, a nie niezależnym założeniem.
 
 ### 1.1.3. Kanoniczna definicja czasu makroskopowego
 
@@ -32,9 +63,14 @@ Czas nie jest pierwotnym wymiarem ani samodzielną areną ewolucji układów. Cz
 
 Przyrost lokalnego czasu własnego $dt$ wyraża się równaniem:
 
-<span id="eq-r1b">$$dt = dN \cdot T_0 \cdot \frac{\phi_0}{\langle\phi\rangle_{\text{macro}}} \qquad(2)$$</span>
+<span id="eq-r1b">$$dt = dN \cdot T_0 \cdot \frac{\phi_0}{\langle\phi\rangle_{\text{macro}}} \tag{1.1.3.1}$$</span>
 
-gdzie: \* $dt$ – przyrost lokalnego czasu własnego \[s\], \* $dN$ – liczba cykli makroskopowego procesu okresowego (np. oscylacji atomowych w zegarze), \* $T_0$ – okres referencyjny w niezaburzonej, stacjonarnej osnowie, \* $\phi_0$ – podstawowa gęstość upakowania 0-Matrycy w Stanie Zero, \* $\langle\phi\rangle_{\text{macro}}$ – uśredniona hydrodynamicznie gęstość osnowy w obszarze zajmowanym przez układ pomiarowy.
+gdzie:
+- $dt$ – przyrost lokalnego czasu własnego [s],
+- $dN$ – liczba cykli makroskopowego procesu okresowego (np. oscylacji atomowych w zegarze),
+- $T_0$ – okres referencyjny w niezaburzonej, stacjonarnej osnowie, 
+- $\phi_0$ – podstawowa gęstość upakowania 0-Matrycy w Stanie Zero,
+- $\langle\phi\rangle_{\text{macro}}$ – uśredniona hydrodynamicznie gęstość osnowy w obszarze zajmowanym przez układ pomiarowy.
 
 Wyższa uśredniona gęstość $\langle\phi\rangle_{\text{macro}}$ generuje większy opór ośrodka dla makroskopowych procesów relaksacyjnych i propagacji sygnałów. Przekłada się to na zmniejszenie przyrostu lokalnego czasu własnego ($dt$ maleje dla stałej liczby cykli $dN$) względem płaskiego tła, co obserwujemy jako spowolnienie tempa upływu procesów fizycznych. Z perspektywy zewnętrznego obserwatora lokalna sekunda ulega rozciągnięciu, ponieważ aparat matematyczny rygorystycznie wiąże gęstość z mianownikiem operatora przyrostu czasu.
 
@@ -46,7 +82,7 @@ Materia o strukturze makroskopowej zachowuje się jak porowata siatka o dużych 
 
 Jednak w skali makroskopowej, wewnątrz całej objętości zajmowanej przez poruszające się ciało, następuje konstruktywna akumulacja tych mikro-odkształceń. Obecność poruszającej się struktury materii ogranicza swobodną relaksację osnowy, zamykając podwyższoną gęstość wewnątrz obwiedni obiektu. Generuje to całkowicie jednorodne i izotropowe (wielokierunkowe) spiętrzenie uśrednionej osnowy w całym ciele:
 
-<span id="eq-r1c">$$\langle\phi(v)\rangle_{\text{macro}} = \phi_0 \cdot \gamma = \frac{\phi_0}{\sqrt{1 - \frac{v^2}{c_{\perp}^2}}} \qquad(3)$$</span>
+<span id="eq-r1c">$$\langle\phi(v)\rangle_{\text{macro}} = \phi_0 \cdot \gamma = \frac{\phi_0}{\sqrt{1 - \frac{v^2}{c_{\perp}^2}}} \tag{1.1.4.1}$$</span>
 
 Dzięki temu, że spiętrzenie $\langle\phi(v)\rangle_{\text{macro}}$ przyjmuje formę jednorodnego pola skalarnego wewnątrz obwiedni poruszającego się układu:
 
@@ -61,7 +97,7 @@ W Rozdziale 0.5 określono, że grawitacja to odkształcenie 3‑brany w czwarty
 
 W słabym polu grawitacyjnym przyjmujemy liniową zależność gęstości efektywnej od modułu potencjału:
 
-<span id="eq-r1d">$$\phi(\mathbf{x}) \approx \phi_0 \left(1 + \frac{|\Phi(\mathbf{x})|}{c_{\perp}^2}\right) \qquad(4)$$</span>
+<span id="eq-r1d">$$\phi(\mathbf{x}) \approx \phi_0 \left(1 + \frac{|\Phi(\mathbf{x})|}{c_{\perp}^2}\right) \tag{1.1.5.1}$$</span>
 
 gdzie $\Phi(\mathbf{x})$ to newtonowski potencjał grawitacyjny ($\Phi \le 0$), a $c_{\perp}$ to prędkość poprzecznych fal ścinających (światła).
 
@@ -69,68 +105,111 @@ gdzie $\Phi(\mathbf{x})$ to newtonowski potencjał grawitacyjny ($\Phi \le 0$), 
 
 Podstawiając zależność gęstościową (1.1.5) do kanonicznej relacji czasu (1.1.3), przyrost lokalnego czasu własnego $dt$ w stosunku do niezaburzonego czasu płaskiego tła $dt_{\text{flat}}$ (gdzie $\phi = \phi_0$) przyjmuje postać:
 
-<span id="eq-r1e">$$\frac{dt}{dt_{\text{flat}}} = \frac{\phi_0}{\phi(\mathbf{x})} \approx \left(1 + \frac{|\Phi|}{c_{\perp}^2}\right)^{-1} \qquad(5)$$</span>
+<span id="eq-r1e">$$\frac{dt}{dt_{\text{flat}}} = \frac{\phi_0}{\phi(\mathbf{x})} \approx \left(1 + \frac{|\Phi|}{c_{\perp}^2}\right)^{-1} \tag{1.1.6.1}$$</span>
 
 Stosując rozwinięcie w szereg Taylora dla słabych pól ($\frac{|\Phi|}{c_{\perp}^2} \ll 1$), otrzymujemy:
 
-<span id="eq-r1f">$$\frac{dt}{dt_{\text{flat}}} \approx 1 - \frac{|\Phi|}{c_{\perp}^2} \qquad(6)$$</span>
+<span id="eq-r1f">$$\frac{dt}{dt_{\text{flat}}} \approx 1 - \frac{|\Phi|}{c_{\perp}^2} \tag{1.1.6.2}$$</span>
 
 Daje to poprawne empirycznie przybliżenie dylatacji grawitacyjnej, rygorystycznie zgodne co do znaku i rzędu wielkości z klasyczną formułą doświadczalną oraz danymi z systemów GPS i eksperymentu Pounda-Rebki. Wzrost gęstości osnowy jednoznacznie implikuje proporcjonalny spadek wartości $dt$.
 
-## 1.2. Elastodynamika osnowy i sprzężenie skal prędkości
+## 1.2. Elastodynamika 4D osnowy i mikroskopowa geneza prędkości światła
 
-### 1.2.1. Dynamiczny opór relaksacyjny i bezwładność kinetyczna komórek 4D
+Aby wyeliminować metodologiczny zarzut wprowadzenia bariery prędkości falowej $c$ jako założenia ad hoc, model TSM wyprowadza stałą prędkość światła (identyfikowaną jako prędkość poprzecznych fal ścinających $c_{\perp} \equiv c$) jako wielkość emergentną. Wyprowadzenie to realizowane jest dwuetapowo: poprzez rygorystyczny opis kontinuum elasto-dynamicznego, a następnie sprzężenie go z sub-planckowską kinetyką 0-cząstek.
 
-Aby wyeliminować metodologiczny zarzut wprowadzenia bariera prędkości falowej $c$ jako założenia *ad hoc*, model TSM wyprowadza stałą prędkość światła (identyfikowaną w reżimie elastodynamicznym jako prędkość poprzecznych fal ścinających $c_{\perp} \equiv c$) jako wielkość emergentną. Wynika ona bezpośrednio z mechaniki zderzeń i uśredniania stochastycznego w 4-wymiarowej sieci krystalicznej 0-Matrycy.
+### 1.2.1. Tensor odkształceń i równanie falowe w 4-Matrycy
 
-Kluczem do sprzężenia absolutnej prędkości sub-planckowskiej $v$ z obserwowaną prędkością makroskopową $c$ jest potężna dysproporcja skal geometrycznych. Zdefiniujmy bezwymiarowy stosunek $\xi$ między stałą sieci osnowy $a$ (skala sub-Planckowska) a długością fali mierzalnego zaburzenia makroskopowego $\lambda$ (np. fotonu):
+Rozpatrzmy stan podstawowy Substratu przed sformowaniem brany. Jako 4-wymiarowy, izotropowy ośrodek sprężysty o gigantycznym zagęszczeniu kolizyjnym, 4-Matryca podlega uogólnionym równaniom Naviera-Cauchy’ego dla przemieszczeń $\mathbf{u}(x^1, x^2, x^3, x^4)$. Wprowadzamy 4-wymiarowy tensor odkształceń Cauchy’ego-Greena w postaci:
 
-<span id="eq-r1laa">$$\xi = \frac{a}{\lambda} \ll 1 \quad \left(\xi \approx 10^{-8}\right) \qquad(7)$$</span>
+$$u_{ij} = \frac{1}{2} \left( \frac{\partial u_i}{\partial x^j} + \frac{\partial u_j}{\partial x^i} + \frac{\partial u_k}{\partial x^i} \frac{\partial u_k}{\partial x^j} \right) \tag{1.2.1.1}$$
 
-Pojedyncza komórka Wignera-Seitza w przestrzeni $\mathbb{R}^4$ stanowi elementarną domenę oscylacyjną o objętości $V_{4D} \sim a^4$. Ponieważ fala makroskopowa posiada długość $\lambda \gg a$, jej front nie oddziałuje indywidualnie z pojedynczymi 0-cząstkami, lecz z uśrednionym polem przemieszczeń całych klastrów sieciowych.
+Gdzie indeksy $i, j, k \in \{1, 2, 3, 4\}$. Zakładając liniowy reżim sprężysty (w którym nieliniowe gradienty kwadratowe są pomijalne przed przekroczeniem progu blokady topologicznej), gęstość energii sprężystej $\mathcal{U}$ dana jest klasycznym wzorem Lamégo rozszerzonym do 4 wymiarów:
 
-Zgodnie z Aksjomatem II, pierwotne 0-cząstki wykonują nieustanne mikro-oscylacje we wszystkich czterech wymiarach przestrzennych z prędkością absolutną $v$. W stanie podstawowym osnowy (izotropia tła), pęd 0-cząstek jest rozłożony równomiernie na każdy z czterech stopni swobody translacji. Średni kwadrat składowej prędkości w dowolnym kierunku przestrzennym wynosi:
+$$\mathcal{U} = \frac{1}{2} \lambda (u_{kk})^2 + \mu u_{ij} u_{ij} \tag{1.2.1.2}$$
 
-<span id="eq-r1g">$$\langle v_i^2 \rangle = \frac{1}{4} v^2 \quad \text{dla } i \in \{1, 2, 3, 4\} \qquad(8)$$</span>
+Gdzie $\lambda$ oraz $\mu$ to makroskopowe współczynniki Lamégo charakteryzujące odpowiednio sprężystość objętościową (opór przeciw ściskaniu) oraz sprężystość postaciową (opór przeciw ścinaniu) Substratu. Równanie ruchu elementu objętości osnowy w czasie płaskiego tła $t_{\text{flat}}$ przyjmuje postać:
 
-Gdy przez osnowę propaguje się makroskopowa fala poprzeczna, wymusza ona koherentne, kierunkowe przemieszczenie węzłów sieci w przestrzeni 3-brany. Każda 4-wymiarowa komórka Wignera-Seitza stawia jednak temu wymuszeniu opór o charakterze bezwładności żyroskopowej. Ultra-szybkie oscylacje 0-cząstek w kierunku ortogonalnym ($x^4$) oraz w pozostałych osiach działają jak kinetyczny stabilizator położenia równowagi komórki sieciowej.
+$$\rho_{\text{eff}} \frac{\partial^2 u_i}{\partial t_{\text{flat}}^2} = (\lambda + \mu) \frac{\partial u_k}{\partial x^i \partial x^k} + \mu \frac{\partial^2 u_i}{\partial x^k \partial x^k} \tag{1.2.1.3}$$
 
-Aby impuls fali makroskopowej mógł przesunąć się w przestrzeni o jeden krok sieciowy $a$, lokalna komórka Wignera-Seitza musi dokonać redystrybucji swojego wewnętrznego, chaotycznego pędu 4D na wektor pędu kierunkowego. Ponieważ 0-cząstki są powiązane asymptotyczną barierą siłową, transfer energii między wymiarami napotyka na strukturalny opór relaksacyjny: impuls potrzebuje czasu na przejście przez wielokrotne kaskady zderzeń sub-planckowskich wewnątrz samej komórki, zanim zamanifestuje się jako makroskopowe przesunięcie frontu fali.
+Gdzie $\rho_{\text{eff}}$ to efektywna makroskopowa gęstość falowa 4-Matrycy. Stosując rozkład Helmholtza na składową podłużną ($\nabla \cdot \mathbf{u}$) oraz poprzeczną ($\nabla \times \mathbf{u}$), wyodrębniamy prędkość propagacji fali poprzecznej (ścinającej):
 
-W klasycznym kontinuum elastodynamicznym prędkość fali poprzecznej (ścinającej) wyraża się wzorem:
+$$c_{\perp} = \sqrt{\frac{\mu}{\rho_{\text{eff}}}} \tag{1.2.1.4}$$
 
-<span id="eq-r1h">$$c = \sqrt{\frac{\mu}{\rho_{\text{eff}}}} \qquad(9)$$</span>
+Ponieważ 3-brana jest zdefiniowana jako makroskopowe skręcenie uwięzione wzdłuż czwartego wymiaru ($x^4$), wszelkie interakcje elektromagnetyczne w naszym świecie są falami poprzecznymi tej struktury. Prędkość $c_{\perp}$ jest zatem tożsama z prędkością światła $c$ w próżni. Wektor falowy $\mathbf{k} = (k_1, 0, 0, k_4)$ prowadzi do relacji dyspersyjnej $\omega^2 = c_{\perp}^2 (k_1^2 + k_4^2)$. Maksymalna prędkość rzutu fali poprzecznej na obserwowalną przestrzeń 3D zachodzi dla $k_4 = 0$ i wynosi dokładnie $c_{\perp}$.
 
-Gdzie $\mu$ to moduł ścinania sieci, a $\rho_{\text{eff}}$ to efektywna gęstość bezwładna. W modelu TSM fundamentalna sztywność osnowy i jej moduł ścinania są bezpośrednio generowane przez mikroskopowe ciśnienie topologiczne i energię kinetyczną drgań tła: $\mu = \alpha \rho_0 v^2$, gdzie $\rho_0 = m_0 / a^4$ jest statyczną gęstością tła, a $\alpha$ to bezwymiarowy współczynnik geometryczny kształtu komórki.
+### 1.2.2. Dynamiczny opór relaksacyjny i sprzężenie skal prędkości
 
-Efektywna gęstość bezwładna $\rho_{\text{eff}}$, którą napotyka fala makroskopowa, jest jednak o wiele rzędów wielkości większa od gęstości statycznej $\rho_0$, ponieważ koherentny ruch fali musi pokonać opór pędu uwięzionego we wszystkich czterech wymiarach. Wprowadzamy bezwymiarowy parametr dynamicznego tłumienia geometrycznego $\Gamma_{4D}$, odzwierciedlający liczbę niekoherentnych zderzeń relaksacyjnych w skali sub-Planckowskiej przypadających na jeden cykl makroskopowy:
+Równanie (1.2.1.4) opisuje zachowanie fali w makroskali, jednak moduł ścinania $\mu$ oraz efektywna bezwładność $\rho_{\text{eff}}$ nie są stałymi fundamentalnymi, lecz wyłaniają się z mikroskopowej kinetyki 0-cząstek. Kluczem do sprzężenia absolutnej prędkości sub-planckowskiej $v$ ze stałą makroskopową $c_{\perp}$ jest potężna dysproporcja skal geometrycznych.
 
-<span id="eq-r1i">$$\rho_{\text{eff}} = \rho_0 \cdot \Gamma_{4D}^2 \quad \left(\Gamma_{4D} \gg 1\right) \qquad(10)$$</span>
+Zdefiniujmy bezwymiarowy stosunek $\xi$ między stałą sieci osnowy $a$ (skala sub-Planckowska, $a < 1{,}6 \times 10^{-35}$ m) a długością fali mierzalnego zaburzenia makroskopowego $\lambda$:
 
-Podstawiając gęstość efektywną do równania falowego (1.2.03), otrzymujemy ścisłe, liniowe sprzężenie matematyczne między prędkością makroskopową fali ($c$) a absolutną prędkością substratu ($v$):
+$$\xi = \frac{a}{\lambda} \ll 1 \tag{1.2.2.1}$$
 
-$$c = \sqrt{\frac{\alpha \cdot \rho_0 v^2}{\rho_0 \cdot \Gamma_{4D}^2}} = \frac{\sqrt{\alpha}}{\Gamma_{4D}} \cdot v$$
+| Rodzaj promieniowania | Przykładowa $\lambda$ | Górne ograniczenie $\xi \leq l_P/\lambda$ |
+| --- | --- | --- |
+| Radiowa | $\sim 1$ m | $\lesssim 2 \times 10^{-35}$ |
+| Widzialna | $\sim 5 \times 10^{-7}$ m | $\lesssim 3 \times 10^{-29}$ |
+| Rentgenowska | $\sim 10^{-10}$ m | $\lesssim 2 \times 10^{-25}$ |
 
-Ponieważ stała strukturalna $\Gamma_{4D}$ odzwierciedla bezwładność kinetyczną całego 4-wymiarowego klastra drgającego w relacji do skali sub-planckowskiej, prędkość $c$ zostaje zredukowana o wiele rzędów wielkości względem $v$ ($c \ll v$). Prędkość światła przestaje być zatem arbitralnym aksjomatem – staje się zdefiniowaną fizycznie właściwością elastodynamiczną uśrednionej sieci 4D.
+Niezależnie od pasma widma, parametr $\xi$ spełnia rygorystycznie $\xi \ll 1$. Pojedyncza komórka Wignera-Seitza o objętości $V_{4D} \sim a^4$ nie doświadcza makroskopowego ugięcia fali jako zjawiska kierunkowego w sposób natychmiastowy.
 
-### 1.2.2. Zachowawczy charakter propagacji falowej i brak dyssypacji energii
+Zgodnie z Aksjomatem II, w stanie izotropowym (niezaburzonym) energia kinetyczna 0-cząstek, poruszających się z prędkością $v$, jest rozłożona równomiernie na 4 stopnie swobody przestrzennej. Z ekwipartycji pędu wynika, że moduł sprężystości postaciowej (ścinania) $\mu$ jest wprost proporcjonalny do pierwotnej gęstości statycznej tła $\rho_0$ oraz wariancji prędkości ortogonalnej do kierunku rozchodzenia się fali:
 
-Wprowadzenie pojęcia oporu relaksacyjnego oraz wielokrotnych zderzeń sub-planckowskich w strukturze komórek Wignera-Seitza rodzi zasadnicze pytanie o stabilność energetyczną fali. W fizyce makroskopowej każdy proces relaksacyjny wewnątrz medium wiąże się z tarciem wewnętrznym i dyssypacją (rozproszeniem) energii fali w postać ciepła, co w skali kosmologicznej prowadziłoby do niefizycznego mechanizmu „zmęczonego światła” i ciągłego wygasania fotonów.
+$$\mu = \rho_0 \langle v_{\perp}^2 \rangle = \rho_0 \frac{v^2}{4} \tag{1.2.2.2}$$
 
-Model TSM kategorycznie eliminuje zjawisko dyssypacji energii podczas propagacji falowej w czystej osnowie poprzez dwa fundamentalne warunki ontologiczne:
+Gdy fala makroskopowa wymusza koherentne przemieszczenie, komórki 4D stawiają opór o charakterze bezwładności żyroskopowej. Ultra-szybkie oscylacje w 4 osiach działają jak stabilizator położenia. Front fali wymusza zmianę stanu tych oscylacji, co napotyka na opór wynikający z konieczności kaskadowej redystrybucji pędu. Powoduje to, że efektywna gęstość bezwładna $\rho_{\text{eff}}$, jaką „widzi” fala, jest zwielokrotniona względem gęstości statycznej tła $\rho_0$.
 
-1.  **Brak sub-poziomu strukturalnego:** Ponieważ na poziomie sub-Planckowskim pierwotne 0-cząstki stanowią najniższy, niepodzielny poziom fizyczny rzeczywistości, nie istnieje żaden głębszy pod-ośrodek (np. „trybiki wewnętrzne”), na który uporządkowana energia fali mogłaby ulec termalizacji. Chaos termiczny substratu (temperatura $T_{\text{sub}}$ i prędkość $v$) jest już stanem bazowym tła. Zgodnie z Aksjomatem I, zderzenia między twardymi jądrami 0-cząstek są absolutnie elastyczne, a współczynnik restytucji wynosi dokładnie 1.
-2.  **Reaktywny (bierny) charakter impedancji sieci:** Opór stawiany przez komórki Wignera-Seitza nie ma charakteru rezystywnego (stratnego), lecz czysto reaktywny (zachowawczy), analogicznie do idealnych elementów indukcyjno-pojemnościowych lub sprężystych.
+Definiujemy makroskopowy parametr dynamicznego tłumienia geometrycznego $\Gamma_{4D}$:
 
-Podczas przejścia fali makroskopowej, każda 4-wymiarowa komórka sieciowa działa jak idealny akumulator energii falowej. Na przednim zboczu (piku) fali, komórka pochłania energię kinetyczną wymuszenia, co geometrycznie objawia się chwilową zmianą kierunków i gęstości jej wewnętrznych oscylacji 4D (generując opóźnienie fazowe odpowiedzialne za niską wartość prędkości $c$).
+$$\Gamma_{4D} \equiv \frac{v}{2c_{\perp}} \tag{1.2.2.3}$$
 
-W momencie, gdy pik fali mija dany węzeł, na tylnym zboczu fali komórka powraca do swojego pierwotnego stanu równowagi izotropowej, **w pełni i bezstratnie oddając 100% zgromadzonej energii potencjalnej** i popychając zaburzenie dalej wzdłuż 3-brany.
+Określa on, że efektywna masa bezwładna w równaniu falowym rośnie z kwadratem tego uwięzionego, żyroskopowego oporu tła:
+
+$$\rho_{\text{eff}} = \rho_0 \cdot \Gamma_{4D}^2 \tag{1.2.2.4}$$
+
+**Weryfikacja spójności kinetyki z continuum.**
+Aby sprawdzić, czy kinetyczne postulaty stanu podstawowego są zgodne z makroskopowym równaniem falowym wyznaczonym w (1.2.1.4), podstawiamy relacje (1.2.2.2) i (1.2.2.4) do wzoru na $c_{\perp}$:
+
+$$c_{\perp} = \sqrt{\frac{\mu}{\rho_{\text{eff}}}} = \sqrt{\frac{\rho_0 \frac{v^2}{4}}{\rho_0 \Gamma_{4D}^2}} = \sqrt{\frac{v^2}{4 \Gamma_{4D}^2}} = \frac{v}{2\Gamma_{4D}} \tag{1.2.2.5}$$
+
+Podstawiając definicję $\Gamma_{4D}$ ze wzoru (1.2.2.3), uzyskujemy:
+
+$$c_{\perp} = \frac{v}{2 \left( \frac{v}{2c_{\perp}} \right)} = c_{\perp} \tag{1.2.2.6}$$
+
+Tożsamość zostaje spełniona w sposób absolutnie ścisły i matematycznie zamknięty. Prędkość fali na 3-branie staje się bezwzględnie zablokowana przez stosunek $v/\Gamma_{4D}$. Zgodnie z aksjomatem dynamiki sub-planckowskiej sformułowanym w Rozdziale 0, pierwotne oscylacje zachodzą z prędkością $v \gg c_{\perp}$. Podstawienie tej relacji do definicji (1.2.2.3) dowodzi jednoznacznie:
+
+$$v \gg c_{\perp} \implies \Gamma_{4D} \gg 1 \tag{1.2.2.7}$$
+
+Wniosek jest rygorystyczny: w czasie, gdy front fali makroskopowej przemieszcza się o jeden sub-planckowski skok $a$, pierwotne 0-cząstki wykonują $\Gamma_{4D}$ cykli zderzeniowych (drgań). Ośrodek stawia tak gigantyczny żyroskopowy opór bezwładny, że prędkość propagacji zaburzeń (światła) zwalnia do wielkości minimalnej w stosunku do pierwotnej dynamiki substratu.
+
+### 1.2.3. Zachowawczy charakter propagacji falowej i brak dyssypacji energii
+
+Zdefiniowanie potężnego oporu żyroskopowego rodzi zasadnicze pytanie: w jaki sposób w medium zdominowanym przez procesy kaskadowych kolizji stabilność energetyczna fali nie ulega natychmiastowej dyssypacji na ciepło? W skali kosmologicznej prowadziłoby to do niefizycznego wygasania fotonów. Model TSM eliminuje dyssypację poprzez dwa warunki ontologiczne:
+
+1. **Brak sub-poziomu strukturalnego:** Zderzenia 0-cząstek są twarde, niepodzielne i bezwzględnie sprężyste (współczynnik restytucji wynosi 1). Ponieważ nie istnieje "wnętrze" 0-cząstki, energia nie ma jak ulec termalizacji do niższych wymiarów czy wewnętrznego tarcia. Chaos termiczny substratu ($T_{\text{sub}}$) jest stacjonarnym stanem bazowym tła.
+2. **Czysto reaktywny charakter impedancji sieci:** Komórki sieciowe działają jak geometryczny akumulator energii. Na przednim zboczu fali pochłaniają pęd makroskopowy, co manifestuje się chwilowym, sprężystym zaburzeniem oscylacji 4D. Na tylnym zboczu fali komórka powraca do stanu izotropowego, w pełni i bezstratnie oddając 100% zmagazynowanej energii.
 
 Całkowity bilans energetyczny transferu pędu w jednym pełnym cyklu falowym dla dowolnej komórki sieci wynosi dokładnie zero:
 
-<span id="eq-r1kaz">$$\Delta E_{\text{net}} = \int_{\text{front}}^{\text{tył}} \frac{\partial E_{\text{int}}}{\partial t} dt = 0 \qquad(11)$$</span>
+$$\Delta E_{\text{net}} = \int_{\text{front}}^{\text{tył}} \frac{\partial E_{\text{int}}}{\partial t} dt = 0 \tag{1.2.3.1}$$
 
-Wskutek tego propagacja fal elektromagnetycznych i grawitacyjnych w wolnej, izotropowej osnowie zachodzi w sposób całkowicie zachowawczy. Obserwowane eksperymentalnie przesunięcie ku czerwieni (redshift) w skali kosmologicznej nie jest wynikiem strat energii na skutek „tarcia” o substrat podczas podróży fotonu, lecz – zgodnie z formalizmem dylatacji osnowy (Podrozdział 1.1) – bezpośrednią konsekwencją różnic w lokalnej gęstości upakowania $\phi$ pomiędzy obszarem emisji a obszarem detekcji.
+Dlatego też redshift (przesunięcie ku czerwieni) obserwowany w kosmologii nie jest efektem tarcia fotonu o osnowę, lecz wynika ze zmiennej, uśrednionej gęstości substratu pomiędzy obszarem emisji a obszarem detekcji, zgodnie z definicją emergentnego czasu relatywistycznego.
+
+### 1.2.4 Status fali podłużnej: Superluminalne fale gęstości 4D i fluktuacje czasu
+
+Rozkład Helmholtza pola przemieszczeń w 4-Matrycy ujawnia istnienie drugiego, niezależnego modu falowego – fali podłużnej (dylatacyjnej), której prędkość propagacji wynosi:
+
+$$c_{\parallel} = \sqrt{\frac{\lambda + 2\mu}{\rho_{\text{eff}}}} \tag{1.2.4.1}$$
+
+Zgodnie z wyprowadzeniem z Podrozdziału 0.2, komórki kinetyczne 0-Matrycy stawiają potężny, asymptotyczny opór przeciwko ściskaniu objętościowemu, podczas gdy opór ścinania (rotacji) pozostaje skończony i mniejszy. W języku makroskopowych modułów sprężystości oznacza to rygorystyczną nierówność $\lambda \gg \mu$. Konsekwencją tego mechanizmu jest fakt, że prędkość fali podłużnej o wiele rzędów wielkości przekracza prędkość fal poprzecznych (światła):
+
+$$c_{\parallel} \gg c_{\perp} \tag{1.2.4.2}$$
+
+Istnienie superluminalnych zaburzeń nie narusza kinematyki relatywistycznej. W modelu TSM cała obserwowalna materia i oddziaływania elektromagnetyczne wynikają z uwięzienia węzłów topologicznych w defekcie 3-brany, a ich mechanika opiera się na transferze pędu ścinającego ($c_{\perp}$). Fala podłużna jest natomiast czysto objętościową falą ciśnienia rozchodzącą się swobodnie w pełnej przestrzeni Bulk 4D.
+
+Fizyczna manifestacja fali podłużnej uwięzionej na 3-branie ma fundamentalne znaczenie. Ponieważ fala ta polega na sferycznym zagęszczaniu i rozrzedzaniu układu komórek, powoduje ona chwilowe, przestrzenne oscylacje ułamka upakowania osnowy ($\phi$). Zgodnie z równaniem kanonicznym czasu (Rozdział 1.1), lokalna zmiana gęstości $\phi$ wprost determinuje tempo procesów fizycznych. Fale podłużne rozchodzące się w 0-Matrycy to zatem w istocie sub-planckowskie **fale dylatacji czasu**.
+
+Z punktu widzenia makroskopowych detektorów materii (opartych na polach EM, czyli naprężeniach ścinających), fale te są niewidoczne jako klasyczne promieniowanie. Generują one jednak nieustanne, sub-planckowskie fluktuacje tempa upływu lokalnego czasu w całej przestrzeni 3-brany, co w fizyce eksperymentalnej obserwowane jest jako tło szumu kwantowego (energia próżni) i może stanowić mechanistyczne podłoże dla zjawiska nielokalnego splątania kwantowego.
 
 ## 1.3. Ośrodek i przestrzeń: Globalne zakleszczenie i izotropowa 3‑brana
 
@@ -140,7 +219,7 @@ Mając zdefiniowany czas lokalny, możemy formalnie opisać strukturę przestrze
 
 W całej objętości $\mathcal{M}^4$ ułamek upakowania przekracza wartość krytyczną:
 
-<span id="eq-r1l">$$\phi \ge \phi_c \quad \text{(globalnie w 4D)} \tag{1.3.1} \qquad(12)$$</span>
+<span id="eq-r1l">$$\phi \ge \phi_c \quad \text{(globalnie w 4D)} \tag{1.3.1.1}$$</span>
 
 0‑cząstki są trwale uwięzione w komórkach Wignera‑Seitza i nie mają swobody translacyjnej. Ośrodek posiada pełny tensor sztywności i może przenosić fale poprzeczne we wszystkich czterech wymiarach. W absolutnym Stanie Zero, przed Wielkim Wydarzeniem, makroskopowe naprężenie ścinające wynosi $\sigma_{ab} = 0$, a jedyną dynamikę stanowi niekoherentny szum termiczny $T_{\text{sub}}$.
 
@@ -154,11 +233,15 @@ Obszar 4D poza 3‑braną pozostaje sztywnym, niezakłóconym szkłem topologicz
 
 W TSM metryka przestrzenna $g_{ab}$ nie jest bytem pierwotnym abstrakcyjnej geometrii; jest ona fizycznym **rzutem** stanu odkształcenia Substratu. W płaskiej, niezakłóconej 3‑brane (daleko od węzłów) ośrodek opisuje płaska metryka euklidesowa $\delta_{ab}$.
 
-Wprowadzamy fizyczne wektorowe pole przemieszczenia osnowy $\phi^a(\mathbf{x})$, opisujące odkształcenie elementu objętości od położenia równowagi. Metryka obserwowalna (Riemanna) wyłania się rygorystycznie z nieliniowych gradientów przemieszczenia:
+Wprowadzamy fizyczne wektorowe pole przemieszczenia osnowy $u^a(\mathbf{x})$, opisujące odkształcenie elementu objętości od położenia równowagi. Metryka obserwowalna (Riemanna) wyłania się rygorystycznie z nieliniowych gradientów przemieszczenia:
 
-<span id="eq-r1m">$$g_{ab} = \delta_{ab} + \nabla_a \phi_b + \nabla_b \phi_a + \delta_{cd} \nabla_a \phi^c \nabla_b \phi^d \tag{1.3.1} \qquad(13)$$</span>
+<span id="eq-r1m">$$g_{ab} = \delta_{ab} + \nabla_a \phi_b + \nabla_b \phi_a + \delta_{cd} \nabla_a \phi^c \nabla_b \phi^d \tag{1.4.1}$$</span>
 
-gdzie: - $g_{ab}$ – tensor metryczny (obserwowalna geometria przestrzeni), - $\delta_{ab}$ – płaska metryka euklidesowa (niezakłócona osnowa), - $\phi^a$ – wektor przemieszczenia osnowy $[\text{m}]$, - $\nabla_a$ – pochodna kowariantna w metryce tła $\delta_{ab}$.
+gdzie: 
+- $g_{ab}$ – tensor metryczny (obserwowalna geometria przestrzeni), 
+- $\delta_{ab}$ – płaska metryka euklidesowa (niezakłócona osnowa),
+- $u^a$ – wektor przemieszczenia osnowy $[\text{m}]$,
+- $\nabla_a$ – pochodna kowariantna w metryce tła $\delta_{ab}$.
 
 Zakrzywienie przestrzeni i wynikająca z niego grawitacja to mechaniczne naciągnięcie lokalnych komórek 0‑cząstek, tworzące makroskopowy gradient gęstości upakowania $\phi$ w stronę czwartego wymiaru przestrzennego.
 
@@ -166,19 +249,25 @@ Zakrzywienie przestrzeni i wynikająca z niego grawitacja to mechaniczne naciąg
 
 Mechanika Substratu podlega uogólnionemu formalizmowi Lagrange’a. Gęstość lagrangianu $\mathcal{L}$ izotropowej 3‑brany zdefiniowana jest przez jej całkowitą energię sprężystą, wykorzystując tensor modułów sprężystości $K^{abcd}$:
 
-<span id="eq-r1n">$$\mathcal{L} = \frac{1}{2} K^{abcd} \epsilon_{ab} \epsilon_{cd} + \mathcal{O}(\epsilon^3) \tag{1.4.1} \qquad(14)$$</span>
+<span id="eq-r1n">$$\mathcal{L} = \frac{1}{2} K^{abcd} \epsilon_{ab} \epsilon_{cd} + \mathcal{O}(\epsilon^3) \tag{1.5.1}$$</span>
 
-gdzie: - $\mathcal{L}$ – gęstość lagrangianu $[\text{J} \cdot \text{m}^{-3}]$, - $K^{abcd}$ – tensor modułów sprężystości $[\text{Pa}]$, - $\epsilon_{ab}$ – tensor odkształcenia (bezwymiarowy), $\epsilon_{ab} = \frac{1}{2}(\nabla_a \phi_b + \nabla_b \phi_a)$.
+gdzie:
+- $\mathcal{L}$ – gęstość lagrangianu $[\text{J} \cdot \text{m}^{-3}]$,
+- $K^{abcd}$ – tensor modułów sprężystości $[\text{Pa}]$,
+- $\epsilon_{ab}$ – tensor odkształcenia (bezwymiarowy), $\epsilon_{ab} = \frac{1}{2}(\nabla_a \phi_b + \nabla_b \phi_a)$.
 
 Pochodna lagrangianu względem tensora odkształcenia jednoznacznie określa tensor naprężenia:
 
-<span id="eq-r1o">$$\sigma^{ab} = \frac{\partial \mathcal{L}}{\partial \epsilon_{ab}} = K^{abcd} \epsilon_{cd} \tag{1.4.2} \qquad(15)$$</span>
+<span id="eq-r1o">$$\sigma^{ab} = \frac{\partial \mathcal{L}}{\partial \epsilon_{ab}} = K^{abcd} \epsilon_{cd} \tag{1.5.2}$$</span>
 
 Drobne odkształcenia pola w 3‑brane spełniają równanie falowe w globalnym czasie odniesienia $t_{\text{flat}}$:
 
-$$\nabla^2 \phi - \frac{1}{c_{\perp}^2} \frac{\partial^2 \phi}{\partial t_{\text{flat}}^2} = \mathcal{S}(\mathbf{x}, t_{\text{flat}}) \tag{1.4.3}$$
+$$\nabla^2 \phi - \frac{1}{c_{\perp}^2} \frac{\partial^2 \phi}{\partial t_{\text{flat}}^2} = \mathcal{S}(\mathbf{x}, t_{\text{flat}}) \tag{1.5.3}$$
 
-gdzie: - $\nabla^2$ – laplasjan w metryce tła $\delta_{ab}$, - $c_{\perp}$ – prędkość propagacji poprzecznych fal ścinających (bazowa prędkość światła) $[\text{m} \cdot \text{s}^{-1}]$, - $\mathcal{S}(\mathbf{x}, t_{\text{flat}})$ – funkcja źródła, reprezentująca obecność trwałych odkształceń topologicznych (węzłów).
+gdzie:
+- $\nabla^2$ – laplasjan w metryce tła $\delta_{ab}$,
+- $c_{\perp}$ – prędkość propagacji poprzecznych fal ścinających (bazowa prędkość światła) $[\text{m} \cdot \text{s}^{-1}]$,
+- $\mathcal{S}(\mathbf{x}, t_{\text{flat}})$ – funkcja źródła, reprezentująca obecność trwałych odkształceń topologicznych (węzłów).
 
 Krzywizna geometryczna $g_{ab}$ jest bezpośrednim odzwierciedleniem tensora naprężenia tła, sprzężonym przez elastyczne stałe materiałowe Substratu.
 
@@ -252,17 +341,17 @@ Kształt węzła ulega mechanicznej kompresji o czynnik geometryczny $\gamma$ po
 
 Energia całkowita węzła poruszającego się z prędkością współrzędnościową $v$ składa się z energii spoczynkowej (sprężernej deformacji 4D) oraz energii kinetycznej (odpowiedzi osnowy na ruch). Całkowita energia odkształcenia osnowy w obecności poruszającego się węzła wynosi:
 
-<span id="eq-r1ad">$$E = \gamma E_0 = \frac{E_0}{\sqrt{1 - \frac{v^2}{c_{\perp}^2}}} \tag{1.7.2} \qquad(19)$$</span>
+<span id="eq-r1ad">$$E = \gamma E_0 = \frac{E_0}{\sqrt{1 - \frac{v^2}{c_{\perp}^2}}} \tag{1.8.2.1}$$</span>
 
 gdzie $E_0 = m_0 c_{\perp}^2$ to energia spoczynkowa węzła w układzie własnym, a $m_0$ to masa spoczynkowa (energia sprężysta splotu w 4D).
 
 Masa relatywistyczna – jako miara całkowitej energii – wynosi:
 
-<span id="eq-r1ae">$$m = \gamma m_0 = \frac{m_0}{\sqrt{1 - \frac{v^2}{c_{\perp}^2}}} \tag{1.7.3} \qquad(20)$$</span>
+<span id="eq-r1ae">$$m = \gamma m_0 = \frac{m_0}{\sqrt{1 - \frac{v^2}{c_{\perp}^2}}} \tag{1.8.2.2}$$</span>
 
 Pęd węzła definiujemy jako strumień energii sprężystej w kierunku ruchu, powiązany z przyrostem lokalnego czasu własnego:
 
-<span id="eq-r1af">$$p = m_0 \frac{dx}{dt} = m_0 \eta = \gamma m_0 v \tag{1.7.4} \qquad(21)$$</span>
+<span id="eq-r1af">$$p = m_0 \frac{dx}{dt} = m_0 \eta = \gamma m_0 v \tag{1.8.2.3}$$</span>
 
 Równanie siły działającej na węzeł wewnątrz osnowy – po uwzględnieniu lokalnego czynnika dylatacji czasu ($dt = dt_{\text{flat}}/\gamma$) – ujawnia zjawisko asymptotycznego oporu falowego przy próbie zmiany stanu pędu:
 
@@ -272,9 +361,9 @@ Gdy prędkość współrzędnościowa węzła zbliża się do prędkości fal ś
 
 ### 1.8.3. Związek energii i pędu – relacja dyspersyjna
 
-Z równań (1.7.2) i (1.7.4) natychmiast wynika relatywistyczna relacja dyspersyjna:
+Z równań (1.8.2.1) i (1.8.2.3) natychmiast wynika relatywistyczna relacja dyspersyjna:
 
-<span id="eq-r1ah">$$E^2 = (pc_{\perp})^2 + (m_0 c_{\perp}^2)^2 \tag{1.7.6} \qquad(23)$$</span>
+<span id="eq-r1ah">$$E^2 = (pc_{\perp})^2 + (m_0 c_{\perp}^2)^2 \tag{1.8.3.1}$$</span>
 
 Dla fotonu – fali poprzecznej bez masy spoczynkowej ($m_0 = 0$) – energia i pęd są związane przez $E = pc_{\perp}$, co jest zgodne z klasyczną elektrodynamiką i mechaniką kwantową.
 
@@ -282,19 +371,27 @@ Dla fotonu – fali poprzecznej bez masy spoczynkowej ($m_0 = 0$) – energia i 
 
 Prędkość światła nie jest stałą uniwersalną; wynika bezpośrednio z nieliniowego zjawiska akustoelastyczności gęstego kontinuum. W obszarze poddanym napięciu mechanicznemu ($\Sigma$), lokalna prędkość fal poprzecznych $c_{\perp,\text{lok}}$ modulowana jest przez sztywność nieliniową (stałe Murnaghana $\mathcal{A}$):
 
-<span id="eq-r1i">$$c_{\perp,\text{lok}}^2 = \frac{\mu}{\rho_0} \left( 1 + \mathcal{A} \Sigma \right) \tag{1.8.1} \qquad(24)$$</span>
+<span id="eq-r1i">$$c_{\perp,\text{lok}}^2 = \frac{\mu}{\rho_0} \left( 1 + \mathcal{A} \Sigma \right) \tag{1.9.1}$$</span>
 
-gdzie: - $\mu$ – moduł sztywności postaciowej osnowy $[\text{Pa}]$, - $\rho_0$ – gęstość masy (bezwładnej) 0‑cząstek $[\text{kg} \cdot \text{m}^{-3}]$, - $\mathcal{A}$ – stała nieliniowości Murnaghana $[\text{Pa}^{-1}]$, - $\Sigma$ – ślad tensora naprężenia $[\text{Pa}]$.
+gdzie:
+- $\mu$ – moduł sztywności postaciowej osnowy $[\text{Pa}]$,
+- $\rho_0$ – gęstość masy (bezwładnej) 0‑cząstek $[\text{kg} \cdot \text{m}^{-3}]$,
+- $\mathcal{A}$ – stała nieliniowości Murnaghana $[\text{Pa}^{-1}]$,
+- $\Sigma$ – ślad tensora naprężenia $[\text{Pa}]$.
 
 W zapisie elektrodynamicznym przekłada się to bezpośrednio na efektywną przepustowość Substratu:
 
-<span id="eq-r1j">$$c_{\perp,\text{lok}} = \frac{1}{\sqrt{\epsilon_{\text{eff}} \mu_0}} \tag{1.8.2} \qquad(25)$$</span>
+<span id="eq-r1j">$$c_{\perp,\text{lok}} = \frac{1}{\sqrt{\epsilon_{\text{eff}} \mu_0}} \tag{1.9.2}$$</span>
 
 Parametr $\epsilon_{\text{eff}}$ zależy od lokalnych gradientów naprężeń wywołanych polami magnetycznymi lub grawitacyjnym ugięciem w kierunku czwartego wymiaru:
 
-$$\epsilon_{\text{eff}} = \epsilon_0 \left(1 + \kappa B^2 + \lambda \frac{\Phi}{c_{\perp}^2} + \dots\right) \tag{1.8.3}$$
+$$\epsilon_{\text{eff}} = \epsilon_0 \left(1 + \kappa B^2 + \lambda \frac{\Phi}{c_{\perp}^2} + \dots\right) \tag{1.9.3}$$
 
-gdzie: - $\epsilon_0$ – przenikalność elektryczna płaskiej osnowy $[\text{F} \cdot \text{m}^{-1}]$, - $\kappa$ – stała sprzężenia magneto‑elastycznego $[\text{T}^{-2}]$, - $\lambda$ – stała sprzężenia grawitacyjnego (bezwymiarowa), - $\Phi$ – potencjał grawitacyjny $[\text{m}^2 \cdot \text{s}^{-2}]$.
+gdzie:
+- $\epsilon_0$ – przenikalność elektryczna płaskiej osnowy $[\text{F} \cdot \text{m}^{-1}]$,
+- $\kappa$ – stała sprzężenia magneto‑elastycznego $[\text{T}^{-2}]$,
+- $\lambda$ – stała sprzężenia grawitacyjnego (bezwymiarowa),
+- $\Phi$ – potencjał grawitacyjny $[\text{m}^2 \cdot \text{s}^{-2}]$.
 
 W modelu TSM dotychczasowe bezwymiarowe stałe fizyczne tracą swój abstrakcyjny status, stając się parametrami mechanotermodynamicznymi i stałymi materiałowymi 4‑wymiarowego kontinuum:
 
@@ -304,7 +401,7 @@ W modelu TSM dotychczasowe bezwymiarowe stałe fizyczne tracą swój abstrakcyjn
 - $G_{\text{eff}}$ – efektywna stała grawitacji, zdeterminowana przez globalny stopień relaksowania i gęstość tła Substratu,
 - $T_0$, $\phi_0$ – referencyjne stałe czasowe i gęstościowe, definiujące rytm lokalnych zegarów.
 
-## 1.10. Podsumowanie<sub>Rozdziału</sub>
+## 1.10. Podsumowanie Rozdziału
 
 - **Czas jako funkcja gęstości osnowy:** Czas absolutny zostaje całkowicie odrzucony. Lokalny czas własny $t$ jest definiowany przez liczbę cykli procesów okresowych, spowalnianych przez uśrednioną makroskopowo gęstość upakowania $\phi$: $dt = dN \cdot T_0 \cdot \phi_0/\langle\phi\rangle_{\text{macro}}$. Dylatacja grawitacyjna i kinematyczna wynikają bezpośrednio ze zmian gęstości – wzrost lokalnego upakowania $\phi$ rygorystycznie minimalizuje przyrost $dt$, powodując spowolnienie procesów fizycznych. Zależność grawitacyjna została skorygowana liniowo ($dt/dt_{\text{flat}} \approx 1 - |\Phi|/c^2$), co zapewnia idealną zgodność z fizyką eksperymentalną.
 - **Globalne zakleszczenie:** Cała 4‑wymiarowa bańka od początku znajduje się w stanie sztywnego szkła topologicznego. 3‑brana jest trwałym defektem – skręceniem hiperpowierzchni powstałym podczas Wielkiego Wydarzenia.

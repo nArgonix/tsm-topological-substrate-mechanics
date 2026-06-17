@@ -33,7 +33,7 @@ Czas nie jest pierwotnym wymiarem ani samodzielną areną ewolucji układów. Cz
 
 Przyrost lokalnego czasu własnego $dt$ wyraża się równaniem:
 
-$$dt = dN \cdot T_0 \cdot \frac{\phi_0}{\langle\phi\rangle_{\text{macro}}}$$ {#eq-r1b}
+$$dt = dN \cdot T_0 \cdot \frac{\phi_0}{\langle\phi\rangle_{\text{macro}}}$$ {#eq-r1-czasEmergentny}
 
 gdzie:
 * $dt$ – przyrost lokalnego czasu własnego [s],
