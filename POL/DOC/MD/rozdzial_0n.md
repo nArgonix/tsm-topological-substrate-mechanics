@@ -1,3 +1,23 @@
+---
+title: "Tytuł Twojego Dokumentu"
+author: "Jan Kowalski"
+date: today
+date-format: "YYYY-MM-DD"
+format:
+  pdf:
+    include-in-header:
+      text: |
+        \usepackage{fancyhdr}
+        \pagestyle{fancy}
+        \fancyhf{} % Wyczyszczenie domyślnych nagłówków i stopek
+        \renewcommand{\headrulewidth}{0pt} % Usunięcie linii poziomej w nagłówku
+        \renewcommand{\footrulewidth}{0.5pt} % Opcjonalnie: cienka linia nad stopką
+        
+        % Konfiguracja stopki:
+        % [L] - lewa strona, [C] - środek, [R] - prawa strona
+        \fancyfoot[L]{\textcopyright\ \the\year\ Jan Kowalski. Wszelkie prawa zastrzeżone.}
+        \fancyfoot[R]{\thepage} % Numer strony po prawej
+---
 <!-- ver:5.0.1 -->
 # Aksjomatyczna Ontologia 0-Matrycy — Mechaniczny Silnik Rzeczywistości
 

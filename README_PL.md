@@ -7,7 +7,19 @@
 
 W teorii TSM przestrzeń nie jest nicością, lecz ultrazwartym, sprężystym substratem (Osnową Topologiczną) utworzonym przez sub-planckowskie elementy o niezerowej objętości własnej. Materia, grawitacja oraz oddziaływania fundamentalne wyłaniają się tutaj nie z dodatkowych pól siłowych, lecz z czystej mechaniki i topologii tego ośrodka.
 
----
+>[!NOTE]
+>Obecnie skupiam się na kompletnej przebudowie rozdziałów 0 i 1, aby stanowiły w pełni spójny, matematyczny fundament pod dalsze zagadnienia teorii. Wczesne wersje manifestu miały charakter roboczych notatek badawczych, co mogło prowadzić do niespójności lub błędów formalnych. Aktualna rewizja rozdziału 0 została przepisana od zera, aby spełniać surowe wymogi rygorystycznego opracowania naukowego.
+
+**Zasady dotyczące statusu tłumaczeń (Translation Status Policy):**
+
+**Wersja < 2.0.0 (Wczesne wersje robocze):** Rozdziały niekompletne, w fazie intensywnego rozwoju. Tłumaczenie tych treści nie jest obecnie priorytetem.
+
+**Wersja ≥ 2.0.0 (Faza głębokiej rewizji):** Tekst przechodzący istotne zmiany pojęciowe i strukturalne. Tłumaczony wyłącznie na wyraźną prośbę lub w miarę dostępności czasu.
+
+**Wersja ≥ 5.0.0 (Wersja stabilna / Docelowa):** W pełni dojrzały, rygorystyczny tekst naukowy. Rozdziały te są uznawane za stabilne i będą tłumaczone na bieżąco.
+
+Werske plików można sprawdzić na tej tutaj: [UPDATE_CHK.md](UPDATE_CHK.md)
+
 
 ## Główne założenia (Aksjomaty TSM)
 
