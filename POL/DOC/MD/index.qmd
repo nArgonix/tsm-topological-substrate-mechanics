@@ -1,0 +1,10 @@
+# Wstęp {.unnumbered}
+asdfasdfaa sadf
+sadf
+asd
+fasd
+fas
+df
+sda
+```{=latex}
+\setcounter{chapter}{0}   % następny będzie 0

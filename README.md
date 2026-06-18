@@ -1,6 +1,9 @@
 <h1 align="center">
   <b>T</b>opological 0-<b>M</b>atrix<sub>(Substrate)</sub> <b>M</b>echanics
 </h1>
+<p align="center">
+  by <b>Piotr Szopinski</b> (Peter [sho-peen-skee])
+</p>
 </br>
 
 <p>This monograph presents a complete, alternative foundation for fundamental physics, achieving a radical simplification of the description of reality by eliminating the abstract concept of empty spacetime in favor of continuum mechanics. <b>T</b>opological 0-Matrix (<b>S</b>ubstrate) <b>M</b>echanics (TSM) proves that the entire observable Universe emerges as a macroscopic, elasto-dynamic manifestation of a sub-Planckian, geometrically jammed network of oscillators—the titular 0-Matrix.</p>
@@ -15,17 +18,22 @@
 <br>
 
 > [!NOTE]
-> Due to the high complexity of the subject matter, this work is originally authored in Polish and subsequently translated into English. Please be aware that minor translation errors or stylistic nuances may occasionally occur during this process. If you encounter any inaccuracies in mathematical formulas, missing symbols, or ambiguities in the translation of key concepts and definitions, you are warmly invited to report them (via GitHub Issues or Pull Requests) so they can be promptly corrected.
->
-> **Translation Status Policy:**
-> * **Version < 1.0.0:** These chapters are incomplete and currently under active development. They will not be prioritized for translation in the near future.
-> * **Version ≥ 1.0.0:** These chapters are being reviewed and edited. They will be translated upon request or when time permits.
-> * **Version ≥ 2.0.0:** These chapters are considered stable and will be translated on an ongoing basis.
 > 
-> To monitor the current translation status and verify which chapter versions are fully up to date, please consult the [UPDATE_CHK.md](UPDATE_CHK.md) file.
+>Currently, I am focusing on a complete overhaul of Chapters 0 and 1 to ensure they provide a fully coherent, mathematical foundation for the subsequent development of the theory. Earlier versions of the manifesto served more as working research notes, which may have led to inconsistencies or formal errors. The current revision of Chapter 0 has been rewritten from scratch to meet the rigorous standards of a formal scientific publication.
+>
+
+**Translation Status Policy:**
+
+* **Version < 2.0.0 (Early Drafts):** Incomplete working notes under active development. These will not be prioritized for translation.
+* **Version ≥ 2.0.0 (Major Revision Phase):** Chapters undergoing significant conceptual and structural overhauls. Translated only upon request or as time permits.
+* **Version ≥ 5.0.0 (Production-Ready / Stable):** Fully matured, rigorous scientific text. These chapters are considered stable and will be translated on an ongoing basis.
+ 
+To monitor the current translation status and verify which chapter versions are fully up to date, please consult the [UPDATE_CHK.md](UPDATE_CHK.md) file.
 
 > [!NOTE]
-> The TOC might be outdated, but the topics it contains will still be included in newer versions of this work.
+> 
+> The Table of Contents (TOC) IS VERY OUTDATED, but all topics listed there will still be included in future versions of this work.
+> 
 ---
 
 <h1 align="left">Table of Contents</h1>

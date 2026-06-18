@@ -1,10 +1,82 @@
-# _quarto_md.yml
-# Plik konfiguracyjny tylko do generowania Markdown (GFM)
 project:
-  type: default
+  type: book
+  output-dir: _output   # gdzie trafiają wygenerowane pliki
+
+
+book:
+  title: "Topolgiczna Mechanika Substratu"
+  author: "Piotr Szopinski"
+  date: "2026"
+  chapters:
+    - index.qmd
+    - rozdzial_0.md
+    - rozdzial_1.md
+    - rozdz.2c.md
+
 
 format:
-  markdown:
-    variant: gfm
+  html:
+    theme: superhero
+    css: styles.css
+    toc: true
+    toc-depth: 4
+    number-sections: true # numeracja rozdziałów i podrozdziałów
+    lang: pl
+  pdf:
+    documentclass: book
+    toc: true
     number-sections: true
-    number-equations: true
+    number-depth: 4          # ile poziomów numerować
+    classoption: oneside       # Wyłącza asymetrię stron parzystych/nieparzystych
+    geometry:
+      - top=2.5cm              # Równy margines górny
+      - bottom=2.5cm           # Równy margines dolny
+      - left=2.5cm             # Równy margines lewy
+      - right=2.5cm            # Równy margines prawy
+    lang: pl
+
+    include-in-header:
+      text: |
+        \usepackage{titlesec}
+        \titleformat{\chapter}[display]{\normalfont\huge\bfseries}{}{0pt}{\thechapter. }
+                
+        \titleformat{\chapter}[display]
+          {\normalfont\huge\bfseries}
+          {\MakeUppercase{Rozdział} \thechapter.}
+          {0.5em}
+          {}
+
+        \titleformat{\section}
+          {\normalfont\Large\bfseries}
+          {\thesection}
+          {1em}
+          {}
+
+        \titleformat{\subsection}
+          {\normalfont\large\bfseries}
+          {\thesubsection}
+          {1em}
+          {}
+
+        \titleformat{\subsubsection}
+          {\normalfont\normalsize\bfseries}
+          {\thesubsubsection}
+          {1em}
+          {}
+        \renewcommand{\thechapter}{\the\numexpr\value{chapter}-1\relax}
+
+  # \renewcommand{\thechapter}{\the\numexpr\value{chapter}-1\relax}
+  markdown: 
+    wrap: none                # czysty export do .md
+
+crossref:
+  chapters: true              # ważne – włącza numerację z prefiksem rozdziału (np. 2.3, Rys. 2.1)
+
+knitr:
+  opts_chunk:
+    echo: false
+    warning: false
+
+
+
+

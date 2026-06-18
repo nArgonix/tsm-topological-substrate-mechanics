@@ -1,0 +1,14 @@
+---
+title: "Spis Treści"
+---
+
+# Spis Treści {.unnumbered}
+
+```{.toc}
+```
+
+```{=html}
+<nav id="TOC" class="toc"></nav>
+
+$table-of-contents$
+{{< table-of-contents >}}

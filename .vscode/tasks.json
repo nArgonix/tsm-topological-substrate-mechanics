@@ -1,0 +1,19 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Aktualizuj Referencje",
+            "type": "shell",
+            "command": "python",
+            "args": [
+                "${workspaceFolder}/Pyth_prg/_globalRefs.py"
+            ],
+            "group": "none",
+            "presentation": {
+                "reveal": "silent",
+                "panel": "shared"
+            },
+            "problemMatcher": []
+        }
+    ]
+}

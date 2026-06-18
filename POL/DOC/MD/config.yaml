@@ -1,0 +1,22 @@
+# config.yaml
+# Ustawienia dla pandoc-crossref
+chapters: true
+numberSections: true
+chapterLevel: -1
+chaptersDepth: 3
+sectionsDepth: -1
+equations: true
+chapterTitleDelim: "."
+# Numerowanie wzorów w formacie (rozdział.wzór) 
+eqnPrefix: "wzór:"
+tblPrefix: "tab:"
+secPrefix: "rozdział:"
+eqNumberSeparator: "."
+# Ustawienia dla sekcji
+secHeaderTemplate: $$secHeaderPrefix[n]$$$$i$$. $$t$$
+secHeaderPrefix:
+  - "Chapter&#32;"
+  - ""
+  - ""
+
+

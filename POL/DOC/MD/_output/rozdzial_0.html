@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pl" xml:lang="pl"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.38">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>1&nbsp; Aksjomaty 0-Matrycy (substratu) , czyli mechaniczny „silnik” rzeczywistości – Topolgiczna Mechanika Substratu</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./rozdzial_1.html" rel="next">
+<link href="./index.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-0f0a6973dfca58b6a28f87d7a68c58f9.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Brak wyników",
+    "search-matching-documents-text": "dopasowane dokumenty",
+    "search-copy-link-title": "Kopiuj link do wyszukiwania",
+    "search-hide-matches-text": "Ukryj dodatkowe dopasowania",
+    "search-more-match-text": "więcej dopasowań w tym dokumencie",
+    "search-more-matches-text": "więcej dopasowań w tym dokumencie",
+    "search-clear-button-title": "Wyczyść",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Anuluj",
+    "search-submit-button-title": "Zatwierdź",
+    "search-label": "Szukaj"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-sidebar floating quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Przełącz pasek boczny" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./rozdzial_0.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Aksjomaty 0-Matrycy (substratu) , czyli mechaniczny „silnik” rzeczywistości</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Przełącz pasek boczny" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Szukaj" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Topolgiczna Mechanika Substratu</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Szukaj"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Wstęp</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./rozdzial_0.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Aksjomaty 0-Matrycy (substratu) , czyli mechaniczny „silnik” rzeczywistości</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./rozdzial_1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Formalizm Mechaniki Substratu Topologicznego – czas emergentny, dynamika i kinematyka relatywistyczna</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./rozdz.2c.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Węzły topologiczne, emergencja solitoniczna i struktura materii w TSM – formalizm elastodynamiki 4D, model Faddeeva–Skyrme’a, hydrodynamika bezwładności oraz geometryczne pochodzenie spinu i masy</span></span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Spis treści</h2>
+   
+  <ul>
+  <li><a href="#odrzucenie-niefizycznej-pustki" id="toc-odrzucenie-niefizycznej-pustki" class="nav-link active" data-scroll-target="#odrzucenie-niefizycznej-pustki"><span class="header-section-number">1.1</span> Odrzucenie niefizycznej pustki</a></li>
+  <li><a href="#sprężystość-z-czystej-kinetyki-birkhoffkhinchin-theorem-i-koncepcja-czasu-wirtualnego" id="toc-sprężystość-z-czystej-kinetyki-birkhoffkhinchin-theorem-i-koncepcja-czasu-wirtualnego" class="nav-link" data-scroll-target="#sprężystość-z-czystej-kinetyki-birkhoffkhinchin-theorem-i-koncepcja-czasu-wirtualnego"><span class="header-section-number">1.2</span> Sprężystość z czystej kinetyki, Birkhoff–Khinchin theorem i koncepcja czasu wirtualnego</a></li>
+  <li><a href="#reżim-krytyczny-osnowy-asymptotyczna-bariera-siłowa-i-mechanizm-plastycznego-płynięcia" id="toc-reżim-krytyczny-osnowy-asymptotyczna-bariera-siłowa-i-mechanizm-plastycznego-płynięcia" class="nav-link" data-scroll-target="#reżim-krytyczny-osnowy-asymptotyczna-bariera-siłowa-i-mechanizm-plastycznego-płynięcia"><span class="header-section-number">1.3</span> Reżim krytyczny osnowy, asymptotyczna bariera siłowa i mechanizm plastycznego płynięcia</a>
+  <ul>
+  <li><a href="#asymptotyczny-zakaz-styku-fizycznego-i-trwałego-zakleszczenia" id="toc-asymptotyczny-zakaz-styku-fizycznego-i-trwałego-zakleszczenia" class="nav-link" data-scroll-target="#asymptotyczny-zakaz-styku-fizycznego-i-trwałego-zakleszczenia"><span class="header-section-number">1.3.1</span> Asymptotyczny zakaz styku fizycznego i trwałego zakleszczenia</a></li>
+  <li><a href="#klauzula-krytycznego-przemieszczenia-pod-wpływem-naprężeń-ścinających" id="toc-klauzula-krytycznego-przemieszczenia-pod-wpływem-naprężeń-ścinających" class="nav-link" data-scroll-target="#klauzula-krytycznego-przemieszczenia-pod-wpływem-naprężeń-ścinających"><span class="header-section-number">1.3.2</span> Klauzula Krytycznego Przemieszczenia pod wpływem naprężeń ścinających</a></li>
+  <li><a href="#warunek-mikroskopowy-powrotu-do-stanu-podstawowego" id="toc-warunek-mikroskopowy-powrotu-do-stanu-podstawowego" class="nav-link" data-scroll-target="#warunek-mikroskopowy-powrotu-do-stanu-podstawowego"><span class="header-section-number">1.3.3</span> Warunek mikroskopowy powrotu do stanu podstawowego</a></li>
+  </ul></li>
+  <li><a href="#stan-relaksacji-autoregulacja-0-matrycy" id="toc-stan-relaksacji-autoregulacja-0-matrycy" class="nav-link" data-scroll-target="#stan-relaksacji-autoregulacja-0-matrycy"><span class="header-section-number">1.4</span> Stan Relaksacji: Autoregulacja 0-Matrycy</a></li>
+  <li><a href="#narodziny-błony-wielkie-wydarzenie-i-defekt-topologiczny" id="toc-narodziny-błony-wielkie-wydarzenie-i-defekt-topologiczny" class="nav-link" data-scroll-target="#narodziny-błony-wielkie-wydarzenie-i-defekt-topologiczny"><span class="header-section-number">1.5</span> Narodziny Błony (Wielkie Wydarzenie i defekt topologiczny)</a></li>
+  <li><a href="#aksjomat-skończoności-fizycznej-kategoryczne-wykluczenie-osobliwości-i-czarnych-dziur" id="toc-aksjomat-skończoności-fizycznej-kategoryczne-wykluczenie-osobliwości-i-czarnych-dziur" class="nav-link" data-scroll-target="#aksjomat-skończoności-fizycznej-kategoryczne-wykluczenie-osobliwości-i-czarnych-dziur"><span class="header-section-number">1.6</span> Aksjomat Skończoności Fizycznej: Kategoryczne wykluczenie osobliwości i „czarnych dziur”</a></li>
+  <li><a href="#kreacja-pierwszych-zniekształceń-alternatywa-dla-wielkiego-wybuchu" id="toc-kreacja-pierwszych-zniekształceń-alternatywa-dla-wielkiego-wybuchu" class="nav-link" data-scroll-target="#kreacja-pierwszych-zniekształceń-alternatywa-dla-wielkiego-wybuchu"><span class="header-section-number">1.7</span> Kreacja pierwszych zniekształceń: Alternatywa dla Wielkiego Wybuchu</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Aksjomaty 0-Matrycy (substratu) , czyli mechaniczny „silnik” rzeczywistości</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<!-- ver:4.0.0 -->
+<p>Oto propozycja nowego, mechanicznego opisu rzeczywistości, który pozwala w prosty sposób wyjaśnić najważniejsze wnioski płynące z Ogólnej Teorii Względności oraz Modelu Standardowego. TSM (Topological Substrate Mechanics) nie próbuje na siłę łączyć tych dwóch teorii na ich obecnym poziomie. Zamiast tego schodzi piętro niżej – do głębokiej mechaniki świata mikro – i stamtąd naturalnie wyprowadza znane nam zjawiska, takie jak spowalnianie czasu czy prędkość światła <span class="math inline">\(c\)</span>.</p>
+<p>Według TSM prędkości większe od <span class="math inline">\(c\)</span> są jak najbardziej możliwe, ale w czwartym wymiarze przestrzennym. W naszym trójwymiarowym świecie prędkość <span class="math inline">\(c\)</span> określa po prostu największą prędkość propagacji znanych nam fal poprzecznych. Na najgłębszym, mikroskopowym poziomie pierwotne 0-cząstki mogą oscylować z prędkościami o wiele większymi (<span class="math inline">\(v \gg c\)</span>). Te potężne mikro-drgania nie mają jednak nic wspólnego z upływem czasu – ich jedynym zadaniem jest budowanie wewnętrznych naprężeń i ciśnienia całej osnowy. Znany nam czas relatywistyczny wyłania się dopiero wyżej, jako wynik cyklicznego działania i powtarzalnych procesów zorganizowanej materii uwięzionej w naszej branie.</p>
+<p>Co więcej, TSM diametralnie upraszcza dotychczasowy Model Standardowy – całkowicie eliminuje potrzebę zakładania istnienia wielu różnych, niezależnych cząstek czy fundamentalnych sił oddziaływań. Pokazuje bowiem, że wszystko, co obserwujemy, sprowadza się do odmiennych kształtów, drgań i odkształceń jednego, wspólnego ośrodka. TSM zbiera najważniejsze osiągnięcia nauki i przekłada skomplikowane równania matematyczne na uniwersalny, zrozumiały dla każdego język mechaniki odkształceń.</p>
+<section id="odrzucenie-niefizycznej-pustki" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="odrzucenie-niefizycznej-pustki"><span class="header-section-number">1.1</span> Odrzucenie niefizycznej pustki</h2>
+<p>Jednym z największych wyzwań współczesnej fizyki jest wyjaśnienie natury próżni. Intuicja podpowiada nam, że fala jest zawsze zaburzeniem ośrodka: kamień wrzucony do wody tworzy rozchodzące się kręgi, a dźwięk potrzebuje powietrza, by dotrzeć do naszych uszu. Fizyka klasyczna od dawna akceptuje to jako oczywistość, jednak kiedy przechodzimy do światła czy fal radiowych, nagle godzimy się na to, że przenoszą one energię przez zupełną nicość. To logiczne niedopowiedzenie, którego nie możemy dłużej ignorować.</p>
+<p>Odrzucamy ten dogmat, wprowadzając pierwszy aksjomat: przestrzeń nie jest pusta. Jest wypełniona fundamentalnymi elementami materii – 0-cząstkami. Ich wymiary są rzędu sub-planckowskiego, co sprawia, że są one dla naszych obecnych technologii całkowicie niedostrzegalne jako „obiekty”, stanowiąc jednak jednolity, gęsty substrat rzeczywistości.</p>
+<p>Cząstki te nie posiadają ładunków ani złożonej struktury wewnętrznej. Jako najprostsze, niepodzielne jednostki materii, charakteryzują się identyczną, elementarną masą – rozumianą wyłącznie jako parametr bezwładności, opisujący opór stawiany przy zmianie stanu ich oscylacji. Masa ta nie jest źródłem pola grawitacyjnego. Grawitacja w TSM jest własnością trwałych deformacji topologicznych, a nie jednorodnego tła. Każda 0-cząstka posiada także ściśle określoną, niezerową objętość własną (<span class="math inline">\(V\_0 &gt; 0\)</span>). Wykluczamy tym samym z teorii abstrakcyjny koncept matematycznego „punktu materialnego” o zerowym wymiarze. Ponieważ transformacje relatywistyczne i bariera prędkości <span class="math inline">\(c\)</span> są w TSM wyłącznie emergentną cechą falową struktury 3-brany, pierwotna mechanika 4D na poziomie sub-planckowskim ma charakter absolutny (nie-relatywistyczny). Pozwala to na realizację pędu i energii kinetycznej przy v≫c bez generowania nieskończoności relatywistycznych, które w tej skali jeszcze nie istnieją.</p>
+<p>W tym modelu każdy stan energetyczny osnowy sprowadza się do czystej mechaniki sub-planckowskiej – energii kinetycznej wynikającej z nieustannych oscylacji i kolizji sferycznych reprezentacji tych cząstek. Podkreślamy z całą stanowczością: te pierwotne mikro-oscylacje i pęd 0-cząstek nie mierzą ani nie definiują upływu czasu. Stanowią one wyłącznie mechaniczne źródło energii tła, odpowiedzialne za generowanie globalnego ciśnienia oraz lokalnych gradientów naprężeń w 0-Matrycy. Wszystko, co obserwujemy jako makroskopowe zjawiska fizyczne, wyłoni się dopiero jako echo geometrii tych naprężeń.</p>
+</section>
+<section id="sprężystość-z-czystej-kinetyki-birkhoffkhinchin-theorem-i-koncepcja-czasu-wirtualnego" class="level2" data-number="1.2">
+<h2 data-number="1.2" class="anchored" data-anchor-id="sprężystość-z-czystej-kinetyki-birkhoffkhinchin-theorem-i-koncepcja-czasu-wirtualnego"><span class="header-section-number">1.2</span> Sprężystość z czystej kinetyki, Birkhoff–Khinchin theorem i koncepcja czasu wirtualnego</h2>
+<p>Tradycyjna fizyka postrzega sprężystość materiałów przez pryzmat „niewidzialnych sprężyn” – sił, które łączą cząstki i stawiają opór przy próbie zmiany ich wzajemnego położenia. W ramach formalizmu TSM odrzucamy ten opis, ponieważ wymaga on zakładania istnienia sił wewnątrz struktury przed wyjaśnieniem samej natury siły. Nie wprowadzamy żadnych dodatkowych pól siłowych ani przyciągających oddziaływań. Zamiast tego, całą sprężystość wywodzimy wyłącznie z przestrzennej dynamiki kolizyjnej 0-cząstek.</p>
+<p>Zgodnie z fundamentalnymi założeniami teorii, czas relatywistyczny jest wielkością emergentną i nie istnieje na najgłębszym poziomie strukturalnym 0-Matrycy. Aby jednak móc formalnie opisać kinematykę pierwotnych komponentów osnowy przed wyłonieniem się makroskopowego upływu zjawisk, konieczne jest wprowadzenie pomocniczego instrumentu operacyjnego. W tym celu definiujemy pojęcie <strong>wirtualnej sekundy</strong> (<span class="math inline">\(\tau_{\text{virt}}\)</span>). Stanowi ona elementarny interwał sub-temporalny determinowany wyłącznie przez mikroskopową dynamikę pojedynczej 0-cząstki: jedna wirtualna sekunda odpowiada dokładnie jednemu cyklowi oscylacji (uderzeniu) cząstki od ściany do ściany wewnątrz jej optymalnej, podstawowej komórki konfiguracjonalnej. Taka aksjomatyzacja pozwala na rygorystyczne posługiwanie się pojęciem częstotliwości i prędkości w skali mikro, bez popadania w błąd błędnego koła (<em>petitio principii</em>) przy późniejszym wyprowadzaniu czasu emergentnego.</p>
+<p>Wprowadzenie czasu wirtualnego pozwala na precyzyjne sformułowanie kluczowej tezy: pierwotne 0-cząstki są wyłącznie niepodzielnymi, sztywnymi obiektami geometrycznymi o fizycznym promieniu <span class="math inline">\(R_0\)</span> i masie bezwładnej <span class="math inline">\(m_0\)</span>. Pozorna „sfera oddziaływania” o promieniu krytycznym <span class="math inline">\(r_{\text{crit}}\)</span> jest zjawiskiem o charakterze czysto kinetycznym, wynikającym z ekstremalnej prędkości mikro-oscylacji (<span class="math inline">\(v \gg c\)</span>). Stan ten w sposób ścisły opisuje <strong>Birkhoff–Khinchin theorem</strong> (twierdzenie ergodyczne Birkhoffa–Khinchina). Ponieważ ruch cząstki w ograniczonej przestrzeni komórki jest procesem stochastycznie stacjonarnym w skali czasu sub-planckowskiego, średnia pozycja obiektu mierzona w czasie wirtualnym staje się tożsama z przestrzennym rozkładem gęstości prawdopodobieństwa jego obecności. Cząstka, poprzez swoją gigantyczną prędkość i nieskończenie krótki czas powrotu Poincarégo, dosłownie wypełnia swoją fizyczną obecnością całą dostępną objętość komórki. Z perspektywy zewnętrznej tworzy to dynamiczną, nieprzenikalną tarczę o symetrii sferycznej.</p>
+<p>Aby sformalizować ten mechanizm i powiązać go z geometrycznymi granicami upakowania osnowy, rozważmy 0-cząstkę uwięzieną wewnątrz lokalnej klatki (sąsiedztwa) o efektywnym liniowym rozmiarze <span class="math inline">\(L\)</span>. Częstotliwość uderzeń cząstki o geometryczne granice wyznaczone przez sąsiadów, wyrażona w jednostkach czasu wirtualnego, zależy bezpośrednio od wolnej przestrzeni pozostającej między fizycznymi jądrami i przyjmuje postać:</p>
+<p><span id="eq-roz0-r0"><span class="math display">\[f = \frac{v}{2(L - 2R_0)} \tag{1.1}\]</span></span></p>
+<p>W przypadku kompresji osnowy przez zewnętrzne naprężenia makroskopowe, odległość między środkami sąsiadujących cząstek maleje, co sprowadza efektywny rozmiar klatki <span class="math inline">\(L\)</span> do granicy wyznaczonej przez sumę promieni sztywnych rdzeni (<span class="math inline">\(2R_0\)</span>). W tym granicznym reżimie wolna droga swobodna dąży do zera, co implikuje asymptotyczny, hiperboliczny wzrost częstotliwości zderzeń falowych:</p>
+<p><span id="eq-roz9-r1"><span class="math display">\[\lim_{L \to 2R_0^+} f = \infty \tag{1.2}\]</span></span></p>
+<p>Ponieważ w klasycznym ujęciu elastodynamicznym siła jest miarą transferu pędu w jednostce czasu (<span class="math inline">\(F = \Delta p / \Delta t\)</span>), nieustanne odbicia cząstki generują efektywną, uśrednioną siłę odpychania <span class="math inline">\(F_{\text{eff}}\)</span>, działającą na ścianki komórki. Uwzględniając zmianę pędu przy każdym zderzeniu sprężystym (<span class="math inline">\(\Delta p = 2m_0v\)</span>), otrzymujemy ostateczne rzędu wielkości równanie stanu mikroskopowego:</p>
+<p><span class="math display">\[F_{\text{eff}} = 2m_0 v \cdot f = \frac{m_0 v^2}{L - 2R_0} \tag{0.2.3}\]</span></p>
+<p>Równanie (0.2.3) stanowi kluczowy wynik formalny niniejszego podrozdziału. Dowodzi ono, że efektywna siła oporu Substratu dąży do nieskończoności (<span class="math inline">\(F_{\text{eff}} \to \infty\)</span>) przy próbie mechanicznego skompresowania klatki do granicy fizycznych rdzeni cząstek, dając pełną iluzję istnienia nieliniowego, potencjalnego pola siłowego o nieskończonej barierze repulsywnej. Dla struktury osnowy ten gwałtowny wzrost zagęszczenia kolizji oznacza potężny skok lokalnego naporu. Tworzy to wysoce sprężystą strukturę, która stawia opór kompresji – nie dzięki „ukrytym siłom”, lecz dzięki czystej geometrii i transferowi pędu. To prawo stanowi fundament naszej teorii: sprężystość i gradienty naprężeń są emergentną właściwością zagęszczenia zderzeń w ograniczonej przestrzeni. Im bardziej redukujemy przestrzeń między 0-cząstkami, tym potężniejszy gradient naprężeń generuje osnowa.</p>
+<p>Jednak kompresja wolumetryczna nie może postępować w nieskończoność. Zanim układ osiągnie niefizyczny stan nieskończonej częstotliwości zderzeń przy idealnym styku granic (<span class="math inline">\(L \to 2R_0\)</span>), lokalny tensor naprężeń przekracza próg <span class="math inline">\(\sigma_{\text{crit}}\)</span>. Uruchamia to Klauzulę Krytycznego Przemieszczenia – osnowa przechodzi w stan płynięcia plastycznego, co relaksuje nadmierne zagęszczenie kolizji poprzez rekonfigurację sieci. Mechanizm ten wyznacza twardą granicę dla stabilnego upakowania dynamicznego: próg maksymalnego upakowania sfer (<span class="math inline">\(\phi_{\text{max}}\)</span>) nie reprezentuje zatem bezpośredniego, mechanicznego styku nagich, niepodzielnych granic jąder o promieniu <span class="math inline">\(R_0\)</span>. Jest to stan maksymalnego zagęszczenia sfer efektywnych, w którym opisany wyżej asymptotyczny wzrost siły <span class="math inline">\(F_{\text{eff}}\)</span> uniemożliwia dalsze zbliżenie środków cząstek w reżimie sprężystym, co w pełni harmonizuje z warunkami geometrycznymi zdefiniowanymi w Podrozdziale 0.3.1.</p>
+<p><strong>Wrodzona dysproporcja skali prędkości (<span class="math inline">\(v \gg c\)</span>) jest fundamentalnym aksjomatem kinetycznym Substratu (Aksjomat II). Rozdział 1.2 dowodzi jednak, że ta sub-planckowska dysproporcja nie prowadzi do anizotropii makroskopowej, lecz pozwala na rygorystyczne zdefiniowanie bezwymiarowego parametru bezwładności geometrycznej komórek <span class="math inline">\(\Gamma_{4D}\)</span>, łączącego elastodynamikę mikro- i makroskali.</strong></p>
+</section>
+<section id="reżim-krytyczny-osnowy-asymptotyczna-bariera-siłowa-i-mechanizm-plastycznego-płynięcia" class="level2" data-number="1.3">
+<h2 data-number="1.3" class="anchored" data-anchor-id="reżim-krytyczny-osnowy-asymptotyczna-bariera-siłowa-i-mechanizm-plastycznego-płynięcia"><span class="header-section-number">1.3</span> Reżim krytyczny osnowy, asymptotyczna bariera siłowa i mechanizm plastycznego płynięcia</h2>
+<p>Gdyby fundamentalna przestrzeń była nieskończona, pierwotna aktywność kinetyczna 0-cząstek uległaby bezpowrotnemu rozproszeniu, a wzajemne oddziaływania ustałyby w procesie wiecznej ekspansji. Aby rzeczywistość mogła istnieć jako stabilna, zdolna do podtrzymywania deformacji struktura, musi spełniać warunek skończoności geometrycznej.</p>
+<p>Nasza fundamentalna przestrzeń to 4-wymiarowa, skończona, lecz geometrycznie zamknięta rozmaitość (strukturalny odpowiednik hipersfery). Brak fizycznych brzegów czy zewnętrznych ścianek nie oznacza nieskończoności – osnowa zamyka się sama w sobie, stanowiąc zamknięte środowisko całkowicie wypełnione 0-cząstkami. Od stanu początkowego znajduje się ona w stanie globalnego zakleszczenia (jamming) – globalny ułamek upakowania geometrycznego przekracza wartość krytyczną <span class="math inline">\(\phi_c\)</span>.</p>
+<p>Oznacza to, że 0-cząstki są trwale uwięzione w swoich komórkach Wignera-Seitza i nie posiadają swobody translacyjnej (makroskopowego przepływu). Stan Zero to zatem nie chaotyczny, swobodny gaz, lecz sztywne, sprężyste szkło topologiczne w 4D, zdolne do utrzymywania i generowania potężnych gradientów naprężeń we wszystkich czterech wymiarach przestrzennych. Jedyne pozostałości pierwotnej dynamiki to lokalne fluktuacje konfiguracjonalne – drobne drgania wokół geometrycznych środków oddziaływania – które nie naruszają globalnej topologii ośrodka.</p>
+<p>Ponieważ 0-cząstki są geometrycznie ograniczone i nie mają możliwości ucieczki, są strukturalnie zmuszone do permanentnego wywierania naporu na sąsiadów. Ten stały, kinematyczny stan zakleszczenia sprawia, że osnowa nigdy nie jest rozluźniona – pozostaje w stanie wiecznego, bazowego naprężenia. W tym ujęciu Wszechświat nie jest wtórnie wypełniony energią; on jest tą energią kinetyczną, zablokowaną i uwięzioną w skończonej, zamkniętej geometrii substratu, gotową do manifestacji w postaci sił i mas, gdy tylko w układzie pojawi się materia.</p>
+<p><strong>Klauzula Krytycznego Przemieszczenia (Wyjątek Plastyczności Granicznej):</strong> W reżimie niskich i średnich energii (klasyczna fizyka relatywistyczna i kwantowa) brak swobody translacyjnej 0-cząstek ma charakter absolutny, co gwarantuje stabilność strukturalną osnowy oraz uwięzionych w niej węzłów topologicznych. Dopuszcza się jednak krańcowy wyjątek fizyczny: w stanach skrajnego, sub-planckowskiego naprężenia ścinającego, gdzie lokalna gęstość energii lub gradient ciśnienia przekracza krytyczny próg aktywacji plastycznej σcrit​ (reżim Wielkiego Wydarzenia lub jądra makroskopowych plazmoidów), osnowa lokalnie przełamuje barierę zakleszczenia (jamming transition). Dochodzi wówczas do wymuszonego, plastycznego płynięcia Substratu, w którym 0-cząstki uzyskują chwilową, lokalną swobodę translacyjną, umożliwiającą im zmianę komórek macierzystych i rekonfigurację topologiczną sieci. Po rozproszeniu energii układ natychmiast powraca do stanu głębokiego zamrożenia konfiguracjonalnego, więżąc nowo powstałe defekty.</p>
+<section id="asymptotyczny-zakaz-styku-fizycznego-i-trwałego-zakleszczenia" class="level3" data-number="1.3.1">
+<h3 data-number="1.3.1" class="anchored" data-anchor-id="asymptotyczny-zakaz-styku-fizycznego-i-trwałego-zakleszczenia"><span class="header-section-number">1.3.1</span> Asymptotyczny zakaz styku fizycznego i trwałego zakleszczenia</h3>
+<p>Fundamentalnym warunkiem zachowania dynamicznej, oscylacyjnej natury 0-Matrycy jest zakaz permanentnego, statycznego zablokowania jej elementów składowych. Choć 0-cząstki charakteryzują się nieściśliwym, twardym jądrem o promieniu <span class="math inline">\(R_0\)</span> i skończonej objętości <span class="math inline">\(V_0\)</span>, to bezpośredni styk ich fizycznych granic jest niemożliwy. Wynika to z natury sub-planckowskiej sfery oddziaływań.</p>
+<p>Siła odpychania <span class="math inline">\(F_{\text{int}}\)</span> pomiędzy dwiema sąsiadującymi 0-cząstkami nie jest stała, lecz rośnie nieliniowo wraz ze spadkiem odległości <span class="math inline">\(r\)</span> między ich środkami geometrycznymi. W miarę zbliżania się do krytycznej odległości granicznej <span class="math inline">\(r_{\text{crit}}\)</span>, siła ta dąży asymptotycznie do nieskończoności:</p>
+<p><span class="math display">\[\lim_{r \to r_{\text{crit}}^+} F_{\text{int}}(r) = \infty \tag{0.3.01}\]</span></p>
+<p>Gdzie odległość <span class="math inline">\(r_{\text{crit}}\)</span> jest ściśle większa niż suma promieni twardych jąder:</p>
+<p><span class="math display">\[r_{\text{crit}} &gt; 2R_0 \tag{0.3.02}\]</span></p>
+<p>Dzięki tej asymptotycznej barierze siłowej, odległość między 0-cząstkami – nawet w stanach ekstremalnego ścisku topologicznego – pozostaje zawsze minimalna, lecz ściśle większa od zera (<span class="math inline">\(r &gt; r_{\text{crit}}\)</span>). Konsekwencją tego mechanizmu jest całkowite wykluczenie fizycznego kontaktu sfer, co zapobiega ich trwałemu zakleszczeniu i gwarantuje, że osnowa zachowuje swój stan ciągłych mikro-oscylacji w każdych warunkach.</p>
+</section>
+<section id="klauzula-krytycznego-przemieszczenia-pod-wpływem-naprężeń-ścinających" class="level3" data-number="1.3.2">
+<h3 data-number="1.3.2" class="anchored" data-anchor-id="klauzula-krytycznego-przemieszczenia-pod-wpływem-naprężeń-ścinających"><span class="header-section-number">1.3.2</span> Klauzula Krytycznego Przemieszczenia pod wpływem naprężeń ścinających</h3>
+<p>Gdy na dany obszar 0-Matrycy działa ekstremalne ciśnienie zewnętrzne lub lokalne skręcenie topologiczne, odległości międzycząstkowe drastycznie maleją, wywołując gigantyczny wzrost lokalnej gęstości energii oraz naprężeń ścinających <span class="math inline">\(\sigma\)</span>. W reżimie tym sieć osiąga stan maksymalnego dopuszczalnego upakowania dynamicznego, w którym dalsza kompresja wolumetryczna zostaje zablokowana przez barierę opisaną wzorem 0.3.01.</p>
+<p>Jeżeli lokalne naprężenie ścinające przekroczy krytyczny próg plastyczności osnowy:</p>
+<p><span class="math display">\[\sigma \ge \sigma_{\text{crit}} \tag{0.3.03}\]</span></p>
+<p>aktywacji ulega <strong>Klauzula Krytycznego Przemieszczenia</strong>. W tym stanie pole siłowe poszczególnych sfer oddziaływań zostaje geometrycznie zniekształcone przez zewnętrzny wektor naprężenia. Ponieważ cząstki nie mogą zmniejszyć swojej objętości ani zbliżyć się bardziej do sąsiadów, jedyną ścieżką relaksacji układu jest kontrolowane, skokowe przemieszczenie 0-cząstki do sąsiedniej komórki przestrzennej (płynięcie plastyczne osnowy).</p>
+</section>
+<section id="warunek-mikroskopowy-powrotu-do-stanu-podstawowego" class="level3" data-number="1.3.3">
+<h3 data-number="1.3.3" class="anchored" data-anchor-id="warunek-mikroskopowy-powrotu-do-stanu-podstawowego"><span class="header-section-number">1.3.3</span> Warunek mikroskopowy powrotu do stanu podstawowego</h3>
+<p>Proces tego przemieszczenia ma charakter ściśle lokalny i deterministyczny:</p>
+<ul>
+<li><strong>Wewnątrz strefy krytycznej (<span class="math inline">\(\sigma \ge \sigma_{\text{crit}}\)</span>):</strong> 0-cząstka wykonuje translację wzdłuż linii gradientu naprężeń, działając jako nośnik odkształcenia plastycznego (solitonu), nie wchodząc przy tym w fizyczny kontakt z jądrami innych cząstek.</li>
+<li><strong>Opuszczenie strefy krytycznej:</strong> W momencie, gdy przemieszczająca się 0-cząstka opuszcza obszar objęty stanem krytycznym i naprężenie lokalne spada poniżej progu (<span class="math inline">\(\sigma &lt; \sigma_{\text{crit}}\)</span>), cząstka natychmiastowo i w pełni odzyskuje swoją pierwotną, izotropową sferę oddziaływań.</li>
+</ul>
+<p>Po odzyskaniu sfery oddziaływań, zdolność do dalszej translacji zostaje natychmiast zablokowana. 0-cząstka zostaje ponownie uwięziona w nowo uformowanej komórce potencjału, powracając do swojego podstawowego reżimu: szybkich, lokalnych mikro-oscylacji wokół nowego położenia równowagi. Energia pierwotnego zaburzenia zostaje w ten sposób rozproszona w postaci falowej, a osnowa w tym punkcie powraca do stanu sprężystego zamrożenia.</p>
+</section>
+</section>
+<section id="stan-relaksacji-autoregulacja-0-matrycy" class="level2" data-number="1.4">
+<h2 data-number="1.4" class="anchored" data-anchor-id="stan-relaksacji-autoregulacja-0-matrycy"><span class="header-section-number">1.4</span> Stan Relaksacji: Autoregulacja 0-Matrycy</h2>
+<p>Każdy punkt 0-Matrycy dąży do stanu relaksacji – konfiguracji, w której napór uderzeń kontaktowych z każdej strony idealnie równoważy się z naporem sąsiednich 0-cząstek. W skali mikro oznacza to, że lokalne zgniecenie osnowy natychmiast wywołuje gwałtowny wzrost intensywności zderzeń, co system manifestuje jako lokalny nadmiar naprężenia.</p>
+<p>Zjawisko to jest ściśle analogiczne do relaksacji naprężeń w zakleszczonym ośrodku granularnym lub przeciążonym ciele stałym: ponieważ cząstki nie posiadają swobody translacyjnej i nie mogą fizycznie odpłynąć, nadmiar energii kinetycznej jest nieuchronnie przekazywany dalej, z komórki do komórki, poprzez kaskadę zderzeń kontaktowych. System nie pozostawia nadmiaru energii w jednym miejscu – natychmiast rozprasza go w postaci falowej po sąsiednich obszarach, dążąc do ujednolicenia ciśnienia konfiguracjonalnego w całej osnowie. Ten mechanizm sprawia, że żadne lokalne odkształcenie nie może pozostać trwałe w reżimie niskich energii. Jeśli jakikolwiek czynnik zewnętrzny naruszy ten układ, fala sprężysta rozejdzie się po systemie, aż ośrodek powróci do stanu równowagi.</p>
+<p>To dążenie do nieustannego wyrównywania naprężeń nazywamy „relaksacją” 0-Matrycy. Proces ten, oprócz natychmiastowej odpowiedzi w skali mikro, posiada również komponentę globalną – powolne, ewolucyjne wygaszanie skrajnych naprężeń tła w czasie kosmicznym, co implikuje minimalną, ciągłą utratę energii przez fale elektromagnetyczne na ekstremalnych dystansach (efekt redshift; szczegółowy opis mechanizmu i struktur galaktycznych znajduje się w osobnym rozdziale kosmologicznym).</p>
+</section>
+<section id="narodziny-błony-wielkie-wydarzenie-i-defekt-topologiczny" class="level2" data-number="1.5">
+<h2 data-number="1.5" class="anchored" data-anchor-id="narodziny-błony-wielkie-wydarzenie-i-defekt-topologiczny"><span class="header-section-number">1.5</span> Narodziny Błony (Wielkie Wydarzenie i defekt topologiczny)</h2>
+<p>Jak z 4-wymiarowego, zakleszczonego ośrodka wyłonił się nasz uporządkowany, trójwymiarowy świat? Odpowiedzi dostarcza mechanika defektów topologicznych. Przyjmujemy, że poza zakresem ścisłego opisu TSM leży pierwotne, potężne zaburzenie – Wielkie Wydarzenie – analogiczne w swojej granicznej roli do osobliwości początkowej w standardowym modelu Wielkiego Wybuchu.</p>
+<p>Zdarzenie to zadziałało na sztywną, 4‑wymiarową 0‑Matrycę, wywołując dwa sprzężone efekty:</p>
+<ol type="1">
+<li><strong>Skręcenie topologiczne:</strong> W pewnym obszarze osnowa uległa plastycznemu odkształceniu – „przekręceniu”. Powstał trwały defekt topologiczny w postaci trójwymiarowej hiperpowierzchni – <strong>3‑brany</strong>. Granica między skręconą i nieskręconą częścią ośrodka ma z definicji wymiar <span class="math inline">\(D-1 = 3\)</span>, co naturalnie tłumaczy trójwymiarowość obserwowalnego Wszechświata. Brana dziedziczy sprężystość macierzystej 4‑osnowy i może przenosić fale poprzeczne. Co kluczowe, uformowane na niej makroskopowe defekty są topologicznie zakotwiczone w tym pierwotnym skręczeniu; opuszczenie przez nie przestrzeni 3-brany i ucieczka w wolny wymiar 4D wymagałaby energii równej zerwaniu ciągłości całego kontinuum, co trwale więzi całą znaną materię wewnątrz tego trójwymiarowego świata.</li>
+<li><strong>Megafluktuacje ciśnienia:</strong> W obrębie świeżo utworzonej 3‑brany pierwotne zaburzenie wywołało ekstremalne, lokalne skoki naprężeń. Tam, gdzie naprężenie przekroczyło próg plastyczności <span class="math inline">\(\phi_{\text{lock}}\)</span>, uformowały się trwałe, nieliniowe sploty – <strong>4‑wymiarowe węzły topologiczne</strong> (<span class="math inline">\(\mathcal{W} \neq 0\)</span>). To pierwsze Cząstki materii.</li>
+</ol>
+<p>Obszar 4D poza 3‑braną pozostaje sztywnym, niezakłóconym szkłem topologicznym. Ponieważ jest on idealnie sprężysty i pozostaje w równowadze, nie generuje żadnych dodatkowych sił działających na branę – cała dynamika obserwowalnego Wszechświata rozgrywa się w obrębie defektu.</p>
+</section>
+<section id="aksjomat-skończoności-fizycznej-kategoryczne-wykluczenie-osobliwości-i-czarnych-dziur" class="level2" data-number="1.6">
+<h2 data-number="1.6" class="anchored" data-anchor-id="aksjomat-skończoności-fizycznej-kategoryczne-wykluczenie-osobliwości-i-czarnych-dziur"><span class="header-section-number">1.6</span> Aksjomat Skończoności Fizycznej: Kategoryczne wykluczenie osobliwości i „czarnych dziur”</h2>
+<p>W tym miejscu musimy sformułować fundamentalny postulat logiczny, który stanowi najgłębszą linię demarkacyjną między TSM a XX-wiecznym dziedzictwem Ogólnej Teorii Względności (OTW) oraz standardowej mechaniki kwantowej.</p>
+<p><strong>Teoria TSM wprowadza Aksjomat Skończoności Fizycznej: w realnym świecie nieskończoności nie istnieją.</strong> Koncepty matematyczne, w których dowolny parametr fizyczny – taki jak gęstość, ciśnienie, temperatura czy krzywizna przestrzeni – dąży do nieskończoności (<span class="math inline">\(\infty\)</span>), są wyłącznie artefaktami niedoskonałych, kontinuum-podobnych modeli matematycznych, pozbawionych bazy mechanistycznej.</p>
+<p>Konsekwencją niezerowej objętości własnej 0-Cząstek (<span class="math inline">\(V_0 &gt; 0\)</span>) oraz istnienia geometrycznej granicy ich upakowania (<span class="math inline">\(\phi_{\text{max}}\)</span>) jest kategoryczny zakaz zapadania się jakiegokolwiek obszaru przestrzeni do bezwymiarowego punktu. Ponieważ 0-Cząstki posiadają twarde jądra kinetyczne, żadna siła we Wszechświecie – włączając w to najbardziej ekstremalne ciśnienie grawitacyjne – nie jest w stanie ścisnąć materii poniżej jej geometrycznego limitu strukturalnego.</p>
+<p>Z tego powodu model TSM definitywnie i jednoznacznie wyklucza istnienie <strong>osobliwości grawitacyjnych</strong>, a tym samym obala pojęcie „czarnych dziur” w ich klasycznym, relatywistycznym rozumieniu (jako obiektów o nieskończonej gęstości ukrytych za horyzontem zdarzeń). Obiekty astronomiczne, które współczesna astrofizyka obserwuje w centrach galaktyk i błędnie interpretuje jako czarne dziury, w rzeczywistości są fizycznymi, objętościowymi strukturami o skończonej, ekstremalnej gęstości. <strong>W architekturze TSM obiekty te definiujemy jako zdegenerowane, makroskopowe sploty osnowy – plazmoidy.</strong> Plazmoid to ultrawydajny, relatywistyczny silnik mechaniczny, będący naturalną konsekwencją granicy upakowania 0-Cząstek. Jego dokładną naturę hydrodynamiczną, elektromagnetyczną oraz topologiczną opiszą szczegółowo dalsze rozdziały pracy, jednak już teraz czytelnik musi przyjąć ten fizyczny substytut i odrzucić dogmat o nieskończonym kolapsie grawitacyjnym, aby móc poprawnie zanalizować mechanikę osnowy.</p>
+</section>
+<section id="kreacja-pierwszych-zniekształceń-alternatywa-dla-wielkiego-wybuchu" class="level2" data-number="1.7">
+<h2 data-number="1.7" class="anchored" data-anchor-id="kreacja-pierwszych-zniekształceń-alternatywa-dla-wielkiego-wybuchu"><span class="header-section-number">1.7</span> Kreacja pierwszych zniekształceń: Alternatywa dla Wielkiego Wybuchu</h2>
+<p>W naszym modelu musimy wytyczyć wyraźną granicę poznania. Pytanie o naturę Wielkiego Wydarzenia – co wywołało pierwotne skręcenie 4‑Matrycy i megafluktuacje – pozostaje kwestią otwartą. Dociekanie pierwotnej przyczyny leży poza ścisłym zakresem tej teorii; jest to sfera czystej spekulacji filozoficznej, a nie weryfikowalnej mechaniki. TSM zaczyna się od momentu, gdy takie zaburzenie już zaistniało.</p>
+<p>Możemy jednak, opierając się na Aksjomacie Skończoności Fizycznej i obrazie pierwotnie zakleszczonej osnowy, sformułować rygorystyczną alternatywę dla klasycznej koncepcji „Wielkiego Wybuchu”. Skoro faza osobliwości początkowej jest geometrycznie niemożliwa (0‑cząstki nie mogą zapaść się w punkt), model TSM odrzuca jednorazowy, niefizyczny akt kreacji wszystkiego z osobliwości.</p>
+<p>Zamiast tego model dopuszcza scenariusz znacznie bardziej racjonalny: wewnątrz naszej zamkniętej 4-wymiarowej rozmaitości doszło do potężnego, lokalnego zaburzenia – impulsu ciśnienia – który przekręcił część zakleszczonej osnowy, formując 3‑brane, a na niej, poprzez megafluktuacje, masowo wygenerował pierwsze węzły topologiczne. Co więcej, teoria nie wyklucza, że podobne procesy zachodzą nadal w odległych, nieobserwowalnych rejonach brany lub w całej 4‑bańce, nieustannie kreując nowe obszary uporządkowanej materii. To właśnie w ten sposób, poprzez lokalne przekroczenie progów plastyczności osnowy, powstawały i stale mogą powstawać pierwsze skupiska materii we Wszechświecie.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Skopiowano!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Skopiowano!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./index.html" class="pagination-link" aria-label="Wstęp">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Wstęp</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./rozdzial_1.html" class="pagination-link" aria-label="Formalizm Mechaniki Substratu Topologicznego – czas emergentny, dynamika i kinematyka relatywistyczna">
+        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Formalizm Mechaniki Substratu Topologicznego – czas emergentny, dynamika i kinematyka relatywistyczna</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

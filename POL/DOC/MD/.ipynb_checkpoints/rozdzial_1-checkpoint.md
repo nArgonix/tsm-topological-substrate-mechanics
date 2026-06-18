@@ -1,17 +1,13 @@
-```{=latex}
-    \setcounter{chapter}{1}
-```
----
 <!-- ver:3.0.1 -->
-# 1. Formalizm Mechaniki Substratu Topologicznego – czas emergentny, dynamika i kinematyka relatywistyczna {#sec:rom-tsm}
+# Formalizm Mechaniki Substratu Topologicznego – czas emergentny, dynamika i kinematyka relatywistyczna {#sec:rom-tsm}
 
 Zgodnie z aksjomatami sformułowanymi w Rozdziale 0, fundamentalna przestrzeń to 4‑wymiarowa, skończona bańka wypełniona zakleszczonymi 0‑cząstkami. Zanim przejdziemy do opisu oddziaływań i struktur materialnych, konieczne jest rygorystyczne zdefiniowanie czasu oraz dynamiki samej osnowy. Model TSM całkowicie odrzuca koncepcję absolutnego czasu newtonowskiego oraz relatywistycznej czasoprzestrzeni jako bytu pierwotnego. Czas, podobnie jak przestrzeń, jest zjawiskiem w pełni emergentnym.
 
 </br>
 
-## 1.1. Czas w ujęciu TSM – od lokalnej gęstości osnowy do mierzonego upływu zjawisk {#sec-czas-tsm}
+## Czas w ujęciu TSM – od lokalnej gęstości osnowy do mierzonego upływu zjawisk {#sec-czas-tsm}
 
-### 1.1.1. Granica poznania i eliminacja fluktuacji sub-planckowskich {#sec-czas-tsm-granica}
+>### Granica poznania i eliminacja fluktuacji sub-planckowskich {#sec:czas-tsm-granica}
 
 0-Matryca w swoim stanie podstawowym charakteryzuje się permanentnymi, mikroskopijnymi drganiami cząstek osnowy wokół ich położeń równowagi, co generuje niekoherentny szum tła (temperaturę Substratu $T_{\text{sub}}$). Zgodnie z zasadą rygoru empirycznego, model TSM kategorycznie odrzuca próbę definiowania czasu poprzez te pierwotne oscylacje.
 
@@ -19,7 +15,7 @@ Wszelkie efekty falowe oraz lokalne zmiany częstotliwości zachodzące bezpośr
 
 W konsekwencji model TSM rezygnuje z postulowania mikroskopijnych zależności częstotliwościowych pojedynczych 0-cząstek, przenosząc cały ciężar formalizmu na makroskopowe uśrednianie hydrodynamiczne.
 
-### 1.1.2. Matematyczny formalizm uśredniania – Efektywna Gęstość Substratu {#sec:czas-tsm-uśrednienie}
+>### Matematyczny formalizm uśredniania – Efektywna Gęstość Substratu {#sec:czas-tsm-uśrednienie}
 
 Aby powiązać dyskretną, sub-planckowską strukturę osnowy z mierzalnymi zjawiskami makroskopowymi, wprowadza się operator splotu (filtrowania) z funkcją okna o skali odcięcia równej skali Plancka ($\Lambda_{\text{Planck}}$). Operator ten wygładza lokalne, nieciągłe anomalie gęstości wokół pojedynczych defektów strukturalnych, dając w wyniku ciągłe pole efektywne.
 
@@ -49,7 +45,7 @@ gdzie:
 **Redukcja do obserwowanej gęstości 3D na 3-branie.**
 Ponieważ wszystkie makroskopowe przyrządy pomiarowe (zegary atomowe, detektory) są strukturami węzłów topologicznych uwięzionymi wewnątrz 3-brany (Sekcja 1.5 Rozdziału 0), bezpośrednio dostępna jest wyłącznie wartość $\langle\phi(\mathbf{X})\rangle_{\text{macro}}$ zrestryktowana do hiperpowierzchni 3-brany. W stanie niezakłóconym brana zajmuje hiperpowierzchnię $x^4 = 0$; w obecności odkształceń grawitacyjnych jest ugięta do $x^4 = w(\mathbf{x})$ (Rozdział 6). Obserwowalna makroskopowa gęstość upakowania w punkcie $\mathbf{x} = (x^1, x^2, x^3)$ jest zatem rzutem:
 
-$$\langle\phi(\mathbf{x})\rangle_{\text{macro}} \equiv \left.\langle\phi(\mathbf{X})\rangle_{\text{macro}}\right|_{x^4 = w(\mathbf{x})}$$ {#eq-roz1-czas5}
+$$\langle\phi(\mathbf{x})\rangle_{\text{macro}} \equiv \left.\langle\phi(\mathbf{X})\rangle_{\text{macro}}\right|_{x^4 = w(\mathbf{x})}$$ {#eq:czas-tsm-5}
 
 Funkcja okna $W$ jest separowalna względem składowych brany i wymiaru ortogonalnego: $W(\mathbf{X}-\mathbf{X}', \Lambda_P) = W_3(\mathbf{x}-\mathbf{x}', \Lambda_P) \cdot W_4(x^4 - x^{4'}, \Lambda_P)$. Definiujemy efektywną gęstość powierzchniową 3D jako całkę $W_4$-ważoną wzdłuż osi ortogonalnej:
 
@@ -63,13 +59,13 @@ W płaskiej, niezakłóconej 3-branie ($w \equiv 0$, $\phi$ niezależne od $x^4$
 
 **Uwaga o spójności grawitacyjno-temporalnej:** Zależność $\phi_{\text{eff}}$ od ugięcia brany $w(\mathbf{x})$ (przez argument $W_4$) stanowi mechanistyczne uzasadnienie grawitacyjnej dylatacji czasu (Sekcja 1.1.5): węzeł topologiczny indukujący ugięcie $w > 0$ lokalnie przesuwa punkt próbkowania funkcji $W_4$ w obszar osnowy o wyższym ciśnieniu topologicznym, podnosząc $\phi_{\text{eff}}$ i zwalniając lokalny czas własny $dt$ zgodnie z równaniem kanonicznym ([@eq:czas-tsm-def]). Zależność (1.1.5) jest więc limitem liniowym tego mechanizmu, a nie niezależnym założeniem.
 
-### 1.1.3. Kanoniczna definicja czasu makroskopowego {#sec:czas-tsm-def}
+>### Kanoniczna definicja czasu makroskopowego {#sec:czas-tsm-def}
 
 Czas nie jest pierwotnym wymiarem ani samodzielną areną ewolucji układów. Czas mierzony w skali makroskopowej przez dowolne przyrządy pomiarowe (które same stanowią struktury złożone z miliardów węzłów topologicznych) jest parametrem operacyjnym ewolucji strukturalnej, ściśle zależnym od efektywnej gęstości osnowy.
 
 Przyrost lokalnego czasu własnego $dt$ wyraża się równaniem:
 
-$$dt = dN \cdot T_0 \cdot \frac{\phi_0}{\langle\phi\rangle_{\text{macro}}}$$ {#eq-roz1-czas-dyl}
+$$dt = dN \cdot T_0 \cdot \frac{\phi_0}{\langle\phi\rangle_{\text{macro}}}$$ {#eq:czas-tsm-def}
 
 gdzie:
 
@@ -81,7 +77,7 @@ gdzie:
 
 Wyższa uśredniona gęstość $\langle\phi\rangle_{\text{macro}}$ generuje większy opór ośrodka dla makroskopowych procesów relaksacyjnych i propagacji sygnałów. Przekłada się to na zmniejszenie przyrostu lokalnego czasu własnego ($dt$ maleje dla stałej liczby cykli $dN$) względem płaskiego tła, co obserwujemy jako spowolnienie tempa upływu procesów fizycznych. Z perspektywy zewnętrznego obserwatora lokalna sekunda ulega rozciągnięciu, ponieważ aparat matematyczny rygorystycznie wiąże gęstość z mianownikiem operatora przyrostu czasu.
 
-### 1.1.4. Kinematyczna dylatacja czasu jako izotropowe spiętrzenie osnowy {#sec:czas-tsm-dylatacja}
+>### Kinematyczna dylatacja czasu jako izotropowe spiętrzenie osnowy {#sec:czas-tsm-dylatacja}
 
 Ruch makroskopowego obiektu fizycznego w 0-Matrycy nie polega na mechanicznym przesuwaniu litej bryły, która spycha przed sobą ośrodek, lecz na bezstratnej propagacji kolektywnego wzoru węzłów-solitonów przez zakleszczony Substrat.
 
@@ -123,7 +119,7 @@ Daje to poprawne empirycznie przybliżenie dylatacji grawitacyjnej, rygorystyczn
 
 </br>
 
-## 1.2. Elastodynamika 4D osnowy i mikroskopowa geneza prędkości światła
+## Elastodynamika 4D osnowy i mikroskopowa geneza prędkości światła
 
 Aby wyeliminować metodologiczny zarzut wprowadzenia bariery prędkości falowej $c$ jako założenia ad hoc, model TSM wyprowadza stałą prędkość światła (identyfikowaną jako prędkość poprzecznych fal ścinających $c_{\perp} \equiv c$) jako wielkość emergentną. Wyprowadzenie to realizowane jest dwuetapowo: poprzez rygorystyczny opis kontinuum elasto-dynamicznego, a następnie sprzężenie go z sub-planckowską kinetyką 0-cząstek.
 
@@ -223,11 +219,11 @@ Z punktu widzenia makroskopowych detektorów materii (opartych na polach EM, czy
 
 </br>
 
-## 1.3. Ośrodek i przestrzeń: Globalne zakleszczenie i izotropowa 3‑brana
+## Ośrodek i przestrzeń: Globalne zakleszczenie i izotropowa 3‑brana
 
 Mając zdefiniowany czas lokalny, możemy formalnie opisać strukturę przestrzenną. Zgodnie z opisem strukturalnym, fundamentalna przestrzeń $\mathcal{M}^4$ jest 4‑wymiarową, skończoną bańką wypełnioną 0‑cząstkami w stanie globalnego zakleszczenia (jamming).
 
-### 1.3.1. Stan globalnego zakleszczenia
+### Stan globalnego zakleszczenia
 
 W całej objętości $\mathcal{M}^4$ ułamek upakowania przekracza wartość krytyczną:
 
@@ -243,7 +239,7 @@ Obszar 4D poza 3‑braną pozostaje sztywnym, niezakłóconym szkłem topologicz
 
 </br>
 
-## 1.4. Kinematyka nieliniowa: Emergencja metryki $g_{ab}$ z odkształcenia
+## Kinematyka nieliniowa: Emergencja metryki $g_{ab}$ z odkształcenia
 
 
 W TSM metryka przestrzenna $g_{ab}$ nie jest bytem pierwotnym abstrakcyjnej geometrii; jest ona fizycznym **rzutem** stanu odkształcenia Substratu. W płaskiej, niezakłóconej 3‑brane (daleko od węzłów) ośrodek opisuje płaska metryka euklidesowa $\delta_{ab}$.
@@ -263,7 +259,7 @@ Zakrzywienie przestrzeni i wynikająca z niego grawitacja to mechaniczne naciąg
 
 </br>
 
-## 1.5. Dynamika falowa Substratu i równania pola
+## Dynamika falowa Substratu i równania pola
 
 Mechanika Substratu podlega uogólnionemu formalizmowi Lagrange’a. Gęstość lagrangianu $\mathcal{L}$ izotropowej 3‑brany zdefiniowana jest przez jej całkowitą energię sprężystą, wykorzystując tensor modułów sprężystości $K^{abcd}$:
 
@@ -294,7 +290,7 @@ Krzywizna geometryczna $g_{ab}$ jest bezpośrednim odzwierciedleniem tensora nap
 
 </br>
 
-## 1.6. Podwójny reżim elasto‑dynamiki: Fale sprężyste a nieliniowa blokada topologiczna
+## Podwójny reżim elasto‑dynamiki: Fale sprężyste a nieliniowa blokada topologiczna
 
 Wprowadzenie mechanizmu natychmiastowej relaksacji naprężeń poprzez geometryczne sfery odpychania kinetycznego generuje fundamentalny problem dynamiczny: w jaki sposób w idealnie sprężystym ośrodku, który z definicji błyskawicznie rozprasza wszelkie nadmiary ciśnienia, może uformować się i utrzymać stabilna, trwała struktura materialna (cząstka)? Rozwiązanie tego pozornego paradoksu wymaga rygorystycznego rozdzielenia dynamiki Substratu na dwa komplementarne reżimy, rozgraniczone krytycznym progiem ułamka upakowania $\phi_{\text{lock}}$ (progiem zamrożenia topologicznego).
 
@@ -317,7 +313,7 @@ W tym reżimie Substrat traci zdolność do uwalniania naprężeń przestrzennyc
 
 </br>
 
-## 1.7. Aksjomat materii: Skwantowane węzły topologiczne i rygorystyczne rozdzielenie masy od ładunku
+## Aksjomat materii: Skwantowane węzły topologiczne i rygorystyczne rozdzielenie masy od ładunku
 
 Pod wpływem ekstremalnej kompresji nieliniowej ($\phi(\mathbf{x}) \ge \phi_{\text{lock}}$), liniowe fluktuacje tracą zdolność relaksacji falowej. Komórki sieci zmuszone są do geometrycznego zapętlenia. W 4‑wymiarowym kontinuum formują one stabilne fale stojące (solitony), będące w istocie trwałymi węzłami topologicznymi, które fizyka makroskopowa identyfikuje jako fermiony. Węzły te są tworami w pełni 4‑wymiarowymi – ich struktura rozciąga się również w czwarty wymiar, co ma fundamentalne znaczenie dla grawitacji i oddziaływań jądrowych.
 
@@ -344,7 +340,7 @@ W rezultacie, tak sformowany węzeł topologiczny ślizga się wewnątrz Substra
 
 </br>
 
-## 1.8. Wyprowadzenie kinematyki relatywistycznej z hydro‑elastyczności 0-Matrycy (substratu)
+## Wyprowadzenie kinematyki relatywistycznej z hydro‑elastyczności 0-Matrycy (substratu)
 
 Transformacje Lorentza i zasada $E = mc^2$ są rygorystyczną konsekwencją oporu hydrodynamicznego podczas ruchu fal stojących (węzłów) w gęstym kontinuum. W TSM cała kinematyka relatywistyczna wynika z mechaniki ośrodka i lokalnej natury czasu.
 
@@ -435,7 +431,7 @@ W modelu TSM dotychczasowe bezwymiarowe stałe fizyczne tracą swój abstrakcyjn
 
 </br>
 
-## 1.10. Podsumowanie Rozdziału
+## Podsumowanie Rozdziału
 
 - **Czas jako funkcja gęstości osnowy:** Czas absolutny zostaje całkowicie odrzucony. Lokalny czas własny $t$ jest definiowany przez liczbę cykli procesów okresowych, spowalnianych przez uśrednioną makroskopowo gęstość upakowania $\phi$: $dt = dN \cdot T_0 \cdot \phi_0/\langle\phi\rangle_{\text{macro}}$. Dylatacja grawitacyjna i kinematyczna wynikają bezpośrednio ze zmian gęstości – wzrost lokalnego upakowania $\phi$ rygorystycznie minimalizuje przyrost $dt$, powodując spowolnienie procesów fizycznych. Zależność grawitacyjna została skorygowana liniowo ($dt/dt_{\text{flat}} \approx 1 - |\Phi|/c^2$), co zapewnia idealną zgodność z fizyką eksperymentalną.
 - **Globalne zakleszczenie:** Cała 4‑wymiarowa bańka od początku znajduje się w stanie sztywnego szkła topologicznego. 3‑brana jest trwałym defektem – skręceniem hiperpowierzchni powstałym podczas Wielkiego Wydarzenia.
