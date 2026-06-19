@@ -1,8 +1,6 @@
 ---
-title: "Tytuł Twojego Dokumentu"
-author: "Jan Kowalski"
-date: today
-date-format: "YYYY-MM-DD"
+title: "Mechanika Substratu Topologicznego (TSM)"
+author: "Piotr R. Szopiński — Wrocław, 2026"
 format:
   pdf:
     include-in-header:
@@ -15,10 +13,17 @@ format:
         
         % Konfiguracja stopki:
         % [L] - lewa strona, [C] - środek, [R] - prawa strona
-        \fancyfoot[L]{\textcopyright\ \the\year\ Jan Kowalski. Wszelkie prawa zastrzeżone.}
+        \fancyfoot[L]{%
+          {\small Piotr R. Szopiński} \\
+          {\footnotesize Publikacja na licencji CC BY 4.0 Int.}
+        }
         \fancyfoot[R]{\thepage} % Numer strony po prawej
 ---
-<!-- ver:5.0.1 -->
+<!-- ver:5.0.2 -->
+```{=latex}
+\section*{\Huge{Rozdział 0:}}
+\vspace{-0.5cm}
+```
 # Aksjomatyczna Ontologia 0-Matrycy — Mechaniczny Silnik Rzeczywistości
 
 Niniejsza monografia przedstawia zręby Mechaniki Substratu Topologicznego (TSM) — nowego, mechanistycznego paradygmatu opisu rzeczywistości, który pozwala na spójną rekonstrukcję kluczowych wniosków Ogólnej Teorii Względności oraz Modelu Standardowego. Podstawowym założeniem TSM nie jest próba formalnej syntezy obu tych teorii na ich obecnym poziomie fenomenologicznym. Zamiast tego formalizm schodzi poziom niżej — do sub-planckowskiej mechaniki strukturalnej mikroświata — i z tamtejszych praw geometrycznych wyprowadza zjawiska makroskopowe, takie jak dylatacja czasu czy stałość prędkości światła.
@@ -27,7 +32,7 @@ W ramach paradygmatu TSM prędkości przewyższające prędkość światła są 
 
 Co więcej, TSM radykalnie upraszcza architekturę Modelu Standardowego. Eliminujemy potrzebę postulowania mnogości niezależnych cząstek elementarnych oraz fundamentalnych oddziaływań bezpośrednich. Wykazujemy bowiem, że wszystkie obserwowalne przejawy materii i sił sprowadzają się do zróżnicowanych geometrycznie odkształceń, splotów i stanów wzbudzeń jednego, uniwersalnego ośrodka. TSM unifikuje dotychczasowe osiągnięcia fizyki teoretycznej, przekładając skomplikowany aparat kontinuum matematycznego na ścisły i jednoznaczny język dyskretnej mechaniki sieciowej.
 
-## Odrzucenie niefizycznej pustki
+## 0.1. Odrzucenie niefizycznej pustki
 
 Jednym z najpoważniejszych kryzysów pojęciowych współczesnej fizyki fundamentalnej jest ontologiczny status próżni. Klasyczna intuicja mechaniczna jednoznacznie definiuje falę jako dynamiczne zaburzenie konkretnego ośrodka materialnego. Fizyka klasyczna akceptuje ten fakt bezwzględnie w skali makroskopowej, jednak w obszarze elektrodynamiki czy teorii pola powszechnie przyjmuje się dogmat, zgodnie z którym fale elektromagnetyczne bądź grawitacyjne zdolne są do transportu energii i pędu przez absolutną, niefizyczną nicość. TSM kategorycznie odrzuca to logiczne niedopowiedzenie.
 
@@ -41,7 +46,7 @@ Każda 0-Cząstka posiada ściśle określoną, niezerową objętość własną.
 
 W tym ujęciu każdy stan energetyczny osnowy sprowadza się do czystej mechaniki kolizyjnej — energii kinetycznej wynikającej z nieustannych, szybkich oscylacji sferycznych reprezentacji tych cząstek. Te pierwotne mikro-oscylacje nie mierzą ani nie definiują upływu czasu; stanowią one wyłącznie mechaniczne źródło energii tła, odpowiedzialne za generowanie globalnego ciśnienia oraz lokalnych gradientów naprężeń w 0-Matrycy. Wszystko, co obserwujemy jako makroskopowe zjawiska fizyczne, wyłania się jako echo geometrii tych naprężeń.
 
-## Sprężystość z czystej kinetyki i koncepcja czasu wirtualnego
+## 0.2. Sprężystość z czystej kinetyki i koncepcja czasu wirtualnego
 
 Ortodoksyjna fizyka interpretuje sprężystość ośrodków poprzez postulowanie sił międzycząstkowych — potencjałów przyciągania i odpychania. W ramach formalizmu TSM odrzucamy ten opis jako metodologicznie wadliwy, gdyż wprowadza on pojęcie siły wewnątrz struktury przed wyjaśnieniem samej natury i pochodzenia oddziaływania. Nie wprowadzamy żadnych dodatkowych pól siłowych. Całą makroskopową sprężystość Substratu wywodzimy wyłącznie z przestrzennej dynamiki kolizyjnej sztywnych 0-Cząstek.
 
@@ -59,7 +64,7 @@ Ponieważ w ujęciu elastodynamicznym siła jest miarą transferu pędu w jednos
 
 Jednak kompresja wolumetryczna nie może postępować w nieskończoność. Zanim układ osiągnie niefizyczny stan idealnego styku granic jąder, lokalny tensor naprężeń przekracza próg krytyczny. Uruchamia to Klauzulę Krytycznego Przemieszczenia — osnowa przechodzi w stan płynięcia plastycznego, co relaksuje nadmierne zagęszczenie kolizji poprzez rekonfigurację sieci. Mechanizm ten wyznacza twardą granicę dla stabilnego upakowania dynamicznego: próg maksymalnego upakowania sfer nie reprezentuje bezpośredniego, statycznego styku nagich, niepodzielnych granic jąder. Jest to stan maksymalnego zagęszczenia sfer efektywnych, w którym asymptotyczny wzrost siły odpychania uniemożliwia dalsze zbliżenie środków cząstek w reżimie sprężystym.
 
-## Reżim krytyczny osnowy, asymptotyczna bariera siłowa i mechanizm plastycznego płynięcia
+## 0.3. Reżim krytyczny osnowy, asymptotyczna bariera siłowa i mechanizm plastycznego płynięcia
 
 Gdyby fundamentalna przestrzeń była nieskończona, pierwotna aktywność kinetyczna 0-Cząstek uległaby bezpowrotnemu rozproszeniu, a wzajemne oddziaływania ustałyby w procesie wiecznej ekspansji. Aby rzeczywistość mogła istnieć jako stabilna, zdolna do podtrzymywania deformacji struktura, musi spełniać warunek skończoności geometrycznej.
 
@@ -69,13 +74,13 @@ Oznacza to, że 0-Cząstki są trwale uwięzione w swoich komórkach konfiguracj
 
 Ponieważ 0-Cząstki są geometrycznie ograniczone i nie mają możliwości ucieczki, są strukturalnie zmuszone do permanentnego wywierania naporu na sąsiadów. Ten stały, kinematyczny stan zakleszczenia sprawia, że osnowa nigdy nie jest rozluźniona — pozostaje w stanie wiecznego, bazowego naprężenia. W tym ujęciu Wszechświat nie jest wtórnie wypełniony energią; on sam jest tą energią kinetyczną, zablokowaną i uwięzioną w skończonej, zamkniętej geometrii substratu.
 
-### Asymptotyczny zakaz styku fizycznego
+### 0.3.1. Asymptotyczny zakaz styku fizycznego
 
 Fundamentalnym warunkiem zachowania dynamicznej, oscylacyjnej natury 0-Matrycy jest zakaz permanentnego, statycznego zablokowania jej elementów składowych. Choć 0-Cząstki charakteryzują się nieściśliwym, twardym jądrem o skończonej objętości, to bezpośredni styk ich fizycznych granic jest niemożliwy. Wynika to z natury sub-planckowskiej sfery oddziaływań. Siła odpychania pomiędzy dwiema sąsiadującymi 0-Cząstkami rośnie nieliniowo wraz ze spadkiem odległości między ich środkami geometrycznymi. W miarę zbliżania się do krytycznej odległości granicznej, siła ta dąży asymptotycznie do nieskończoności, przy czym odległość ta jest ściśle większa niż suma promieni twardych jąder.
 
 Dzięki tej asymptotycznej barierze siłowej, odległość między 0-Cząstkami — nawet w stanach ekstremalnego ścisku topologicznego — pozostaje zawsze minimalna, lecz ściśle większa od zera. Konsekwencją tego mechanizmu jest całkowite wykluczenie fizycznego kontaktu sfer rdzeniowych, co zapobiega ich trwałemu, statycznemu zablokowaniu i gwarantuje, że osnowa zachowuje swój stan ciągłych mikro-oscylacji w każdych warunkach. Zakaz ten obowiązuje bezwzględnie i lokalnie — dla każdej pary sąsiadujących 0-Cząstek z osobna — niezależnie od globalnego reżimu naprężeń panującego w osnowie. Jak pokazano w dalszej części rozdziału, nawet w stanach plastycznej przebudowy sieci bariera ta nigdy nie zostaje przełamana; zmienia się jedynie topologia sąsiedztwa, nie zaś sama reguła minimalnej odległości.
 
-### Klauzula Krytycznego Przemieszczenia
+### 0.3.2. Klauzula Krytycznego Przemieszczenia
 Gdy na dany obszar 0-Matrycy działa ekstremalne ciśnienie zewnętrzne lub lokalne skręcenie topologiczne, odległości międzycząstkowe drastycznie maleją, wywołując gigantyczny wzrost lokalnej gęstości energii oraz naprężeń ścinających. W reżimie tym sieć osiąga stan maksymalnego dopuszczalnego upakowania dynamicznego. Jeżeli lokalne naprężenie ścinające przekroczy krytyczny próg plastyczności osnowy, aktywacji ulega Klauzula Krytycznego Przemieszczenia.
 
 Ponieważ asymptotyczna bariera siłowa nie dopuszcza wyjątków, żadna pojedyncza 0-Cząstka nie jest w stanie samodzielnie „wskoczyć” do sąsiedniej komórki — wymagałoby to chwilowego zbliżenia się do cząstek tworzących jej granicę poniżej progu krytycznego, co jest kategorycznie wykluczone. Klauzula Krytycznego Przemieszczenia opisuje zatem zjawisko z natury kolektywne: skoordynowaną przebudowę topologii sąsiedztwa w obrębie całego lokalnego klastra 0-Cząstek, a nie ruch jednej cząstki przez cudzą barierę.
@@ -90,7 +95,7 @@ Efektem netto tej kaskady jest to, że poszczególne 0-Cząstki zyskują nowych 
 
 Po odzyskaniu sfer oddziaływań zdolność do dalszej translacji zostaje natychmiast zablokowana. Każda 0-Cząstka zostaje ponownie uwięziona w nowo uformowanej komórce potencjału, powracając do swojego podstawowego reżimu: szybkich, lokalnych mikro-oscylacji wokół nowego położenia równowagi. Energia pierwotnego zaburzenia zostaje w ten sposób rozproszona — nie poprzez naruszenie bariery siłowej, lecz poprzez jej topologiczne obejście — a osnowa w tym punkcie powraca do stanu sprężystego zamrożenia. W reżimie niskich i średnich energii swoboda translacyjna pojedynczej, niezsynchronizowanej z resztą sieci cząstki jest zerowa, co gwarantuje stabilność strukturalną osnowy oraz uwięzionych w niej węzłów topologicznych.
 
-## Stan Relaksacji: Autoregulacja 0-Matrycy
+## 0.4. Stan Relaksacji: Autoregulacja 0-Matrycy
 
 Każdy punkt 0-Matrycy dąży do stanu relaksacji — konfiguracji, w której napór uderzeń kontaktowych z każdej strony idealnie równoważy się z naporem sąsiednich 0-Cząstek. W skali mikro oznacza to, że lokalne zgniecenie osnowy natychmiast wywołuje gwałtowny wzrost intensywności zderzeń, co system manifestuje jako lokalny nadmiar naprężenia.
 
@@ -101,19 +106,19 @@ Ten mechanizm sprawia, że żadne lokalne odkształcenie nie może pozostać trw
 To dążenie do nieustannego wyrównywania naprężeń definiujemy jako relaksację 0-Matrycy. Dominującym źródłem obserwowanego przesunięcia ku czerwieni nie jest jednak ten mechanizm, lecz zjawisko odrębne: kondensacja 0-Matrycy wywoływana grawitacyjnym zagęszczeniem materii, analogiczna do klasycznego grawitacyjnego przesunięcia ku czerwieni, lecz rozciągnięta na wielkoskalowe gradienty kondensacji. Mechanizm ten rozwijamy w dalszej części monografii.
 Relaksacja opisana w niniejszej sekcji jest natomiast zjawiskiem lokalnym i wtórnym. Gdy w danym obszarze osnowy dojdzie do gwałtownego, punktowego zaburzenia — na przykład wskutek eksplozji supernowej lub innego energetycznego zjawiska astrofizycznego — 0-Matryca zostaje wzburzona niczym powierzchnia wody po uderzeniu. Tak jak ośrodek wodny dąży do wytłumienia własnych fal, 0-Matryca dąży do rozproszenia tego zaburzenia z powrotem do stanu równowagi. Światło przemierzające taki lokalnie wzburzony, jeszcze niezrelaksowany obszar podlega dodatkowej, niewielkiej utracie energii — efektowi „zmęczenia” ograniczonemu przestrzennie i czasowo do otoczenia źródła zaburzenia, a nie rozciągniętemu jednorodnie na całą drogę fotonu przez kosmos. Mechanizm ten nie jest więc konkurencyjnym wobec ekspansji metrycznej wyjaśnieniem kosmologicznego rozsunięcia widm w skali globalnej — stanowi jedynie lokalny, addytywny wkład w okolicach źródeł wysokoenergetycznych zaburzeń.
 
-## Narodziny 3-Brany (Wielkie Wydarzenie i defekt topologiczny)
+## 0.5. Narodziny 3-Brany (Wielkie Wydarzenie i defekt topologiczny)
 
 Zagadnienie wyłonienia się uporządkowanego, trójwymiarowego świata z czterowymiarowego, zakleszczonego ośrodka rozwiązuje mechanika defektów topologicznych. Przyjmujemy, że poza zakresem ścisłego opisu TSM leży pierwotne, potężne zaburzenie — Wielkie Wydarzenie — analogiczne w swojej granicznej roli do osobliwości początkowej w standardowym modelu kosmologicznym. Zdarzenie to zadziałało na sztywną, czterowymiarową 0-Matrycę, wywołując dwa sprzężone efekty:
 
 1. **Skręcenie topologiczne:** W pewnym obszarze osnowa uległa plastycznemu odkształceniu granicznemu. Powstał trwały defekt topologiczny w postaci trójwymiarowej hiperpowierzchni — **3‑brany**. Granica między skręconą i nieskręconą częścią ośrodka ma z definicji wymiar o jeden mniejszy od wymiaru przestrzeni macierzystej, co naturalnie tłumaczy trójwymiarowość obserwowalnego Wszechświata. Przyjmujemy roboczo, że brana dziedziczy sprężystość macierzystej 4‑osnowy i jest zdolna do transmisji fal poprzecznych — nie jest to logiczna konieczność, lecz uproszczenie modelowe, do którego podejścia powracamy poniżej. Co kluczowe, uformowane na niej makroskopowe defekty są topologicznie zakotwiczone w tym pierwotnym skręceniu; opuszczenie przez nie przestrzeni **3-brany** i ucieczka w wolny wymiar 4D wymagałaby energii równej zerwaniu ciągłości całego kontinuum, co trwale więzi znaną materię wewnątrz tego trójwymiarowego świata.
  
-3. **Megafluktuacje ciśnienia:** W obrębie świeżo utworzonej 3‑brany pierwotne zaburzenie wywołało ekstremalne, lokalne skoki naprężeń. Tam, gdzie tensor naprężeń przekroczy próg plastyczności i barierę zakleszczenia, uformowały się trwałe, nieliniowe sploty — czterowymiarowe węzły topologiczne. Stanowią one pierwsze stabilne cząstki materii.
+2. **Megafluktuacje ciśnienia:** W obrębie świeżo utworzonej 3‑brany pierwotne zaburzenie wywołało ekstremalne, lokalne skoki naprężeń. Tam, gdzie tensor naprężeń przekroczy próg plastyczności i barierę zakleszczenia, uformowały się trwałe, nieliniowe sploty — czterowymiarowe węzły topologiczne. Stanowią one pierwsze stabilne cząstki materii.
 
 Obszar 4D poza przestrzenią 3‑brany pozostaje sztywnym, niezakłóconym szkłem topologicznym. Ponieważ jest on idealnie sprężysty i pozostaje w stanie równowagi statycznej, nie generuje żadnych dodatkowych sił dynamicznych działających na branę — cała obserwowalna dynamika fizyczna Wszechświata rozgrywa się w obrębie samego defektu hiperpowierzchniowego.
 
 Założenie o pełnym, izotropowym dziedziczeniu sprężystości nie jest dziś możliwe do zweryfikowania bezpośrednio — leży to poza zasięgiem obecnych metod pomiarowych. Jedyną dostępną drogą pośredniej oceny pozostaje obserwacja skutków: gdyby proces skręcenia topologicznego pozostawił w branie rezidualną anizotropię sprężystości, powinno się to ujawnić jako preferowany kierunek formowania się wielkoskalowych struktur na branie — mimo że w scenariuszu pełnego, izotropowego dziedziczenia żaden kierunek nie powinien być wyróżniony. Warto odnotować, że tego rodzaju wielkoskalowe anomalie kierunkowe są od dawna przedmiotem dyskusji w kosmologii obserwacyjnej — m.in. tzw. „oś zła”, asymetria półkul czy wyrównanie multipoli niskiego rzędu w promieniowaniu reliktowym. TSM nie rozstrzyga w tym miejscu, czy zjawiska te mają związek ze skręceniem pierwotnej osnowy; odnotowuje jedynie, że założenie o dziedziczonej sprężystości brany jest w zasadzie falsyfikowalne poprzez obserwacje tego typu, nawet jeśli ich ostateczna interpretacja wykracza poza zakres niniejszego rozdziału.
 
-## Aksjomat Skończoności Fizycznej: Kategoryczne wykluczenie osobliwości i „czarnych dziur”
+## 0.6. Aksjomat Skończoności Fizycznej: Kategoryczne wykluczenie osobliwości i „czarnych dziur”
 
 W tym miejscu formułujemy fundamentalny postulat logiczny, który stanowi najgłębszą linię demarkacyjną między TSM a geometrycznym dziedzictwem Ogólnej Teorii Względności oraz standardowej mechaniki kwantowej.
 
@@ -122,8 +127,9 @@ Teoria TSM wprowadza **Aksjomat Skończoności Fizycznej**: w realnym świecie n
 Konsekwencją niezerowej objętości własnej 0-Cząstek oraz istnienia geometrycznej granicy ich upakowania jest kategoryczny zakaz zapadania się jakiegokolwiek obszaru przestrzeni do bezwymiarowego punktu. Ponieważ 0-Cząstki posiadają twarde, nieściśliwe jądra kinetyczne, żadna siła we Wszechświecie — włączając w to najbardziej ekstremalne ciśnienie grawitacyjne — nie jest w stanie ścisnąć materii poniżej jej geometrycznego limitu strukturalnego. Z tego powodu model TSM definitywnie i jednoznacznie wyklucza istnienie osobliwości grawitacyjnych.
 
 W ten sposób prezentowany formalizm zamyka pełen opis przejścia od bezczasowej sieci sub-planckowskiej do relatywistycznego makroświata, ostatecznie obalając dogmat pustej, geometrycznej czasoprzestrzeni na rzecz spójnej elasto-mechaniki 0-Matrycy. Przeorientowanie to prowadzi do fundamentalnego przełomu w astrofizyce: całkowicie likwiduje pojęcie destrukcyjnej osobliwości i wyklucza istnienie czarnych dziur, zastępując te matematyczne fikcje realnymi, wysokoenergetycznymi strukturami skondensowanymi — ultragęstymi plazmoidami. Teoria TSM precyzyjnie definiuje mechanikę tych obiektów, wykazując, że to właśnie te ultragęste plazmoidy stanowią rzeczywiste, potężne silniki napędzające ewolucję galaktyk. Ich bezpośrednią, namacalną manifestacją są obserwowane współcześnie, gigantyczne dżety relatywistyczne, które dotychczas błędnie przypisywano grawitacyjnemu załamaniu materii.
+Aktualne obrazowanie radiointerferometryczne struktur kompaktowych w centrach galaktyk (EHT, M87*, Sgr A*) nie stoi w sprzeczności z modelem plazmoidów TSM. Obserwowany cień nie jest obrazem osobliwości ani horyzontu zdarzeń — jest obrazem fotonowej fotosfery, którą generuje każdy wystarczająco kompaktowy obiekt masywny, niezależnie od swojej wewnętrznej struktury. Jakościowy podpis obserwacyjny plazmoidu i czarnej dziury w sensie OTW są na tym poziomie nieodróżnialne; ich ilościowe różnice — w rozmiarze cienia, profilu emisji brzegu oraz strukturze polaryzacji — stanowią konkretne, falsyfikowalne predykcje TSM, które rozwijamy w dalszej części monografii.
 
-## Kreacja pierwszych zniekształceń: Alternatywa dla Wielkiego Wybuchu
+## 0.7. Kreacja pierwszych zniekształceń: Alternatywa dla Wielkiego Wybuchu
 
 W strukturze modelu teoretycznego musimy wyraźnie wytyczyć granicę poznania. Pytanie o pierwotną naturę Wielkiego Wydarzenia — co wywołało inicjalne skręcenie 0‑Matrycy i megafluktuacje ciśnienia — pozostaje kwestią otwartą. Dociekanie pierwotnej przyczyny leży poza ścisłym zakresem teorii fizycznej; stanowi sferę spekulacji filozoficznej, a nie weryfikowalnej empirycznie mechaniki. TSM zaczyna się operacyjnie od momentu, gdy takie zaburzenie już zaistniało w ośrodku.
 

@@ -19,7 +19,7 @@ format:
         }
         \fancyfoot[R]{\thepage} % Numer strony po prawej
 ---
-<!-- ver:5.0.1 -->
+<!-- ver:5.0.2 -->
 ```{=latex}
 \section*{\Huge{Rozdział 0:}}
 \vspace{-0.5cm}
@@ -127,6 +127,7 @@ Teoria TSM wprowadza **Aksjomat Skończoności Fizycznej**: w realnym świecie n
 Konsekwencją niezerowej objętości własnej 0-Cząstek oraz istnienia geometrycznej granicy ich upakowania jest kategoryczny zakaz zapadania się jakiegokolwiek obszaru przestrzeni do bezwymiarowego punktu. Ponieważ 0-Cząstki posiadają twarde, nieściśliwe jądra kinetyczne, żadna siła we Wszechświecie — włączając w to najbardziej ekstremalne ciśnienie grawitacyjne — nie jest w stanie ścisnąć materii poniżej jej geometrycznego limitu strukturalnego. Z tego powodu model TSM definitywnie i jednoznacznie wyklucza istnienie osobliwości grawitacyjnych.
 
 W ten sposób prezentowany formalizm zamyka pełen opis przejścia od bezczasowej sieci sub-planckowskiej do relatywistycznego makroświata, ostatecznie obalając dogmat pustej, geometrycznej czasoprzestrzeni na rzecz spójnej elasto-mechaniki 0-Matrycy. Przeorientowanie to prowadzi do fundamentalnego przełomu w astrofizyce: całkowicie likwiduje pojęcie destrukcyjnej osobliwości i wyklucza istnienie czarnych dziur, zastępując te matematyczne fikcje realnymi, wysokoenergetycznymi strukturami skondensowanymi — ultragęstymi plazmoidami. Teoria TSM precyzyjnie definiuje mechanikę tych obiektów, wykazując, że to właśnie te ultragęste plazmoidy stanowią rzeczywiste, potężne silniki napędzające ewolucję galaktyk. Ich bezpośrednią, namacalną manifestacją są obserwowane współcześnie, gigantyczne dżety relatywistyczne, które dotychczas błędnie przypisywano grawitacyjnemu załamaniu materii.
+Aktualne obrazowanie radiointerferometryczne struktur kompaktowych w centrach galaktyk (EHT, M87*, Sgr A*) nie stoi w sprzeczności z modelem plazmoidów TSM. Obserwowany cień nie jest obrazem osobliwości ani horyzontu zdarzeń — jest obrazem fotonowej fotosfery, którą generuje każdy wystarczająco kompaktowy obiekt masywny, niezależnie od swojej wewnętrznej struktury. Jakościowy podpis obserwacyjny plazmoidu i czarnej dziury w sensie OTW są na tym poziomie nieodróżnialne; ich ilościowe różnice — w rozmiarze cienia, profilu emisji brzegu oraz strukturze polaryzacji — stanowią konkretne, falsyfikowalne predykcje TSM, które rozwijamy w dalszej części monografii.
 
 ## 0.7. Kreacja pierwszych zniekształceń: Alternatywa dla Wielkiego Wybuchu
 
