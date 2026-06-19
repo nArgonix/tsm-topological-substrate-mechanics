@@ -8,6 +8,7 @@
   autor: <b>Piotr Szopinski</b><br>Wrocław, 2026
 </p>
 </br>
+
 [Wersja angielska / Read in English](README.md)
 
 ### Mechanika Substratu Topologicznego
