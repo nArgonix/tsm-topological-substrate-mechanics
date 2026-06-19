@@ -1,7 +1,7 @@
 <h1 align="center">
   <b>M</b>echanika <b>S</b>ubstratu <b>T</b>opologicznego <sub>"0&#8209;Matrycy"</sub>
   <br>
-  <span style="font-size: 0.6em; font-weight: light;">skrót: <b>(TSM)</b> taki sam jak w j. angielskim</span>
+ <sub><sup><small>skrót: <b>(TSM)</b> taki sam jak w j. angielskim</small></sup></sub>
 </h1>
 
 <p align="center">
