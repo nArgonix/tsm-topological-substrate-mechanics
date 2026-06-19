@@ -8,7 +8,7 @@ import re
 PROGI_SYSTEMOWE = [
     {"max_diff": 0,  "status": "🟢 Actual"},
     {"max_diff": 10,  "status": "🔵 Small change"},
-    {"max_diff": 0, "status": "🟡 Medium change"},
+    {"max_diff": 70, "status": "🟡 Medium change"},
     {"max_diff": float('inf'), "status": "🔴 Critical change"}
 ]
 

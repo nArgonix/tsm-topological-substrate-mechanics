@@ -10,7 +10,7 @@ Tabela rożnic wersji:
 | rozdzial_3.md | **3.2.0** | 🔴 Critical change | 2.0.0 | `chapter_3.md` |
 | rozdzial_4.md | **2.1.0** | 🔵 Small change | 2.0.0 | `chapter_4.md` |
 | rozdzial_5.md | **2.1.0** | 🔵 Small change | 2.0.0 | `chapter_5.md` |
-| rozdzial_6.md | **2.4.0** | 🔴 Critical change | 2.0.0 | `chapter_6.md` |
+| rozdzial_6.md | **2.4.0** | 🟡 Medium change | 2.0.0 | `chapter_6.md` |
 | rozdz.10.md | **---** | ❌ No original found (POL) | --- | `chapter_10.md` |
 | rozdz.11.md | **---** | ❌ No original found (POL) | --- | `chapter_11.md` |
 | rozdz.12.md | **---** | ❌ No original found (POL) | --- | `chapter_12.md` |

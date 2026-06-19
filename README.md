@@ -1,10 +1,13 @@
 <h1 align="center">
-  <b>T</b>opological 0-<b>M</b>atrix<sub>(Substrate)</sub> <b>M</b>echanics
+  <b>T</b>opological 0-<b>M</b>atrix<sub>(Substrate)</sub> <b>M</b>echanics<br> 
+  <span style="font-size: 0.6em; font-weight: light;">Acronym: <b>(TSM)</b></span>
 </h1>
+
 <p align="center">
   by <b>Piotr Szopinski</b> (Peter [sho-peen-skee])
 </p>
 </br>
+[Wersja polska / Read in Polish](README_PL.md)
 
 <p>This monograph presents a complete, alternative foundation for fundamental physics, achieving a radical simplification of the description of reality by eliminating the abstract concept of empty spacetime in favor of continuum mechanics. <b>T</b>opological 0-Matrix (<b>S</b>ubstrate) <b>M</b>echanics (TSM) proves that the entire observable Universe emerges as a macroscopic, elasto-dynamic manifestation of a sub-Planckian, geometrically jammed network of oscillators—the titular 0-Matrix.</p>
 

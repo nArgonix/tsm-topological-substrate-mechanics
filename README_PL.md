@@ -1,4 +1,13 @@
-# TSM: Topological Substrate Mechanics (Mechanika Substratu Topologicznego)
+<h1 align="center">
+  <b>M</b>echanika <b>S</b>ubstratu <b>T</b>opologicznego <sub>"0&#8209;Matrycy"</sub>
+  <br>
+  <span style="font-size: 0.6em; font-weight: light;">skrót: <b>(TSM)</b> taki sam jak w j. angielskim</span>
+</h1>
+
+<p align="center">
+  autor: <b>Piotr Szopinski</b><br>Wrocław, 2026
+</p>
+</br>
 [Wersja angielska / Read in English](README.md)
 
 ### Mechanika Substratu Topologicznego
