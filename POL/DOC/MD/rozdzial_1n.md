@@ -45,9 +45,15 @@ $$T_{IJ}^{(0)} = -P_0 \delta_{IJ}$$
 
 gdzie $P_0$ oznacza izotropowe ciśnienie zakleszczenia w przestrzeni 4D, a indeksy $I, J$ przebiegają wymiary od 1 do 4. Idealna symetria tego tensora gwarantuje, że wyłoniona 3-brana zachowuje pełną izotropię dla niskoenergetycznych zaburzeń falowych. Powoduje to całkowite zamaskowanie dyskretnej, sieciowej natury 0-Matrycy przed klasycznymi, makroskopowymi przyrządami pomiarowymi, tworząc iluzję gładkiego i pustego tła geometrycznego.
 
+---
+nowy TOC:
+---
 1.1. Mikrostruktura 0-Matrycy i stan globalnego zakleszczenia
- 1.1.1. Geometria sieci: 0-Cząstki w sferach oscylacji jako fundament osnowy
-1.1.2. Mechanizm globalnego zakleszczenia i wyłonienie izotropowej 3‑brany
+
+    1.1.1. Geometria sieci: 0-Cząstki w sferach oscylacji jako fundament osnowy [nowe]
+
+    1.1.2. Mechanizm globalnego zakleszczenia i wyłonienie izotropowej 3‑brany
+
 1.2. Emergencja czasu makroskopowego z dynamiki sub-planckowskiej [Przeniesione ze starego 1.1]
 
     1.2.1. Granica poznania i eliminacja fluktuacji stochastycznych [Stare 1.1.1]
@@ -83,3 +89,4 @@ gdzie $P_0$ oznacza izotropowe ciśnienie zakleszczenia w przestrzeni 4D, a inde
     1.6.2. Rygorystyczne rozdzielenie masy (defekt gęstości) od ładunku (skręcenie topologiczne) [Druga część starego 1.7]
 
 1.7. Podsumowanie Rozdziału [Stare 1.10]
+---

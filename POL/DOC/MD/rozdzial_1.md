@@ -2,6 +2,23 @@
     \setcounter{chapter}{1}
 ```
 ---
+- [1. Formalizm Mechaniki Substratu Topologicznego – czas emergentny, dynamika i kinematyka relatywistyczna {#sec:rom-tsm}]
+  - [1.1. Czas w ujęciu TSM – od lokalnej gęstości osnowy do mierzonego upływu zjawisk {#sec-czas-tsm}]
+    - [1.1.1. Granica poznania i eliminacja fluktuacji sub-planckowskich {#sec-czas-tsm-granica}]
+    - [1.1.2. Matematyczny formalizm uśredniania – Efektywna Gęstość Substratu {#sec:czas-tsm-uśrednienie}]
+    - [1.1.3. Kanoniczna definicja czasu makroskopowego {#sec:czas-tsm-def}]
+    - [1.1.4. Kinematyczna dylatacja czasu jako izotropowe spiętrzenie osnowy {#sec:czas-tsm-dylatacja}]
+  - [1.2. Elastodynamika 4D osnowy i mikroskopowa geneza prędkości światła]
+  - [1.3. Ośrodek i przestrzeń: Globalne zakleszczenie i izotropowa 3‑brana]
+    - [1.3.1. Stan globalnego zakleszczenia]
+  - [1.4. Kinematyka nieliniowa: Emergencja metryki $g\_{ab}$ z odkształcenia]
+  - [1.5. Dynamika falowa Substratu i równania pola]
+  - [1.6. Podwójny reżim elasto‑dynamiki: Fale sprężyste a nieliniowa blokada topologiczna]
+  - [1.7. Aksjomat materii: Skwantowane węzły topologiczne i rygorystyczne rozdzielenie masy od ładunku]
+  - [1.8. Wyprowadzenie kinematyki relatywistycznej z hydro‑elastyczności 0-Matrycy (substratu)]
+  - [1.9. Zmienna propagacja fal (lokalne $c\_{\\perp}$) i stałe materiałowe]
+  - [1.10. Podsumowanie Rozdziału]
+---
 <!-- ver:3.0.1 -->
 # 1. Formalizm Mechaniki Substratu Topologicznego – czas emergentny, dynamika i kinematyka relatywistyczna {#sec:rom-tsm}
 
@@ -98,28 +115,7 @@ Dzięki temu, że spiętrzenie $\langle\phi(v)\rangle_{\text{macro}}$ przyjmuje 
 
 *Uwaga o asymetrii manifestacji:* Chociaż pole gęstości wewnątrz obwiedni jest makroskopowym skalarem (co gwarantuje izotropię dylatacji czasu), sam proces kontrakcji geometrycznej (opisany w Sekcji 1.7) jest efektem czysto dynamicznym, wywołanym jednostronnym oporem frontu fali wzdłuż wektora pędu układu.
 
->### Dylatacja grawitacyjna – związek z potencjałem $\Phi$ {#sec:czas-tsm-dyl-graw}
-
-W Rozdziale 0.5 określono, że grawitacja to odkształcenie 3‑brany w czwarty wymiar, wywołane obecnością węzłów topologicznych. Odkształcenie to powoduje radialny gradient gęstości upakowania – im bliżej źródła, tym większa kompresja i większe $\phi$.
-
-W słabym polu grawitacyjnym przyjmujemy liniową zależność gęstości efektywnej od modułu potencjału:
-
-$$\phi(\mathbf{x}) \approx \phi_0 \left(1 + \frac{|V_{\text{g}}(\mathbf{x})|}{c_{\perp}^2}\right)$$ {#eq:czas-tsm-dyl-graw}
-
-
-gdzie $V_{\text{g}}(\mathbf{x})$ to newtonowski potencjał grawitacyjny ($\Phi \le 0$), a $c_{\perp}$ to prędkość poprzecznych fal ścinających (światła).
-
->### Matematyczna spójność z czasem tła
-
-Podstawiając zależność gęstościową ([@eq:czas-tsm-dyl-graw]) do kanonicznej relacji czasu ([@eq:czas-tsm-def]), przyrost lokalnego czasu własnego $dt$ w stosunku do niezaburzonego czasu płaskiego tła $dt_{\text{flat}}$ (gdzie $\phi = \phi_0$) przyjmuje postać:
-
-$$\frac{dt}{dt_{\text{flat}}} = \frac{\phi_0}{\phi(\mathbf{x})} \approx \left(1 + \frac{|\Phi|}{c_{\perp}^2}\right)^{-1} \tag{1.1.6.1}$$
-
-Stosując rozwinięcie w szereg Taylora dla słabych pól ($\frac{|\Phi|}{c_{\perp}^2} \ll 1$), otrzymujemy:
-
-<span id="eq-r1f">$$\frac{dt}{dt_{\text{flat}}} \approx 1 - \frac{|\Phi|}{c_{\perp}^2} \tag{1.1.6.2}$$</span>
-
-Daje to poprawne empirycznie przybliżenie dylatacji grawitacyjnej, rygorystycznie zgodne co do znaku i rzędu wielkości z klasyczną formułą doświadczalną oraz danymi z systemów GPS i eksperymentu Pounda-Rebki. Wzrost gęstości osnowy jednoznacznie implikuje proporcjonalny spadek wartości $dt$.
+$.
 
 </br>
 
@@ -220,6 +216,29 @@ Istnienie superluminalnych zaburzeń nie narusza kinematyki relatywistycznej. W 
 Fizyczna manifestacja fali podłużnej uwięzionej na 3-branie ma fundamentalne znaczenie. Ponieważ fala ta polega na sferycznym zagęszczaniu i rozrzedzaniu układu komórek, powoduje ona chwilowe, przestrzenne oscylacje ułamka upakowania osnowy ($\phi$). Zgodnie z równaniem kanonicznym czasu (Rozdział 1.1), lokalna zmiana gęstości $\phi$ wprost determinuje tempo procesów fizycznych. Fale podłużne rozchodzące się w 0-Matrycy to zatem w istocie sub-planckowskie **fale dylatacji czasu**.
 
 Z punktu widzenia makroskopowych detektorów materii (opartych na polach EM, czyli naprężeniach ścinających), fale te są niewidoczne jako klasyczne promieniowanie. Generują one jednak nieustanne, sub-planckowskie fluktuacje tempa upływu lokalnego czasu w całej przestrzeni 3-brany, co w fizyce eksperymentalnej obserwowane jest jako tło szumu kwantowego (energia próżni) i może stanowić mechanistyczne podłoże dla zjawiska nielokalnego splątania kwantowego.
+
+>### Dylatacja grawitacyjna – związek z potencjałem $\Phi$ {#sec:czas-tsm-dyl-graw}
+
+W Rozdziale 0.5 określono, że grawitacja to odkształcenie 3‑brany w czwarty wymiar, wywołane obecnością węzłów topologicznych. Odkształcenie to powoduje radialny gradient gęstości upakowania – im bliżej źródła, tym większa kompresja i większe $\phi$.
+
+W słabym polu grawitacyjnym przyjmujemy liniową zależność gęstości efektywnej od modułu potencjału:
+
+$$\phi(\mathbf{x}) \approx \phi_0 \left(1 + \frac{|V_{\text{g}}(\mathbf{x})|}{c_{\perp}^2}\right)$$ {#eq:czas-tsm-dyl-graw}
+
+
+gdzie $V_{\text{g}}(\mathbf{x})$ to newtonowski potencjał grawitacyjny ($\Phi \le 0$), a $c_{\perp}$ to prędkość poprzecznych fal ścinających (światła).
+
+>### Matematyczna spójność z czasem tła
+
+Podstawiając zależność gęstościową ([@eq:czas-tsm-dyl-graw]) do kanonicznej relacji czasu ([@eq:czas-tsm-def]), przyrost lokalnego czasu własnego $dt$ w stosunku do niezaburzonego czasu płaskiego tła $dt_{\text{flat}}$ (gdzie $\phi = \phi_0$) przyjmuje postać:
+
+$$\frac{dt}{dt_{\text{flat}}} = \frac{\phi_0}{\phi(\mathbf{x})} \approx \left(1 + \frac{|\Phi|}{c_{\perp}^2}\right)^{-1} \tag{1.1.6.1}$$
+
+Stosując rozwinięcie w szereg Taylora dla słabych pól ($\frac{|\Phi|}{c_{\perp}^2} \ll 1$), otrzymujemy:
+
+<span id="eq-r1f">$$\frac{dt}{dt_{\text{flat}}} \approx 1 - \frac{|\Phi|}{c_{\perp}^2} \tag{1.1.6.2}$$</span>
+
+Daje to poprawne empirycznie przybliżenie dylatacji grawitacyjnej, rygorystycznie zgodne co do znaku i rzędu wielkości z klasyczną formułą doświadczalną oraz danymi z systemów GPS i eksperymentu Pounda-Rebki. Wzrost gęstości osnowy jednoznacznie implikuje proporcjonalny spadek wartości $dt
 
 </br>
 
