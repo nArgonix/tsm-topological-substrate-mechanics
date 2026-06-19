@@ -4,7 +4,7 @@
 </h1>
 
 <p align="center">
-  by <b>Piotr Szopinski</b> (Peter [sho-peen-skee])
+  by <b>Piotr Szopinski</b> (Peter [sho-peen-skee])/b><br>Wroclaw, Poland, 2026
 </p>
 </br>
 
