@@ -1,3 +1,29 @@
+- [Węzły topologiczne, emergencja solitoniczna i struktura materii w TSM – formalizm elastodynamiki 4D, model Faddeeva–Skyrme’a, hydrodynamika bezwładności oraz geometryczne pochodzenie spinu i masy]
+    - [2.1.1. Stan globalnego zakleszczenia i skończona sztywność objętościowa]
+    - [2.1.2. Pełny rozkład Hodge’a‑Helmholtza pola przemieszczeń w $\\mathbb{R}^4$]
+    - [2.1.3. Równania ruchu, separacja modów i warunek cechowania]
+    - [2.1.4. Rzutowanie 3D + $x^4$: Rozszerzona mapa pól fizycznych]
+  - [2.2. Sformalizowany model Faddeeva‑Skyrme’a (FS-TSM), załamanie superpozycji i emergencja leptonów]
+    - [2.2.1. Nieliniowa konwersja modów i próg plastyczności]
+    - [2.2.2. Rozszerzony Lagrangian 4D i rozwiązanie niestabilności Derricka]
+    - [2.2.3. Dualizm Skyrmion-Hopfion w przestrzeni wielowymiarowej]
+    - [2.2.4. Emergencja masy leptonów i geometryczne wyprowadzenie Reguły Koidego]
+  - [2.3. Ontologia Baryonu: Warkocze topologiczne i chiralna frustracja]
+    - [2.3.1. Struktura warkoczowa barionów i eliminacja cząstek wymiany]
+    - [2.3.2. Różnica mas $m\_n \> m\_p$ jako efekt energii frustracji chiralnej]
+    - [2.3.3. Geometryczna blokada rozpadu $\\beta$ w jądrach atomowych]
+  - [2.4. Hydrodynamiczny mechanizm bezwładności i zniesienie bariery Peierlsa‑Nabarro]
+    - [2.4.1. Masa jako zintegrowana energia odkształcenia sprężystego]
+    - [2.4.2. Ruch bezstratny jako transfer stanu odkształcenia]
+    - [2.4.3. Zniesienie barier dyskretnych (Efekt Peierlsa‑Nabarro)]
+  - [2.5. Geometryczna istota ładunku elektrycznego i jego rozdzielenie od masy]
+  - [2.6. Antymateria jako inwersja topologiczna i chiralna]
+    - [2.6.1. Chiralność splotu]
+    - [2.6.2. Mechanizm anihilacji]
+  - [2.7. Geometryczne pochodzenie spinu 1/2 i podwójne nakrycie przestrzeni konfiguracji]
+  - [Podsumowanie Rozdziału 2]
+
+
 <!-- ver:3.4.0 -->
 # Węzły topologiczne, emergencja solitoniczna i struktura materii w TSM – formalizm elastodynamiki 4D, model Faddeeva–Skyrme’a, hydrodynamika bezwładności oraz geometryczne pochodzenie spinu i masy
 
