@@ -1,6 +1,6 @@
 ---
 ---
-<!-- ver:4.5.1 -->
+<!-- ver:4.5.6 -->
 # 1. Elasto-mechanika 0-Matrycy: Emergencja Czasu, Metryki i Kinematyki Relatywistycznej {#sec:rom-tsm}
 
 ## 1.1. Wprowadzenie i ramy konceptualne {#sub-wprowadznie}
@@ -250,7 +250,7 @@ W ten sposób przejście z opisu dyskretnego (dynamiki 0-Cząstek) do opisu cią
 
 ### 1.3.5. Zachowawczy charakter propagacji falowej i brak dyssypacji energii {#sec-1-3-5}
 
-Zdefiniowanie potężnego oporu żyroskopowego rodzi zasadnicze pytanie: w jaki sposób w medium zdominowanym przez procesy kaskadowych kolizji stabilność energetyczna fali nie ulega natychmiastowej dyssypacji na ciepło? Model TSM eliminuje dyssypację poprzez dwa warunki ontologiczne:
+Zdefiniowanie parametru geometrycznego wzmocnienia bezwładności $\Gamma_{4D}$ rodzi zasadnicze pytanie: w jaki sposób w medium zdominowanym przez procesy kaskadowych kolizji stabilność energetyczna fali nie ulega natychmiastowej dyssypacji na ciepło? Model TSM eliminuje dyssypację poprzez dwa warunki ontologiczne:
 
 1. **Brak sub-poziomu strukturalnego:** Zderzenia 0-cząstek są twarde, niepodzielne i bezwzględnie sprężyste. Ponieważ nie istnieje "wnętrze" 0-cząstki, energia nie ma jak ulec termalizacji do niższych wymiarów czy wewnętrznego tarcia.
 2. **Czysto reaktywny charakter impedancji sieci:** Komórki sieciowe działają jak geometryczny akumulator energii. Na przednim zboczu fali pochłaniają pęd makroskopowy, na tylnym w pełni i bezstratnie go oddając.
@@ -284,7 +284,7 @@ gdzie:
 
 Wszelkie zakrzywienia przestrzeni oraz wynikające z nich zjawiska grawitacyjne są w ten sposób bezpośrednim skutkiem mechanicznego naciągnięcia układu komórek 0-Cząstek. Generuje to makroskopowy gradient efektywnej gęstości upakowania $\phi$ skierowany w stronę czwartego, ortogonalnego wymiaru przestrzennego $x^4$.
 
-### 1.4.2. Kinematyczna dylatacja czasu jako izotropowe spiętrzenie osnowy {#sec-1-4-1-1}
+### 1.4.2. Kinematyczna dylatacja czasu jako izotropowe spiętrzenie osnowy {#sec-1-4-2}
 
 Ruch struktury makroskopowej (węzła) nie polega na przepychaniu materii przez ośrodek, lecz na propagacji samej deformacji topologicznej poprzez zdegenerowaną, wibrującą sieć krystaliczną osnowy. Na poziomie fundamentalnym 0-Cząstki nie ulegają fizycznej translacji w ślad za poruszającym się ciałem; to kształt ich sfer oddziaływań ulega kaskadowej, falowej deformacji wraz z ruchem impulsu solitonowego. Jest to bezstratna propagacja kolektywnego wzoru węzłów-solitonów przez zakleszczony Substrat. Materia zachowuje się jak porowata siatka topologiczna, przez którą bezoporowo propaguje się stan odkształcenia sieci.
 
@@ -402,13 +402,15 @@ Prędkość światła nie jest stałą uniwersalną; wynika bezpośrednio z niel
 
 $$c_{\perp,\text{lok}}^2 = \frac{\mu}{\rho_{\text{eff}}^{(0)}} \left( 1 + \mathcal{A} \Sigma \right) = c_{\perp}^2 \left( 1 + \mathcal{A} \Sigma \right)$$ {#eq-zmiennosc-c}
 
+Stała akustoelastyczna $\mathcal{A}$ ma wymiar odwrotności naprężenia $[\text{Pa}^{-1}]$, zapewniając bezwymiarowość członu $\mathcal{A}\Sigma$; jej związek z bezwymiarowymi stałymi trzeciego rzędu Murnaghana realizuje się poprzez normalizację do modułu ścinania: $\mathcal{A} = \tilde{\mathcal{A}}/\mu$, gdzie $\tilde{\mathcal{A}}$ jest bezwymiarową stałą materiałową. Jawna postać tego związku pozostaje fenomenologicznie otwarta.
+
 Aby przejść od ogólnego naprężenia mechanicznego $\Sigma$ do konkretnych źródeł fizycznych (pole magnetyczne, potencjał grawitacyjny), identyfikujemy $\Sigma$ z odpowiednim tensorem naprężeń pochodzącym od danego oddziaływania:
 
-**Wkład pola magnetycznego.** Naprężenie Maxwella generowane przez pole $B$ w ośrodku wynosi $\Sigma_B = B^2/(2\mu_0)$. Podstawiając do (@eq:zmienność-c):
+**Wkład pola magnetycznego.** Naprężenie Maxwella generowane przez pole $B$ w ośrodku wynosi $\Sigma_B = B^2/(2\mu_{\rm em})$, gdzie $\mu_{\rm em}$ oznacza przenikalność magnetyczną próżni (symbol wyróżniony od modułu ścinania Lamégo $\mu$ stosowanego w całym rozdziale). Podstawiając do ( @eq-zmiennosc-c):
 
-$$c_{\perp,\text{lok}}^2 \approx c_{\perp}^2\left(1 + \mathcal{A}\frac{B^2}{2\mu_0}\right)$$ {#eq-1-4-5-wz1}
+$$c_{\perp,\text{lok}}^2 \approx c_{\perp}^2\left(1 + \mathcal{A}\frac{B^2}{2\mu_{\rm em}}\right)$$ {#eq-1-4-5-wz1}
 
-**Wkład potencjału grawitacyjnego.** Z relacji gęstości §1.4.2.1 (eq-1-4-3), $\phi(\mathbf{x})\approx\phi_0(1+|\Phi|/c_\perp^2)$, oraz mostu gęstości $\rho_{\text{eff}}=\rho_0\cdot\phi/\phi_0$ wprowadzonego w §1.5.1, otrzymujemy $\rho_{\text{eff}}(\mathbf{x})\approx\rho_0(1+|\Phi|/c_\perp^2)$. Ponieważ $c_{\perp,\text{lok}}^2=\mu/\rho_{\text{eff}}$, rozwinięcie do pierwszego rzędu daje:
+**Wkład potencjału grawitacyjnego.** Z relacji gęstości @sec-1-4-2-1 (@eq-14-3), $\phi(\mathbf{x})\approx\phi_0(1+|\Phi|/c_\perp^2)$, oraz mostu gęstości $\rho_{\text{eff}}=\rho_0\cdot\phi/\phi_0$ wprowadzonego w @sec-1-5-1, otrzymujemy $\rho_{\text{eff}}(\mathbf{x})\approx\rho_0(1+|\Phi|/c_\perp^2)$. Ponieważ $c_{\perp,\text{lok}}^2=\mu/\rho_{\text{eff}}$, rozwinięcie do pierwszego rzędu daje:
 
 $$c_{\perp,\text{lok}}^2 \approx \frac{\mu}{\rho_0}\left(1 - \frac{|\Phi|}{c_\perp^2}\right)$$ {#eq-1-4-5-wz2}
 
@@ -418,7 +420,7 @@ $$\epsilon_{\text{eff}} = \epsilon_0 \left(1 - \kappa B^2 + \beta_\Phi \frac{\Ph
 
 ze stałą sprzężenia magnetycznego jawnie wyrażoną przez stałą Murnaghana:
 
-$$\kappa = \frac{\mathcal{A}}{2\mu_0}$$ {#eq-1-4-5-wz4}
+$$\kappa = \frac{\mathcal{A}}{2\mu_{\rm em}}$$ {#eq-1-4-5-wz4}
 
 Współczynnik grawitacyjny wynosi $\beta_\Phi=-1$: ponieważ $|\Phi|/c_\perp^2=-\Phi/c_\perp^2$ przy przyjętej konwencji $\Phi\le0$, podstawienie $|\Phi|\to-\Phi$ we wzorze na $\epsilon_{\text{eff}}$ daje wprost współczynnik $-1$ przy zmiennej $\Phi$. Wartość ta wynika zatem z liniowej relacji gęstości $\rho_{\text{eff}}(\Phi)$ (a nie z mechanizmu akustoelastycznego $\mathcal{A}\Sigma$) i w obecnym ujęciu modelu jest stałą niezależną od $\mathcal{A}$. Pełna redukcja obu stałych do wspólnego źródła $\mathcal{A}$ wymagałaby wykazania, że gradient gęstości wywołany przez $\Phi$ jest fizycznie równoważny naprężeniu Murnaghana — co pozostaje otwartym problemem badawczym tego rozdziału.
 
@@ -441,11 +443,13 @@ Mechanika Substratu podlega uogólnionemu formalizmowi Lagrange’a, asymilując
 
 ### 1.5.1. Równania pola osnowy jako opis stanów naprężeń sieci {#sec-1-5-1}
 
-Gęstość lagrangianu $\mathcal{L}$ izotropowej 3-brany zdefiniowana jest przez jej całkowitą energię sprężystą. Wykorzystując tensor modułów sprężystości $K^{abcd}$, kontinuum modelujemy w reżimie niskich odkształceń za pomocą rozwinięcia:
+Gęstość lagrangianu $\mathcal{L}$ izotropowej 3-brany stanowi różnicę gęstości energii kinetycznej i potencjalnej sprężystej. Wykorzystując tensor modułów sprężystości $K^{abcd}$, kontinuum modelujemy w reżimie niskich odkształceń za pomocą rozwinięcia:
 
-$$\mathcal{L} = \frac{1}{2} K^{abcd} \epsilon_{ab} \epsilon_{cd} + \mathcal{O}(\epsilon^3)$$ {#eq-1-5-1}
+$$\mathcal{L} = \frac{1}{2}\rho_{\text{eff}}\left(\frac{\partial u^a}{\partial t_{\text{flat}}}\right)^2 - \frac{1}{2}K^{abcd}\epsilon_{ab}\epsilon_{cd} + \mathcal{O}(\epsilon^3)$$
 
-gdzie tensor małych odkształceń $\epsilon_{ab}$ wyznacza się z pola przemieszczeń osnowy $u$:
+gdzie pierwszy człon opisuje gęstość energii kinetycznej pola przemieszczeń, a drugi — gęstość energii potencjalnej sprężystej $\mathcal{U}$.
+
+Gdzie tensor małych odkształceń $\epsilon_{ab}$ wyznacza się z pola przemieszczeń osnowy $u$:
 
 $$\epsilon_{ab} = \frac{1}{2}(\nabla_a u_b + \nabla_b u_a)$$ {#eq-1-5-2}
 
@@ -467,8 +471,6 @@ $$\phi = \phi_0 (1 - \epsilon^c_c) = \phi_0 (1 - \nabla \cdot \mathbf{u})$$  {#e
 
 *Uwaga:* Wyrażenie (@eq-1-5-5) zakłada, że $\epsilon^c_c$ jest małe, lecz skończone — zgodnie z wyjaśnieniem w @sec-1-3-6, gdzie idealizacja $\lambda\to\infty$ z @sec-1-3-1 stanowi przybliżenie widma makroskopowego, nie limit ścisły. Rezydualna, skończona ściśliwość ($\lambda\gg\mu$, $\lambda<\infty$) w skali sub-planckowskiej pozwala $\epsilon^c_c$ przyjmować małe, niezerowe wartości, które generują obserwowalne gradienty $\phi$ odpowiedzialne za pole grawitacyjne.
 
-gdje $\phi_0$ to niezniekształcona...
-
 gdzie $\phi_0$ to niezniekształcona, bazowa, **bezwymiarowa** gęstość upakowania 0-Matrycy w stanie równowagi. Ponieważ równanie ruchu Substratu wymaga współczynnika bezwładności o wymiarze gęstości masowej (a nie bezwymiarowego ułamka upakowania), wiążemy $\phi$ z jednorodną gęstością bezwładną $\rho_{\text{eff}}^{(0)}$ wyprowadzoną mikroskopowo w §1.3.3 (@eq-1-3-3-wz5) prostą proporcją:
 
 $$\rho_{\text{eff}}(\mathbf{x}) = \rho_{\text{eff}}^{(0)} \cdot \frac{\phi(\mathbf{x})}{\phi_0}$$ {#eq-1-5-5b}
@@ -479,7 +481,7 @@ Stosując zasadę najmniejszego działania Hamiltona ($\delta \int \mathcal{L} \
 
 $$\rho_{\text{eff}} \frac{\partial^2 u^a}{\partial t_{\text{flat}}^2} = \nabla_b \sigma^{ab} = (\lambda + \mu) \nabla^a (\nabla \cdot \mathbf{u}) + \mu \nabla^2 u^a$$ {#eq-1-5-6}
 
-Zgodnie z mechaniką ośrodków krystalicznych, pole przemieszczeń $u^a$ można jednoznacznie rozłożyć (dekompozycja Helmholtza) na składową bezrotacyjną (fale podłużne) oraz bezdywergencyjną (fale poprzeczne ścinania): $\mathbf{u} = \nabla \Phi + \nabla \times \mathbf{\Psi}$. Podstawiając ten rozkład do równania ruchu (@eq-1-5-6) dla składowej poprzecznej $\mathbf{\Psi}$ (gdzie $\nabla \cdot \mathbf{\Psi} = 0$), otrzymujemy czyste, jednorodne równanie falowe:
+Zgodnie z mechaniką ośrodków krystalicznych, pole przemieszczeń $u^a$ można jednoznacznie rozłożyć (dekompozycja Helmholtza) na składową bezrotacyjną (fale podłużne) oraz bezdywergencyjną (fale poprzeczne ścinania): $\mathbf{u} = \nabla \varphi_{\rm H} + \nabla \times \mathbf{\Psi}$, gdzie $\varphi_{\rm H}$ jest skalarnym potencjałem dekompozycji (symbol wyróżniony od grawitacyjnego $\Phi$ z @sec-1-4-2-1). Podstawiając ten rozkład do równania ruchu (@eq-1-5-6) dla składowej poprzecznej $\mathbf{\Psi}$ (gdzie $\nabla \cdot \mathbf{\Psi} = 0$), otrzymujemy czyste, jednorodne równanie falowe:
 
 $$\nabla^2 \mathbf{\Psi} - \frac{\rho_{\text{eff}}}{\mu} \frac{\partial^2 \mathbf{\Psi}}{\partial t_{\text{flat}}^2} = 0$$ {#eq-1-5-7}
 
