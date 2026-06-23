@@ -1,6 +1,6 @@
 ---
 ---
-<!-- ver:4.5.6 -->
+<!-- ver:4.5.8 -->
 # 1. Elasto-mechanika 0-Matrycy: Emergencja Czasu, Metryki i Kinematyki Relatywistycznej {#sec:rom-tsm}
 
 ## 1.1. Wprowadzenie i ramy konceptualne {#sub-wprowadznie}
@@ -210,29 +210,62 @@ Definiujemy makroskopowy parametr geometrycznego wzmocnienia bezwładności $\Ga
 
 Aby uniknąć definiowania parametru wzomcnienia bezwładności $\Gamma_{4D}$ operacyjnie poprzez samą stałą $c_\perp$ (co prowadziłoby do błędnego koła), wyprowadzamy go wyłącznie z geometrii sieci i statystyki zderzeń mikroskopowych.
 
-Definiujemy fundamentalne parametry układu w $d=4$: gęstość liczbową 0-Cząstek $n$ (węzłów na jednostkę 4-objętości), efektywną stałą sieci $a$ (z relacją geometryczną $a\equiv n^{-1/4}$, zgodną z $a=2R_0$ wyprowadzonym w §1.3.2 z geometrii stycznych sfer oscylacji; relacja ta jest ścisłą definicją stałej sieci dla regularnej, izotropowej sieci zakleszczonej, w której każdemu węzłowi przypada 4-objętość dokładnie równa $a^4$), 4-wymiarowy przekrój czynny rozpraszania $S_{4D}$, oraz średnią drogę swobodną $\ell$ swobodnego rdzenia poruszającego się wewnątrz zablokowanych sfer.
+Definiujemy fundamentalne parametry układu w $d=4$: gęstość liczbową 0-Cząstek $n$ (węzłów na jednostkę 4-objętości), efektywną stałą sieci $a$ (z relacją geometryczną $a\equiv n^{-1/4}$, zgodną z $a=2R_0$ wyprowadzonym w §1.3.2 z geometrii stycznych sfer oscylacji; relacja ta jest ścisłą definicją stałej sieci dla regularnej, izotropowej sieci zakleszczonej, w której każdemu węzłowi przypada 4-objętość dokładnie równa $a^4$), 4-wymiarowy przekrój czynny rozpraszania $S_{4D}$, oraz średnią drogę swobodną $\ell$ swobodnego rdzenia poruszającego się wewnątrz zablokowanych sfer. Należy w tym miejscu rygorystycznie zdefiniować naturę przekroju czynnego $S_{4D}$. W przestrzeni 4-wymiarowej przekrój czynny nie jest dwuwymiarowym polem powierzchni, lecz trójwymiarową hiper-powierzchnią uderzeniową (efektywną objętością 3-kuli kolizyjnej), posiadającą wymiar geometryczny $[L^3]$. Biorąc pod uwagę gęstość liczbową osnowy $n \equiv a^{-4}$ o wymiarze $[L^{-4}]$, średnia droga swobodna $\ell$ z klasycznej teorii kinetycznej uogólnionej na 4 wymiary przyjmuje postać:
 
-Z klasycznej teorii kinetycznej uogólnionej na 4 wymiary:
+$$\ell = \frac{1}{\sqrt{2}\, n\, S_{4D}}$$
 
-$$\ell = \frac{1}{\sqrt{2}\, n\, S_{4D}}$$ {#eq-1-3-3-wz1}
+ {#eq-1-3-3-wz1}
+
+Wymiarowość mianownika redukuje się do $[L^{-1}]$, co poprawnie nadaje drodze swobodnej $\ell$ fizyczny wymiar długości $[L^1]$. Gwarantuje to absolutną spójność analizy wymiarowej w dalszych krokach.
 
 Podstawiając $n=a^{-4}$:
 
-$$a^4 = \sqrt{2}\,\ell\,S_{4D} \implies a^2 = \sqrt[4]{2}\sqrt{\ell\,S_{4D}}$$ {#eq-1-3-3-wz2}
+$$a^4 = \sqrt{2}\,\ell\,S_{4D} \implies a^2 = \sqrt[4]{2}\sqrt{\ell\,S_{4D}}$$
+
+ {#eq-1-3-3-wz2}
 
 Ze względu na warunek lokalnej nieściśliwości Substratu, makroskopowy transfer pędu fali poprzecznej wymaga kaskadowej redystrybucji energii wewnątrz komórki sieci. Ruch rdzenia wewnątrz sfery ma charakter błądzenia przypadkowego: po $N$ zderzeniach o długości $\ell$, średni kwadrat przemieszczenia wynosi $\langle r^2\rangle=N\ell^2$. Zgodnie z tą samą zasadą ekwipartycji na 4 stopnie swobody, która w §1.3.2 dała $\mu=\rho_0v^2/4$, postęp w pojedynczej osi poprzecznej wynosi:
 
 $$\langle x_{\perp}^2\rangle = \frac14 N\ell^2$$ {#eq01-3-3-wz3}
-
 Definiujemy $\Gamma_{4D}\equiv N$ jako liczbę mikro-zderzeń niezbędnych do przetransferowania impulsu na odległość pojedynczej sfery oddziaływań $a$. Kładąc warunek graniczny $\langle x_\perp^2\rangle=a^2$:
 
 $$\Gamma_{4D} = 4\left(\frac{a}{\ell}\right)^2 = 4\sqrt[4]{2}\,\frac{\sqrt{S_{4D}}}{\ell^{3/2}}$$ {#eq-1-3-gamma4d}
 
-Wielkość ta jest teraz funkcją wyłącznie geometrii sieci ($a$) i statystyki zderzeń ($\ell$, $S_{4D}$) — bez odwołania do $c_\perp$ czy $v_\text{00}$. Oznacza to, że efektywna gęstość bezwładna, jaką „widzi” przemieszczająca się fala, rośnie z kwadratem uwięzionego, żyroskopowego oporu tła względem pierwotnej gęstości masowej $\rho_0$. Oznaczmy tę jednorodną, równowagową gęstość bezwładną jako $\rho_{\text{eff}}^{(0)}$ — wartość obowiązującą w niezakłóconym, homogenicznym stanie zakleszczenia 0-Matrycy:
+Dzięki ustalonemu wcześniej wymiarowi $[L^3]$ dla wielkości $S_{4D}$, pierwiastek w liczniku przyjmuje postać $[L^{1.5}]$, co idealnie skraca się z mianownikiem $\ell^{3/2}$. Czyni to parametr geometrycznego wzmocnienia bezwładności $\Gamma_{4D}$ wielkością rygorystycznie bezwymiarową.
 
-$$\rho_{\text{eff}}^{(0)} \equiv \rho_0\cdot\Gamma_{4D}^2$$ {#eq-1-3-3-wz5}
+Wielkość ta jest teraz funkcją wyłącznie geometrii sieci ($a$) i statystyki zderzeń ($\ell$, $S_{4D}$) — bez odwołania do $c_\perp$ czy $v_\text{00}$. Oznacza to, że efektywna gęstość bezwładna, jaką „widzi” przemieszczająca się fala, rośnie z kwadratem uwięzionego, żyroskopowego oporu tła względem pierwotnej gęstości masowej $\rho_0$. Aby formalnie dowieść tej zależności i uniknąć arbitralnego postulowania wartości gęstości makroskopowej, należy wyprowadzić ją bezpośrednio z bilansu energii kinetycznej oraz mechanizmu wzmocnienia kinematycznego.
 
-To właśnie $\rho_{\text{eff}}^{(0)}$, a nie surowa gęstość mikroskopowa $\rho_0=m_{00}/V_0$, jest wielkością bezpośrednio wstawianą do relacji Helmholtza $c_\perp=\sqrt{\mu/\rho_{\text{eff}}^{(0)}}$ w §1.3.4 oraz do równania ruchu Substratu (eq-1-5-6) w §1.5.1 jako wartość odniesienia, wokół której fluktuuje pole $\rho_{\text{eff}}(\mathbf{x})$ wprowadzone tam dla opisu lokalnych zaburzeń grawitacyjnych.
+Gdy przez 0-Matrycę propaguje się makroskopowa fala ścinania, wymusza ona na elemencie objętościowym Substratu makroskopową prędkość przemieszczenia poprzecznego $\dot{u}_{\text{macro}}$. Ponieważ jednak impuls musi fizycznie przebyć krętą ścieżkę składającą się z $N = \Gamma_{4D}$ mikro-zderzeń (błądzenie przypadkowe rdzenia), rzeczywista, wymuszona prędkość mikroskopowa przesyłu impulsu między 0-Cząstkami ($\dot{u}_{\text{mikro}}$) jest proporcjonalnie wyższa. Współczynnik $\Gamma_{4D}$ pełni tu rolę efektywnego opóźnienia propagacji:
+
+$$\dot{u}_{\text{mikro}} = \Gamma_{4D} \cdot \dot{u}_{\text{macro}}$$
+
+ {#eq-1-3-3-wz5-a}
+
+W makroskopowym kontinuum gęstość energii kinetycznej fali opisywana jest za pomocą poszukiwanej, jednorodnej gęstości efektywnej $\rho_{\text{eff}}^{(0)}$ w stanie równowagowym:
+
+$$E_k = \frac{1}{2} \rho_{\text{eff}}^{(0)} (\dot{u}_{\text{macro}})^2$$
+
+ {#eq-1-3-3-wz5-b}
+
+Z drugiej strony, na fundamentalnym poziomie mikroskopowym, ta sama energia kinetyczna jest zmagazynowana w rzeczywistym ruchu rdzeni o bazowej gęstości masowej tła $\rho_0$:
+
+$$E_k = \frac{1}{2} \rho_0 (\dot{u}_{\text{mikro}})^2$$
+
+ {#eq-1-3-3-wz5-c}
+
+Podstawiając relację wzmocnienia kinematycznego do mikroskopowego bilansu energii, otrzymujemy:
+
+$$E_k = \frac{1}{2} \rho_0 (\Gamma_{4D} \cdot \dot{u}_{\text{macro}})^2 = \frac{1}{2} (\rho_0 \Gamma_{4D}^2) (\dot{u}_{\text{macro}})^2$$
+
+ {#eq-1-3-3-wz5-d}
+
+Porównując ten wynik bezpośrednio z ujęciem makroskopowym, otrzymujemy rygorystyczną, analityczną postać równowagowej gęstości bezwładnej, obowiązującej w niezakłóconym stanie zakleszczenia 0-Matrycy:
+
+$$\rho_{\text{eff}}^{(0)} = \rho_0 \cdot \Gamma_{4D}^2$$
+
+ {#eq-1-3-3-wz5}
+
+To właśnie $\rho_{\text{eff}}^{(0)}$, a nie surowa gęstość mikroskopowa $\rho_0=m_{00}/V_0$, jest wielkością bezpośrednio wstawianą do relacji Helmholtza $c_\perp=\sqrt{\mu/\rho_{\text{eff}}^{(0)}}$ w §1.3.4 oraz do równania ruchu Substratu (@eq-1-5-6) w @sec-1-5-1 jako wartość odniesienia, wokół której fluktuuje pole $\rho_{\text{eff}}(\mathbf{x})$ wprowadzone tam dla opisu lokalnych zaburzeń grawitacyjnych.
 
 ### 1.3.4. Derywacja $c_{\perp}$ i jej interpretacja fizyczna {#sec-1-3-4}
 
@@ -445,7 +478,7 @@ Mechanika Substratu podlega uogólnionemu formalizmowi Lagrange’a, asymilując
 
 Gęstość lagrangianu $\mathcal{L}$ izotropowej 3-brany stanowi różnicę gęstości energii kinetycznej i potencjalnej sprężystej. Wykorzystując tensor modułów sprężystości $K^{abcd}$, kontinuum modelujemy w reżimie niskich odkształceń za pomocą rozwinięcia:
 
-$$\mathcal{L} = \frac{1}{2}\rho_{\text{eff}}\left(\frac{\partial u^a}{\partial t_{\text{flat}}}\right)^2 - \frac{1}{2}K^{abcd}\epsilon_{ab}\epsilon_{cd} + \mathcal{O}(\epsilon^3)$$
+$$\mathcal{L} = \frac{1}{2}\rho_{\text{eff}} \, \delta_{ab} \frac{\partial u^a}{\partial t_{\text{flat}}} \frac{\partial u^b}{\partial t_{\text{flat}}} - \frac{1}{2}K^{abcd}\epsilon_{ab}\epsilon_{cd} + \mathcal{O}(\epsilon^3)$$ {#eq-1-5-1}
 
 gdzie pierwszy człon opisuje gęstość energii kinetycznej pola przemieszczeń, a drugi — gęstość energii potencjalnej sprężystej $\mathcal{U}$.
 
