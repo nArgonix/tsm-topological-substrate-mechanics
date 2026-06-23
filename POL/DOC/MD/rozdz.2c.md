@@ -25,7 +25,7 @@
 
 
 <!-- ver:3.4.0 -->
-# Węzły topologiczne, emergencja solitoniczna i struktura materii w TSM – formalizm elastodynamiki 4D, model Faddeeva–Skyrme’a, hydrodynamika bezwładności oraz geometryczne pochodzenie spinu i masy
+# 1. Węzły topologiczne, emergencja solitoniczna i struktura materii w TSM – formalizm elastodynamiki 4D, model Faddeeva–Skyrme’a, hydrodynamika bezwładności oraz geometryczne pochodzenie spinu i masy
 
 Zdefiniowanie globalnych parametrów ewolucyjnych, lokalnego czasu $t$ oraz makroskopowych właściwości kontinuum pozwala na przejście do kluczowego zagadnienia Mechaniki Substratu Topologicznego (TSM): pytania o to, w jaki sposób z kinetycznego tła ultraszybkich drgań 0‑cząstek wyłania się sztywny ośrodek, a w nim – skwantowane, stabilne formy materii. Model TSM całkowicie odrzuca dualizm korpuskularno‑falowy w jego tradycyjnym, abstrakcyjnym ujęciu. Cząstki elementarne nie są punktami poruszającymi się w próżni; są lokalnymi, nieliniowymi defektami topologicznymi (solitonami) samej struktury 0‑Matrycy, uwięzionymi w wyrafinowanym mechanizmie dylatacji temporalnej.
 
@@ -50,7 +50,7 @@ W obszarach o podwyższonej gęstości, takich jak rdzenie stabilnych solitonów
 
 Osnowa, pomimo swojego globalnego zakleszczenia, wykazuje skończoną podatność sprężystą, która wynika z dynamicznej adaptacji sfer oddziaływań 0-cząstek. Pozwala to na rygorystyczny opis zaburzeń przy użyciu formalizmu elastodynamiki czterowymiarowej.
 
-### 2.1.1. Stan globalnego zakleszczenia i skończona sztywność objętościowa
+### 1.0.1. Stan globalnego zakleszczenia i skończona sztywność objętościowa
 
 Zgodnie z Rozdziałem 0.3, cała 4‑wymiarowa 0‑Matryca od początku znajduje się w stanie **globalnego zakleszczenia (jamming)** – ułamek upakowania przekracza wartość krytyczną $\phi_c$ w całej objętości bańki. Nie istniała pierwotna faza chaotyczna – osnowa od początku jest sztywnym, sprężystym szkłem topologicznym, zdolnym do przenoszenia naprężeń we wszystkich czterech wymiarach przestrzennych. Pierwotne 0-cząstki nie poruszają się swobodnie jak gaz, lecz wykonują szybkie oscylacje wewnątrz ustalonych, ściśle ograniczonych sfer swojego kinetycznego wpływu.
 
@@ -58,7 +58,7 @@ W odróżnieniu od modeli zakładających nieskończoną sztywność, TSM defini
 
 W konsekwencji, dynamiczny opis 0‑Matrycy musi uwzględniać dwa fundamentalne parametry materiałowe: moduł sprężystości objętościowej $K$ (odpowiedzialny za reakcję na zmianę gęstości upakowania) oraz moduł sprężystości poprzecznej $\mu$ (odpowiedzialny za reakcję na ścinanie). Te stałe materiałowe determinują istnienie dwóch odrębnych klas wzbudzeń falowych w kontinuum Substratu.
 
-### 2.1.2. Pełny rozkład Hodge’a‑Helmholtza pola przemieszczeń w $\mathbb{R}^4$
+### 1.0.2. Pełny rozkład Hodge’a‑Helmholtza pola przemieszczeń w $\mathbb{R}^4$
 
 Aby zachować pełną niezmienniczość wymiarową i rygor matematyczny w przestrzeni czterowymiarowej, pole przemieszczeń strukturalnych osnowy $\mathbf{u}(\mathbf{x})$ reprezentujemy jako 1‑formę różniczkową $\Phi \in \Omega^1(\mathbb{R}^4)$, zdefiniowaną w bazie współrzędnych przestrzennych $(x^1, x^2, x^3, x^4)$:
 
@@ -82,7 +82,7 @@ gdzie:
 
 W odróżnieniu od ograniczeń fazy izostatycznej, potencjał podłużny $\alpha \neq 0$, co oznacza, że lokalne zagęszczenia i rozrzedzenia substratu stanowią w pełni aktywny fizycznie stopień swobody.
 
-### 2.1.3. Równania ruchu, separacja modów i warunek cechowania
+### 1.0.3. Równania ruchu, separacja modów i warunek cechowania
 
 Ogólne 4‑wymiarowe równanie elasto‑dynamiczne Naviera‑Cauchy’ego dla ośrodka o gęstości masowej $\rho_0$ i modułach Lamégo $\lambda$ oraz $\mu$ przyjmuje w notacji zewnętrznej postać:
 
@@ -126,7 +126,7 @@ Zastosowanie tego warunku redukuje operator Laplace’a‑de Rhama działający 
 
 $$\frac{\partial^2 \beta}{\partial t^2} = -c_{\perp}^2 d \delta \beta \tag{2.1.10}$$
 
-### 2.1.4. Rzutowanie 3D + $x^4$: Rozszerzona mapa pól fizycznych
+### 1.0.4. Rzutowanie 3D + $x^4$: Rozszerzona mapa pól fizycznych
 
 Rozdzielenie współrzędnych wewnątrzpowierzchniowych 3‑brany ($x^1, x^2, x^3$) od osi ortogonalnej Bulk ($x^4$) pozwala na zmapowanie składowych form różniczkowych na obserwowalne makroskopowo oddziaływania fizyczne.
 
@@ -160,11 +160,11 @@ Ponieważ prędkość fali podłużnej $c_L$ jest jawnie większa od prędkości
 
 ---
 
-## 2.2. Sformalizowany model Faddeeva‑Skyrme’a (FS-TSM), załamanie superpozycji i emergencja leptonów
+## 1.1. Sformalizowany model Faddeeva‑Skyrme’a (FS-TSM), załamanie superpozycji i emergencja leptonów
 
 W reżimie wysokich energii ($\phi \ge \phi_{\text{lock}}$) liniowa elastodynamika ustępuje miejsca nieliniowemu modelowi solitonowemu. W warunkach ekstremalnej koncentracji energii liniowa zasada superpozycji przestaje obowiązywać.
 
-### 2.2.1. Nieliniowa konwersja modów i próg plastyczności
+### 1.1.1. Nieliniowa konwersja modów i próg plastyczności
 
 Gdy potężna, lokalna fluktuacja pola dylatacyjnego drastycznie zwiększa zagęszczenie 0‑cząstek, lokalny ułamek upakowania dąży do krytycznego progu zamrożenia topologicznego ($\phi \to \phi_{\text{lock}}$). W tym punkcie sfery oddziaływań kinetycznych 0‑cząstek stykają się bezpośrednio. Moduł ściśliwości objętościowej $K$ oraz moduł sztywności na ścinanie $\mu$ dążą wówczas asymptotycznie do nieskończoności:
 
@@ -172,7 +172,7 @@ $$\lim_{\phi \to \phi_{\text{lock}}} \mu(\phi) = \infty \tag{2.2.1}$$
 
 Z powodu tej mechanicznej bariery energia fali podłużnej nie może być dłużej magazynowana w postaci zgniotu izotropowego. Nieskończony opór objętościowy przy przekroczeniu granicy plastyczności wymusza gwałtowną, nieliniową transformację energii podłużnej na deformacje ścinające. Nadmiarowa energia ciśnienia zostaje kaskadowo zrzucona na mod poprzeczny $\beta$, wywołując ekstremalne, lokalne skręcenie i zwichnięcie komórek sieci Wignera-Seitza.
 
-### 2.2.2. Rozszerzony Lagrangian 4D i rozwiązanie niestabilności Derricka
+### 1.1.2. Rozszerzony Lagrangian 4D i rozwiązanie niestabilności Derricka
 
 To wymuszone skręcenie trwale modyfikuje lokalną geometrię osnowy. Stan mechaniczny przestrzeni fizycznej wewnątrz Substratu jest opisywany znormalizowanym, trójskładnikowym polem wektorowym orientacji komórek sieci $\mathbf{n}(\mathbf{x}, x^4) \in S^2$ (gdzie $|\mathbf{n}| = 1$). Wektor ten nie jest abstrakcyjnym spinem izotopowym, lecz rzeczywistym parametrem kierunkowym lokalnego skręcenia komórek 0-Matrycy.
 
@@ -189,7 +189,7 @@ gdzie:
 
 Klasyczne twierdzenie Derricka postuluje, że trójwymiarowe solitons w ciągłych polach skalarowych są niestabilne i samorzutnie zapadają się do punktu pod wpływem sił napięcia powierzchniowego. TSM usuwa ten problem poprzez fizyczny mechanizm blokady geometrycznej (**jamming**). Ponieważ moduł sztywności na ścinanie posiada osobliwość strukturalną opisaną wzorem (2.2.1), próba dalszego kurczenia się solitonu wywołuje asymptotyczny, gwałtowny wzrost energii naprężeń ścinających (reprezentowany przez człon Skyrme'a $c_4$). Ta geometryczna blokada działa jako naturalne, fizyczne odcięcie (cutoff), które bezwzględnie zatrzymuje kolaps solitonu, stabilizując jego skończony rozmiar spoczynkowy $L \approx \sqrt{c_4/c_2}$ i trwale eliminując niestabilność Derricka.
 
-### 2.2.3. Dualizm Skyrmion-Hopfion w przestrzeni wielowymiarowej
+### 1.1.3. Dualizm Skyrmion-Hopfion w przestrzeni wielowymiarowej
 
 W celu zachowania pełnej spójności z globalnymi własnościami fermionów, TSM definiuje czystą cząstkę elementarną jako obiekt pierwotnie 4-wymiarowy – **Skyrmion 4D** oparty na grupie homotopii $\pi_4(S^3)$, którego rzutowanie lub przekrój przez hiperpłaszczyznę naszej 3-brany indukuje nieliniowe pole orientacji $\mathbf{n}(\mathbf{x}) \in S^2$.
 
@@ -202,7 +202,7 @@ $$Q_H = \frac{1}{4\pi^2} \int_{\mathbb{R}^3} \epsilon^{ijk} A_i \partial_j A_k \
 
 gdzie $A_i$ jest wektorowym potencjałem pola unormowanego, indukowanym przez wirowość skręcenia sieci.
 
-### 2.2.4. Emergencja masy leptonów i geometryczne wyprowadzenie Reguły Koidego
+### 1.1.4. Emergencja masy leptonów i geometryczne wyprowadzenie Reguły Koidego
 
 Masa spoczynkowa leptonów ($e, \mu, \tau$) wynika bezpośrednio z rezonansowej interferencji trzech modów drgań własnych splotu wzdłuż osi ortogonalnej Bulk ($x^4$). Ponieważ energia odkształcenia sprężystego (masa) jest proporcjonalna do kwadratu amplitudy drgań ($\Delta E \propto A^2$), pierwiastek kwadratowy z masy reprezentuje czystą amplitudę geometryczną odkształcenia ($\sqrt{m} \propto A$).
 
@@ -214,17 +214,17 @@ Trzy generacje leptonów to w rzeczywistości trzy stany orientacyjne (mody drga
 
 ---
 
-## 2.3. Ontologia Baryonu: Warkocze topologiczne i chiralna frustracja
+## 1.2. Ontologia Baryonu: Warkocze topologiczne i chiralna frustracja
 
 W strukturze Substratu bariony (takie jak proton czy neutron) zyskują rygorystyczną reprezentację jako złożone, wielopasmowe struktury – **4D-warkocze topologiczne**.
 
-### 2.3.1. Struktura warkoczowa barionów i eliminacja cząstek wymiany
+### 1.2.1. Struktura warkoczowa barionów i eliminacja cząstek wymiany
 
 Kwarki ($u, d$) nie są samodzielnymi, punktowymi cząstkami poruszającymi się wewnątrz nukleonu, lecz stanowią składowe pasma (sub-strandy) jednego, nierozerwalnego węzła topologicznego. Stabilność konfiguracji jądrowych (np. protonu jako układu trzech pasm) wynika z dynamicznej równowagi: wysokiej częstotliwości zderzeń geometrycznych sfer wpływu oscylujących 0-cząstek w wymiarze 4D, co uniemożliwia relaksację (rozplecenie) warkocza.
 
 Mechanizm ten całkowicie eliminuje konieczność wprowadzania wirtualnych gluonów jako cząstek wymiany. Oddziaływanie silne staje się w tym ujęciu przejawem lokalnego, hydrodynamicznego oporu osnowy oraz ciągłych gradientów naprężeń sieci Wignera-Seitza wywołanych splątaniem pasm.
 
-### 2.3.2. Różnica mas $m_n > m_p$ jako efekt energii frustracji chiralnej
+### 1.2.2. Różnica mas $m_n > m_p$ jako efekt energii frustracji chiralnej
 
 Całkowita masa baryonu jest determinowana przez wielomian energii naprężeń sprężystych, w którym kluczową rolę odgrywa człon **chiralnej frustracji** sieci $\xi$:
 
@@ -235,17 +235,17 @@ gdzie $\mathbf{n}_i$ to wektory orientacji poszczególnych pasm tworzących wark
 * W **protonie** ($uud$) dwa z trzech pasm są geometrycznie współliniowe, co redukuje człon frustracji chiralnej do zera ($\mathcal{K}^2 \approx 0$). Nadmiarowa energia splotu ucieka w dalekosiężny rzut elektromagnetyczny wewnątrz 3-brany, co objawia się jako obecność ładunku dodatniego.
 * W **neutronie** ($udd$) restrykcyjny warunek neutralności topologicznej układu ($\mathcal{W}_{\text{net}}=0$) wymusza ortogonalne splątanie pasm. Taka konfiguracja maksymalizuje człon frustracji chiralnej $\xi$. To dodatkowe, wewnętrzne napięcie mechaniczne „wypycha” splot topologiczny neutronu głębiej w wymiar Bulk ($x^4$), generując nadwyżkę energii sprężystej. Tłumaczy to w sposób czysto geometryczny, dlaczego neutron jest cięższy od protonu o mierzalną wartość $\Delta m \approx 1.29$ MeV.
 
-### 2.3.3. Geometryczna blokada rozpadu $\beta$ w jądrach atomowych
+### 1.2.3. Geometryczna blokada rozpadu $\beta$ w jądrach atomowych
 
 Wewnątrz stabilnych jąder atomowych warkocze sąsiednich nukleonów ulegają splątaniu kontaktowemu. Ta makroskopowa blokada mechaniczna uniemożliwia swobodną rotację pasm składowych neutronu (zamraża zmianę kąta orientacji $\theta_4$), co trwale blokuje i zawiesza proces rozpadu $\beta$ dla neutronów związanych w jądrze. Stabilność materii jądrowej okazuje się zatem bezpośrednią konsekwencją hydrodynamicznego zakleszczenia struktur w czwartym wymiarze.
 
 ---
 
-## 2.4. Hydrodynamiczny mechanizm bezwładności i zniesienie bariery Peierlsa‑Nabarro
+## 1.3. Hydrodynamiczny mechanizm bezwładności i zniesienie bariery Peierlsa‑Nabarro
 
 Wprowadzenie fizycznego kontinuum Substratu wymaga wyjaśnienia, dlaczego cząstka (węzeł) zdolna jest do ruchu w gęstej sieci krystalicznej bez ciągłej straty energii na tarcie oraz dlaczego stawia opór przy przyspieszaniu.
 
-### 2.4.1. Masa jako zintegrowana energia odkształcenia sprężystego
+### 1.3.1. Masa jako zintegrowana energia odkształcenia sprężystego
 
 Węzeł topologiczny reprezentuje zmagazynowaną, lokalną deformację sprężystą osnowy. Masa spoczynkowa cząstki $m_0$ to zintegrowana energia potencjalna tych naprężeń sprężystych, obliczana poprzez całkowanie gęstość lagrangianu/hamiltonianu po objętości solitonu:
 
@@ -253,7 +253,7 @@ $$m_0 = \frac{1}{c_{\perp}^2} \int_{\mathbb{R}^3} \mathcal{H}_{\text{3D}} \, d^3
 
 gdzie tensor modułów sprężystości wchodzący w skład gęstości energii jest silnie nieliniową funkcją lokalnej gęstości upakowania $\phi$. Ponieważ tensor ten podlega nieliniowemu przesyceniu (jammingowi) w rdzeniu solitonu i dąży asymptotycznie do barier określonych przez próg $\phi_{\text{lock}}$, całka energetyczna (2.4.1) jest ściśle zbieżna. Przeciwdziała to ucieczce energii do nieskończoności i w sposób naturalny definiuje skończoną masę spoczynkową cząstek bez konieczności stosowania matematycznych procedur renormalizacyjnych.
 
-### 2.4.2. Ruch bezstratny jako transfer stanu odkształcenia
+### 1.3.2. Ruch bezstratny jako transfer stanu odkształcenia
 
 Gdy na węzeł działa siła zewnętrzna, nie przesuwa ona fizycznych 0‑cząstek na duże odległości wzdłuż trajektorii. Ruch solitonu polega na sekwencyjnym, bezstratnym transferze stanu odkształcenia z jednej komórki sieci do sąsiedniej – analogicznie do propagacji fali dylatacyjnej w kryształach makroskopowych.
 
@@ -261,7 +261,7 @@ Uformowany, stabilny splot topologiczny o zdefiniowanej chiralności jest bezdyl
 
 Ponieważ jednak ruch ten wymaga lokalnego, hydrodynamicznego przeorganizowania pędów oscylujących 0‑cząstek, których sfery wpływu są geometrycznie ograniczone, proces ten generuje naturalny opór kinetyczny. Ten opór ośrodka przeciwko zmianie stanu ruchu fali stojącej jest tym, co makroskopowo obserwujemy jako **bezwładność**.
 
-### 2.4.3. Zniesienie barier dyskretnych (Efekt Peierlsa‑Nabarro)
+### 1.3.3. Zniesienie barier dyskretnych (Efekt Peierlsa‑Nabarro)
 
 W klasycznej fizyce ciał stałych ruch defektu w sieci dyskretnej wiąże się z pokonywaniem okresowego potencjału podłoża, co prowadzi do dyssypacji energii i hamowania. W TSM efekt ten zostaje zredukowany do zera poprzez drastyczną asymetrię skal.
 
@@ -273,7 +273,7 @@ Dzięki temu węzeł porusza się w krystalicznym Substracie w sposób idealnie 
 
 ---
 
-## 2.5. Geometryczna istota ładunku elektrycznego i jego rozdzielenie od masy
+## 1.4. Geometryczna istota ładunku elektrycznego i jego rozdzielenie od masy
 
 Tradycyjna fizyka traktuje masę i ładunek jako niezależne, fundamentalne parametry przypisane empirycznie do punktowych cząstek. TSM oferuje czysto geometryczne rozdzielenie tych pojęć, opierając się na relacji między zanurzeniem obiektu w przestrzeni 4D Bulk a jego rzutem na naszą 3‑brane.
 
@@ -284,15 +284,15 @@ Stąd wynika fizyczne wyjaśnienie asymetrii masowej przy identycznym ładunku (
 
 ---
 
-## 2.6. Antymateria jako inwersja topologiczna i chiralna
+## 1.5. Antymateria jako inwersja topologiczna i chiralna
 
 Koncepcja antymaterii w TSM zostaje całkowicie odarta z relatywistycznych interpretacji matematycznych, takich jak „ujemna energia” czy „ruch cząstek wstecz w czasie”. Ponieważ czas $t$ nie stanowi fundamentalnego wymiaru pseudoriemannowskiego, lecz jest parametrem lokalnym wynikającym z gęstości upakowania osnowy, istnienie antycząstek nie implikuje żadnych anomalii temporalnych. Stanowi ono przejaw czysto geometrycznych transformacji konfiguracji splotu wewnątrz 3‑brany.
 
-### 2.6.1. Chiralność splotu
+### 1.5.1. Chiralność splotu
 
 Dla każdego węzła topologicznego o ładunku $Q_H = +1$ istnieje jednoznacznie zdefiniowana, lustrzana konfiguracja pola odkształceń, posiadająca przeciwną chiralność (helisowość) struktury splotu, co generuje ładunek topologiczny $Q_H = -1$. Cząstka o odwróconej chiralności splotu zachowuje identyczną geometrię ugięcia w wymiarze $x^4$ (generuje identyczny rozkład naprężeń grawitacyjnych, a więc wykazuje **dodatnią masę spoczynkową**), lecz jej rzutowany wektor skrętu fazowego ma przeciwny zwrot. Jest to antycząstka.
 
-### 2.6.2. Mechanizm anihilacji
+### 1.5.2. Mechanizm anihilacji
 
 Gdy cząstka ($Q_H = +1$) i antycząstka ($Q_H = -1$) znajdą się w bezpośrednim kontakcie, bariera topologiczna chroniąca je przed rozpadem znika. Sumaryczny ładunek układu ulega zrównoważeniu:
 
@@ -302,7 +302,7 @@ Układ staje się topologicznie równoważny płaskiej, niezaburzonej sieci Subs
 
 ---
 
-## 2.7. Geometryczne pochodzenie spinu 1/2 i podwójne nakrycie przestrzeni konfiguracji
+## 1.6. Geometryczne pochodzenie spinu 1/2 i podwójne nakrycie przestrzeni konfiguracji
 
 Jednym z najbardziej abstrakcyjnych elementów mechaniki kwantowej jest pojęcie spinu 1/2, wymagające obrotu układu o pełny kąt $720^\circ$ w celu powrotu do stanu początkowego. TSM wyjaśnia ten fenomen w sposób bezpośredni i intuicyjny, odwołując się do własności geometrycznych ciągłego ośrodka sprężystego poddanego lokalnej rotacji w przestrzeni Bulk.
 
@@ -314,7 +314,7 @@ Dopiero wykonanie drugiego pełnego obrotu o kąt $2\pi$ (łącznie $4\pi = 720^
 
 Przestrzeń konfiguracji obrotów dla 4D-solitonów, uwięzionych w ciągłym medium i rzutowanych na 3-brane, jest w sposób naturalny dwukrotnie nakrywana przez grupę spinorową $SU(2)$, która nakrywa grupę obrotów $SO(3)$. Spin 1/2 prestaje być zatem abstrakcyjnym postulatem probabilistycznym, a staje się bezpośrednią mechaniczną konsekwencją uwięzienia i rotacji 4-wymiarowego solitonu w ciągłym, elastycznym medium Substratu.
 
-## Podsumowanie Rozdziału 2
+## 1.7. Podsumowanie Rozdziału 2
 
 * **Demistyfikacja dualizmu korpuskularno‑falowego:** W ramach TSM materii nie traktuje się jako zbioru punktowych obiektów poruszających się w próżni. Cząstki elementarne (fermiony) zostają zredefiniowane jako skwantowane, stabilne, nieliniowe sploty i defekty topologiczne (solitony) samej struktury ciągłego Substratu o ładunku topologicznym $\mathcal{W} \in \mathbb{Z}$.
 * **Czas lokalny w równaniach dynamiki:** Wszystkie równania ruchu sformułowane są w lokalnym czasie współrzędnościowym $t$. Dylatacja czasu w pobliżu węzłów wynika ze wzrostu lokalnej gęstości upakowania $\phi$ wywołanego zakleszczeniem, co zamraża strukturę rdzenia i chroni ją przed szumem termicznym podłoża $T_{\text{sub}}$.
