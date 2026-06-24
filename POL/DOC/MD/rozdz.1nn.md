@@ -1,6 +1,6 @@
 ---
 ---
-<!-- ver:4.5.8 -->
+<!-- ver:4.6.1 -->
 # 1. Elasto-mechanika 0-Matrycy: Emergencja Czasu, Metryki i Kinematyki Relatywistycznej {#sec:rom-tsm}
 
 ## 1.1. Wprowadzenie i ramy konceptualne {#sub-wprowadznie}
@@ -317,7 +317,32 @@ gdzie:
 
 Wszelkie zakrzywienia przestrzeni oraz wynikające z nich zjawiska grawitacyjne są w ten sposób bezpośrednim skutkiem mechanicznego naciągnięcia układu komórek 0-Cząstek. Generuje to makroskopowy gradient efektywnej gęstości upakowania $\phi$ skierowany w stronę czwartego, ortogonalnego wymiaru przestrzennego $x^4$.
 
-### 1.4.2. Kinematyczna dylatacja czasu jako izotropowe spiętrzenie osnowy {#sec-1-4-2}
+### 1.4.2. Kinematyka fali nieliniowej i fizyczna kontrakcja przestrzeni {#sec-1-4-2}
+
+Relatywistyczne transformacje współrzędnych oraz obserwowane zjawisko dylatacji czasu stanowią bezpośrednią konsekwencję sposobu, w jaki węzły solitonowe (węzły pola) oddziałują z gęstym, zniekształcalnym kontinuum 0-Matrycy podczas ruchu. W stanach wysokich prędkości, wymuszone spiętrzenie osnowy Substratu oraz wynikająca z niego modyfikacja lokalnej gęstości stanów oscylacyjnych, prowadzą do zmiany geometrii oscylacji węzła, co makroskopowo interpretujemy jako wydłużenie czasu trwania procesów wewnętrznych.
+
+#### 1.4.2.1. Konstrukcja prędkości i kontrakcja długości {#sec-1-4-2-1}
+
+Dla zachowania rygoru pojęciowego definiujemy dwie komplementarne reprezentacje prędkości makroskopowej:
+
+1. Prędkość współrzędnościowa tła ($v$): wyraża zmianę pozycji względem statycznej sieci referencyjnej:
+$$v = \frac{dx}{dt_{\text{flat}}}$$ {#eq-1-4-3-vtla}
+2. Prędkość własna węzła ($q$): mierzona czasem lokalnym ulegającym dylatacji:
+$$q = \frac{dx}{dt}$$ {#eq-1-4-3-vwezla}
+
+Związek transformacyjny między nimi wynika bezpośrednio z mechanizmu spiętrzenia osnowy ($dt = dt_{\text{flat}} / \gamma$):
+
+$$q = \frac{dx}{\frac{dt_{\text{flat}}}{\gamma}} = \gamma \cdot v = \frac{v}{\sqrt{1 - \frac{v^2}{c_{\perp}^2}}}$$ {#eq-1-4-3-wz1}
+
+Gdy prędkość współrzędnościowa zbliża się do poprzecznej granicy ścinania osnowy ($v_\text{00} \to c_{\perp}$), narastająca inercja topologiczna sprawia, że czynnik $\gamma \to \infty$, podczas gdy prędkość własna $q \to \infty$. To rozróżnienie naturalnie eliminuje paradoks nieskończonej prędkości kinematycznej w ujęciu bezwzględnym.
+
+Ruch węzła generuje przed obiektem front kompresji elastycznej. Wprowadzając współrzędną uciekającą $u = x - vt_{\text{flat}}$, przekształcenie jednorodnego równania falowego dla zachowania niezmienniczości kształtu solitonu wymusza przeskalowanie osi przestrzennej wzdłuż wektora pędu:
+
+$$x' = \frac{u}{\sqrt{1 - \frac{v^2}{c_{\perp}^2}}} = \gamma (x - vt_{\text{flat}})$$ {#eq-1-4-6}
+
+Pod wpływem tego jednostronnego oporu elasto-mechanicznego, kształt każdego węzła solitonowego ulega rzeczywistej kompresji mechanicznej, co makroskopowo manifestuje się jako skrócenie długości w kierunku ruchu: $L' = L / \gamma$.
+
+### 1.4.3. Kinematyczna dylatacja czasu jako izotropowe spiętrzenie osnowy {#sec-1-4-3}
 
 Ruch struktury makroskopowej (węzła) nie polega na przepychaniu materii przez ośrodek, lecz na propagacji samej deformacji topologicznej poprzez zdegenerowaną, wibrującą sieć krystaliczną osnowy. Na poziomie fundamentalnym 0-Cząstki nie ulegają fizycznej translacji w ślad za poruszającym się ciałem; to kształt ich sfer oddziaływań ulega kaskadowej, falowej deformacji wraz z ruchem impulsu solitonowego. Jest to bezstratna propagacja kolektywnego wzoru węzłów-solitonów przez zakleszczony Substrat. Materia zachowuje się jak porowata siatka topologiczna, przez którą bezoporowo propaguje się stan odkształcenia sieci.
 
@@ -341,7 +366,7 @@ Dzięki temu, że spiętrzenie ( @eq-1-4-2) przyjmuje formę jednorodnego pola s
 
 2. Czynnik Lorentza $\gamma$ zostaje rygorystycznie wyprowadzony z nieliniowej sprężystości oraz oporu falowego 0-Matrycy, bez konieczności wprowadzania postulatów o stałości prędkości światła jako abstrakcyjnego pewnika.
 
-#### 1.4.2.1. Dylatacja grawitacyjna — związek z potencjałem $\Phi$ {#sec-1-4-2-1}
+#### 1.4.3.1. Dylatacja grawitacyjna — związek z potencjałem $\Phi$ {#sec-1-4-3-1}
 
 Odkształcenie 3-brany w czwarty wymiar przestrzenny, wywołane obecnością pasywnych węzłów topologicznych (masy), powoduje radialny gradient gęstości upakowania osnowy wokół źródła. W reżimie słabego pola grawitacyjnego przyjmujemy liniową zależność gęstości efektywnej od modułu lokalnego potencjału grawitacyjnego $\Phi(\mathbf{x})$:
 
@@ -352,31 +377,6 @@ Podstawiając tę zależność do kanonicznej definicji czasu, stosunek przyrost
 $$\frac{dt}{dt_{\text{flat}}} = \frac{\phi_0}{\phi(\mathbf{x})} \approx \left(1 + \frac{|\Phi(\mathbf{x})|}{c_{\perp}^2}\right)^{-1} \approx 1 - \frac{|\Phi(\mathbf{x})|}{c_{\perp}^2}$$ {#eq-1-4-4}
 
 Równanie to dostarcza poprawnego empirycznie przybliżenia dylatacji grawitacyjnej, tożsamego z wynikami eksperymentu Pounda-Rebki oraz poprawkami relatywistycznymi stosowanymi w systemach nawigacji satelitarnej. Należy podkreślić, że rozwinięcie liniowe (eq-1-4-3) obowiązuje wyłącznie w reżimie słabego pola, gdzie $|\Phi|/c_\perp^2\ll 1$; w reżimie silnego pola (otoczenie ultra-gęstych plazmoidów zastępujących osobliwości) wymagane jest nieliniowe ujęcie zależności $\phi(\mathbf{x})$, co pozostaje otwartym problemem dalszych rozdziałów.
-
-### 1.4.3. Wyprowadzenie transformacji relatywistycznych z elasto-mechaniki sieci 0-Matrycy {#sec-1-4-3}
-
-Transformacje współrzędnych oraz relacja równoważności energii i masy ($E = mc_{\perp}^2$) stanowią bezpośrednią konsekwencję oporu falowego podczas ruchu fal stojących (węzłów solitonowych) w gęstym, zniekształcalnym kontinuum krystalicznym.
-
-#### 1.4.3.1. Konstrukcja prędkości i kontrakcja długości {#sec-1-4-3-1}
-
-Dla zachowania rygoru pojęciowego definiujemy dwie komplementarne reprezentacje prędkości makroskopowej:
-
-1. Prędkość współrzędnościowa tła ($v$): wyraża zmianę pozycji względem statycznej sieci referencyjnej:
-$$v = \frac{dx}{dt_{\text{flat}}}$$ {#eq-1-4-3-vtla}
-2. Prędkość własna węzła ($q$): mierzona czasem lokalnym ulegającym dylatacji:
-$$q = \frac{dx}{dt}$$ {#eq-1-4-3-vwezla}
-
-Związek transformacyjny między nimi wynika bezpośrednio z mechanizmu spiętrzenia osnowy ($dt = dt_{\text{flat}} / \gamma$):
-
-$$q = \frac{dx}{\frac{dt_{\text{flat}}}{\gamma}} = \gamma \cdot v = \frac{v}{\sqrt{1 - \frac{v^2}{c_{\perp}^2}}}$$ {#eq-1-4-3-wz1}
-
-Gdy prędkość współrzędnościowa zbliża się do poprzecznej granicy ścinania osnowy ($v_\text{00} \to c_{\perp}$), narastająca inercja topologiczna sprawia, że czynnik $\gamma \to \infty$, podczas gdy prędkość własna $q \to \infty$. To rozróżnienie naturalnie eliminuje paradoks nieskończonej prędkości kinematycznej w ujęciu bezwzględnym.
-
-Ruch węzła generuje przed obiektem front kompresji elastycznej. Wprowadzając współrzędną uciekającą $u = x - vt_{\text{flat}}$, przekształcenie jednorodnego równania falowego dla zachowania niezmienniczości kształtu solitonu wymusza przeskalowanie osi przestrzennej wzdłuż wektora pędu:
-
-$$x' = \frac{u}{\sqrt{1 - \frac{v^2}{c_{\perp}^2}}} = \gamma (x - vt_{\text{flat}})$$ {#eq-1-4-6}
-
-Pod wpływem tego jednostronnego oporu elasto-mechanicznego, kształt każdego węzła solitonowego ulega rzeczywistej kompresji mechanicznej, co makroskopowo manifestuje się jako skrócenie długości w kierunku ruchu: $L' = L / \gamma$.
 
 ### 1.4.4. Energia, pęd i masa relatywistyczna {#sec-1-4-4}
 
