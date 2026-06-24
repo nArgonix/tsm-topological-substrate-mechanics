@@ -1,6 +1,6 @@
 ---
 ---
-<!-- ver:4.6.1 -->
+<!-- ver:4.6.2-->
 # 1. Elasto-mechanika 0-Matrycy: Emergencja Czasu, Metryki i Kinematyki Relatywistycznej {#sec:rom-tsm}
 
 ## 1.1. Wprowadzenie i ramy konceptualne {#sub-wprowadznie}
@@ -243,33 +243,25 @@ $$\dot{u}_{\text{mikro}} = \Gamma_{4D} \cdot \dot{u}_{\text{macro}}$$
 
 W makroskopowym kontinuum gęstość energii kinetycznej fali opisywana jest za pomocą poszukiwanej, jednorodnej gęstości efektywnej $\rho_{\text{eff}}^{(0)}$ w stanie równowagowym:
 
-$$E_k = \frac{1}{2} \rho_{\text{eff}}^{(0)} (\dot{u}_{\text{macro}})^2$$
-
- {#eq-1-3-3-wz5-b}
+$$E_k = \frac{1}{2} \rho_{\text{eff}}^{(0)} (\dot{u}_{\text{macro}})^2$$  {#eq-1-3-3-wz5-b}
 
 Z drugiej strony, na fundamentalnym poziomie mikroskopowym, ta sama energia kinetyczna jest zmagazynowana w rzeczywistym ruchu rdzeni o bazowej gęstości masowej tła $\rho_0$:
 
-$$E_k = \frac{1}{2} \rho_0 (\dot{u}_{\text{mikro}})^2$$
-
- {#eq-1-3-3-wz5-c}
+$$E_k = \frac{1}{2} \rho_0 (\dot{u}_{\text{mikro}})^2$$  {#eq-1-3-3-wz5-c}
 
 Podstawiając relację wzmocnienia kinematycznego do mikroskopowego bilansu energii, otrzymujemy:
 
-$$E_k = \frac{1}{2} \rho_0 (\Gamma_{4D} \cdot \dot{u}_{\text{macro}})^2 = \frac{1}{2} (\rho_0 \Gamma_{4D}^2) (\dot{u}_{\text{macro}})^2$$
-
- {#eq-1-3-3-wz5-d}
+$$E_k = \frac{1}{2} \rho_0 (\Gamma_{4D} \cdot \dot{u}_{\text{macro}})^2 = \frac{1}{2} (\rho_0 \Gamma_{4D}^2) (\dot{u}_{\text{macro}})^2$$ {#eq-1-3-3-wz5-d}
 
 Porównując ten wynik bezpośrednio z ujęciem makroskopowym, otrzymujemy rygorystyczną, analityczną postać równowagowej gęstości bezwładnej, obowiązującej w niezakłóconym stanie zakleszczenia 0-Matrycy:
 
-$$\rho_{\text{eff}}^{(0)} = \rho_0 \cdot \Gamma_{4D}^2$$
-
- {#eq-1-3-3-wz5}
+$$\rho_{\text{eff}}^{(0)} = \rho_0 \cdot \Gamma_{4D}^2$$ {#eq-1-3-3-wz5}
 
 To właśnie $\rho_{\text{eff}}^{(0)}$, a nie surowa gęstość mikroskopowa $\rho_0=m_{00}/V_0$, jest wielkością bezpośrednio wstawianą do relacji Helmholtza $c_\perp=\sqrt{\mu/\rho_{\text{eff}}^{(0)}}$ w §1.3.4 oraz do równania ruchu Substratu (@eq-1-5-6) w @sec-1-5-1 jako wartość odniesienia, wokół której fluktuuje pole $\rho_{\text{eff}}(\mathbf{x})$ wprowadzone tam dla opisu lokalnych zaburzeń grawitacyjnych.
 
 ### 1.3.4. Derywacja $c_{\perp}$ i jej interpretacja fizyczna {#sec-1-3-4}
 
-Podstawiając niezależnie wyprowadzone $\mu=\rho_0v_\text{00}^2/4$ (§1.3.2) oraz $\rho_{\text{eff}}^{(0)}=\rho_0\Gamma_{4D}^2$ (@eq-1-3-3-wz5, §1.3.3) do redukcji Helmholtza $c_\perp=\sqrt{\mu/\rho_{\text{eff}}^{(0)}}$:
+Podstawiając niezależnie wyprowadzone $\mu=\rho_0v_\text{00}^2/4$ (§1.3.2) oraz $\rho_{\text{eff}}^{(0)}=\rho_0\Gamma_{4D}^2$ ( @eq-1-3-3-wz5, §1.3.3) do redukcji Helmholtza $c_\perp=\sqrt{\mu/\rho_{\text{eff}}^{(0)}}$:
 
 $$c_{\perp} = \sqrt{\frac{\rho_0\frac{v_\text{00}^2}{4}}{\rho_0\Gamma_{4D}^2}} = \frac{v_\text{00}}{2\Gamma_{4D}} = \frac{v_\text{00}}{8}\left(\frac{\ell}{a}\right)^2 = \frac{v_{00}}{8\sqrt[4]{2}}\,\frac{\ell^{3/2}}{\sqrt{S_{4D}}}$$ {#eq-1-3-c-perp-final}
 
@@ -443,7 +435,7 @@ Aby przejść od ogólnego naprężenia mechanicznego $\Sigma$ do konkretnych ź
 
 $$c_{\perp,\text{lok}}^2 \approx c_{\perp}^2\left(1 + \mathcal{A}\frac{B^2}{2\mu_{\rm em}}\right)$$ {#eq-1-4-5-wz1}
 
-**Wkład potencjału grawitacyjnego.** Z relacji gęstości @sec-1-4-2-1 (@eq-14-3), $\phi(\mathbf{x})\approx\phi_0(1+|\Phi|/c_\perp^2)$, oraz mostu gęstości $\rho_{\text{eff}}=\rho_0\cdot\phi/\phi_0$ wprowadzonego w @sec-1-5-1, otrzymujemy $\rho_{\text{eff}}(\mathbf{x})\approx\rho_0(1+|\Phi|/c_\perp^2)$. Ponieważ $c_{\perp,\text{lok}}^2=\mu/\rho_{\text{eff}}$, rozwinięcie do pierwszego rzędu daje:
+**Wkład potencjału grawitacyjnego.** Z relacji gęstości @sec-1-4-2-1 (@eq-1-4-2), $\phi(\mathbf{x})\approx\phi_0(1+|\Phi|/c_\perp^2)$, oraz mostu gęstości $\rho_{\text{eff}}=\rho_0\cdot\phi/\phi_0$ wprowadzonego w @sec-1-5-1, otrzymujemy $\rho_{\text{eff}}(\mathbf{x})\approx\rho_0(1+|\Phi|/c_\perp^2)$. Ponieważ $c_{\perp,\text{lok}}^2=\mu/\rho_{\text{eff}}$, rozwinięcie do pierwszego rzędu daje:
 
 $$c_{\perp,\text{lok}}^2 \approx \frac{\mu}{\rho_0}\left(1 - \frac{|\Phi|}{c_\perp^2}\right)$$ {#eq-1-4-5-wz2}
 
@@ -494,7 +486,7 @@ gdzie $\delta^{ab}$ oznacza płaską, euklidesową metrykę tła Substratu. Poch
 
 $$\sigma^{ab} = \frac{\partial \mathcal{L}}{\partial \epsilon_{ab}} = K^{abcd} \epsilon_{cd} = \lambda \delta^{ab} \epsilon^c_c + 2\mu \epsilon^{ab}$$ {#eq-1-5-4}
 
-Pole $\phi(\mathbf{x})$ wprowadzone fenomenologicznie w @sec-1-2-2 jako splot mikroskopowego stopnia upakowania sieci z oknem filtracyjnym $W$ ( @eq-1-2-1-4) utożsamiamy w granicy continuum elastycznego z polem zdefiniowanym wprost przez lokalną dylatację objętościową ośrodka. To utożsamienie — analogiczne do standardowego związku między mikroskopową gęstością liczbową a makroskopową dywergencją przemieszczenia w klasycznej teorii sprężystości ośrodków ziarnistych — stanowi założenie konstytutywne modelu TSM, a nie twierdzenie wyprowadzone wprost z mikrodynamiki bilardu Sinaja ( @sec-1-1-1-1); jego ścisły dowód pozostaje otwartym problemem badawczym tego rozdziału, na równi z derywacją $c_\perp$ (@sec-1-4-5) i strukturą radialną solitonu (@sec-1-6-1).
+Pole $\phi(\mathbf{x})$ wprowadzone fenomenologicznie w @sec-1-2-2 jako splot mikroskopowego stopnia upakowania sieci z oknem filtracyjnym $W$ ( @eq-1-2-1) utożsamiamy w granicy continuum elastycznego z polem zdefiniowanym wprost przez lokalną dylatację objętościową ośrodka. To utożsamienie — analogiczne do standardowego związku między mikroskopową gęstością liczbową a makroskopową dywergencją przemieszczenia w klasycznej teorii sprężystości ośrodków ziarnistych — stanowi założenie konstytutywne modelu TSM, a nie twierdzenie wyprowadzone wprost z mikrodynamiki bilardu Sinaja ( @sec-1-1-1-1); jego ścisły dowód pozostaje otwartym problemem badawczym tego rozdziału, na równi z derywacją $c_\perp$ (@sec-1-4-5) i strukturą radialną solitonu (@sec-1-6-1).
 
 *Uwaga o hierarchii progów:* W TSM obowiązuje ścisłe uporządkowanie $\phi_0 \le \phi_c < \phi_{\rm lock}$. Próg $\phi_c$ wyznacza globalny stan zakleszczenia sieci będący tłem fizycznym; próg $\phi_{\rm lock}$ jest lokalnym kryterium tworzenia trwałych węzłów topologicznych (materii) i zawsze przekracza $\phi_c$. Ilościowa relacja między tymi progami — oraz ich zależność od wymiaru przestrzeni i geometrii rdzeni — jest otwartym problemem ilościowym modelu.
 
