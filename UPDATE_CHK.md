@@ -5,7 +5,7 @@ Tabela rożnic wersji:
 | Rozdział (PL) | Wersja POL | Status / Typ zmiany | Version ENG | File name (ENG) |
 | :--- | :---: | :--- | :---: | :--- |
 | rozdzial_0.md | **5.0.2** | 🟢 Actual | 5.0.2 | `chapter_0.md` |
-| rozdzial_1.md | **3.0.1** | 🔴 Critical change | 2.0.0 | `chapter_1.md` |
+| rozdzial_1.md | **3.0.1** | 🟢 Actual (ENG newer) | 4.7.1 | `chapter_1.md` |
 | rozdzial_2.md | **3.4.0** | 🔴 Critical change | 2.0.0 | `chapter_2.md` |
 | rozdzial_3.md | **3.2.0** | 🔴 Critical change | 2.0.0 | `chapter_3.md` |
 | rozdzial_4.md | **2.1.0** | 🔵 Small change | 2.0.0 | `chapter_4.md` |
